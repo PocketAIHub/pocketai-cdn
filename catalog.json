@@ -192,6 +192,54 @@
     ]
   },
   {
+    "id": "qwen3.5-2b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.5 2B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Qwen3.5 2B variant tuned for more direct, less filtered replies than the base 2B while staying phone-friendly.",
+    "sizeBytes": 1270808032,
+    "ramRequirementBytes": 3800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/2bcf35c1ebf62c837c12c1aa90b578ff4717e831/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "be3ccca13a9d1bc8b67165ea80bd103cd6151a37ad131183cc7ca388f78d9517",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 1500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 1556390368,
+        "ramRequirementBytes": 4500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Q6_K.gguf",
+        "sha256": "ce45f35db3cc4b9b81867b9f2359dbfe18ddee37e560a308efb0b9f3eace41f4"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2012012000,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+        "sha256": "3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793"
+      }
+    ]
+  },
+  {
     "id": "hermes-3-llama-3.2-3b",
     "name": "Hermes 3 Llama 3.2 3B",
     "category": "language",
@@ -242,6 +290,69 @@
         "ramRequirementBytes": 7500000000,
         "vramRequirementBytes": 4000000000,
         "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "granite-4.1-3b",
+    "name": "Granite 4.1 3B",
+    "category": "language",
+    "provider": "IBM / Unsloth",
+    "summary": "IBM Granite 4.1 3B with 131K context, strong tool-calling, and multilingual support across 12 languages. Apache 2.0. No vision.",
+    "sizeBytes": 2100000000,
+    "ramRequirementBytes": 5000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 3000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 1730000000,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 2440000000,
+        "ramRequirementBytes": 5500000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2800000000,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 3500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 3620000000,
+        "ramRequirementBytes": 8000000000,
+        "vramRequirementBytes": 4500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q8_0.gguf",
         "sha256": ""
       }
     ]
@@ -414,6 +525,53 @@
         "vramRequirementBytes": 5000000000,
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q8_0.gguf",
         "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-4b-opus47-codex",
+    "name": "Opus4.7 GODs Ghost Codex 4B",
+    "category": "language",
+    "provider": "WithinUsAI",
+    "summary": "Code-focused Qwen3.5 4B fine-tune trained on a mix of Claude Opus reasoning datasets and a 'GhostCoder' code corpus. Aimed at Python/JS/C++ generation, debugging, and refactoring locally.",
+    "sizeBytes": 2707518464,
+    "ramRequirementBytes": 6800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF/resolve/900b36db6008518f33c491879ff282ca46c3bbaa/Opus4.7-Distill-GODsGhost-Codex-4B-Q4_K_M.gguf",
+    "sha256": "473b97c540a7445132258336eb2b6669597172ec58cc328c96b29afad4499b0e",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 32768,
+    "vramRequirementBytes": 3000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 3108762624,
+        "ramRequirementBytes": 8000000000,
+        "vramRequirementBytes": 3500000000,
+        "downloadUrl": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF/resolve/main/Opus4.7-Distill-GODsGhost-Codex-4B-Q5_K_M.gguf",
+        "sha256": "e41d239f9acc5032305998bed6a5422626d4468b95ce57de66eec46e0aa8a85c"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 4482403232,
+        "ramRequirementBytes": 11000000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF/resolve/main/Opus4.7-GODs.Ghost.Codex.Distill.4B-Q8_0.gguf",
+        "sha256": "c3f25e6fc3b49cfc953d15323cc19b33cb0d265c7052563fbd6f13d31d21964e"
       }
     ]
   },
@@ -1037,6 +1195,54 @@
     ]
   },
   {
+    "id": "carnice-9b",
+    "name": "Carnice 9B",
+    "category": "language",
+    "provider": "kai-os",
+    "summary": "Qwen3.5 9B fine-tuned for Hermes-style agent workflows — terminal, file, and browser tool trajectories with multi-turn tool calling and reasoning repair.",
+    "sizeBytes": 5629108800,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/kai-os/Carnice-9b-GGUF/resolve/main/Carnice-9b-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 8192,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7359259200,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/kai-os/Carnice-9b-GGUF/resolve/main/Carnice-9b-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527501376,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/kai-os/Carnice-9b-GGUF/resolve/main/Carnice-9b-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
     "id": "qwen3.5-9b",
     "name": "Qwen3.5 9B",
     "category": "language",
@@ -1096,6 +1302,40 @@
         "ramRequirementBytes": 18500000000,
         "vramRequirementBytes": 10500000000,
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/Qwen3.5-9B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "talkie-1930-13b-it",
+    "name": "Talkie 1930 13B",
+    "category": "language",
+    "provider": "talkie-lm / PocketAI",
+    "summary": "Vintage 1930s-style language model trained on early-20th-century text. Produces period-flavored prose, not a general assistant. macOS only — first-mover GGUF port by PocketAI.",
+    "sizeBytes": 8589934592,
+    "ramRequirementBytes": 16000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/talkie-1930-13b-it-GGUF/resolve/main/talkie-1930-13b-it-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "canReadFiles": false,
+    "contextLength": 2048,
+    "vramRequirementBytes": 9000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 14066452070,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/PocketAiHub/talkie-1930-13b-it-GGUF/resolve/main/talkie-1930-13b-it-Q8_0.gguf",
         "sha256": ""
       }
     ]
@@ -2079,6 +2319,166 @@
     ]
   },
   {
+    "id": "qwen3.6-27b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.6 27B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Qwen3.6 27B dense variant tuned for more direct and less filtered responses than the base 27B. Vision-capable with 262K native context. Desktop only — best on 24GB+ VRAM or high-memory Apple Silicon.",
+    "sizeBytes": 17536279776,
+    "ramRequirementBytes": 24000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/f2db94d03eccf3b133aeea3dea62388acf98e864/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+    "sha256": "e44827d0ea3d5dd914f8c686ef530befaff6e9f0142f33956b4aa9e824f98a12",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 20000000000,
+    "defaultQuantLevel": "Q4_K_P",
+    "quantVariants": [
+      {
+        "quantLevel": "IQ3_M",
+        "sizeBytes": 12580873696,
+        "ramRequirementBytes": 17500000000,
+        "vramRequirementBytes": 14500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-IQ3_M.gguf",
+        "sha256": "91164182148008f25b5451c3590e737cdc8d9ca887fb90e42824be9875f5fb67"
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 15082505696,
+        "ramRequirementBytes": 20500000000,
+        "vramRequirementBytes": 17500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-IQ4_XS.gguf",
+        "sha256": "8d9c7934b0f0481ed2ea9569a5724f9448162f6468303e0a6fa0e0192ad63ed0"
+      },
+      {
+        "quantLevel": "Q5_K_P",
+        "sizeBytes": 20812953056,
+        "ramRequirementBytes": 28000000000,
+        "vramRequirementBytes": 24000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q5_K_P.gguf",
+        "sha256": "9b123d76df5b5af1328c65d963d1450c4279e9bd01d98d7091aa64c4f2cb38d5"
+      },
+      {
+        "quantLevel": "Q6_K_P",
+        "sizeBytes": 23154960096,
+        "ramRequirementBytes": 31000000000,
+        "vramRequirementBytes": 26500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q6_K_P.gguf",
+        "sha256": "f17b88ee70d2fb6f93c220ac306be0c8de631f20b3ffc82854162bb5e1b14192"
+      },
+      {
+        "quantLevel": "Q8_K_P",
+        "sizeBytes": 31963749856,
+        "ramRequirementBytes": 43000000000,
+        "vramRequirementBytes": 36500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
+        "sha256": "77672ff20cf3c6b99fe875df1e7f53fec4ded86e767fbfaef40b5def61b112ca"
+      }
+    ]
+  },
+  {
+    "id": "carnice-v2-27b",
+    "name": "Carnice V2 27B",
+    "category": "language",
+    "provider": "kai-os",
+    "summary": "Qwen3.6 27B SFT-merged fine-tune optimized for Hermes-style agent traces and multi-turn tool workflows. Desktop only — best on 24GB+ VRAM or high-memory Apple Silicon.",
+    "sizeBytes": 17716740096,
+    "ramRequirementBytes": 24000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF/resolve/main/carnice-v2-27b-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 8192,
+    "vramRequirementBytes": 18000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "IQ2_M",
+        "sizeBytes": 10737418240,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF/resolve/main/carnice-v2-27b-IQ2_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 11489037189,
+        "ramRequirementBytes": 15000000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF/resolve/main/carnice-v2-27b-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 20615843021,
+        "ramRequirementBytes": 27500000000,
+        "vramRequirementBytes": 21000000000,
+        "downloadUrl": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF/resolve/main/carnice-v2-27b-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 30708521370,
+        "ramRequirementBytes": 41000000000,
+        "vramRequirementBytes": 31000000000,
+        "downloadUrl": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF/resolve/main/carnice-v2-27b-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwopus3.6-27b-v1-preview",
+    "name": "Qwopus3.6 27B v1 Preview",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Reasoning-focused fine-tune of Qwen3.6 27B on ~12K curated examples. Dense vision-capable model with 262K native context. Desktop only.",
+    "sizeBytes": 16547395424,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v1-preview-GGUF/resolve/da099cf000b1be2b256123fe51b4ff1a8e255f18/Qwopus3.6-27B-v1-preview-Q4_K_M.gguf",
+    "sha256": "5966748c91ce5f53a4ca5162c12060196a55abec8234bf055bdd6984f8ec59a3",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v1-preview-GGUF/resolve/main/mmproj.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 18500000000,
+    "defaultQuantLevel": "Q4_K_M"
+  },
+  {
     "id": "ornstein3.6-35b-a3b",
     "name": "Ornstein3.6 35B-A3B",
     "category": "language",
@@ -3052,7 +3452,7 @@
         "quantLevel": "UD-Q8_K_XL",
         "sizeBytes": 594910006910,
         "ramRequirementBytes": 607000000000,
-        "vramRequirementBytes": 666000000000,
+        "vramRequirementBytes": 670000000000,
         "downloadUrl": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00001-of-00014.gguf",
         "sha256": "",
         "downloadParts": [
@@ -3130,5 +3530,187 @@
       }
     ],
     "defaultQuantLevel": "UD-Q4_K_XL"
+  },
+  {
+    "id": "glm-5.1",
+    "name": "GLM-5.1",
+    "category": "language",
+    "provider": "Z.ai / Unsloth",
+    "summary": "Flagship GLM-5.1 Mixture-of-Experts (754B total parameters, glm_moe_dsa architecture) targeted at agentic engineering and code generation. 202K native context. Datacenter-class memory footprint — only for multi-GPU workstations or servers.",
+    "sizeBytes": 527541794288,
+    "ramRequirementBytes": 560000000000,
+    "vramRequirementBytes": 560000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00001-of-00011.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "contextLength": 202752,
+    "defaultQuantLevel": "UD-Q4_K_M",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00001-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 9422720
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00002-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 49801980512
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00003-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00004-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00005-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00006-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00007-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00008-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00009-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00010-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q4_K_M/GLM-5.1-UD-Q4_K_M-00011-of-00011.gguf",
+        "sha256": "",
+        "sizeBytes": 26161593984
+      }
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q8_K_XL",
+        "sizeBytes": 876913318128,
+        "ramRequirementBytes": 920000000000,
+        "vramRequirementBytes": 920000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00001-of-00018.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00001-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 9422720
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00002-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 48913111040
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00003-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 47813818112
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00004-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 48878106976
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00005-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49057696928
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00006-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49064013056
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00007-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 48878106976
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00008-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49057696928
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00009-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49064013056
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00010-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 48878106976
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00011-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49057696928
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00012-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49064013056
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00013-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 48878106976
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00014-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49057696928
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00015-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49064013056
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00016-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 48878106976
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00017-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 49057696928
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.1-GGUF/resolve/main/UD-Q8_K_XL/GLM-5.1-UD-Q8_K_XL-00018-of-00018.gguf",
+            "sha256": "",
+            "sizeBytes": 27968959456
+          }
+        ]
+      }
+    ]
   }
 ]
