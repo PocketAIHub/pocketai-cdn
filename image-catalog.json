@@ -1,0 +1,1199 @@
+[
+  {
+    "id": "sd-1.5-q8_0",
+    "name": "Stable Diffusion 1.5",
+    "category": "image",
+    "provider": "Stability AI",
+    "summary": "Smallest image gen model. Fast on phones and desktops. Generates 512x512 images with good quality for its size.",
+    "sizeBytes": 1600000000,
+    "ramRequirementBytes": 6000000000,
+    "vramRequirementBytes": 2000000000,
+    "license": "CreativeML Open RAIL-M",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-v1-5-GGUF/resolve/main/stable-diffusion-v1-5-Q8_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ],
+    "architecture": "sd1.5",
+    "defaultSteps": 20,
+    "defaultCfgScale": 7.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 512
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 512
+    },
+    "supportsNegativePrompt": true,
+    "weight": "light",
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q4_0",
+        "sizeBytes": 1750000000,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-v1-5-GGUF/resolve/main/stable-diffusion-v1-5-Q4_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "sdxl-turbo-q4_0",
+    "name": "SDXL Turbo",
+    "category": "image",
+    "provider": "Stability AI",
+    "summary": "Very fast image generation in just 4 steps. Good quality at 512x512. Great for quick iterations on newer phones and desktops.",
+    "sizeBytes": 3700000000,
+    "ramRequirementBytes": 8000000000,
+    "vramRequirementBytes": 6000000000,
+    "license": "STABILITY AI COMMUNITY",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-xl-1.0-turbo-GGUF/resolve/main/stable-diffusion-xl-1.0-turbo-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "architecture": "sdxl",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 512,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 512
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 512
+    },
+    "supportsNegativePrompt": false,
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 5040000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-xl-1.0-turbo-GGUF/resolve/main/stable-diffusion-xl-1.0-turbo-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "sd3.5-medium-q4_0",
+    "name": "Stable Diffusion 3.5 Medium",
+    "category": "image",
+    "provider": "Stability AI",
+    "summary": "Best quality-to-size ratio for image gen. Generates 1024x1024 images with strong prompt adherence and fine detail.",
+    "sizeBytes": 2500000000,
+    "ramRequirementBytes": 10000000000,
+    "vramRequirementBytes": 6000000000,
+    "license": "Stability AI Community",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/sd3.5_medium-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "sd3",
+    "defaultSteps": 28,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": true,
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 1490000000,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/sd3.5_medium-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2320000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/sd3.5_medium-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2860000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 7000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-medium-gguf/resolve/main/sd3.5_medium-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "sdxl-lightning-4step-q8_0",
+    "name": "SDXL Lightning",
+    "category": "image",
+    "provider": "ByteDance",
+    "summary": "Lightning-fast SDXL distilled to 4 steps. Generates 1024x1024 images in under a second on desktop GPUs. Excellent quality for its speed.",
+    "sizeBytes": 4100000000,
+    "ramRequirementBytes": 8000000000,
+    "vramRequirementBytes": 6000000000,
+    "license": "openrail++",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/OlegSkutte/SDXL-Lightning-GGUF/resolve/main/sdxl_lightning_4step.q8_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "sdxl",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "weight": "medium",
+    "defaultQuantLevel": "Q8_0"
+  },
+  {
+    "id": "z-image-turbo-q4_0",
+    "name": "Z-Image Turbo",
+    "category": "image",
+    "provider": "Z-Image",
+    "summary": "Blazing fast 6B model \u2014 10x faster than FLUX with ~95% of the quality. Excellent bilingual text rendering (EN/CN). Only 3.7 GB. Apache 2.0.",
+    "sizeBytes": 3680000000,
+    "ramRequirementBytes": 8000000000,
+    "vramRequirementBytes": 6000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "z-image",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 512,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 512
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
+    "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 2590000000,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 5260000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 6580000000,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "sdxl-base-1.0-q8_0",
+    "name": "SDXL Base 1.0",
+    "category": "image",
+    "provider": "Stability AI",
+    "summary": "Full-quality SDXL with 20-step generation. Produces detailed 1024x1024 images with strong prompt adherence. Desktop only.",
+    "sizeBytes": 5040000000,
+    "ramRequirementBytes": 12000000000,
+    "vramRequirementBytes": 8000000000,
+    "license": "STABILITY AI COMMUNITY",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-xl-base-1.0-GGUF/resolve/main/stable-diffusion-xl-base-1.0-Q8_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "sdxl",
+    "defaultSteps": 20,
+    "defaultCfgScale": 7.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": true,
+    "weight": "large",
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q4_0",
+        "sizeBytes": 3940000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/gpustack/stable-diffusion-xl-base-1.0-GGUF/resolve/main/stable-diffusion-xl-base-1.0-Q4_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "sd3.5-large-q4_0",
+    "name": "Stable Diffusion 3.5 Large",
+    "category": "image",
+    "provider": "Stability AI",
+    "summary": "8B-parameter MMDiT model. Major step up from SD 3.5 Medium with superior prompt understanding, typography, and fine detail at 1024x1024.",
+    "sizeBytes": 4770000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 10000000000,
+    "license": "Stability AI Community",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-gguf/resolve/main/sd3.5_large-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "sd3",
+    "defaultSteps": 28,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": true,
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "large",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_0",
+        "sizeBytes": 5770000000,
+        "ramRequirementBytes": 20000000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-gguf/resolve/main/sd3.5_large-Q5_0.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8780000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-gguf/resolve/main/sd3.5_large-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "sd3.5-large-turbo-q4_0",
+    "name": "SD 3.5 Large Turbo",
+    "category": "image",
+    "provider": "Stability AI",
+    "summary": "Fast 4-step generation with 8B-parameter quality. Uses adversarial diffusion distillation for rapid high-quality output at 1024x1024.",
+    "sizeBytes": 4770000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 10000000000,
+    "license": "Stability AI Community",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-turbo-gguf/resolve/main/sd3.5_large_turbo-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "sd3",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "clipGUrl": "https://huggingface.co/Comfy-Org/stable-diffusion-3.5-fp8/resolve/main/text_encoders/clip_g.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "large",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_0",
+        "sizeBytes": 5770000000,
+        "ramRequirementBytes": 20000000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-turbo-gguf/resolve/main/sd3.5_large_turbo-Q5_0.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8780000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/stable-diffusion-3.5-large-turbo-gguf/resolve/main/sd3.5_large_turbo-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "z-image-base-q8_0",
+    "name": "Z-Image Base",
+    "category": "image",
+    "provider": "Z-Image",
+    "summary": "Full 6B model for maximum quality. Exceptional prompt adherence and photorealism at 1024x1024. Pairs with Qwen3-4B text encoder. Apache 2.0.",
+    "sizeBytes": 6550000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 10000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/leejet/Z-Image-GGUF/resolve/main/z_image-Q8_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "z-image",
+    "defaultSteps": 28,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 512,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 512
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": true,
+    "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
+    "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "weight": "large",
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q4_0",
+        "sizeBytes": 3840000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Z-Image-GGUF/resolve/main/z_image-Q4_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "z-anime-base-q8_0",
+    "name": "Z-Anime",
+    "category": "image",
+    "provider": "SeeSee21",
+    "summary": "Anime-style fine-tune of Z-Image Base (6B). Strong anime aesthetics with the same prompt-adherence backbone as Z-Image. Pairs with Qwen3-4B text encoder. Apache 2.0.",
+    "sizeBytes": 7220000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 10000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/SeeSee21/Z-Anime/resolve/main/gguf/z-anime-base-q8_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "z-image",
+    "defaultSteps": 28,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 512,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 512
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": true,
+    "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
+    "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-Instruct-2507-GGUF/resolve/main/Qwen3-4B-Instruct-2507-Q4_K_M.gguf",
+    "weight": "large",
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q4_K_S",
+        "sizeBytes": 4510000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/SeeSee21/Z-Anime/resolve/main/gguf/z-anime-base-q4_k_s.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "flux1-schnell-q4_0",
+    "name": "FLUX.1 Schnell",
+    "category": "image",
+    "provider": "Black Forest Labs",
+    "summary": "State-of-the-art image generation in just 4 steps. Exceptional prompt understanding and photorealistic output. Desktop only \u2014 needs significant memory.",
+    "sizeBytes": 6800000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 12000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "flux",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 4010000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 5210000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9830000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12700000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-schnell-gguf/resolve/main/flux1-schnell-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "flux1-dev-q4_0",
+    "name": "FLUX.1 Dev",
+    "category": "image",
+    "provider": "Black Forest Labs",
+    "summary": "Highest-quality FLUX.1 model. 50-step generation produces exceptional photorealistic images with outstanding prompt fidelity. Non-commercial license.",
+    "sizeBytes": 6790000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 12000000000,
+    "license": "FLUX.1 [dev] Non-Commercial License",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "flux",
+    "defaultSteps": 50,
+    "defaultCfgScale": 3.5,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 4030000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 5230000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9860000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12700000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "chroma1-hd-flash-q4_0",
+    "name": "Chroma1 HD Flash",
+    "category": "image",
+    "provider": "Lodestone / CircleStone",
+    "summary": "Fast distilled Chroma model. 8.9B FLUX-based architecture generating high-quality images in ~8 steps. Great speed-to-quality ratio. Apache 2.0.",
+    "sizeBytes": 5430000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 12000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Flash-GGUF/resolve/main/Chroma1-HD-Flash-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "chroma",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": true,
+    "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 3410000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Flash-GGUF/resolve/main/Chroma1-HD-Flash-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7650000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Flash-GGUF/resolve/main/Chroma1-HD-Flash-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9740000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 22000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Flash-GGUF/resolve/main/Chroma1-HD-Flash-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "chroma1-hd-q4_0",
+    "name": "Chroma1 HD",
+    "category": "image",
+    "provider": "Lodestone / CircleStone",
+    "summary": "8.9B FLUX-based model tuned for HD image quality. Excellent prompt adherence, typography, and fine detail. 40-step generation at 1024x1024. Apache 2.0.",
+    "sizeBytes": 5430000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 12000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "chroma",
+    "defaultSteps": 40,
+    "defaultCfgScale": 3.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": true,
+    "vaeUrl": "https://huggingface.co/lodestones/Chroma/resolve/main/ae.safetensors",
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 3410000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7650000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9740000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-HD-GGUF/resolve/main/Chroma1-HD-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "ovis-image-7b-q4_0",
+    "name": "Ovis-Image 7B",
+    "category": "image",
+    "provider": "Alibaba AIDC-AI",
+    "summary": "7B model that punches above its weight \u2014 text rendering accuracy (0.92) beats 20B Qwen-Image (0.83) and GPT-4o (0.86). Built on FLUX architecture. Great for typography-heavy content.",
+    "sizeBytes": 4200000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 12000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/leejet/Ovis-Image-7B-GGUF/resolve/main/ovis_image-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "ovis-image",
+    "defaultSteps": 28,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
+    "llmUrl": "https://huggingface.co/Comfy-Org/Ovis-Image/resolve/main/split_files/text_encoders/ovis_2.5.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 7870000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/leejet/Ovis-Image-7B-GGUF/resolve/main/ovis_image-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "chroma1-radiance-v0.4-q8_0",
+    "name": "Chroma1 Radiance",
+    "category": "image",
+    "provider": "Lodestone / CircleStone",
+    "summary": "10B pixel-space diffusion model \u2014 no VAE needed. Works directly on image pixels for exceptional detail and coherence. 40-step generation. Apache 2.0.",
+    "sizeBytes": 10400000000,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/silveroxides/Chroma1-Radiance-GGUF/resolve/main/Chroma1-Radiance-v0.4/Chroma1-Radiance-v0.4-Q8_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "chroma",
+    "defaultSteps": 40,
+    "defaultCfgScale": 4.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "weight": "massive",
+    "defaultQuantLevel": "Q8_0"
+  },
+  {
+    "id": "qwen-image-q4_k_m",
+    "name": "Qwen-Image",
+    "category": "image",
+    "provider": "Alibaba / Qwen",
+    "summary": "20B MMDiT \u2014 the text-to-image king. Dominates text rendering benchmarks (96.8 vs FLUX's 84.5). Best overall open-source image quality. Needs 24 GB+ RAM.",
+    "sizeBytes": 13100000000,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/QuantStack/Qwen-Image-GGUF/resolve/main/Qwen_Image-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "qwen-image",
+    "defaultSteps": 30,
+    "defaultCfgScale": 2.5,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors",
+    "llmUrl": "https://huggingface.co/mradermacher/Qwen2.5-VL-7B-Instruct-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct.Q8_0.gguf",
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 7060000000,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Qwen-Image-GGUF/resolve/main/Qwen_Image-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 16800000000,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Qwen-Image-GGUF/resolve/main/Qwen_Image-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 21800000000,
+        "ramRequirementBytes": 40000000000,
+        "vramRequirementBytes": 28000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Qwen-Image-GGUF/resolve/main/Qwen_Image-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  }
+]

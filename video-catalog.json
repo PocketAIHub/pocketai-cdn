@@ -1,0 +1,736 @@
+[
+  {
+    "id": "wan2.1-vace-1.3b-q4_0",
+    "name": "Wan 2.1 VACE 1.3B",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "Versatile lightweight model supporting text-to-video, reference-to-video, and video-to-video. Same size as the base 1.3B with more capabilities.",
+    "sizeBytes": 866000000,
+    "ramRequirementBytes": 4000000000,
+    "vramRequirementBytes": 3000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.1",
+    "mode": "t2v",
+    "defaultSteps": 30,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "weight": "light",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 830000000,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q2_k.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 1850000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 7000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q6_k.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2370000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1-vace-1.3b-q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "wan2.1-t2v-1.3b-q4_0",
+    "name": "Wan 2.1 T2V 1.3B",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "Smallest video generation model. Generates short 2-second clips from text prompts. Fast enough for desktop, potentially viable on high-end phones.",
+    "sizeBytes": 1200000000,
+    "ramRequirementBytes": 4000000000,
+    "vramRequirementBytes": 3000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1_t2v_1.3b-q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.1",
+    "mode": "t2v",
+    "defaultSteps": 30,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "weight": "light",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 579000000,
+        "ramRequirementBytes": 2000000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1_t2v_1.3b-q2_k.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 780000000,
+        "ramRequirementBytes": 3000000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/calcuis/wan-1.3b-gguf/resolve/main/wan2.1_t2v_1.3b-q3_k_m.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "wan2.2-ti2v-5b-q4_0",
+    "name": "Wan 2.2 TI2V 5B",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "Mid-range text+image-to-video model. Good balance of quality and speed at 5B parameters. Uses Wan 2.2 VAE for improved decoding.",
+    "sizeBytes": 3030000000,
+    "ramRequirementBytes": 8000000000,
+    "vramRequirementBytes": 6000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.2",
+    "mode": "t2v",
+    "defaultSteps": 30,
+    "defaultCfgScale": 6.0,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
+    ],
+    "defaultResolution": {
+      "width": 480,
+      "height": 832
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 1850000000,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 4210000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 5400000000,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-TI2V-5B-GGUF/resolve/main/Wan2.2-TI2V-5B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "wan2.1-t2v-14b-q4_0",
+    "name": "Wan 2.1 T2V 14B",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "High-quality text-to-video generation. Produces detailed, coherent 2-4 second clips with strong prompt adherence. Desktop only \u2014 needs significant memory.",
+    "sizeBytes": 8500000000,
+    "ramRequirementBytes": 14000000000,
+    "vramRequirementBytes": 12000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.1",
+    "mode": "t2v",
+    "defaultSteps": 30,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      },
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 6990000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 12500000000,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 15900000000,
+        "ramRequirementBytes": 28000000000,
+        "vramRequirementBytes": 24000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "wan2.1-vace-14b-q4_0",
+    "name": "Wan 2.1 VACE 14B",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "High-quality versatile model supporting text-to-video, reference-to-video, and video-to-video. More capable than the base 14B T2V model.",
+    "sizeBytes": 10300000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 14000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.1",
+    "mode": "t2v",
+    "defaultSteps": 30,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      },
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 7840000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 14500000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 18700000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 26000000000,
+        "downloadUrl": "https://huggingface.co/QuantStack/Wan2.1_14B_VACE-GGUF/resolve/main/Wan2.1_14B_VACE-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "wan2.1-i2v-14b-480p-q4_0",
+    "name": "Wan 2.1 I2V 14B 480P",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "Image-to-video model \u2014 animates a still image into a short video clip at 480p. Requires a CLIP vision encoder for image understanding.",
+    "sizeBytes": 10200000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 14000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.1",
+    "mode": "i2v",
+    "defaultSteps": 30,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 7930000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 14200000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 18100000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 26000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-480P-gguf/resolve/main/wan2.1-i2v-14b-480p-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "wan2.1-i2v-14b-720p-q4_0",
+    "name": "Wan 2.1 I2V 14B 720P",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "Image-to-video at 720p \u2014 animates a still image into a higher-resolution video. Same architecture as 480P variant but supports larger output.",
+    "sizeBytes": 10200000000,
+    "ramRequirementBytes": 18000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.1",
+    "mode": "i2v",
+    "defaultSteps": 30,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "width": 960,
+        "height": 960
+      },
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      }
+    ],
+    "defaultResolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 7930000000,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 13000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 14200000000,
+        "ramRequirementBytes": 26000000000,
+        "vramRequirementBytes": 24000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 18100000000,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/city96/Wan2.1-I2V-14B-720P-gguf/resolve/main/wan2.1-i2v-14b-720p-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "wan2.1-flf2v-14b-720p-q4_0",
+    "name": "Wan 2.1 FLF2V 14B 720P",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "First-last-frame-to-video \u2014 provide a start and end image and the model generates the transition video between them. 720p output.",
+    "sizeBytes": 10300000000,
+    "ramRequirementBytes": 18000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/city96/Wan2.1-FLF2V-14B-720P-gguf/resolve/main/wan2.1-flf2v-14b-720p-q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.1",
+    "mode": "flf2v",
+    "defaultSteps": 30,
+    "defaultCfgScale": 5.0,
+    "supportedResolutions": [
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "width": 960,
+        "height": 960
+      },
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      }
+    ],
+    "defaultResolution": {
+      "width": 1280,
+      "height": 720
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_0"
+  },
+  {
+    "id": "wan2.2-t2v-a14b-q4_0",
+    "name": "Wan 2.2 T2V A14B",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "Highest-quality text-to-video. Dual-stage architecture uses separate low-noise and high-noise models for superior coherence and detail. Requires ~20 GB VRAM.",
+    "sizeBytes": 17120000000,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 20000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-T2V-A14B-LowNoise-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.2",
+    "mode": "t2v",
+    "defaultSteps": 10,
+    "defaultCfgScale": 3.5,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      },
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q4_0.gguf",
+    "defaultHighNoiseSteps": 8,
+    "defaultHighNoiseCfgScale": 3.5,
+    "defaultMoeBoundary": 0.0,
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_0"
+  },
+  {
+    "id": "wan2.2-i2v-a14b-q4_0",
+    "name": "Wan 2.2 I2V A14B",
+    "category": "video",
+    "provider": "Alibaba",
+    "summary": "Highest-quality image-to-video. Dual-stage architecture animates still images with exceptional motion coherence. Requires ~20 GB VRAM.",
+    "sizeBytes": 17120000000,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 20000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/LowNoise/Wan2.2-I2V-A14B-LowNoise-Q4_0.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "wan2.2",
+    "mode": "i2v",
+    "defaultSteps": 10,
+    "defaultCfgScale": 3.5,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      },
+      {
+        "width": 720,
+        "height": 1280
+      },
+      {
+        "width": 1280,
+        "height": 720
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 33,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_0.gguf",
+    "defaultHighNoiseSteps": 8,
+    "defaultHighNoiseCfgScale": 3.5,
+    "defaultMoeBoundary": 0.0,
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_0"
+  }
+]

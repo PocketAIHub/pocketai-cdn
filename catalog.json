@@ -1,0 +1,3134 @@
+[
+  {
+    "id": "qwen3.5-0.8b",
+    "name": "Qwen3.5 0.8B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Very small Qwen3.5 option for older phones and fast downloads. Good fallback when storage and memory are tight.",
+    "sizeBytes": 532517120,
+    "ramRequirementBytes": 2400000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/6ab461498e2023f6e3c1baea90a8f0fe38ab64d0/Qwen3.5-0.8B-Q4_K_M.gguf",
+    "sha256": "bd258782e35f7f458f8aced1adc053e6e92e89bc735ba3be89d38a06121dc517",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 1000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 470167808,
+        "ramRequirementBytes": 2000000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 590057728,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 639029504,
+        "ramRequirementBytes": 3000000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 811843840,
+        "ramRequirementBytes": 3500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-2b-opus-distilled",
+    "name": "Qwen3.5 2B Opus Distilled",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Distilled Qwen3.5 2B variant aimed at sharper Claude-style reasoning, coding help, and cleaner follow-through than the base 2B while staying phone-friendly.",
+    "sizeBytes": 1270804416,
+    "ramRequirementBytes": 3800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/5bd742daec56a85cf201ea9e283cb7bba042f00a/Qwen3.5-2B.Q4_K_M.gguf",
+    "sha256": "9e74321a0981f7333ffa067e1ad80b03a8b2bc6954acf4172fc63bd3ba23f178",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 1500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 1096371136,
+        "ramRequirementBytes": 3500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.5-2B.Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 1424764864,
+        "ramRequirementBytes": 4500000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.5-2B.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 1556386752,
+        "ramRequirementBytes": 4500000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.5-2B.Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2012008384,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.5-2B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-2b",
+    "name": "Qwen3.5 2B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Strong small-model upgrade over fallback tiers. This is a good default target for mainstream phones.",
+    "sizeBytes": 1280835840,
+    "ramRequirementBytes": 3800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/f6d5376be1edb4d416d56da11e5397a961aca8ae/Qwen3.5-2B-Q4_K_M.gguf",
+    "sha256": "aaf42c8b7c3cab2bf3d69c355048d4a0ee9973d48f16c731c0520ee914699223",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 1500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 1030947072,
+        "ramRequirementBytes": 3000000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 1435238656,
+        "ramRequirementBytes": 4500000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 1574961408,
+        "ramRequirementBytes": 4500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2012012800,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "hermes-3-llama-3.2-3b",
+    "name": "Hermes 3 Llama 3.2 3B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Compact Hermes model with strong tool-calling and instruction following. Great for mobile devices. Supports structured function calling via ChatML.",
+    "sizeBytes": 2020000000,
+    "ramRequirementBytes": 4500000000,
+    "license": "Llama 3.2 Community",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 2500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 2322150208,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2643850048,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 3421895488,
+        "ramRequirementBytes": 7500000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-4b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.5 4B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Qwen3.5 4B variant tuned for more direct, less filtered replies than the base 4B while staying light enough for newer phones, tablets, and desktops.",
+    "sizeBytes": 2707513696,
+    "ramRequirementBytes": 6800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/6255b8a5137738d47ca7e17b293c094aa3afc094/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "79e28ecacf84e75b6056cf4059636d435aa9eb67795780f7b7dbc7d32a962741",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 3000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 3464055136,
+        "ramRequirementBytes": 8500000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 4482402656,
+        "ramRequirementBytes": 11500000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwopus3.5-4b-v3",
+    "name": "Qwopus3.5 4B v3",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Reasoning-enhanced Qwen3.5 4B with act-then-refine agent workflows. Strong coding (HumanEval 75.6%) and tool-calling for its size.",
+    "sizeBytes": 2708800320,
+    "ramRequirementBytes": 6800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-v3-GGUF/resolve/e327dfa090292ca838b69b7f2d5f7a842f548a7d/Qwen3.5-4B.Q4_K_M.gguf",
+    "sha256": "47c9684b1a99e59573a8ad8798a7994e79f90257f44728dac2fa56b8856145c1",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-v3-GGUF/resolve/e327dfa090292ca838b69b7f2d5f7a842f548a7d/mmproj.gguf",
+    "mmprojSha256": "b7db844b3975ed66c159db824ef2e6e711d4d7dca26a634305b796838c7eabfc",
+    "contextLength": 32768,
+    "vramRequirementBytes": 3000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 3074982720,
+        "ramRequirementBytes": 7500000000,
+        "vramRequirementBytes": 3500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-v3-GGUF/resolve/main/Qwen3.5-4B.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 3464051520,
+        "ramRequirementBytes": 8500000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-v3-GGUF/resolve/main/Qwen3.5-4B.Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 4482399040,
+        "ramRequirementBytes": 11500000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-v3-GGUF/resolve/main/Qwen3.5-4B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-4b",
+    "name": "Qwen3.5 4B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Higher-quality Qwen3.5 option for newer phones. Likely one of the best mainstream chat models in the catalog.",
+    "sizeBytes": 2740937888,
+    "ramRequirementBytes": 6800000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/e87f176479d0855a907a41277aca2f8ee7a09523/Qwen3.5-4B-Q4_K_M.gguf",
+    "sha256": "00fe7986ff5f6b463e62455821146049db6f9313603938a70800d1fb69ef11a4",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 3000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 2293388448,
+        "ramRequirementBytes": 5500000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 3143656608,
+        "ramRequirementBytes": 8000000000,
+        "vramRequirementBytes": 3500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 3525956768,
+        "ramRequirementBytes": 8500000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 4482403488,
+        "ramRequirementBytes": 11000000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemma-4-e2b-it",
+    "name": "Gemma 4 E2B IT",
+    "category": "language",
+    "provider": "Google / Unsloth",
+    "summary": "Ultra-compact Gemma 4 with vision and 128K context. Google's smallest multimodal model — great for older phones and fast downloads.",
+    "sizeBytes": 3106731136,
+    "ramRequirementBytes": 5500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 131072,
+    "vramRequirementBytes": 3500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 2536783520,
+        "ramRequirementBytes": 4500000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 3356034720,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 4501718688,
+        "ramRequirementBytes": 8000000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 5048350368,
+        "ramRequirementBytes": 9000000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "deephermes-3-llama-3-8b",
+    "name": "DeepHermes 3 Llama 3 8B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Hermes 8B with unified reasoning mode — toggle between fast responses and chain-of-thought thinking within a single model. Tool-calling included.",
+    "sizeBytes": 4660000000,
+    "ramRequirementBytes": 10000000000,
+    "license": "Llama 3 Community",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview-GGUF/resolve/main/DeepHermes-3-Llama-3-8B-Preview.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 8192,
+    "vramRequirementBytes": 5000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 5599294464,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 6500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview-GGUF/resolve/main/DeepHermes-3-Llama-3-8B-Preview.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 6596006912,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview-GGUF/resolve/main/DeepHermes-3-Llama-3-8B-Preview.Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8540771328,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 9500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview-GGUF/resolve/main/DeepHermes-3-Llama-3-8B-Preview.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "hermes-3-llama-3.1-8b",
+    "name": "Hermes 3 Llama 3.1 8B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Flagship Hermes 8B with excellent tool-calling, structured output, and multi-turn conversation. Strong all-rounder for phones and desktops.",
+    "sizeBytes": 4920000000,
+    "ramRequirementBytes": 10000000000,
+    "license": "Llama 3.1 Community",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 5500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 5732987008,
+        "ramRequirementBytes": 11500000000,
+        "vramRequirementBytes": 6500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 6596006016,
+        "ramRequirementBytes": 13500000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8540770432,
+        "ramRequirementBytes": 17500000000,
+        "vramRequirementBytes": 9500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemma-4-e4b-it",
+    "name": "Gemma 4 E4B IT",
+    "category": "language",
+    "provider": "Google / Unsloth",
+    "summary": "Mid-range Gemma 4 with vision, 128K context, and strong multilingual support. Sweet spot for mainstream phones and tablets.",
+    "sizeBytes": 4977164416,
+    "ramRequirementBytes": 8500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 131072,
+    "vramRequirementBytes": 5500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 4058135232,
+        "ramRequirementBytes": 7000000000,
+        "vramRequirementBytes": 4500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 5481796288,
+        "ramRequirementBytes": 9500000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7074927296,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8192950976,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemma-4-e4b-tuned",
+    "name": "Gemma 4 E4B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Gemma 4 E4B variant tuned for more direct, less filtered replies. Natively multimodal (text, image, video, audio) with 128K context.",
+    "sizeBytes": 5335285728,
+    "ramRequirementBytes": 8500000000,
+    "license": "Gemma",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/45b6a334b4bcd1d7f37179df58b3b1d66a184e5d/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+    "contextLength": 131072,
+    "vramRequirementBytes": 6000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 4850391008,
+        "ramRequirementBytes": 7500000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 5762908128,
+        "ramRequirementBytes": 9000000000,
+        "vramRequirementBytes": 6500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8133226464,
+        "ramRequirementBytes": 13000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-9b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.5 9B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Qwen3.5 9B variant tuned to feel friendlier, more direct, and less inquisitive in everyday chats. Heavy for phones and best suited to newer devices.",
+    "sizeBytes": 5627044224,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/732a06ba17b0dabfb2b3b77eb3173eefcff0c72e/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "2ca636d9e81d3d23ca9b60c234fe185d30ec082eeba69ce770fdb0c76559a4f5",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7359259008,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527501184,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-9b-opus-distilled",
+    "name": "Qwen3.5 9B Opus Distilled",
+    "category": "language",
+    "provider": "crownelius",
+    "summary": "Distilled Qwen3.5 9B variant aimed at stronger Claude-style reasoning, longer-form answers, and sharper coding help than the base 9B. Heavy for phones and a better fit for newer devices and desktops.",
+    "sizeBytes": 5627044352,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5/resolve/6185054838e99400f4f2ea189c4fd6b1121ae864/Qwen3.5-9B-heretic-v2.Q4_K_M.gguf",
+    "sha256": "f7e71023c6dd43a6aad9ca2c66aee487dcf20db301dedbdbe3d0075a51daf43a",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 6522003968,
+        "ramRequirementBytes": 12500000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5/resolve/main/Qwen3.5-9B-heretic-v2.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527501312,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5/resolve/main/Qwen3.5-9B-heretic-v2.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwopus3.5-9b-v3",
+    "name": "Qwopus3.5 9B v3",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Reasoning-enhanced Qwen3.5 9B with shorter, more stable reasoning paths. Outperforms base 9B on HumanEval (+4.87 pp) while using 25% fewer reasoning tokens.",
+    "sizeBytes": 5629105024,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF/resolve/b5219d6bafc894572d9eb9c9fbcc4b208ccccd14/Qwen3.5-9B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF/resolve/main/mmproj.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7359255424,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF/resolve/main/Qwen3.5-9B.Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527497600,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF/resolve/main/Qwen3.5-9B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-9b-opus-distilled-v2",
+    "name": "Qwen3.5 9B Opus Distilled v2",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Improved v2 distillation of Qwen3.5 9B with 20% fewer reasoning tokens and higher accuracy. Good for offline analytical tasks, coding, and math.",
+    "sizeBytes": 5629105024,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/b4d6d8e3760a202ca208a7c8aabb88b2ac18a10a/Qwen3.5-9B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/mmproj-BF16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 6467965824,
+        "ramRequirementBytes": 12500000000,
+        "vramRequirementBytes": 7000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/Qwen3.5-9B.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527497600,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/Qwen3.5-9B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-9b-deepseek-v4-flash",
+    "name": "Qwen3.5 9B DeepSeek V4 Flash",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Qwen3.5 9B distilled from DeepSeek V4 Flash with emphasis on tool-augmented workflows and reliable agentic action generation. Strong fit for offline agents and structured tool calls.",
+    "sizeBytes": 5629105408,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF/resolve/main/Qwen3.5-9B-DeepSeek-V4-Flash-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF/resolve/main/mmproj.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 4623521024,
+        "ramRequirementBytes": 9500000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF/resolve/main/Qwen3.5-9B-DeepSeek-V4-Flash-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 6467966208,
+        "ramRequirementBytes": 12500000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF/resolve/main/Qwen3.5-9B-DeepSeek-V4-Flash-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7359255808,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF/resolve/main/Qwen3.5-9B-DeepSeek-V4-Flash-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527497984,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF/resolve/main/Qwen3.5-9B-DeepSeek-V4-Flash-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "harmonic-hermes-9b",
+    "name": "Harmonic Hermes 9B",
+    "category": "language",
+    "provider": "DJLougen",
+    "summary": "Qwen3.5 9B fine-tune combining deep reasoning with Hermes-style tool calling and agent workflows. Vision-capable with 8K context.",
+    "sizeBytes": 5629108800,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/DJLougen/Harmonic-Hermes-9B-GGUF/resolve/7fe40c09af6886392d6ebd46a41a85ebbd08ec81/Qwen3.5-9B-Harmonic.Q4_K_M.gguf",
+    "sha256": "426ae37f1df94f2fcb0b05ad79f7aee34d52fcd773fbb2f6b1084c7f8aa204b0",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/DJLougen/Harmonic-Hermes-9B-GGUF/resolve/7fe40c09af6886392d6ebd46a41a85ebbd08ec81/Harmonic-Hermes-9B-BF16-mmproj.gguf",
+    "mmprojSha256": "331a5058e71e68e8edcfa684661497441d6e014c96046fc6d30aba3580305fd1",
+    "contextLength": 8192,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 4623524416,
+        "ramRequirementBytes": 9000000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/DJLougen/Harmonic-Hermes-9B-GGUF/resolve/main/Harmonic-Hermes-9B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 6467969600,
+        "ramRequirementBytes": 12500000000,
+        "vramRequirementBytes": 7000000000,
+        "downloadUrl": "https://huggingface.co/DJLougen/Harmonic-Hermes-9B-GGUF/resolve/main/Harmonic-Hermes-9B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7359259200,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/DJLougen/Harmonic-Hermes-9B-GGUF/resolve/main/Harmonic-Hermes-9B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527501376,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/DJLougen/Harmonic-Hermes-9B-GGUF/resolve/main/Harmonic-Hermes-9B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-9b",
+    "name": "Qwen3.5 9B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Stretch goal model for flagship phones, tablets, and desktop-class devices. Expect heavier memory pressure and slower responses.",
+    "sizeBytes": 5680522464,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/3885219b6810b007914f3a7950a8d1b469d598a5/Qwen3.5-9B-Q4_K_M.gguf",
+    "sha256": "03b74727a860a56338e042c4420bb3f04b2fec5734175f4cb9fa853daf52b7e8",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 4673643744,
+        "ramRequirementBytes": 9000000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/Qwen3.5-9B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 6577841376,
+        "ramRequirementBytes": 12500000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/Qwen3.5-9B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7458301152,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/Qwen3.5-9B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527502048,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/Qwen3.5-9B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-27b-opus-distilled",
+    "name": "Qwen3.5 27B Opus Distilled",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Desktop-focused Qwen3.5 27B variant distilled toward Claude-style reasoning and longer-form responses. Best suited to Macs and PCs with substantial unified memory or RAM.",
+    "sizeBytes": 16540267968,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/5825aa2c6c361e3ee4f588021192d1f919dd60d7/Qwen3.5-27B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 18500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13289641376,
+        "ramRequirementBytes": 27500000000,
+        "vramRequirementBytes": 15000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.5-27B.Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595758528,
+        "ramRequirementBytes": 59000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.5-27B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-27b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.5 27B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Desktop-focused Qwen3.5 27B variant tuned for more direct and less filtered responses than the base 27B. Best suited to Macs and PCs with substantial memory headroom.",
+    "sizeBytes": 16540271712,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/6601ca30d45fa62dfa2b74f1460d4feebd83a3b0/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "ffec017c7ecba924fbaa8a6576df8c74d949eacb2c264113842ddb4176bbcae1",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 18500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13289645152,
+        "ramRequirementBytes": 27500000000,
+        "vramRequirementBytes": 15000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19399607392,
+        "ramRequirementBytes": 40000000000,
+        "vramRequirementBytes": 21500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22082528352,
+        "ramRequirementBytes": 45500000000,
+        "vramRequirementBytes": 24500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595762272,
+        "ramRequirementBytes": 59000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-27b-opus-distilled-v2",
+    "name": "Qwen3.5 27B Opus Distilled v2",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Improved v2 distillation of Qwen3.5 27B with ~24% shorter chain-of-thought and 31.6% more correct solutions per token. 96.91% HumanEval pass@1. Desktop only.",
+    "sizeBytes": 16547395008,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/f54be2474003de643b26d1a44560dad3cbf717f1/Qwen3.5-27B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/mmproj-BF16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 18500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19231094208,
+        "ramRequirementBytes": 39500000000,
+        "vramRequirementBytes": 21500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/Qwen3.5-27B.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22082524608,
+        "ramRequirementBytes": 45500000000,
+        "vramRequirementBytes": 24500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/Qwen3.5-27B.Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595758528,
+        "ramRequirementBytes": 59000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/Qwen3.5-27B.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwopus3.5-27b-v3",
+    "name": "Qwopus3.5 27B v3",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Reasoning-enhanced Qwen3.5 27B with tool-calling RL and act-then-refine agentic workflows. 95.73% HumanEval Plus. Best for desktop setups with high memory.",
+    "sizeBytes": 16547395456,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF/resolve/2f5cb77d60fa4023ceff83a7d9d493e50a134eb7/Qwopus3.5-27B-v3-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF/resolve/main/mmproj.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 18500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13301438336,
+        "ramRequirementBytes": 27500000000,
+        "vramRequirementBytes": 15000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF/resolve/main/Qwopus3.5-27B-v3-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19231094656,
+        "ramRequirementBytes": 39500000000,
+        "vramRequirementBytes": 21500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF/resolve/main/Qwopus3.5-27B-v3-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22082525056,
+        "ramRequirementBytes": 45500000000,
+        "vramRequirementBytes": 24500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF/resolve/main/Qwopus3.5-27B-v3-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595758976,
+        "ramRequirementBytes": 59000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF/resolve/main/Qwopus3.5-27B-v3-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemopus-4-26b-a4b",
+    "name": "Gemopus 4 26B-A4B",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Gemma 4 26B-A4B fine-tuned for higher answer quality with chain-of-thought reasoning. MoE with only 4B active params. Vision-capable. Desktop only.",
+    "sizeBytes": 16796011104,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/617b7603779d8f81aa17d24c4e8214b4db03fce8/Gemopus-4-26B-A4B-it-Preview-Q4_K_M.gguf",
+    "sha256": "19959a653e143bf51b3af7999b6434e35a0d61261a7741a7d01a4acae6f2a59a",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/617b7603779d8f81aa17d24c4e8214b4db03fce8/mmproj.gguf",
+    "mmprojSha256": "99b653270893f8971ab217d94af797074b956729655cce1fff7193bc791cccab",
+    "contextLength": 131072,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19132889984,
+        "ramRequirementBytes": 38500000000,
+        "vramRequirementBytes": 21500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/main/Gemopus-4-26B-A4B-it-Preview-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22638398848,
+        "ramRequirementBytes": 46000000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/main/Gemopus-4-26B-A4B-it-Preview-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 26859858816,
+        "ramRequirementBytes": 54500000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/main/Gemopus-4-26B-A4B-it-Preview-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemma-4-26b-a4b-it",
+    "name": "Gemma 4 26B-A4B IT",
+    "category": "language",
+    "provider": "Google / Unsloth",
+    "summary": "Mixture-of-Experts Gemma 4 with 25.2B total params but only 3.8B active per token. Flagship-quality vision and 256K context in a memory-efficient MoE package.",
+    "sizeBytes": 16868236032,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 12526284096,
+        "ramRequirementBytes": 25000000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 21150362944,
+        "ramRequirementBytes": 42500000000,
+        "vramRequirementBytes": 23500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22903604544,
+        "ramRequirementBytes": 46000000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/gemma-4-26B-A4B-it-UD-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 26859859264,
+        "ramRequirementBytes": 54000000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/gemma-4-26B-A4B-it-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemma-4-26b-a4b-tuned",
+    "name": "Gemma 4 26B-A4B Tuned",
+    "category": "language",
+    "provider": "nohurry / coder3101",
+    "summary": "Gemma 4 26B-A4B variant tuned for more direct replies. MoE architecture with only 4B active params. Vision support via dedicated mmproj.",
+    "sizeBytes": 16868236256,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/9500faac1662832e14183e07879270659860271d/gemma-4-26b-a4b-it-heretic.q4_k_m.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26B-A4B-it-heretic-mmproj.f16.gguf",
+    "contextLength": 131072,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13894540256,
+        "ramRequirementBytes": 28000000000,
+        "vramRequirementBytes": 15500000000,
+        "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q3_k_m.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 21150358496,
+        "ramRequirementBytes": 42500000000,
+        "vramRequirementBytes": 23500000000,
+        "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q5_k_m.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 23172471776,
+        "ramRequirementBytes": 46500000000,
+        "vramRequirementBytes": 26000000000,
+        "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q6_k.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 26859854560,
+        "ramRequirementBytes": 54000000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "supergemma4-26b-uncensored",
+    "name": "SuperGemma4 26B Uncensored",
+    "category": "language",
+    "provider": "Jiunsong",
+    "summary": "Uncensored Gemma 4 26B-A4B MoE variant tuned for direct, unfiltered chat. Only 4B active params. Desktop only due to size.",
+    "sizeBytes": 16796036239,
+    "ramRequirementBytes": 34000000000,
+    "license": "Gemma",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2/resolve/3ea8c452a2b136875c0c8b529612bed39c81e27a/supergemma4-26b-uncensored-fast-v2-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 19000000000
+  },
+  {
+    "id": "qwen3.5-27b",
+    "name": "Qwen3.5 27B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Desktop-class Qwen3.5 model tuned for stronger reasoning and coding quality. Intended for higher-memory laptops and workstations.",
+    "sizeBytes": 17621125024,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/30d153c8bdfd8ea1f25d47c4d2c4933cbb5bca52/Qwen3.5-27B-UD-Q4_K_XL.gguf",
+    "sha256": "13cb6228344898afa50d963c02ae0d991ae25094eea8837db8d0e452e91c5888",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 19500000000,
+    "defaultQuantLevel": "Q4_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13505116064,
+        "ramRequirementBytes": 26000000000,
+        "vramRequirementBytes": 15000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/Qwen3.5-27B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q4_K_M",
+        "sizeBytes": 16740812704,
+        "ramRequirementBytes": 32500000000,
+        "vramRequirementBytes": 18500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/Qwen3.5-27B-Q4_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19608995744,
+        "ramRequirementBytes": 38000000000,
+        "vramRequirementBytes": 22000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/Qwen3.5-27B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22453933984,
+        "ramRequirementBytes": 43500000000,
+        "vramRequirementBytes": 25000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/Qwen3.5-27B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595763104,
+        "ramRequirementBytes": 55000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/Qwen3.5-27B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "glm-4.7-flash-opus-distilled",
+    "name": "GLM-4.7 Flash Opus Distilled",
+    "category": "language",
+    "provider": "TeichAI",
+    "summary": "Large desktop-focused GLM variant distilled toward stronger Claude-style reasoning and longer-form answers. Best suited to Macs and PCs with high memory budgets.",
+    "sizeBytes": 18132721856,
+    "ramRequirementBytes": 36000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/7b8a12a63040acc1120244cc466a242827c5269c/glm-4.7-flash-claude-4.5-opus.q4_k_m.gguf",
+    "sha256": "1b7f1a37ddac09fc3a5cc4ff9a78410c30cd4a105edb4ee6b87194c9523b1c88",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 20500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 14380018880,
+        "ramRequirementBytes": 28500000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/main/glm-4.7-flash-claude-4.5-opus.q3_k_m.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 21264515264,
+        "ramRequirementBytes": 42000000000,
+        "vramRequirementBytes": 24000000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/main/glm-4.7-flash-claude-4.5-opus.q5_k_m.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 24614786240,
+        "ramRequirementBytes": 49000000000,
+        "vramRequirementBytes": 27500000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/main/glm-4.7-flash-claude-4.5-opus.q6_k.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 31842799808,
+        "ramRequirementBytes": 63000000000,
+        "vramRequirementBytes": 35500000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/main/glm-4.7-flash-claude-4.5-opus.q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "granite-4.1-30b",
+    "name": "Granite 4.1 30B",
+    "category": "language",
+    "provider": "IBM / Bartowski",
+    "summary": "IBM's flagship Granite 4.1 dense 30B model with 128K context. Strong reasoning, instruction following, and enterprise-friendly Apache 2.0 licensing. Desktop only.",
+    "sizeBytes": 17796425280,
+    "ramRequirementBytes": 33000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/bartowski/ibm-granite_granite-4.1-30b-GGUF/resolve/main/ibm-granite_granite-4.1-30b-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 21000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 14181983808,
+        "ramRequirementBytes": 26500000000,
+        "vramRequirementBytes": 16500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/ibm-granite_granite-4.1-30b-GGUF/resolve/main/ibm-granite_granite-4.1-30b-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 20742923840,
+        "ramRequirementBytes": 38000000000,
+        "vramRequirementBytes": 24000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/ibm-granite_granite-4.1-30b-GGUF/resolve/main/ibm-granite_granite-4.1-30b-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 24171767360,
+        "ramRequirementBytes": 44500000000,
+        "vramRequirementBytes": 28000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/ibm-granite_granite-4.1-30b-GGUF/resolve/main/ibm-granite_granite-4.1-30b-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 30674970176,
+        "ramRequirementBytes": 56000000000,
+        "vramRequirementBytes": 35000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/ibm-granite_granite-4.1-30b-GGUF/resolve/main/ibm-granite_granite-4.1-30b-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemma-4-31b-it",
+    "name": "Gemma 4 31B IT",
+    "category": "language",
+    "provider": "Google / Unsloth",
+    "summary": "Google's flagship Gemma 4 dense model. 30.7B params, 256K context, vision, and top-tier benchmarks (MMLU Pro 85.2%, AIME 89.2%). Desktop only.",
+    "sizeBytes": 18323726304,
+    "ramRequirementBytes": 36000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/gemma-4-31B-it-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 20500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 14736605728,
+        "ramRequirementBytes": 29000000000,
+        "vramRequirementBytes": 16500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/gemma-4-31B-it-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 21658399264,
+        "ramRequirementBytes": 42500000000,
+        "vramRequirementBytes": 24500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/gemma-4-31B-it-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 25201484320,
+        "ramRequirementBytes": 49500000000,
+        "vramRequirementBytes": 28000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/gemma-4-31B-it-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 32635675168,
+        "ramRequirementBytes": 64000000000,
+        "vramRequirementBytes": 36500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/gemma-4-31B-it-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemma-4-31b-tuned",
+    "name": "Gemma 4 31B Tuned",
+    "category": "language",
+    "provider": "paperscarecrow",
+    "summary": "Gemma 4 31B variant tuned for more direct responses. Full dense 31B architecture for maximum quality. Desktop only.",
+    "sizeBytes": 18687057536,
+    "ramRequirementBytes": 36000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/paperscarecrow/Gemma-4-31B-it-abliterated/resolve/2491ee58472b82a2372d288f982943b9d5e6a82c/gemma-4-31b-abliterated-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 21000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 32635670144,
+        "ramRequirementBytes": 63000000000,
+        "vramRequirementBytes": 36500000000,
+        "downloadUrl": "https://huggingface.co/paperscarecrow/Gemma-4-31B-it-abliterated/resolve/main/gemma-4-31b-abliterated-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "hermes-4.3-36b",
+    "name": "Hermes 4.3 36B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Latest flagship Hermes model based on ByteDance Seed 36B. 512K context window, best-in-class tool-calling, and strong reasoning. Desktop only.",
+    "sizeBytes": 21800000000,
+    "ramRequirementBytes": 40000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/NousResearch/Hermes-4.3-36B-GGUF/resolve/main/Hermes-4.3-36B.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 524288,
+    "vramRequirementBytes": 24500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 17620945856,
+        "ramRequirementBytes": 32500000000,
+        "vramRequirementBytes": 19500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-4.3-36B-GGUF/resolve/main/hermes-4_3_36b-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 25594362816,
+        "ramRequirementBytes": 47000000000,
+        "vramRequirementBytes": 28500000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-4.3-36B-GGUF/resolve/main/hermes-4_3_36b-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 29666094016,
+        "ramRequirementBytes": 54500000000,
+        "vramRequirementBytes": 33000000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-4.3-36B-GGUF/resolve/main/hermes-4_3_36b-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 38421089216,
+        "ramRequirementBytes": 70500000000,
+        "vramRequirementBytes": 43000000000,
+        "downloadUrl": "https://huggingface.co/NousResearch/Hermes-4.3-36B-GGUF/resolve/main/hermes-4_3_36b-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-35b-a3b",
+    "name": "Qwen3.5 35B-A3B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Large Mixture-of-Experts Qwen3.5 option for high-end desktop setups where quality matters more than memory footprint.",
+    "sizeBytes": 22241950336,
+    "ramRequirementBytes": 40000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/1b8fd3edeba1835ff8545d8ac9c60d3616a3f792/Qwen3.5-35B-A3B-UD-Q4_K_XL.gguf",
+    "sha256": "1b0ac637dfa092bbba2793977db9485a40c4f8b42df5fe342f0076d61b66ae83",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 25000000000,
+    "defaultQuantLevel": "Q4_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 16356375168,
+        "ramRequirementBytes": 29500000000,
+        "vramRequirementBytes": 18500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q4_K_M",
+        "sizeBytes": 22016023168,
+        "ramRequirementBytes": 39500000000,
+        "vramRequirementBytes": 24500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q4_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 26249607808,
+        "ramRequirementBytes": 47000000000,
+        "vramRequirementBytes": 29500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 28852861568,
+        "ramRequirementBytes": 52000000000,
+        "vramRequirementBytes": 32500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 36903139968,
+        "ramRequirementBytes": 66500000000,
+        "vramRequirementBytes": 41500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.6-35b-a3b",
+    "name": "Qwen3.6 35B-A3B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Qwen 3.6 MoE with Gated DeltaNet architecture: 35B total but only 3B active per token. Vision-capable with 262K context. Successor to Qwen3.5-35B-A3B.",
+    "sizeBytes": 22414213120,
+    "ramRequirementBytes": 40000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/56b9b6695c1d341398ea990cf2172ba4311647d8/Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 25000000000,
+    "defaultQuantLevel": "Q4_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 16356375168,
+        "ramRequirementBytes": 29500000000,
+        "vramRequirementBytes": 18500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q4_K_M",
+        "sizeBytes": 22100901888,
+        "ramRequirementBytes": 39500000000,
+        "vramRequirementBytes": 24500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/edc6f12e7bb90602ca1d34faecbec9844137b7fe/Qwen3.6-35B-A3B-UD-Q4_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 26500000000,
+        "ramRequirementBytes": 47000000000,
+        "vramRequirementBytes": 29500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 36900000000,
+        "ramRequirementBytes": 66500000000,
+        "vramRequirementBytes": 41500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/main/Qwen3.6-35B-A3B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.6-27b",
+    "name": "Qwen3.6 27B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Dense Qwen 3.6 27B with Gated DeltaNet + Gated Attention hybrid. Reasoning-first, vision-capable, 262K native context. Desktop only — best on 24GB+ VRAM or high-memory Apple Silicon.",
+    "sizeBytes": 17612564704,
+    "ramRequirementBytes": 24000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/82d411acf4a06cfb8d9b073a5211bf410bfc29bf/Qwen3.6-27B-UD-Q4_K_XL.gguf",
+    "sha256": "ff6941ded525b34eb159496762c29dd0ec6e71dc31b74d57e75d871a03eec259",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 20500000000,
+    "defaultQuantLevel": "Q4_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K_XL",
+        "sizeBytes": 11849779424,
+        "ramRequirementBytes": 17000000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/main/Qwen3.6-27B-UD-Q2_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_XL",
+        "sizeBytes": 14473431264,
+        "ramRequirementBytes": 20000000000,
+        "vramRequirementBytes": 17000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/main/Qwen3.6-27B-UD-Q3_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_XL",
+        "sizeBytes": 20038256864,
+        "ramRequirementBytes": 27000000000,
+        "vramRequirementBytes": 23000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/main/Qwen3.6-27B-UD-Q5_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K_XL",
+        "sizeBytes": 25636485344,
+        "ramRequirementBytes": 34000000000,
+        "vramRequirementBytes": 29000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/main/Qwen3.6-27B-UD-Q6_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595763424,
+        "ramRequirementBytes": 38000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/main/Qwen3.6-27B-Q8_0.gguf",
+        "sha256": "f93f517f38e696d35a1a7df2c0e3155a64f4c4dcd662107a146ae263f7fb14ce"
+      }
+    ]
+  },
+  {
+    "id": "ornstein3.6-35b-a3b",
+    "name": "Ornstein3.6 35B-A3B",
+    "category": "language",
+    "provider": "DJLougen",
+    "summary": "Community-tuned Qwen 3.6 MoE fine-tune with 35B total / 3B active params. Optimized for creative writing and open-ended conversation. Desktop only.",
+    "sizeBytes": 21200000000,
+    "ramRequirementBytes": 40000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/DJLougen/Ornstein3.6-35B-A3B-GGUF/resolve/7365a6d9104a1a9a68761279b2513122db6f6dc1/Ornstein3.6-35B-A3B-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 24000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 16800000000,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 19000000000,
+        "downloadUrl": "https://huggingface.co/DJLougen/Ornstein3.6-35B-A3B-GGUF/resolve/main/Ornstein3.6-35B-A3B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 24700000000,
+        "ramRequirementBytes": 44500000000,
+        "vramRequirementBytes": 28000000000,
+        "downloadUrl": "https://huggingface.co/DJLougen/Ornstein3.6-35B-A3B-GGUF/resolve/main/Ornstein3.6-35B-A3B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 28500000000,
+        "ramRequirementBytes": 51000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/DJLougen/Ornstein3.6-35B-A3B-GGUF/resolve/main/Ornstein3.6-35B-A3B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 36900000000,
+        "ramRequirementBytes": 66500000000,
+        "vramRequirementBytes": 41500000000,
+        "downloadUrl": "https://huggingface.co/DJLougen/Ornstein3.6-35B-A3B-GGUF/resolve/main/Ornstein3.6-35B-A3B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3-coder-next-80b-a3b",
+    "name": "Qwen3 Coder Next 80B-A3B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "MoE coding-specialist model with only 3B active parameters but 80B total. Excels at long-horizon reasoning, tool use, and agentic coding tasks. Desktop-only due to large memory footprint.",
+    "sizeBytes": 53257576448,
+    "ramRequirementBytes": 55000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-Next-GGUF/resolve/e32511b695f50bdf866f01273ca8f86cd02e96ef/Qwen3-Coder-Next-UD-Q4_K_XL.gguf",
+    "sha256": "4bb93f0a0221ef4ff963ca9094df629c8dfdfabc3b4fdd85c1a2e4c0624fce36",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 59500000000,
+    "defaultQuantLevel": "Q4_K_M"
+  },
+  {
+    "id": "qwen3.5-122b-a10b",
+    "name": "Qwen3.5 122B-A10B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Ultra-large desktop MoE model for workstation-class hardware with very high memory capacity.",
+    "sizeBytes": 77029996032,
+    "ramRequirementBytes": 96000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00001-of-00003.gguf",
+        "sha256": "467c9bd92ea518539cf75bf5a5fbfbd35e9a0b40d766ccaa67bf120e12041df3",
+        "sizeBytes": 10943552
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00002-of-00003.gguf",
+        "sha256": "ecdbd42d43b0df9fa0ef9a584e09e95a43966ef03a122aba0b87a99d44d9ad98",
+        "sizeBytes": 49640779424
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/5e8144e5331a1ff95c5510d4228e217654d829e0/UD-Q4_K_XL/Qwen3.5-122B-A10B-UD-Q4_K_XL-00003-of-00003.gguf",
+        "sha256": "13300e0f059e6fa21aa0fabde2a554f9deea366c0e54f268045769b214b28c97",
+        "sizeBytes": 27378273056
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 86500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q3_K_XL",
+        "sizeBytes": 56990010900,
+        "ramRequirementBytes": 71000000000,
+        "vramRequirementBytes": 64000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-122B-A10B-UD-Q3_K_XL-00001-of-00003.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-122B-A10B-UD-Q3_K_XL-00001-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 10900
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-122B-A10B-UD-Q3_K_XL-00002-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 49800000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-122B-A10B-UD-Q3_K_XL-00003-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 7190000000
+          }
+        ]
+      },
+      {
+        "quantLevel": "UD-Q8_K_XL",
+        "sizeBytes": 170900010900,
+        "ramRequirementBytes": 214000000000,
+        "vramRequirementBytes": 191000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00001-of-00005.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00001-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 10900
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00002-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 49700000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00003-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 49200000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00004-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 50000000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-122B-A10B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-122B-A10B-UD-Q8_K_XL-00005-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 22000000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nemotron-3-super-120b-a12b",
+    "name": "NVIDIA Nemotron 3 Super 120B-A12B",
+    "category": "language",
+    "provider": "NVIDIA / Unsloth",
+    "summary": "High-end Nemotron MoE option for workstation-class Macs and PCs. Expect long downloads, long load times, and a very large memory footprint.",
+    "sizeBytes": 82541168480,
+    "ramRequirementBytes": 104000000000,
+    "license": "NVIDIA Open Model License",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00001-of-00003.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00001-of-00003.gguf",
+        "sha256": "f22083eb6b15acb52905308ab083e8b0cc38897005cc45e8881abd164580aac2",
+        "sizeBytes": 7872576
+      },
+      {
+        "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00002-of-00003.gguf",
+        "sha256": "6d65adda88759f1bcea714e4da09dab8ecc42265a57b87f9bf7fe3cb7f53b889",
+        "sizeBytes": 49932117344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/5a943c148056d38c183bf91dc7774c652f2eba21/UD-Q4_K_M/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q4_K_M-00003-of-00003.gguf",
+        "sha256": "2b126c51396dd31fbb1273fb2b28d0c8502bab5e357a852f67af7a4b6f5ba79c",
+        "sizeBytes": 32601178560
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 92500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-IQ4_XS",
+        "sizeBytes": 64500007870,
+        "ramRequirementBytes": 81000000000,
+        "vramRequirementBytes": 72000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-IQ4_XS/NVIDIA-Nemotron-3-Super-120B-A12B-UD-IQ4_XS-00001-of-00003.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-IQ4_XS/NVIDIA-Nemotron-3-Super-120B-A12B-UD-IQ4_XS-00001-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 7870
+          },
+          {
+            "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-IQ4_XS/NVIDIA-Nemotron-3-Super-120B-A12B-UD-IQ4_XS-00002-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 49600000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-IQ4_XS/NVIDIA-Nemotron-3-Super-120B-A12B-UD-IQ4_XS-00003-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 14900000000
+          }
+        ]
+      },
+      {
+        "quantLevel": "UD-Q8_K_XL",
+        "sizeBytes": 132500007870,
+        "ramRequirementBytes": 167000000000,
+        "vramRequirementBytes": 148000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-Q8_K_XL/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q8_K_XL-00001-of-00004.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-Q8_K_XL/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q8_K_XL-00001-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 7870
+          },
+          {
+            "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-Q8_K_XL/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q8_K_XL-00002-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 48500000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-Q8_K_XL/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q8_K_XL-00003-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 49300000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/NVIDIA-Nemotron-3-Super-120B-A12B-GGUF/resolve/main/UD-Q8_K_XL/NVIDIA-Nemotron-3-Super-120B-A12B-UD-Q8_K_XL-00004-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 34700000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "minimax-m2.7",
+    "name": "MiniMax M2.7",
+    "category": "language",
+    "provider": "MiniMax / Unsloth",
+    "summary": "229B dense model from MiniMax. Massive memory footprint but competitive with frontier models. Requires workstation-class hardware with 140+ GB available.",
+    "sizeBytes": 140100000000,
+    "ramRequirementBytes": 160000000000,
+    "license": "Modified MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/d2a05ccf69491b03db0cc40b335aec14bdaf7198/UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00001-of-00004.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/d2a05ccf69491b03db0cc40b335aec14bdaf7198/UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00001-of-00004.gguf",
+        "sha256": "",
+        "sizeBytes": 8650752
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/d2a05ccf69491b03db0cc40b335aec14bdaf7198/UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00002-of-00004.gguf",
+        "sha256": "",
+        "sizeBytes": 49700000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/d2a05ccf69491b03db0cc40b335aec14bdaf7198/UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00003-of-00004.gguf",
+        "sha256": "",
+        "sizeBytes": 50000000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/d2a05ccf69491b03db0cc40b335aec14bdaf7198/UD-Q4_K_M/MiniMax-M2.7-UD-Q4_K_M-00004-of-00004.gguf",
+        "sha256": "",
+        "sizeBytes": 40400000000
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 157000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-IQ1_M",
+        "sizeBytes": 60700008240,
+        "ramRequirementBytes": 69000000000,
+        "vramRequirementBytes": 68000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-IQ1_M/MiniMax-M2.7-UD-IQ1_M-00001-of-00003.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-IQ1_M/MiniMax-M2.7-UD-IQ1_M-00001-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 8240
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-IQ1_M/MiniMax-M2.7-UD-IQ1_M-00002-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 49700000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-IQ1_M/MiniMax-M2.7-UD-IQ1_M-00003-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 11000000000
+          }
+        ]
+      },
+      {
+        "quantLevel": "UD-Q8_K_XL",
+        "sizeBytes": 246500008240,
+        "ramRequirementBytes": 281000000000,
+        "vramRequirementBytes": 276000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00001-of-00006.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00001-of-00006.gguf",
+            "sha256": "",
+            "sizeBytes": 8240
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00002-of-00006.gguf",
+            "sha256": "",
+            "sizeBytes": 49400000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00003-of-00006.gguf",
+            "sha256": "",
+            "sizeBytes": 49400000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00004-of-00006.gguf",
+            "sha256": "",
+            "sizeBytes": 49400000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00005-of-00006.gguf",
+            "sha256": "",
+            "sizeBytes": 49400000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M2.7-GGUF/resolve/main/UD-Q8_K_XL/MiniMax-M2.7-UD-Q8_K_XL-00006-of-00006.gguf",
+            "sha256": "",
+            "sizeBytes": 48900000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-reap-262b-a17b",
+    "name": "Qwen3.5 REAP 262B-A17B",
+    "category": "language",
+    "provider": "OpenMOSE",
+    "summary": "Pruned Qwen3.5-397B variant using REAP (Router-weighted Expert Activation Pruning) to cut 35% of MoE experts. Near-397B quality in a smaller footprint, fits on a single 96 GB GPU with CPU offload.",
+    "sizeBytes": 158591383200,
+    "ramRequirementBytes": 128000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00001-of-00005.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00001-of-00005.gguf",
+        "sha256": "1af8b89baefb90dc78f7d7dca1fddd31130e8fd277de99e54a038be75607bae9",
+        "sizeBytes": 31993719264
+      },
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00002-of-00005.gguf",
+        "sha256": "c94484a33b243254cac6fb19736f5cfc4fe0970f6a2ec29cf6e9cd4aa21dd297",
+        "sizeBytes": 31506576320
+      },
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00003-of-00005.gguf",
+        "sha256": "4e0bd755d8ae147aaecce3588c46c065a4d0eeeeae3c36972c4069053e153d8a",
+        "sizeBytes": 31553532992
+      },
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00004-of-00005.gguf",
+        "sha256": "ca6473ed542b98c846f65c69013febee203cf3a1e088f095006e5574ed858881",
+        "sizeBytes": 31861191488
+      },
+      {
+        "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Q4_K_M/Qwen3.5-REAP-262B-A17B-Q4_K_M-00005-of-00005.gguf",
+        "sha256": "81c2b176fde11fef04625285a09537f3a85edf727ca1d97652963a238f332005",
+        "sizeBytes": 31676363136
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/a40c3c90e14b7cd241ec2fe36aa98540afd33a27/Qwen3.5-REAP-262B-A17B-GGUF-mmproj.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 177500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "IQ3_M",
+        "sizeBytes": 114600000000,
+        "ramRequirementBytes": 93000000000,
+        "vramRequirementBytes": 128000000000,
+        "downloadUrl": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ3_M/Qwen3.5-REAP-262B-A17B-IQ3_M-00001-of-00004.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ3_M/Qwen3.5-REAP-262B-A17B-IQ3_M-00001-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 31900000000
+          },
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ3_M/Qwen3.5-REAP-262B-A17B-IQ3_M-00002-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 31700000000
+          },
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ3_M/Qwen3.5-REAP-262B-A17B-IQ3_M-00003-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 31700000000
+          },
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ3_M/Qwen3.5-REAP-262B-A17B-IQ3_M-00004-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 19300000000
+          }
+        ]
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 139300000000,
+        "ramRequirementBytes": 113000000000,
+        "vramRequirementBytes": 156000000000,
+        "downloadUrl": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ4_XS/Qwen3.5-REAP-262B-A17B-IQ4_XS-00001-of-00005.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ4_XS/Qwen3.5-REAP-262B-A17B-IQ4_XS-00001-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 31300000000
+          },
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ4_XS/Qwen3.5-REAP-262B-A17B-IQ4_XS-00002-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 31400000000
+          },
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ4_XS/Qwen3.5-REAP-262B-A17B-IQ4_XS-00003-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 31400000000
+          },
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ4_XS/Qwen3.5-REAP-262B-A17B-IQ4_XS-00004-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 31500000000
+          },
+          {
+            "url": "https://huggingface.co/OpenMOSE/Qwen3.5-REAP-262B-A17B-GGUF/resolve/main/IQ4_XS/Qwen3.5-REAP-262B-A17B-IQ4_XS-00005-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 13700000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-397b-a17b",
+    "name": "Qwen3.5 397B-A17B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Maximum-scale Qwen3.5 desktop option for enterprise-grade hardware and very large memory headroom.",
+    "sizeBytes": 245272148448,
+    "ramRequirementBytes": 200000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00001-of-00006.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00001-of-00006.gguf",
+        "sha256": "63c290c9be83e1b4dd41833d81bd933afd535d65657579b9f92f5c3f76e0218d",
+        "sizeBytes": 10943552
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00002-of-00006.gguf",
+        "sha256": "bb5c4cf617ece5726008fcd07f4b12e5e44297d7279f031d31bb8e1f8c9f8e87",
+        "sizeBytes": 49382486496
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00003-of-00006.gguf",
+        "sha256": "2952dadb60137f413d5f70f6ca3c06007e24198e712c882a094432f58f76c230",
+        "sizeBytes": 49735103552
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00004-of-00006.gguf",
+        "sha256": "5146f7db59fc6ba3eedf55e1f30259d4ed38b4caffdb1b694fe4de1ef272505f",
+        "sizeBytes": 49365709504
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00005-of-00006.gguf",
+        "sha256": "1401908545cd15bc68aae2bce8757b944bebdb14b13e5e3a721f09ba7f428205",
+        "sizeBytes": 49914377024
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/0b7386368898883d58d445525ba8fa45e3f7289f/UD-Q4_K_XL/Qwen3.5-397B-A17B-UD-Q4_K_XL-00006-of-00006.gguf",
+        "sha256": "dde51f1fa49600ad9168a99fa6d72fcc3537a60df09972af07ffae94b0328edf",
+        "sizeBytes": 46863528320
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 274500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q3_K_XL",
+        "sizeBytes": 178700010900,
+        "ramRequirementBytes": 147000000000,
+        "vramRequirementBytes": 200000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-397B-A17B-UD-Q3_K_XL-00001-of-00005.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-397B-A17B-UD-Q3_K_XL-00001-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 10900
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-397B-A17B-UD-Q3_K_XL-00002-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 48900000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-397B-A17B-UD-Q3_K_XL-00003-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 49900000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-397B-A17B-UD-Q3_K_XL-00004-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 49800000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q3_K_XL/Qwen3.5-397B-A17B-UD-Q3_K_XL-00005-of-00005.gguf",
+            "sha256": "",
+            "sizeBytes": 30100000000
+          }
+        ]
+      },
+      {
+        "quantLevel": "UD-Q8_K_XL",
+        "sizeBytes": 427700010900,
+        "ramRequirementBytes": 351000000000,
+        "vramRequirementBytes": 479000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00001-of-00010.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00001-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 10900
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00002-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 48800000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00003-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 48900000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00004-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 48900000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00005-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 48800000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00006-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 48200000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00007-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 48900000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00008-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 49000000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00009-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 48900000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.5-397B-A17B-GGUF/resolve/main/UD-Q8_K_XL/Qwen3.5-397B-A17B-UD-Q8_K_XL-00010-of-00010.gguf",
+            "sha256": "",
+            "sizeBytes": 37300000000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "qwen3.5-9b-glm5.1-distilled",
+    "name": "Qwen3.5 9B GLM5.1 Distilled",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Distilled Qwen3.5 9B variant trained on GLM-5.1 reasoning traces. Aims for stronger structured reasoning and step-by-step problem solving than the base 9B. Heavy for phones and better suited to newer devices.",
+    "sizeBytes": 6045043425,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF/resolve/main/Qwen3.5-9B-GLM5.1-Distill-v1-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF/resolve/main/mmproj.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 4112515072,
+        "ramRequirementBytes": 8500000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF/resolve/main/Qwen3.5-9B-GLM5.1-Distill-v1-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 4960666550,
+        "ramRequirementBytes": 9500000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF/resolve/main/Qwen3.5-9B-GLM5.1-Distill-v1-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 6947028664,
+        "ramRequirementBytes": 12500000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF/resolve/main/Qwen3.5-9B-GLM5.1-Distill-v1-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7902482432,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF/resolve/main/Qwen3.5-9B-GLM5.1-Distill-v1-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 10232756142,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF/resolve/main/Qwen3.5-9B-GLM5.1-Distill-v1-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.6-35b-a3b-tuned-hauhaucs-aggressive",
+    "name": "Qwen3.6 35B-A3B Tuned",
+    "category": "language",
+    "provider": "HauhauCS",
+    "summary": "Qwen3.6 35B-A3B variant tuned to feel friendlier, more direct, and less inquisitive in everyday chats. Same 262K context as the base. Desktop-class memory footprint.",
+    "sizeBytes": 22763327488,
+    "ramRequirementBytes": 39500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 25500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "IQ3_M",
+        "sizeBytes": 16536476876,
+        "ramRequirementBytes": 29000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ3_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 20080971776,
+        "ramRequirementBytes": 35000000000,
+        "vramRequirementBytes": 22000000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_P",
+        "sizeBytes": 30064771072,
+        "ramRequirementBytes": 50000000000,
+        "vramRequirementBytes": 32500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q5_K_P.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K_P",
+        "sizeBytes": 32856793088,
+        "ramRequirementBytes": 54500000000,
+        "vramRequirementBytes": 35500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q6_K_P.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_K_P",
+        "sizeBytes": 46811969454,
+        "ramRequirementBytes": 77500000000,
+        "vramRequirementBytes": 49500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.6-35b-a3b-opus-distilled",
+    "name": "Qwen3.6 35B-A3B Opus Distilled",
+    "category": "language",
+    "provider": "hesamation",
+    "summary": "Qwen3.6 35B-A3B fine-tuned on Claude Opus 4.6-style chain-of-thought reasoning traces. Sharper structured reasoning and longer-form answers than the base. Desktop-class memory footprint.",
+    "sizeBytes": 22763327488,
+    "ramRequirementBytes": 39500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "canReadFiles": true,
+    "contextLength": 32768,
+    "vramRequirementBytes": 25500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 26521302630,
+        "ramRequirementBytes": 45000000000,
+        "vramRequirementBytes": 29500000000,
+        "downloadUrl": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 30601641984,
+        "ramRequirementBytes": 51500000000,
+        "vramRequirementBytes": 33500000000,
+        "downloadUrl": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 39617709178,
+        "ramRequirementBytes": 66500000000,
+        "vramRequirementBytes": 41500000000,
+        "downloadUrl": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "kimi-k2.6-1t-a32b",
+    "name": "Kimi K2.6 1T-A32B",
+    "category": "language",
+    "provider": "Moonshot AI / Unsloth",
+    "summary": "Flagship Kimi K2.6 Mixture-of-Experts with 1T total and 32B active parameters. 384 experts, 256K native context, MoonViT vision encoder. Datacenter-class memory footprint — only for multi-GPU workstations or servers.",
+    "sizeBytes": 583790006910,
+    "ramRequirementBytes": 595000000000,
+    "license": "Modified MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00001-of-00014.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00001-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 6910
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00002-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48200000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00003-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00004-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00005-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00006-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00007-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00008-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00009-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00010-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00011-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00012-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00013-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 48400000000
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q4_K_XL/Kimi-K2.6-UD-Q4_K_XL-00014-of-00014.gguf",
+        "sha256": "",
+        "sizeBytes": 3190000000
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 654000000000,
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q8_K_XL",
+        "sizeBytes": 594910006910,
+        "ramRequirementBytes": 607000000000,
+        "vramRequirementBytes": 666000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00001-of-00014.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00001-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 6910
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00002-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 48400000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00003-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00004-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00005-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00006-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00007-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00008-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00009-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00010-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00011-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00012-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00013-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 49100000000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.6-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.6-UD-Q8_K_XL-00014-of-00014.gguf",
+            "sha256": "",
+            "sizeBytes": 6410000000
+          }
+        ]
+      }
+    ],
+    "defaultQuantLevel": "UD-Q4_K_XL"
+  }
+]

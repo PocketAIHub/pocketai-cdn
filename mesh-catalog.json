@@ -1,0 +1,145 @@
+[
+  {
+    "id": "triposr",
+    "name": "TripoSR",
+    "category": "mesh",
+    "provider": "Stability AI",
+    "summary": "Fast single-image to 3D mesh generation. Produces a textured .glb in seconds on most hardware (CUDA / DirectML / MPS / CPU).",
+    "sizeBytes": 1700000000,
+    "ramRequirementBytes": 6000000000,
+    "vramRequirementBytes": 4000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "light",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/stabilityai/TripoSR/resolve/main/model.ckpt",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "triposr",
+    "inputModalities": [
+      "image"
+    ],
+    "maxInputImages": 1,
+    "configUrl": "https://huggingface.co/stabilityai/TripoSR/resolve/main/config.yaml",
+    "configSha256": "",
+    "vocabUrl": "https://huggingface.co/stabilityai/TripoSR/resolve/main/mv_vocab.pth",
+    "vocabSha256": "",
+    "format": "ckpt"
+  },
+  {
+    "id": "unique3d",
+    "name": "Unique3D",
+    "category": "mesh",
+    "provider": "AiuniAI",
+    "summary": "Single-image to high-fidelity 3D mesh via SD 2.1 multi-view diffusion. Higher quality than TripoSR at the cost of longer runtime. Requires NVIDIA GPU.",
+    "sizeBytes": 5000000000,
+    "ramRequirementBytes": 12000000000,
+    "vramRequirementBytes": 10000000000,
+    "license": "MIT + CreativeML Open RAIL++-M (SD 2.1)",
+    "tier": "free",
+    "weight": "medium",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/spaces/Wuvin/Unique3D/resolve/main/ckpt",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows"
+    ],
+    "architecture": "unique3d",
+    "inputModalities": [
+      "image"
+    ],
+    "maxInputImages": 1,
+    "requiresGpuVendor": "nvidia",
+    "format": "snapshot"
+  },
+  {
+    "id": "trellis",
+    "name": "TRELLIS",
+    "category": "mesh",
+    "provider": "Microsoft",
+    "summary": "Text + multi-image to 3D mesh via Structured LATent representations. Flexicubes mesh output only (splat path excluded for licensing). Requires NVIDIA GPU.",
+    "sizeBytes": 3300000000,
+    "ramRequirementBytes": 12000000000,
+    "vramRequirementBytes": 10000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "medium",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/microsoft/TRELLIS-image-large/resolve/main/model.safetensors",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows"
+    ],
+    "architecture": "trellis",
+    "inputModalities": [
+      "text",
+      "image"
+    ],
+    "maxInputImages": 4,
+    "gated": false,
+    "requiresGpuVendor": "nvidia",
+    "format": "safetensors"
+  },
+  {
+    "id": "hunyuan3d-21",
+    "name": "Hunyuan3D 2.1",
+    "category": "mesh",
+    "provider": "Tencent",
+    "summary": "Highest-quality two-stage shape + PBR texture mesh generation. Tencent license: not licensed for use in the EU, UK, or South Korea; outputs may not be used to train other AI models. Requires HuggingFace access approval.",
+    "sizeBytes": 13000000000,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Tencent License (region-restricted)",
+    "tier": "free",
+    "weight": "large",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/tencent/Hunyuan3D-2.1/resolve/main/",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows"
+    ],
+    "architecture": "hunyuan3d",
+    "inputModalities": [
+      "text",
+      "image"
+    ],
+    "maxInputImages": 4,
+    "requiresGpuVendor": "nvidia",
+    "gated": true,
+    "geofencedCountries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "GB",
+      "KR"
+    ],
+    "format": "snapshot"
+  }
+]

@@ -1,0 +1,58 @@
+# Dependencies
+node_modules
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build outputs
+dist
+build
+.next
+out
+*.tsbuildinfo
+
+# Build outputs for web app
+apps/app/out
+
+# Rust build artifacts
+**/target/
+apps/desktop/src-tauri/target
+
+# Android build artifacts
+*.apk
+*.aab
+
+# Next.js
+.next_stale_*
+
+# Test & coverage
+coverage
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+
+# Model files (large binaries)
+*.gguf
+*.bin
+*.onnx
+*.mlmodel
+*.mlpackage
+
+# Misc
+*.tgz
