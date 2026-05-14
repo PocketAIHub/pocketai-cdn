@@ -104,7 +104,7 @@ There are two copies of the model catalogs that must stay in sync:
 | `pocketai-cdn/gated-catalog.json` | CDN - gated/uncensored models (non-app-store builds only) |
 | `pocketai-cdn/manifest.json` | CDN - combined manifest (all catalogs + version) |
 | `pocketai-cdn/catalog-versions.json` | CDN - version numbers for update checks |
-| `local-language-model/packages/core/src/catalog-manifest.json` | **Local bundled copy** - embedded in the app's core package. Structure: `{ "version": 1, "models": [...] }` wrapping the same data as `catalog.json` |
+| `pocketai-mono/packages/core/src/catalog-manifest.json` | **Local bundled copy** - embedded in the app's core package. Structure: `{ "version": 1, "models": [...] }` wrapping the same data as `catalog.json` |
 
 When adding or updating models, update `catalog.json` first, then sync `manifest.json` and the local `catalog-manifest.json` to match.
 
@@ -202,14 +202,14 @@ Filenames follow PEP 427 with the `+<variant>` local-version segment:
 ### How to add a new wheel
 
 Wheels are produced by the
-[`build-mesh-wheels.yml`](https://github.com/trev222/local-language-model/actions/workflows/build-mesh-wheels.yml)
-workflow in the `local-language-model` repo and committed here automatically.
+[`build-mesh-wheels.yml`](https://github.com/trev222/pocketai-mono/actions/workflows/build-mesh-wheels.yml)
+workflow in the `pocketai-mono` repo and committed here automatically.
 
 - **Manual run:** Actions → "Build mesh wheels" → Run workflow.
 - **Tag-triggered:** push a tag matching `mesh-wheels-v*`.
 
 The workflow's `publish` job clones this repo over SSH using the
-`POCKETAI_CDN_DEPLOY_KEY` secret (configured on the `local-language-model`
+`POCKETAI_CDN_DEPLOY_KEY` secret (configured on the `pocketai-mono`
 repo), copies wheels into `wheels/<variant>/<package>/`, regenerates the
 PEP 503 simple-index `index.html` pages, refreshes `SHA256SUMS`, and pushes
 one commit per new wheel file plus a final index-refresh commit.

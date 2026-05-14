@@ -5,12 +5,18 @@
     "type": "stt",
     "provider": "OpenAI",
     "summary": "Fastest STT, good for low-end devices. ~39 MB.",
+    "tier": "free",
     "sizeBytes": 39000000,
     "ramRequirementBytes": 200000000,
     "format": "gguf",
     "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-tiny.bin",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"]
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ]
   },
   {
     "id": "whisper-base",
@@ -18,12 +24,18 @@
     "type": "stt",
     "provider": "OpenAI",
     "summary": "Balanced STT for most phones. ~74 MB.",
+    "tier": "free",
     "sizeBytes": 74000000,
     "ramRequirementBytes": 300000000,
     "format": "gguf",
     "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"]
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ]
   },
   {
     "id": "whisper-small",
@@ -31,12 +43,18 @@
     "type": "stt",
     "provider": "OpenAI",
     "summary": "Best accuracy for desktop. ~244 MB.",
+    "tier": "free",
     "sizeBytes": 244000000,
     "ramRequirementBytes": 600000000,
     "format": "gguf",
     "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-small.bin",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"]
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ]
   },
   {
     "id": "whisper-medium",
@@ -44,12 +62,18 @@
     "type": "stt",
     "provider": "OpenAI",
     "summary": "High accuracy STT for desktop. ~465 MB.",
+    "tier": "free",
     "sizeBytes": 465000000,
     "ramRequirementBytes": 1000000000,
     "format": "gguf",
     "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-medium.bin",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"]
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ]
   },
   {
     "id": "whisper-large-v3-turbo",
@@ -57,12 +81,18 @@
     "type": "stt",
     "provider": "OpenAI",
     "summary": "Best accuracy STT. Near-human transcription. ~809 MB.",
+    "tier": "free",
     "sizeBytes": 809000000,
     "ramRequirementBytes": 2000000000,
     "format": "gguf",
     "downloadUrl": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-large-v3-turbo.bin",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"]
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ]
   },
   {
     "id": "silero-vad-v5",
@@ -70,12 +100,18 @@
     "type": "vad",
     "provider": "Silero",
     "summary": "Voice activity detection. ~2 MB, bundled with the app.",
+    "tier": "free",
     "sizeBytes": 2000000,
     "ramRequirementBytes": 5000000,
     "format": "onnx",
     "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/asr-models/silero_vad.onnx",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"],
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ],
     "bundled": true
   },
   {
@@ -84,12 +120,18 @@
     "type": "tts",
     "provider": "Kokoro",
     "summary": "High-quality natural-sounding English TTS. Multiple voices. ~82 MB.",
+    "tier": "free",
     "sizeBytes": 82000000,
     "ramRequirementBytes": 200000000,
     "format": "onnx",
     "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-en-v0_19.tar.bz2",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"]
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ]
   },
   {
     "id": "kokoro-multi-lang-v1_0",
@@ -97,12 +139,18 @@
     "type": "tts",
     "provider": "Kokoro",
     "summary": "Natural TTS supporting English, Chinese, and more. ~180 MB.",
+    "tier": "free",
     "sizeBytes": 180000000,
     "ramRequirementBytes": 400000000,
     "format": "onnx",
     "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/kokoro-multi-lang-v1_0.tar.bz2",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"]
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ]
   },
   {
     "id": "piper-en-amy",
@@ -110,11 +158,17 @@
     "type": "tts",
     "provider": "Piper",
     "summary": "Fast offline English TTS. Lightweight. ~20 MB.",
+    "tier": "free",
     "sizeBytes": 20000000,
     "ramRequirementBytes": 100000000,
     "format": "onnx",
     "downloadUrl": "https://github.com/k2-fsa/sherpa-onnx/releases/download/tts-models/vits-piper-en_US-amy-low.tar.bz2",
     "sha256": "",
-    "supportedPlatforms": ["ios", "android", "macos", "windows"]
+    "supportedPlatforms": [
+      "ios",
+      "android",
+      "macos",
+      "windows"
+    ]
   }
 ]
