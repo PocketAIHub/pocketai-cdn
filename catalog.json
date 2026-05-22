@@ -562,7 +562,7 @@
         "sizeBytes": 3108762624,
         "ramRequirementBytes": 8000000000,
         "vramRequirementBytes": 3500000000,
-        "downloadUrl": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF/resolve/main/Opus4.7-Distill-GODsGhost-Codex-4B-Q5_K_M.gguf",
+        "downloadUrl": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF/resolve/900b36db6008518f33c491879ff282ca46c3bbaa/Opus4.7-Distill-GODsGhost-Codex-4B-Q5_K_M.gguf",
         "sha256": "e41d239f9acc5032305998bed6a5422626d4468b95ce57de66eec46e0aa8a85c"
       },
       {
@@ -570,7 +570,7 @@
         "sizeBytes": 4482403232,
         "ramRequirementBytes": 11000000000,
         "vramRequirementBytes": 5000000000,
-        "downloadUrl": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF/resolve/main/Opus4.7-GODs.Ghost.Codex.Distill.4B-Q8_0.gguf",
+        "downloadUrl": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF/resolve/900b36db6008518f33c491879ff282ca46c3bbaa/Opus4.7-GODs.Ghost.Codex.Distill.4B-Q8_0.gguf",
         "sha256": "c3f25e6fc3b49cfc953d15323cc19b33cb0d265c7052563fbd6f13d31d21964e"
       }
     ]

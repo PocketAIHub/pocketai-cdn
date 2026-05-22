@@ -84,6 +84,33 @@
     "format": "safetensors"
   },
   {
+    "id": "trellis2-4b",
+    "name": "TRELLIS.2 4B",
+    "category": "mesh",
+    "provider": "Microsoft",
+    "summary": "Single-image to high-fidelity 3D mesh via O-Voxel. MIT licensed; PocketAI exports geometry GLB without the upstream NVIDIA PBR baking helpers. Requires a 24 GB class NVIDIA GPU.",
+    "sizeBytes": 16244741189,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/microsoft/TRELLIS.2-4B/resolve/main/",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows"
+    ],
+    "architecture": "trellis2",
+    "inputModalities": [
+      "image"
+    ],
+    "maxInputImages": 1,
+    "gated": false,
+    "requiresGpuVendor": "nvidia",
+    "format": "snapshot"
+  },
+  {
     "id": "hunyuan3d-21",
     "name": "Hunyuan3D 2.1",
     "category": "mesh",
