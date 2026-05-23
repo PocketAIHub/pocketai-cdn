@@ -3712,5 +3712,510 @@
         ]
       }
     ]
+  },
+  {
+    "id": "qwen3.5-9b-mtp",
+    "name": "Qwen3.5 9B MTP",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Qwen3.5 9B with Multi-Token Prediction (MTP) head bundled in the GGUF. Same dense base model and 32K context as Qwen3.5 9B; the extra MTP layer is used by llama.cpp builds with speculative decoding for faster generation, and is harmlessly ignored otherwise.",
+    "sizeBytes": 6300106752,
+    "ramRequirementBytes": 11500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/9716a636ee4bddc3fed678220b7a33dd2a4160ae/Qwen3.5-9B-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 7000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 5185687552,
+        "ramRequirementBytes": 9500000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/main/Qwen3.5-9B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q4_K_XL",
+        "sizeBytes": 6588088320,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/main/Qwen3.5-9B-UD-Q4_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 7220158464,
+        "ramRequirementBytes": 13000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/main/Qwen3.5-9B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 8244039680,
+        "ramRequirementBytes": 15000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/main/Qwen3.5-9B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 10513833984,
+        "ramRequirementBytes": 19000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/main/Qwen3.5-9B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwopus3.5-9b-coder",
+    "name": "Qwopus3.5 9B Coder",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Qwen3.5 9B distilled into a coding-focused variant in the Qwopus family. Vision-capable with 32K context. Strong fit for offline coding assistance on flagship phones and desktops.",
+    "sizeBytes": 5629104928,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF/resolve/3b8ca568236c67bd1396356473f8368092704ac5/Qwopus3.5-9B-coder-Exp-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF/resolve/main/mmproj.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 4623520544,
+        "ramRequirementBytes": 9000000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF/resolve/main/Qwopus3.5-9B-coder-Exp-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 5227893536,
+        "ramRequirementBytes": 10500000000,
+        "vramRequirementBytes": 6000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF/resolve/main/Qwopus3.5-9B-coder-Exp-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 6467965728,
+        "ramRequirementBytes": 12500000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF/resolve/main/Qwopus3.5-9B-coder-Exp-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7359255328,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF/resolve/main/Qwopus3.5-9B-coder-Exp-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527497504,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF/resolve/main/Qwopus3.5-9B-coder-Exp-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwopus3.5-9b-coder-mtp",
+    "name": "Qwopus3.5 9B Coder MTP",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Qwopus3.5 9B Coder with Multi-Token Prediction (MTP) head bundled in the GGUF for faster generation via speculative decoding in supported llama.cpp builds. Identical base behavior to Qwopus3.5 9B Coder otherwise.",
+    "sizeBytes": 6206341120,
+    "ramRequirementBytes": 11500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/e2fd321c5ad49d75c122ccf1091c872c2b6c5ce8/Qwopus3.5-9B-Coder-MTP-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-9B-Coder-MTP-mmproj.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 7000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 5090631680,
+        "ramRequirementBytes": 9500000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-9B-Coder-MTP-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 5754470400,
+        "ramRequirementBytes": 11000000000,
+        "vramRequirementBytes": 6500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-9B-Coder-MTP-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 7129055232,
+        "ramRequirementBytes": 13000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-9B-Coder-MTP-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 8115494912,
+        "ramRequirementBytes": 15000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-9B-Coder-MTP-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 10510729216,
+        "ramRequirementBytes": 19000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-9B-Coder-MTP-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.6-35b-a3b-mtp",
+    "name": "Qwen3.6 35B-A3B MTP",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Qwen3.6 35B-A3B MoE (35B total / 3B active) with Multi-Token Prediction (MTP) head bundled in the GGUF. Same vision-capable base model and 262K context as Qwen3.6 35B-A3B; the extra MTP layer enables speculative decoding in supported llama.cpp builds. Desktop only.",
+    "sizeBytes": 22853663008,
+    "ramRequirementBytes": 41000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/5bc3e238d916f48a861bac2f8a1990a0e9b7e98d/Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 25500000000,
+    "defaultQuantLevel": "UD-Q4_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-IQ2_M",
+        "sizeBytes": 11882969376,
+        "ramRequirementBytes": 21500000000,
+        "vramRequirementBytes": 13500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-IQ2_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q2_K_XL",
+        "sizeBytes": 12574128416,
+        "ramRequirementBytes": 22500000000,
+        "vramRequirementBytes": 14500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q3_K_XL",
+        "sizeBytes": 17227569440,
+        "ramRequirementBytes": 31000000000,
+        "vramRequirementBytes": 19500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q3_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q5_K_XL",
+        "sizeBytes": 27159116064,
+        "ramRequirementBytes": 48500000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q5_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q6_K_XL",
+        "sizeBytes": 32611711264,
+        "ramRequirementBytes": 58000000000,
+        "vramRequirementBytes": 36000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-UD-Q6_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 37801097504,
+        "ramRequirementBytes": 67000000000,
+        "vramRequirementBytes": 42000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.6-27b-mtp",
+    "name": "Qwen3.6 27B MTP",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Qwen3.6 27B dense model with Multi-Token Prediction (MTP) head bundled in the GGUF. Same vision-capable base, Gated DeltaNet + Gated Attention hybrid, and 262K context as Qwen3.6 27B; the extra MTP layer enables speculative decoding in supported llama.cpp builds. Desktop only — best on 24GB+ VRAM or high-memory Apple Silicon.",
+    "sizeBytes": 19208609792,
+    "ramRequirementBytes": 26000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/b3a58239d8d40b953e34936c9afeb28baa518230/Qwen3.6-27B-UD-Q4_K_XL.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 22000000000,
+    "defaultQuantLevel": "UD-Q4_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q2_K_XL",
+        "sizeBytes": 12884901888,
+        "ramRequirementBytes": 18000000000,
+        "vramRequirementBytes": 15000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/Qwen3.6-27B-UD-Q2_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q3_K_XL",
+        "sizeBytes": 15881781248,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/Qwen3.6-27B-UD-Q3_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q5_K_XL",
+        "sizeBytes": 21889744896,
+        "ramRequirementBytes": 29000000000,
+        "vramRequirementBytes": 24500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/Qwen3.6-27B-UD-Q5_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q6_K_XL",
+        "sizeBytes": 27917287424,
+        "ramRequirementBytes": 37000000000,
+        "vramRequirementBytes": 31000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/Qwen3.6-27B-UD-Q6_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 31129059328,
+        "ramRequirementBytes": 41500000000,
+        "vramRequirementBytes": 34500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/Qwen3.6-27B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwopus3.6-27b-v2",
+    "name": "Qwopus3.6 27B v2",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Second-generation reasoning fine-tune of Qwen3.6 27B with refined distillation data and Claude-style chain-of-thought. Dense vision-capable model with 262K native context. Desktop only.",
+    "sizeBytes": 16810713344,
+    "ramRequirementBytes": 23000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/575ca01e86914a5ebb2f8b18cd6b354b7faeb6ad/Qwopus3.6-27B-v2-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/main/mmproj.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 10864591104,
+        "ramRequirementBytes": 16000000000,
+        "vramRequirementBytes": 13000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/main/Qwopus3.6-27B-v2-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13500735744,
+        "ramRequirementBytes": 19000000000,
+        "vramRequirementBytes": 15500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/main/Qwopus3.6-27B-v2-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 15420449024,
+        "ramRequirementBytes": 21000000000,
+        "vramRequirementBytes": 17500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/main/Qwopus3.6-27B-v2-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19231098176,
+        "ramRequirementBytes": 26000000000,
+        "vramRequirementBytes": 22000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/main/Qwopus3.6-27B-v2-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22082528576,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 25000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/main/Qwopus3.6-27B-v2-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595762496,
+        "ramRequirementBytes": 38000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/main/Qwopus3.6-27B-v2-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "deepseek-v4-flash",
+    "name": "DeepSeek V4 Flash",
+    "category": "language",
+    "provider": "DeepSeek / antirez",
+    "summary": "DeepSeek V4 Flash (284B MoE) quantized by antirez using asymmetric quantization — routed experts at IQ2_XXS/Q4_K, attention and routing components preserved at Q8_0/F16. Tuned for the DS4 inference engine; may run in recent llama.cpp builds but not guaranteed. Workstation-class only: 128 GB RAM minimum for the IQ2_XXS variant.",
+    "sizeBytes": 86720111488,
+    "ramRequirementBytes": 140000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/antirez/deepseek-v4-gguf/resolve/8f9e66a7ae71e622a4dede2888d40885e0c10246/DeepSeek-V4-Flash-IQ2XXS-w2Q2K-AProjQ8-SExpQ8-OutQ8-chat-v2-imatrix.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 65536,
+    "vramRequirementBytes": 96000000000,
+    "defaultQuantLevel": "IQ2XXS-imatrix",
+    "quantVariants": [
+      {
+        "quantLevel": "IQ2XXS",
+        "sizeBytes": 86720111200,
+        "ramRequirementBytes": 140000000000,
+        "vramRequirementBytes": 96000000000,
+        "downloadUrl": "https://huggingface.co/antirez/deepseek-v4-gguf/resolve/main/DeepSeek-V4-Flash-IQ2XXS-w2Q2K-AProjQ8-SExpQ8-OutQ8-chat-v2.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Mixed-Q4K-Layers",
+        "sizeBytes": 97591747456,
+        "ramRequirementBytes": 156000000000,
+        "vramRequirementBytes": 108000000000,
+        "downloadUrl": "https://huggingface.co/antirez/deepseek-v4-gguf/resolve/main/DeepSeek-V4-Flash-Layers37-42Q4KExperts-OtherExpertLayersIQ2XXSGateUp-Q2KDown-AProjQ8-SExpQ8-OutQ8-chat-v2-imatrix-fixed.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q4K-imatrix",
+        "sizeBytes": 164633502592,
+        "ramRequirementBytes": 256000000000,
+        "vramRequirementBytes": 180000000000,
+        "downloadUrl": "https://huggingface.co/antirez/deepseek-v4-gguf/resolve/main/DeepSeek-V4-Flash-Q4KExperts-F16HC-F16Compressor-F16Indexer-Q8Attn-Q8Shared-Q8Out-chat-v2-imatrix.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q4K",
+        "sizeBytes": 164633502304,
+        "ramRequirementBytes": 256000000000,
+        "vramRequirementBytes": 180000000000,
+        "downloadUrl": "https://huggingface.co/antirez/deepseek-v4-gguf/resolve/main/DeepSeek-V4-Flash-Q4KExperts-F16HC-F16Compressor-F16Indexer-Q8Attn-Q8Shared-Q8Out-chat-v2.gguf",
+        "sha256": ""
+      }
+    ]
   }
 ]
