@@ -1,6 +1,6 @@
 [
   {
-    "id": "qwen3.5-0.8b-instruct",
+    "id": "qwen3.5-0.8b",
     "name": "Qwen 3.5 0.8B",
     "category": "language",
     "provider": "Alibaba / mlx-community",
@@ -19,7 +19,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "qwen3.5-2b-instruct",
+    "id": "qwen3.5-2b",
     "name": "Qwen 3.5 2B",
     "category": "language",
     "provider": "Alibaba / mlx-community",
@@ -38,7 +38,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "qwen3.5-4b-instruct",
+    "id": "qwen3.5-4b",
     "name": "Qwen 3.5 4B",
     "category": "language",
     "provider": "Alibaba / mlx-community",
@@ -57,7 +57,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "gemma-4-e2b-instruct",
+    "id": "gemma-4-e2b",
     "name": "Gemma 4 E2B",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -76,7 +76,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "gemma-4-e4b-instruct",
+    "id": "gemma-4-e4b",
     "name": "Gemma 4 E4B",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -95,7 +95,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "granite-4.1-3b-instruct",
+    "id": "granite-4.1-3b",
     "name": "Granite 4.1 3B",
     "category": "language",
     "provider": "IBM / mlx-community",
@@ -114,7 +114,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "qwen3.5-9b-instruct",
+    "id": "qwen3.5-9b",
     "name": "Qwen 3.5 9B",
     "category": "language",
     "provider": "Alibaba / mlx-community",
@@ -133,7 +133,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "granite-4.1-8b-instruct",
+    "id": "granite-4.1-8b",
     "name": "Granite 4.1 8B",
     "category": "language",
     "provider": "IBM / mlx-community",
@@ -152,7 +152,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "qwen3.6-27b-instruct",
+    "id": "qwen3.6-27b",
     "name": "Qwen 3.6 27B",
     "category": "language",
     "provider": "Alibaba / mlx-community",
@@ -171,7 +171,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "qwen3.6-35b-a3b-instruct",
+    "id": "qwen3.6-35b-a3b",
     "name": "Qwen 3.6 35B A3B (MoE)",
     "category": "language",
     "provider": "Alibaba / mlx-community",
@@ -190,7 +190,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "gemma-4-26b-a4b-instruct",
+    "id": "gemma-4-26b-a4b",
     "name": "Gemma 4 26B A4B (MoE)",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -209,7 +209,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "gemma-4-31b-instruct",
+    "id": "gemma-4-31b",
     "name": "Gemma 4 31B",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -228,7 +228,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "granite-4.1-30b-instruct",
+    "id": "granite-4.1-30b",
     "name": "Granite 4.1 30B",
     "category": "language",
     "provider": "IBM / mlx-community",
@@ -247,7 +247,7 @@
     "defaultQuantLevel": "4bit"
   },
   {
-    "id": "qwen3.5-122b-a10b-instruct",
+    "id": "qwen3.5-122b-a10b",
     "name": "Qwen 3.5 122B A10B (MoE)",
     "category": "language",
     "provider": "Alibaba / mlx-community",

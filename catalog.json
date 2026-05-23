@@ -4217,5 +4217,241 @@
         "sha256": ""
       }
     ]
+  },
+  {
+    "id": "nouscoder-14b",
+    "name": "NousCoder 14B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "14B dense code-generation model from Nous Research, fine-tuned for software engineering, agent workflows, and tool use. Mid-size sibling between phone-friendly 9B coders and the desktop-only 30B+ MoE coders.",
+    "sizeBytes": 9001754752,
+    "ramRequirementBytes": 17000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/bartowski/NousResearch_NousCoder-14B-GGUF/resolve/d65069f866af4df2b81ad979c846b409c72ebb2a/NousResearch_NousCoder-14B-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 32768,
+    "vramRequirementBytes": 10500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 7321314432,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_NousCoder-14B-GGUF/resolve/main/NousResearch_NousCoder-14B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 8110731392,
+        "ramRequirementBytes": 15500000000,
+        "vramRequirementBytes": 9500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_NousCoder-14B-GGUF/resolve/main/NousResearch_NousCoder-14B-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q4_K_L",
+        "sizeBytes": 9579111552,
+        "ramRequirementBytes": 18000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_NousCoder-14B-GGUF/resolve/main/NousResearch_NousCoder-14B-Q4_K_L.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 10514571392,
+        "ramRequirementBytes": 19500000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_NousCoder-14B-GGUF/resolve/main/NousResearch_NousCoder-14B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 12121939072,
+        "ramRequirementBytes": 22500000000,
+        "vramRequirementBytes": 13500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_NousCoder-14B-GGUF/resolve/main/NousResearch_NousCoder-14B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 15698535552,
+        "ramRequirementBytes": 28500000000,
+        "vramRequirementBytes": 17500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_NousCoder-14B-GGUF/resolve/main/NousResearch_NousCoder-14B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "hermes-4-14b",
+    "name": "Hermes 4 14B",
+    "category": "language",
+    "provider": "Nous Research",
+    "summary": "Hermes 4 instruction model at 14B scale — balanced reasoning, tool calling, and direct instruction-following. Mid-size sibling between Hermes 3 8B and Hermes 4.3 36B, well-suited to 12GB+ VRAM GPUs and flagship Apple Silicon.",
+    "sizeBytes": 9001753536,
+    "ramRequirementBytes": 17000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/bartowski/NousResearch_Hermes-4-14B-GGUF/resolve/0693c8f45031215d6734406947e6b43d1b3ee0de/NousResearch_Hermes-4-14B-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 32768,
+    "vramRequirementBytes": 10500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 7321313216,
+        "ramRequirementBytes": 14000000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_Hermes-4-14B-GGUF/resolve/main/NousResearch_Hermes-4-14B-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 8110730176,
+        "ramRequirementBytes": 15500000000,
+        "vramRequirementBytes": 9500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_Hermes-4-14B-GGUF/resolve/main/NousResearch_Hermes-4-14B-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q4_K_L",
+        "sizeBytes": 9579110336,
+        "ramRequirementBytes": 18000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_Hermes-4-14B-GGUF/resolve/main/NousResearch_Hermes-4-14B-Q4_K_L.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 10514570176,
+        "ramRequirementBytes": 19500000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_Hermes-4-14B-GGUF/resolve/main/NousResearch_Hermes-4-14B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 12121937856,
+        "ramRequirementBytes": 22500000000,
+        "vramRequirementBytes": 13500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_Hermes-4-14B-GGUF/resolve/main/NousResearch_Hermes-4-14B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 15698534336,
+        "ramRequirementBytes": 28500000000,
+        "vramRequirementBytes": 17500000000,
+        "downloadUrl": "https://huggingface.co/bartowski/NousResearch_Hermes-4-14B-GGUF/resolve/main/NousResearch_Hermes-4-14B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3-coder-30b-a3b-instruct",
+    "name": "Qwen3 Coder 30B-A3B Instruct",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "Qwen3 Coder MoE: 30B total / 3B active parameters, optimized for code generation, repo-scale agent workflows, and tool use across many programming languages. 256K native context, MoE shape fits the 3090's 24GB VRAM comfortably. Desktop only.",
+    "sizeBytes": 17665334432,
+    "ramRequirementBytes": 26000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/b17cb02dd882d5b6ab62fc777ad2995f19668350/Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 21000000000,
+    "defaultQuantLevel": "UD-Q4_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-IQ2_M",
+        "sizeBytes": 10837007520,
+        "ramRequirementBytes": 18000000000,
+        "vramRequirementBytes": 13000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/main/Qwen3-Coder-30B-A3B-Instruct-UD-IQ2_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q2_K_XL",
+        "sizeBytes": 11788590240,
+        "ramRequirementBytes": 19500000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/main/Qwen3-Coder-30B-A3B-Instruct-UD-Q2_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q3_K_XL",
+        "sizeBytes": 13806312608,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 16500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/main/Qwen3-Coder-30B-A3B-Instruct-UD-Q3_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q5_K_XL",
+        "sizeBytes": 21740305568,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/main/Qwen3-Coder-30B-A3B-Instruct-UD-Q5_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "UD-Q6_K_XL",
+        "sizeBytes": 26340328608,
+        "ramRequirementBytes": 38500000000,
+        "vramRequirementBytes": 30500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/main/Qwen3-Coder-30B-A3B-Instruct-UD-Q6_K_XL.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 32483935392,
+        "ramRequirementBytes": 47500000000,
+        "vramRequirementBytes": 37500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/main/Qwen3-Coder-30B-A3B-Instruct-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   }
 ]
