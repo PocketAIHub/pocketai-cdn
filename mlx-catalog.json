@@ -13,7 +13,10 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Qwen3.5-0.8B-MLX-4bit",
-    "supportedPlatforms": ["ios", "macos"],
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
@@ -32,7 +35,10 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Qwen3.5-2B-MLX-4bit",
-    "supportedPlatforms": ["ios", "macos"],
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
@@ -51,7 +57,10 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Qwen3.5-4B-MLX-4bit",
-    "supportedPlatforms": ["ios", "macos"],
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
@@ -70,7 +79,10 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/gemma-4-e2b-it-4bit",
-    "supportedPlatforms": ["ios", "macos"],
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 131072,
     "defaultQuantLevel": "4bit"
@@ -89,7 +101,10 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/gemma-4-e4b-it-4bit",
-    "supportedPlatforms": ["ios", "macos"],
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 131072,
     "defaultQuantLevel": "4bit"
@@ -108,7 +123,10 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/granite-4.1-3b-4bit",
-    "supportedPlatforms": ["ios", "macos"],
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 131072,
     "defaultQuantLevel": "4bit"
@@ -127,7 +145,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Qwen3.5-9B-MLX-4bit",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
@@ -146,7 +166,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/granite-4.1-8b-4bit",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 131072,
     "defaultQuantLevel": "4bit"
@@ -165,7 +187,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Qwen3.6-27B-4bit",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
@@ -184,7 +208,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Qwen3.6-35B-A3B-4bit",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
@@ -203,7 +229,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/gemma-4-26b-a4b-it-4bit",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 131072,
     "defaultQuantLevel": "4bit"
@@ -222,7 +250,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/gemma-4-31b-it-4bit",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
@@ -241,7 +271,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/granite-4.1-30b-4bit",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 131072,
     "defaultQuantLevel": "4bit"
@@ -260,7 +292,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Qwen3.5-122B-A10B-mxfp4",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "mxfp4"
@@ -279,7 +313,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/DeepSeek-V4-Flash-4bit",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 1048576,
     "defaultQuantLevel": "4bit"
@@ -298,7 +334,9 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Kimi-K2.6-mlx-DQ3_K_M-q8",
-    "supportedPlatforms": ["macos"],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "dq3"
@@ -317,8 +355,12 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "Jiunsong/supergemma4-26b-uncensored-mlx-4bit-v2",
-    "supportedPlatforms": ["macos"],
-    "capabilities": ["uncensored"],
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "uncensored"
+    ],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
   },
@@ -336,8 +378,13 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated-mlx-8bit",
-    "supportedPlatforms": ["macos"],
-    "capabilities": ["uncensored", "abliterated"],
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "uncensored",
+      "abliterated"
+    ],
     "contextLength": 262144,
     "defaultQuantLevel": "8bit"
   },
@@ -355,9 +402,77 @@
     "format": "mlx",
     "source": "hugging-face",
     "hfModelId": "mlx-community/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-8bit",
-    "supportedPlatforms": ["macos"],
-    "capabilities": ["uncensored", "thinking"],
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "uncensored",
+      "thinking"
+    ],
     "contextLength": 262144,
     "defaultQuantLevel": "8bit"
+  },
+  {
+    "id": "lfm2.5-8b-a1b",
+    "name": "LFM2.5 8B-A1B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Liquid AI MoE chat model with about 1B active parameters per token and 128K context. 8-bit MLX build for Apple Silicon.",
+    "sizeBytes": 9019550996,
+    "ramRequirementBytes": 14000000000,
+    "license": "LFM 1.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "LiquidAI/LFM2.5-8B-A1B-MLX-8bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 128000,
+    "defaultQuantLevel": "8bit"
+  },
+  {
+    "id": "gemma-4-12b-it",
+    "name": "Gemma 4 12B IT",
+    "category": "language",
+    "provider": "Google / mlx-community",
+    "summary": "Dense Gemma 4 instruct model. 8-bit MLX build for Apple Silicon Macs; strong mid-large chat model with 128K context.",
+    "sizeBytes": 12748551527,
+    "ramRequirementBytes": 18000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12B-it-8bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 131072,
+    "defaultQuantLevel": "8bit"
+  },
+  {
+    "id": "qwen3.6-35b-a3b-mxfp4-crack-mtp",
+    "name": "Qwen 3.6 35B A3B MXFP4 CRACK MTP",
+    "category": "language",
+    "provider": "dealignai",
+    "summary": "Community MXFP4 Qwen3.6 35B-A3B MTP variant for Apple Silicon. MoE model with 262K context; aimed at high-memory Macs.",
+    "sizeBytes": 19808617383,
+    "ramRequirementBytes": 28000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "dealignai/Qwen3.6-35B-A3B-MXFP4-CRACK-MTP",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 262144,
+    "defaultQuantLevel": "mxfp4"
   }
 ]

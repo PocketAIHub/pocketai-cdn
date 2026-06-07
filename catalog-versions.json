@@ -1,8 +1,9 @@
 {
-  "language": 12,
+  "language": 13,
   "image": 5,
-  "video": 1,
+  "video": 2,
   "voice": 1,
-  "gated": 5,
-  "mesh": 4
+  "gated": 7,
+  "mesh": 4,
+  "mlx": 1
 }

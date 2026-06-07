@@ -21,7 +21,7 @@
     "architecture": "wan2.1",
     "mode": "t2v",
     "defaultSteps": 30,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 480,
@@ -97,7 +97,7 @@
     "architecture": "wan2.1",
     "mode": "t2v",
     "defaultSteps": 30,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 480,
@@ -165,7 +165,7 @@
     "architecture": "wan2.2",
     "mode": "t2v",
     "defaultSteps": 30,
-    "defaultCfgScale": 6.0,
+    "defaultCfgScale": 6,
     "supportedResolutions": [
       {
         "width": 480,
@@ -224,7 +224,7 @@
     "name": "Wan 2.1 T2V 14B",
     "category": "video",
     "provider": "Alibaba",
-    "summary": "High-quality text-to-video generation. Produces detailed, coherent 2-4 second clips with strong prompt adherence. Desktop only \u2014 needs significant memory.",
+    "summary": "High-quality text-to-video generation. Produces detailed, coherent 2-4 second clips with strong prompt adherence. Desktop only — needs significant memory.",
     "sizeBytes": 8500000000,
     "ramRequirementBytes": 14000000000,
     "vramRequirementBytes": 12000000000,
@@ -241,7 +241,7 @@
     "architecture": "wan2.1",
     "mode": "t2v",
     "defaultSteps": 30,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 480,
@@ -325,7 +325,7 @@
     "architecture": "wan2.1",
     "mode": "t2v",
     "defaultSteps": 30,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 480,
@@ -392,7 +392,7 @@
     "name": "Wan 2.1 I2V 14B 480P",
     "category": "video",
     "provider": "Alibaba",
-    "summary": "Image-to-video model \u2014 animates a still image into a short video clip at 480p. Requires a CLIP vision encoder for image understanding.",
+    "summary": "Image-to-video model — animates a still image into a short video clip at 480p. Requires a CLIP vision encoder for image understanding.",
     "sizeBytes": 10200000000,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 14000000000,
@@ -409,7 +409,7 @@
     "architecture": "wan2.1",
     "mode": "i2v",
     "defaultSteps": 30,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 480,
@@ -469,7 +469,7 @@
     "name": "Wan 2.1 I2V 14B 720P",
     "category": "video",
     "provider": "Alibaba",
-    "summary": "Image-to-video at 720p \u2014 animates a still image into a higher-resolution video. Same architecture as 480P variant but supports larger output.",
+    "summary": "Image-to-video at 720p — animates a still image into a higher-resolution video. Same architecture as 480P variant but supports larger output.",
     "sizeBytes": 10200000000,
     "ramRequirementBytes": 18000000000,
     "vramRequirementBytes": 16000000000,
@@ -486,7 +486,7 @@
     "architecture": "wan2.1",
     "mode": "i2v",
     "defaultSteps": 30,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 720,
@@ -554,7 +554,7 @@
     "name": "Wan 2.1 FLF2V 14B 720P",
     "category": "video",
     "provider": "Alibaba",
-    "summary": "First-last-frame-to-video \u2014 provide a start and end image and the model generates the transition video between them. 720p output.",
+    "summary": "First-last-frame-to-video — provide a start and end image and the model generates the transition video between them. 720p output.",
     "sizeBytes": 10300000000,
     "ramRequirementBytes": 18000000000,
     "vramRequirementBytes": 16000000000,
@@ -571,7 +571,7 @@
     "architecture": "wan2.1",
     "mode": "flf2v",
     "defaultSteps": 30,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 720,
@@ -666,7 +666,7 @@
     "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-T2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-T2V-A14B-HighNoise-Q4_0.gguf",
     "defaultHighNoiseSteps": 8,
     "defaultHighNoiseCfgScale": 3.5,
-    "defaultMoeBoundary": 0.0,
+    "defaultMoeBoundary": 0,
     "weight": "massive",
     "defaultQuantLevel": "Q4_0"
   },
@@ -729,8 +729,86 @@
     "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_0.gguf",
     "defaultHighNoiseSteps": 8,
     "defaultHighNoiseCfgScale": 3.5,
-    "defaultMoeBoundary": 0.0,
+    "defaultMoeBoundary": 0,
     "weight": "massive",
     "defaultQuantLevel": "Q4_0"
+  },
+  {
+    "id": "ltx-2.3-22b-q4_k_m",
+    "name": "LTX-2.3 22B (Q4_K_M)",
+    "category": "video",
+    "provider": "Lightricks / Unsloth",
+    "summary": "High-quality 22B text-to-video model. Q4_K_M is the recommended quant for 24 GB RTX cards or high-memory Apple Silicon. ComfyUI-backed.",
+    "sizeBytes": 14326856736,
+    "ramRequirementBytes": 22000000000,
+    "vramRequirementBytes": 18000000000,
+    "license": "LTX-2 Community License",
+    "licenseId": "ltx-2-community",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "architecture": "ltxv-2.3",
+    "backend": "comfyui",
+    "mode": "t2v",
+    "defaultSteps": 20,
+    "defaultCfgScale": 3,
+    "supportedResolutions": [
+      {
+        "width": 768,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 576
+      }
+    ],
+    "defaultResolution": {
+      "width": 768,
+      "height": 512
+    },
+    "defaultFrames": 25,
+    "maxFrames": 121,
+    "defaultFps": 24,
+    "supportsNegativePrompt": true,
+    "textEncoderGgufUrl": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-UD-Q4_K_XL.gguf",
+    "textEncoderGgufSha256": "",
+    "vaeUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/vae/ltx-2.3-22b-dev_video_vae.safetensors",
+    "vaeSha256": "",
+    "embeddingsConnectorUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/text_encoders/ltx-2.3-22b-dev_embeddings_connectors.safetensors",
+    "embeddingsConnectorSha256": "",
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 10770199584,
+        "ramRequirementBytes": 18000000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 16071115808,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/ltx-2.3-22b-dev-Q5_K_M.gguf",
+        "sha256": ""
+      }
+    ]
   }
 ]

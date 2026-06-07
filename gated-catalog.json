@@ -16,18 +16,39 @@
       "source": "hugging-face",
       "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/resolve/main/FHDR_ComfyUI-Q4_K_M.gguf",
       "sha256": "",
-      "supportedPlatforms": ["macos", "windows"],
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
       "architecture": "flux",
       "defaultSteps": 50,
       "defaultCfgScale": 3.5,
       "supportedResolutions": [
-        { "width": 512, "height": 512 },
-        { "width": 768, "height": 768 },
-        { "width": 1024, "height": 1024 },
-        { "width": 768, "height": 1024 },
-        { "width": 1024, "height": 768 }
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
       ],
-      "defaultResolution": { "width": 1024, "height": 1024 },
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
       "supportsNegativePrompt": false,
       "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
       "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
@@ -47,6 +68,140 @@
       ]
     }
   ],
-  "video": [],
-  "language": []
+  "video": [
+    {
+      "id": "sulphur-2-q4_k_m",
+      "name": "Sulphur 2 (Q4_K_M)",
+      "category": "video",
+      "provider": "SulphurAI / vantagewithai",
+      "summary": "Uncensored fine-tune of LTX-2.3 22B. GGUF Q4_K_M quant for the PocketAI ComfyUI LTX path. NSFW-gated; pair with the Sulphur Prompt Enhancer for richer prompt-to-video results.",
+      "sizeBytes": 14296160576,
+      "ramRequirementBytes": 28000000000,
+      "vramRequirementBytes": 22000000000,
+      "license": "LTX-2 Community License",
+      "licenseId": "ltx-2-community",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/vantagewithai/Sulphur-2-Base-GGUF/resolve/main/sulphur_dev-Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "architecture": "ltxv-2.3",
+      "backend": "comfyui",
+      "nsfwGated": true,
+      "mode": "t2v",
+      "defaultSteps": 20,
+      "defaultCfgScale": 3,
+      "supportedResolutions": [
+        {
+          "width": 768,
+          "height": 512
+        },
+        {
+          "width": 512,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 576
+        }
+      ],
+      "defaultResolution": {
+        "width": 768,
+        "height": 512
+      },
+      "defaultFrames": 25,
+      "maxFrames": 121,
+      "defaultFps": 24,
+      "supportsNegativePrompt": true,
+      "textEncoderGgufUrl": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-UD-Q4_K_XL.gguf",
+      "textEncoderGgufSha256": "",
+      "vaeUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/vae/ltx-2.3-22b-dev_video_vae.safetensors",
+      "vaeSha256": "",
+      "embeddingsConnectorUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/text_encoders/ltx-2.3-22b-dev_embeddings_connectors.safetensors",
+      "embeddingsConnectorSha256": "",
+      "promptEnhancerModelId": "sulphur-prompt-enhancer-q8",
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q3_K_M",
+          "sizeBytes": 11130418496,
+          "ramRequirementBytes": 24000000000,
+          "vramRequirementBytes": 18000000000,
+          "downloadUrl": "https://huggingface.co/vantagewithai/Sulphur-2-Base-GGUF/resolve/main/sulphur_dev-Q3_K_M.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q4_K_S",
+          "sizeBytes": 13201119552,
+          "ramRequirementBytes": 26000000000,
+          "vramRequirementBytes": 20000000000,
+          "downloadUrl": "https://huggingface.co/vantagewithai/Sulphur-2-Base-GGUF/resolve/main/sulphur_dev-Q4_K_S.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q5_K_M",
+          "sizeBytes": 16141485376,
+          "ramRequirementBytes": 32000000000,
+          "vramRequirementBytes": 26000000000,
+          "downloadUrl": "https://huggingface.co/vantagewithai/Sulphur-2-Base-GGUF/resolve/main/sulphur_dev-Q5_K_M.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 17774930240,
+          "ramRequirementBytes": 36000000000,
+          "vramRequirementBytes": 30000000000,
+          "downloadUrl": "https://huggingface.co/vantagewithai/Sulphur-2-Base-GGUF/resolve/main/sulphur_dev-Q6_K.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 22755563840,
+          "ramRequirementBytes": 48000000000,
+          "vramRequirementBytes": 40000000000,
+          "downloadUrl": "https://huggingface.co/vantagewithai/Sulphur-2-Base-GGUF/resolve/main/sulphur_dev-Q8_0.gguf",
+          "sha256": ""
+        }
+      ]
+    }
+  ],
+  "language": [
+    {
+      "id": "sulphur-prompt-enhancer-q8",
+      "name": "Sulphur Prompt Enhancer (Q8_0)",
+      "category": "language",
+      "provider": "SulphurAI",
+      "summary": "Qwen3.5-based 9B model fine-tuned to expand sparse prompts into richer video-generation prompts. Companion to Sulphur 2.",
+      "sizeBytes": 9527501184,
+      "ramRequirementBytes": 11000000000,
+      "vramRequirementBytes": 10000000000,
+      "license": "LTX-2 Community License",
+      "licenseId": "ltx-2-community",
+      "tier": "free",
+      "weight": "medium",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/sulphur_prompt_enhancer_model-q8_0.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos",
+        "windows"
+      ],
+      "contextLength": 32768,
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/mmproj-BF16.gguf"
+    }
+  ]
 }

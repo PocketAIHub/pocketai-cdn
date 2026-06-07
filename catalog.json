@@ -4453,5 +4453,416 @@
         "sha256": ""
       }
     ]
+  },
+  {
+    "id": "qwopus3.5-4b-coder-mtp",
+    "name": "Qwopus3.5 4B Coder MTP",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Compact Qwopus coder model with a Multi-Token Prediction (MTP) head for faster generation in supported llama.cpp builds. Good offline coding assistant for phones, tablets, and desktops.",
+    "sizeBytes": 2783446560,
+    "ramRequirementBytes": 5500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-4B-Coder-MTP-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/mmproj-F32.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 3500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 1959167520,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-4B-Coder-MTP-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 2318806560,
+        "ramRequirementBytes": 4500000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-4B-Coder-MTP-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 2593556000,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 3200000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-4B-Coder-MTP-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 3161425440,
+        "ramRequirementBytes": 6500000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-4B-Coder-MTP-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 3563028000,
+        "ramRequirementBytes": 7500000000,
+        "vramRequirementBytes": 4500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-4B-Coder-MTP-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 4610580000,
+        "ramRequirementBytes": 9500000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-4B-Coder-MTP-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "lfm2.5-8b-a1b",
+    "name": "LFM2.5 8B-A1B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Liquid AI MoE chat model with about 1B active parameters per token and 128K context. Fast local assistant for coding, tool use, and general chat.",
+    "sizeBytes": 5155564768,
+    "ramRequirementBytes": 9000000000,
+    "license": "LFM 1.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [],
+    "contextLength": 128000,
+    "vramRequirementBytes": 6000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q4_0",
+        "sizeBytes": 4844678368,
+        "ramRequirementBytes": 8500000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q4_0.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 6030339296,
+        "ramRequirementBytes": 10500000000,
+        "vramRequirementBytes": 7000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 6959787232,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9010195680,
+        "ramRequirementBytes": 15500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "gemma-4-12b-it",
+    "name": "Gemma 4 12B IT",
+    "category": "language",
+    "provider": "Google / Unsloth",
+    "summary": "Dense Gemma 4 instruct model with vision, multilingual support, and 128K context. A strong mid-large multimodal option for high-memory phones and desktops.",
+    "sizeBytes": 7121860000,
+    "ramRequirementBytes": 13000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 131072,
+    "vramRequirementBytes": 8000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 5693871520,
+        "ramRequirementBytes": 10500000000,
+        "vramRequirementBytes": 6500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 6375732640,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 7500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 8413574560,
+        "ramRequirementBytes": 15000000000,
+        "vramRequirementBytes": 9500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9786021280,
+        "ramRequirementBytes": 17500000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12669646240,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 14500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwopus3.6-27b-v2-mtp",
+    "name": "Qwopus3.6 27B v2 MTP",
+    "category": "language",
+    "provider": "Jackrong",
+    "summary": "Qwopus3.6 27B v2 reasoning fine-tune with a Multi-Token Prediction (MTP) head for speculative decoding in supported llama.cpp builds. Desktop-focused and vision-capable.",
+    "sizeBytes": 16810713312,
+    "ramRequirementBytes": 23000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/mmproj-F32.gguf",
+    "contextLength": 49152,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 10864591072,
+        "ramRequirementBytes": 16000000000,
+        "vramRequirementBytes": 13000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13500735712,
+        "ramRequirementBytes": 19000000000,
+        "vramRequirementBytes": 15500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q3_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 15420448992,
+        "ramRequirementBytes": 21000000000,
+        "vramRequirementBytes": 17500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19535700192,
+        "ramRequirementBytes": 27000000000,
+        "vramRequirementBytes": 22500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22430998752,
+        "ramRequirementBytes": 30500000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 29047083232,
+        "ramRequirementBytes": 39000000000,
+        "vramRequirementBytes": 33000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "qwen3.6-40b-claude-opus-deckard-heretic-thinking",
+    "name": "Qwen3.6 40B Claude Opus Deckard Heretic",
+    "category": "language",
+    "provider": "DavidAU",
+    "summary": "Qwen3.6 40B community tune distilled from Claude Opus-style reasoning data, with thinking and coding emphasis. Large desktop-only model with vision projector available.",
+    "sizeBytes": 24253604896,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q4_K_M.gguf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/mmproj-F16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 27000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "IQ2_M",
+        "sizeBytes": 14775450656,
+        "ramRequirementBytes": 23000000000,
+        "vramRequirementBytes": 17000000000,
+        "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-IQ2_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ3_M",
+        "sizeBytes": 18382715936,
+        "ramRequirementBytes": 28000000000,
+        "vramRequirementBytes": 21500000000,
+        "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-IQ3_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 22077236256,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 25000000000,
+        "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-IQ4_XS.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 28195267616,
+        "ramRequirementBytes": 39000000000,
+        "vramRequirementBytes": 31500000000,
+        "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q5_K_M.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 32391855136,
+        "ramRequirementBytes": 44500000000,
+        "vramRequirementBytes": 36000000000,
+        "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 42847202336,
+        "ramRequirementBytes": 56000000000,
+        "vramRequirementBytes": 47000000000,
+        "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-HIGH-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
+  },
+  {
+    "id": "step-3.7-flash-iq3_xxs",
+    "name": "Step 3.7 Flash",
+    "category": "language",
+    "provider": "StepFun",
+    "summary": "Very large Step 3.7 Flash vision-language model with 256K context and selectable reasoning behavior. IQ3_XXS multipart GGUF; workstation-class hardware only.",
+    "sizeBytes": 75758680960,
+    "ramRequirementBytes": 96000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF/resolve/main/IQ3_XXS/Step-3.7-flash-IQ3_XXS-00001-of-00002.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF/resolve/main/IQ3_XXS/Step-3.7-flash-IQ3_XXS-00001-of-00002.gguf",
+        "sha256": "",
+        "sizeBytes": 46645813024
+      },
+      {
+        "url": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF/resolve/main/IQ3_XXS/Step-3.7-flash-IQ3_XXS-00002-of-00002.gguf",
+        "sha256": "",
+        "sizeBytes": 29112867936
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF/resolve/main/mmproj-step3.7-flash-f16.gguf",
+    "contextLength": 262144,
+    "vramRequirementBytes": 86000000000,
+    "defaultQuantLevel": "IQ3_XXS"
   }
 ]
