@@ -1264,7 +1264,8 @@
       "windows"
     ],
     "capabilities": [
-      "vision"
+      "vision",
+      "tool-calling"
     ],
     "canReadFiles": true,
     "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
@@ -3735,7 +3736,8 @@
       "windows"
     ],
     "capabilities": [
-      "vision"
+      "vision",
+      "tool-calling"
     ],
     "canReadFiles": true,
     "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/main/mmproj-F16.gguf",

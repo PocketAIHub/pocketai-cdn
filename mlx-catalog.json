@@ -148,7 +148,9 @@
     "supportedPlatforms": [
       "macos"
     ],
-    "capabilities": [],
+    "capabilities": [
+      "tool-calling"
+    ],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
   },
