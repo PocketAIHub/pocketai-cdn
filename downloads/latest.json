@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-06-11T14:11:42Z",
+  "downloads": {
+    "android": {
+      "version": "1.2.3",
+      "versionCode": 28,
+      "recommended": "arm64-v8a",
+      "files": {
+        "arm64-v8a": {
+          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.3_arm64-v8a.apk?v=1.2.3",
+          "size": 47302228,
+          "sha256": "d69189fdd14fddb53e74840af491bf67bfa9c7b93df98e20a4cdf4572e52f432"
+        },
+        "armeabi-v7a": {
+          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.3_armeabi-v7a.apk?v=1.2.3",
+          "size": 40173313,
+          "sha256": "18064501436178898d0335572c1539e244e5f4995160bfd58d7d0bdba375e7aa"
+        },
+        "x86_64": {
+          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.3_x86_64.apk?v=1.2.3",
+          "size": 48482772,
+          "sha256": "20bc378bbd292fea1e2a0689226b2895657d5ee41b1cc502e4f792837242dd4b"
+        }
+      }
+    },
+    "macos": {
+      "version": "1.0.18",
+      "platform": "darwin-aarch64",
+      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.18_aarch64.dmg?v=1.0.18",
+      "size": 67644224,
+      "sha256": "c81ac147990f9078e5669dcce5fa0bcb38e60cd7ceda9fb15c25c34ee5794fb3"
+    },
+    "windows": {
+      "version": "1.0.16",
+      "platform": "windows-x86_64",
+      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.16_x64-setup.exe",
+      "size": 0,
+      "sha256": null
+    },
+    "vscode": {
+      "version": "1.0.16",
+      "url": "https://cdn.pocketaihub.com/downloads/pocketai-vscode-1.0.16.vsix",
+      "size": 0,
+      "sha256": null
+    },
+    "ios": {
+      "version": "1.2.10",
+      "build": 35,
+      "url": "https://apps.apple.com/app/pocketai-works-offline/id6760178103"
+    }
+  }
+}
