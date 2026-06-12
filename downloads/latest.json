@@ -1,35 +1,42 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-11T14:11:42Z",
+  "updatedAt": "2026-06-12T23:36:40Z",
   "downloads": {
     "android": {
-      "version": "1.2.3",
-      "versionCode": 28,
+      "version": "1.2.6",
+      "versionCode": 31,
       "recommended": "arm64-v8a",
       "files": {
         "arm64-v8a": {
-          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.3_arm64-v8a.apk?v=1.2.3",
-          "size": 47302228,
-          "sha256": "d69189fdd14fddb53e74840af491bf67bfa9c7b93df98e20a4cdf4572e52f432"
+          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.6_arm64-v8a.apk?v=1.2.6",
+          "size": 53003291,
+          "sha256": "e5fc2e7fcc6f81cc9f92745c7ab3faeed3a8342b3cb8fd87991ef323b31f985f"
         },
         "armeabi-v7a": {
-          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.3_armeabi-v7a.apk?v=1.2.3",
-          "size": 40173313,
-          "sha256": "18064501436178898d0335572c1539e244e5f4995160bfd58d7d0bdba375e7aa"
+          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.6_armeabi-v7a.apk?v=1.2.6",
+          "size": 44432714,
+          "sha256": "520a640aac568f3ed8c26c1a058c820275669966b5d474a59e15d1086984d3ad"
         },
         "x86_64": {
-          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.3_x86_64.apk?v=1.2.3",
-          "size": 48482772,
-          "sha256": "20bc378bbd292fea1e2a0689226b2895657d5ee41b1cc502e4f792837242dd4b"
+          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.6_x86_64.apk?v=1.2.6",
+          "size": 54626328,
+          "sha256": "dff3fde992a2400e4eb6dea66d9e3cd3fde49a043e47f8f7717327d4c91d6ff2"
         }
       }
     },
     "macos": {
-      "version": "1.0.18",
+      "version": "1.0.21",
       "platform": "darwin-aarch64",
-      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.18_aarch64.dmg?v=1.0.18",
-      "size": 67644224,
-      "sha256": "c81ac147990f9078e5669dcce5fa0bcb38e60cd7ceda9fb15c25c34ee5794fb3"
+      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.21_aarch64.dmg?v=1.0.21",
+      "size": 68432198,
+      "sha256": "13f81802d4d3ad633100e2067f9966d8549763fa2cd8c97a10104029e7741a2c",
+      "updater": {
+        "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.21_aarch64.app.tar.gz?v=1.0.21",
+        "size": 67691948,
+        "sha256": "735da7219af59abc22abb65cc82c4bcfc4d0034f474f0ad5fba3ca5eab559804",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QVVCQ01VaE9Ka200Y2dlbklnS0Y4VzJRWnZZMTZWemUvZFFlVHRZYVVKWGRsSDBNMTM2WFRMNzVQa3lCZHZ4UEZRU2pCNVFLcWhHSjBlYzRVQ2dJcGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxMzA3MzQ2CWZpbGU6UG9ja2V0QUkuYXBwLnRhci5negpINHM4ZWRhZ3o1SXRxZFplZW9lNTBPMGtNNE96ZnR4bmlOT3lkNHZLdTI0NlI0NG9XMWNWWnZJSHZZcnJTdU9TSEtpUzFFQW5WTjF4aDg4VFVUdkFBUT09Cg==",
+        "signatureUrl": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.21_aarch64.app.tar.gz.sig?v=1.0.21"
+      }
     },
     "windows": {
       "version": "1.0.16",
