@@ -61,7 +61,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-0.8B-GGUF/resolve/main/Qwen3.5-0.8B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-01T14:38:35.000Z",
+    "hfReleasedAt": "2026-03-01T14:38:35.000Z",
+    "hfLastModified": "2026-03-02T14:08:04.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-2b-opus-distilled",
@@ -125,7 +129,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-2B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.5-2B.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-03T03:42:22.000Z",
+    "hfReleasedAt": "2026-03-03T03:42:22.000Z",
+    "hfLastModified": "2026-03-15T11:41:29.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-2b",
@@ -189,7 +197,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-2B-GGUF/resolve/main/Qwen3.5-2B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-02-28T14:04:40.000Z",
+    "hfReleasedAt": "2026-02-28T14:04:40.000Z",
+    "hfLastModified": "2026-03-02T14:07:35.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-2b-tuned-hauhaucs-aggressive",
@@ -237,7 +249,11 @@
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
         "sha256": "3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793"
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-05T22:13:04.000Z",
+    "hfReleasedAt": "2026-03-05T22:13:04.000Z",
+    "hfLastModified": "2026-04-05T19:00:51.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "hermes-3-llama-3.2-3b",
@@ -292,7 +308,11 @@
         "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.2-3B-GGUF/resolve/main/Hermes-3-Llama-3.2-3B.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2024-12-11T10:00:50.000Z",
+    "hfReleasedAt": "2024-12-11T10:00:50.000Z",
+    "hfLastModified": "2024-12-18T20:15:40.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "granite-4.1-3b",
@@ -355,7 +375,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-30T08:32:35.000Z",
+    "hfReleasedAt": "2026-04-30T08:32:35.000Z",
+    "hfLastModified": "2026-04-30T08:57:46.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-4b-tuned-hauhaucs-aggressive",
@@ -403,7 +427,11 @@
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-03T12:16:35.000Z",
+    "hfReleasedAt": "2026-03-03T12:16:35.000Z",
+    "hfLastModified": "2026-04-05T19:01:02.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwopus3.5-4b-v3",
@@ -462,7 +490,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-v3-GGUF/resolve/main/Qwen3.5-4B.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-01T13:27:10.000Z",
+    "hfReleasedAt": "2026-04-01T13:27:10.000Z",
+    "hfLastModified": "2026-04-06T02:15:24.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-4b",
@@ -526,7 +558,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-02T05:46:32.000Z",
+    "hfReleasedAt": "2026-03-02T05:46:32.000Z",
+    "hfLastModified": "2026-03-02T14:08:17.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-4b-opus47-codex",
@@ -573,7 +609,11 @@
         "downloadUrl": "https://huggingface.co/WithinUsAI/Opus4.7-GODs.Ghost.Codex-4B.GGuF/resolve/900b36db6008518f33c491879ff282ca46c3bbaa/Opus4.7-GODs.Ghost.Codex.Distill.4B-Q8_0.gguf",
         "sha256": "c3f25e6fc3b49cfc953d15323cc19b33cb0d265c7052563fbd6f13d31d21964e"
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-17T08:46:23.000Z",
+    "hfReleasedAt": "2026-04-17T08:46:23.000Z",
+    "hfLastModified": "2026-05-03T03:53:41.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "gemma-4-e2b-it",
@@ -637,7 +677,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-01T14:40:57.000Z",
+    "hfReleasedAt": "2026-04-01T14:40:57.000Z",
+    "hfLastModified": "2026-06-09T14:49:11.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "deephermes-3-llama-3-8b",
@@ -693,7 +737,11 @@
         "downloadUrl": "https://huggingface.co/NousResearch/DeepHermes-3-Llama-3-8B-Preview-GGUF/resolve/main/DeepHermes-3-Llama-3-8B-Preview.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2025-02-13T02:02:14.000Z",
+    "hfReleasedAt": "2025-02-13T02:02:14.000Z",
+    "hfLastModified": "2025-03-13T16:09:34.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "hermes-3-llama-3.1-8b",
@@ -748,7 +796,11 @@
         "downloadUrl": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B-GGUF/resolve/main/Hermes-3-Llama-3.1-8B.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2024-08-05T04:56:41.000Z",
+    "hfReleasedAt": "2024-08-05T04:56:41.000Z",
+    "hfLastModified": "2024-08-23T01:22:33.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "gemma-4-e4b-it",
@@ -812,7 +864,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/gemma-4-E4B-it-GGUF/resolve/main/gemma-4-E4B-it-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-01T14:42:04.000Z",
+    "hfReleasedAt": "2026-04-01T14:42:04.000Z",
+    "hfLastModified": "2026-06-09T14:52:17.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "gemma-4-e4b-tuned",
@@ -868,7 +924,11 @@
         "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-02T22:29:19.000Z",
+    "hfReleasedAt": "2026-04-02T22:29:19.000Z",
+    "hfLastModified": "2026-04-06T03:50:35.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-9b-tuned-hauhaucs-aggressive",
@@ -916,7 +976,11 @@
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-04T00:24:31.000Z",
+    "hfReleasedAt": "2026-03-04T00:24:31.000Z",
+    "hfLastModified": "2026-06-05T17:55:41.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-9b-opus-distilled",
@@ -964,7 +1028,11 @@
         "downloadUrl": "https://huggingface.co/crownelius/Crow-9B-Opus-4.6-Distill-Heretic_Qwen3.5/resolve/main/Qwen3.5-9B-heretic-v2.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-03T08:14:36.000Z",
+    "hfReleasedAt": "2026-03-03T08:14:36.000Z",
+    "hfLastModified": "2026-03-17T08:41:49.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwopus3.5-9b-v3",
@@ -1012,7 +1080,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-v3-GGUF/resolve/main/Qwen3.5-9B.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-31T08:23:16.000Z",
+    "hfReleasedAt": "2026-03-31T08:23:16.000Z",
+    "hfLastModified": "2026-04-12T15:46:14.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-9b-opus-distilled-v2",
@@ -1060,7 +1132,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/Qwen3.5-9B.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-18T02:52:10.000Z",
+    "hfReleasedAt": "2026-03-18T02:52:10.000Z",
+    "hfLastModified": "2026-04-06T02:17:04.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-9b-deepseek-v4-flash",
@@ -1125,7 +1201,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-DeepSeek-V4-Flash-GGUF/resolve/main/Qwen3.5-9B-DeepSeek-V4-Flash-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-29T16:12:36.000Z",
+    "hfReleasedAt": "2026-04-29T16:12:36.000Z",
+    "hfLastModified": "2026-05-02T14:32:42.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "harmonic-hermes-9b",
@@ -1192,7 +1272,11 @@
         "downloadUrl": "https://huggingface.co/DJLougen/Harmonic-Hermes-9B-GGUF/resolve/main/Harmonic-Hermes-9B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-04T21:04:45.000Z",
+    "hfReleasedAt": "2026-04-04T21:04:45.000Z",
+    "hfLastModified": "2026-04-08T00:52:27.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "carnice-9b",
@@ -1240,7 +1324,11 @@
         "downloadUrl": "https://huggingface.co/kai-os/Carnice-9b-GGUF/resolve/main/Carnice-9b-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-04T01:03:28.000Z",
+    "hfReleasedAt": "2026-04-04T01:03:28.000Z",
+    "hfLastModified": "2026-04-04T01:04:03.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-9b",
@@ -1305,7 +1393,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/Qwen3.5-9B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-02-28T14:04:29.000Z",
+    "hfReleasedAt": "2026-02-28T14:04:29.000Z",
+    "hfLastModified": "2026-03-02T14:08:36.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "talkie-1930-13b-it",
@@ -1339,7 +1431,11 @@
         "downloadUrl": "https://huggingface.co/PocketAiHub/talkie-1930-13b-it-GGUF/resolve/main/talkie-1930-13b-it-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-05T08:41:30.000Z",
+    "hfReleasedAt": "2026-05-05T08:41:30.000Z",
+    "hfLastModified": "2026-05-05T09:27:45.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-27b-opus-distilled",
@@ -1385,7 +1481,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.5-27B.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-02-27T11:53:53.000Z",
+    "hfReleasedAt": "2026-02-27T11:53:53.000Z",
+    "hfLastModified": "2026-04-06T02:20:06.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-27b-tuned-hauhaucs-aggressive",
@@ -1447,7 +1547,11 @@
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-05T22:13:03.000Z",
+    "hfReleasedAt": "2026-03-05T22:13:03.000Z",
+    "hfLastModified": "2026-04-05T19:00:48.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-27b-opus-distilled-v2",
@@ -1501,7 +1605,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/main/Qwen3.5-27B.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-19T10:39:40.000Z",
+    "hfReleasedAt": "2026-03-19T10:39:40.000Z",
+    "hfLastModified": "2026-04-06T02:19:11.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwopus3.5-27b-v3",
@@ -1563,7 +1671,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF/resolve/main/Qwopus3.5-27B-v3-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-02T08:22:38.000Z",
+    "hfReleasedAt": "2026-04-02T08:22:38.000Z",
+    "hfLastModified": "2026-04-16T09:14:35.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "gemopus-4-26b-a4b",
@@ -1619,7 +1731,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/main/Gemopus-4-26B-A4B-it-Preview-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-09T08:27:21.000Z",
+    "hfReleasedAt": "2026-04-09T08:27:21.000Z",
+    "hfLastModified": "2026-04-11T01:04:32.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "gemma-4-26b-a4b-it",
@@ -1683,7 +1799,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/gemma-4-26B-A4B-it-GGUF/resolve/main/gemma-4-26B-A4B-it-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-01T14:42:29.000Z",
+    "hfReleasedAt": "2026-04-01T14:42:29.000Z",
+    "hfLastModified": "2026-06-09T14:49:06.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "gemma-4-26b-a4b-tuned",
@@ -1745,7 +1865,11 @@
         "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-02T23:21:40.000Z",
+    "hfReleasedAt": "2026-04-02T23:21:40.000Z",
+    "hfLastModified": "2026-04-04T09:31:15.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "supergemma4-26b-uncensored",
@@ -1768,7 +1892,11 @@
     ],
     "canReadFiles": true,
     "contextLength": 131072,
-    "vramRequirementBytes": 19000000000
+    "vramRequirementBytes": 19000000000,
+    "hfCreatedAt": "2026-04-11T11:03:05.000Z",
+    "hfReleasedAt": "2026-04-11T11:03:05.000Z",
+    "hfLastModified": "2026-04-12T13:42:43.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-27b",
@@ -1838,7 +1966,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/Qwen3.5-27B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-02-24T14:50:03.000Z",
+    "hfReleasedAt": "2026-02-24T14:50:03.000Z",
+    "hfLastModified": "2026-03-05T16:31:31.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "glm-4.7-flash-opus-distilled",
@@ -1896,7 +2028,11 @@
         "downloadUrl": "https://huggingface.co/TeichAI/GLM-4.7-Flash-Claude-Opus-4.5-High-Reasoning-Distill-GGUF/resolve/main/glm-4.7-flash-claude-4.5-opus.q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-01-22T18:25:31.000Z",
+    "hfReleasedAt": "2026-01-22T18:25:31.000Z",
+    "hfLastModified": "2026-02-22T19:48:00.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "granite-4.1-30b",
@@ -1957,7 +2093,11 @@
         "downloadUrl": "https://huggingface.co/bartowski/ibm-granite_granite-4.1-30b-GGUF/resolve/main/ibm-granite_granite-4.1-30b-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-29T19:39:35.000Z",
+    "hfReleasedAt": "2026-04-29T19:39:35.000Z",
+    "hfLastModified": "2026-04-29T21:37:20.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "gemma-4-31b-it",
@@ -2019,7 +2159,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/gemma-4-31B-it-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-01T14:40:18.000Z",
+    "hfReleasedAt": "2026-04-01T14:40:18.000Z",
+    "hfLastModified": "2026-06-09T14:49:01.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "gemma-4-31b-tuned",
@@ -2053,7 +2197,11 @@
         "downloadUrl": "https://huggingface.co/paperscarecrow/Gemma-4-31B-it-abliterated/resolve/main/gemma-4-31b-abliterated-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-02T22:37:39.000Z",
+    "hfReleasedAt": "2026-04-02T22:37:39.000Z",
+    "hfLastModified": "2026-04-04T16:04:58.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "hermes-4.3-36b",
@@ -2115,7 +2263,11 @@
         "downloadUrl": "https://huggingface.co/NousResearch/Hermes-4.3-36B-GGUF/resolve/main/hermes-4_3_36b-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2025-11-25T06:18:29.000Z",
+    "hfReleasedAt": "2025-11-25T06:18:29.000Z",
+    "hfLastModified": "2025-12-03T18:34:51.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-35b-a3b",
@@ -2185,7 +2337,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/main/Qwen3.5-35B-A3B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-02-24T14:48:31.000Z",
+    "hfReleasedAt": "2026-02-24T14:48:31.000Z",
+    "hfLastModified": "2026-03-05T17:25:50.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.6-35b-a3b",
@@ -2247,7 +2403,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/main/Qwen3.6-35B-A3B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-16T04:31:31.000Z",
+    "hfReleasedAt": "2026-04-16T04:31:31.000Z",
+    "hfLastModified": "2026-04-20T12:42:25.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.6-27b",
@@ -2317,7 +2477,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/main/Qwen3.6-27B-Q8_0.gguf",
         "sha256": "f93f517f38e696d35a1a7df2c0e3155a64f4c4dcd662107a146ae263f7fb14ce"
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-22T05:43:37.000Z",
+    "hfReleasedAt": "2026-04-22T05:43:37.000Z",
+    "hfLastModified": "2026-04-22T16:01:39.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.6-27b-tuned-hauhaucs-aggressive",
@@ -2387,7 +2551,11 @@
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
         "sha256": "77672ff20cf3c6b99fe875df1e7f53fec4ded86e767fbfaef40b5def61b112ca"
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-22T17:47:49.000Z",
+    "hfReleasedAt": "2026-04-22T17:47:49.000Z",
+    "hfLastModified": "2026-04-24T00:21:01.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "carnice-v2-27b",
@@ -2449,7 +2617,11 @@
         "downloadUrl": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF/resolve/main/carnice-v2-27b-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-25T18:07:18.000Z",
+    "hfReleasedAt": "2026-04-25T18:07:18.000Z",
+    "hfLastModified": "2026-04-25T18:18:44.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwopus3.6-27b-v1-preview",
@@ -2477,7 +2649,11 @@
     "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v1-preview-GGUF/resolve/main/mmproj.gguf",
     "contextLength": 262144,
     "vramRequirementBytes": 18500000000,
-    "defaultQuantLevel": "Q4_K_M"
+    "defaultQuantLevel": "Q4_K_M",
+    "hfCreatedAt": "2026-04-23T00:30:09.000Z",
+    "hfReleasedAt": "2026-04-23T00:30:09.000Z",
+    "hfLastModified": "2026-04-23T03:21:54.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "ornstein3.6-35b-a3b",
@@ -2535,7 +2711,11 @@
         "downloadUrl": "https://huggingface.co/DJLougen/Ornstein3.6-35B-A3B-GGUF/resolve/main/Ornstein3.6-35B-A3B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-16T18:35:02.000Z",
+    "hfReleasedAt": "2026-04-16T18:35:02.000Z",
+    "hfLastModified": "2026-05-14T17:31:58.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3-coder-next-80b-a3b",
@@ -2559,7 +2739,11 @@
     "canReadFiles": true,
     "contextLength": 131072,
     "vramRequirementBytes": 59500000000,
-    "defaultQuantLevel": "Q4_K_M"
+    "defaultQuantLevel": "Q4_K_M",
+    "hfCreatedAt": "2026-02-03T13:10:01.000Z",
+    "hfReleasedAt": "2026-02-03T13:10:01.000Z",
+    "hfLastModified": "2026-03-06T14:38:33.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-122b-a10b",
@@ -2666,7 +2850,11 @@
           }
         ]
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-02-24T14:49:45.000Z",
+    "hfReleasedAt": "2026-02-24T14:49:45.000Z",
+    "hfLastModified": "2026-03-05T16:22:00.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "nemotron-3-super-120b-a12b",
@@ -2764,7 +2952,11 @@
           }
         ]
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-03-06T19:21:55.000Z",
+    "hfReleasedAt": "2026-03-06T19:21:55.000Z",
+    "hfLastModified": "2026-03-20T13:30:50.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "minimax-m2.7",
@@ -2877,7 +3069,11 @@
           }
         ]
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-11T23:31:02.000Z",
+    "hfReleasedAt": "2026-04-11T23:31:02.000Z",
+    "hfLastModified": "2026-04-14T16:48:17.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-reap-262b-a17b",
@@ -2999,7 +3195,11 @@
           }
         ]
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-02-25T15:59:35.000Z",
+    "hfReleasedAt": "2026-02-25T15:59:35.000Z",
+    "hfLastModified": "2026-02-25T18:06:12.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-397b-a17b",
@@ -3156,7 +3356,11 @@
           }
         ]
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-02-16T04:59:50.000Z",
+    "hfReleasedAt": "2026-02-16T04:59:50.000Z",
+    "hfLastModified": "2026-03-07T04:33:56.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-9b-glm5.1-distilled",
@@ -3228,7 +3432,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF/resolve/main/Qwen3.5-9B-GLM5.1-Distill-v1-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-16T01:01:14.000Z",
+    "hfReleasedAt": "2026-04-16T01:01:14.000Z",
+    "hfLastModified": "2026-04-18T12:11:43.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.6-35b-a3b-tuned-hauhaucs-aggressive",
@@ -3298,7 +3506,11 @@
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-17T00:15:26.000Z",
+    "hfReleasedAt": "2026-04-17T00:15:26.000Z",
+    "hfLastModified": "2026-04-17T02:59:21.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.6-35b-a3b-opus-distilled",
@@ -3348,7 +3560,11 @@
         "downloadUrl": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-18T23:47:21.000Z",
+    "hfReleasedAt": "2026-04-18T23:47:21.000Z",
+    "hfLastModified": "2026-04-19T01:24:41.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "kimi-k2.6-1t-a32b",
@@ -3530,7 +3746,11 @@
         ]
       }
     ],
-    "defaultQuantLevel": "UD-Q4_K_XL"
+    "defaultQuantLevel": "UD-Q4_K_XL",
+    "hfCreatedAt": "2026-04-20T15:27:51.000Z",
+    "hfReleasedAt": "2026-04-20T15:27:51.000Z",
+    "hfLastModified": "2026-04-22T11:59:50.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "glm-5.1",
@@ -3712,7 +3932,11 @@
           }
         ]
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-06T16:10:05.000Z",
+    "hfReleasedAt": "2026-04-06T16:10:05.000Z",
+    "hfLastModified": "2026-04-07T20:09:36.000Z",
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
     "id": "qwen3.5-9b-mtp",
@@ -3785,7 +4009,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-MTP-GGUF/resolve/main/Qwen3.5-9B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-13T13:34:47.000Z",
+    "hfReleasedAt": "2026-05-13T13:34:47.000Z",
+    "hfLastModified": "2026-05-16T12:39:00.000Z",
+    "cdnAddedAt": "2026-05-23T09:48:51+09:00"
   },
   {
     "id": "qwopus3.5-9b-coder",
@@ -3857,7 +4085,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-GGUF/resolve/main/Qwopus3.5-9B-coder-Exp-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-15T12:53:59.000Z",
+    "hfReleasedAt": "2026-05-15T12:53:59.000Z",
+    "hfLastModified": "2026-06-02T23:22:11.000Z",
+    "cdnAddedAt": "2026-05-23T09:48:51+09:00"
   },
   {
     "id": "qwopus3.5-9b-coder-mtp",
@@ -3929,7 +4161,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-9B-Coder-MTP-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-18T05:48:32.000Z",
+    "hfReleasedAt": "2026-05-18T05:48:32.000Z",
+    "hfLastModified": "2026-06-02T23:22:53.000Z",
+    "cdnAddedAt": "2026-05-23T09:48:51+09:00"
   },
   {
     "id": "qwen3.6-35b-a3b-mtp",
@@ -4007,7 +4243,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/main/Qwen3.6-35B-A3B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-11T12:57:12.000Z",
+    "hfReleasedAt": "2026-05-11T12:57:12.000Z",
+    "hfLastModified": "2026-05-20T08:48:17.000Z",
+    "cdnAddedAt": "2026-05-23T09:48:51+09:00"
   },
   {
     "id": "qwen3.6-27b-mtp",
@@ -4077,7 +4317,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/main/Qwen3.6-27B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-11T12:57:11.000Z",
+    "hfReleasedAt": "2026-05-11T12:57:11.000Z",
+    "hfLastModified": "2026-05-26T08:45:52.000Z",
+    "cdnAddedAt": "2026-05-23T09:48:51+09:00"
   },
   {
     "id": "qwopus3.6-27b-v2",
@@ -4156,7 +4400,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/main/Qwopus3.6-27B-v2-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-16T10:48:10.000Z",
+    "hfReleasedAt": "2026-05-16T10:48:10.000Z",
+    "hfLastModified": "2026-05-28T04:14:57.000Z",
+    "cdnAddedAt": "2026-05-23T09:48:51+09:00"
   },
   {
     "id": "deepseek-v4-flash",
@@ -4218,7 +4466,11 @@
         "downloadUrl": "https://huggingface.co/antirez/deepseek-v4-gguf/resolve/main/DeepSeek-V4-Flash-Q4KExperts-F16HC-F16Compressor-F16Indexer-Q8Attn-Q8Shared-Q8Out-chat-v2.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-04-26T07:54:05.000Z",
+    "hfReleasedAt": "2026-04-26T07:54:05.000Z",
+    "hfLastModified": "2026-05-31T11:28:43.000Z",
+    "cdnAddedAt": "2026-05-23T09:48:51+09:00"
   },
   {
     "id": "nouscoder-14b",
@@ -4297,7 +4549,11 @@
         "downloadUrl": "https://huggingface.co/bartowski/NousResearch_NousCoder-14B-GGUF/resolve/main/NousResearch_NousCoder-14B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-01-07T22:07:53.000Z",
+    "hfReleasedAt": "2026-01-07T22:07:53.000Z",
+    "hfLastModified": "2026-01-07T22:55:25.000Z",
+    "cdnAddedAt": "2026-05-23T17:01:25+09:00"
   },
   {
     "id": "hermes-4-14b",
@@ -4377,7 +4633,11 @@
         "downloadUrl": "https://huggingface.co/bartowski/NousResearch_Hermes-4-14B-GGUF/resolve/main/NousResearch_Hermes-4-14B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2025-09-03T01:31:14.000Z",
+    "hfReleasedAt": "2025-09-03T01:31:14.000Z",
+    "hfLastModified": "2025-09-03T17:14:01.000Z",
+    "cdnAddedAt": "2026-05-23T17:01:25+09:00"
   },
   {
     "id": "qwen3-coder-30b-a3b-instruct",
@@ -4454,7 +4714,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/main/Qwen3-Coder-30B-A3B-Instruct-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2025-07-31T10:27:38.000Z",
+    "hfReleasedAt": "2025-07-31T10:27:38.000Z",
+    "hfLastModified": "2026-01-30T06:29:38.000Z",
+    "cdnAddedAt": "2026-05-23T17:01:25+09:00"
   },
   {
     "id": "qwopus3.5-4b-coder-mtp",
@@ -4534,7 +4798,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-4B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-4B-Coder-MTP-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-26T15:51:25.000Z",
+    "hfReleasedAt": "2026-05-26T15:51:25.000Z",
+    "hfLastModified": "2026-05-30T10:44:25.000Z",
+    "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
     "id": "lfm2.5-8b-a1b",
@@ -4594,7 +4862,11 @@
         "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-24T22:16:45.000Z",
+    "hfReleasedAt": "2026-05-24T22:16:45.000Z",
+    "hfLastModified": "2026-05-29T16:25:34.000Z",
+    "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
     "id": "gemma-4-12b-it",
@@ -4666,7 +4938,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/gemma-4-12b-it-GGUF/resolve/main/gemma-4-12b-it-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-29T11:25:59.000Z",
+    "hfReleasedAt": "2026-05-29T11:25:59.000Z",
+    "hfLastModified": "2026-06-09T15:32:24.000Z",
+    "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
     "id": "qwopus3.6-27b-v2-mtp",
@@ -4745,7 +5021,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-21T06:37:47.000Z",
+    "hfReleasedAt": "2026-05-21T06:37:47.000Z",
+    "hfLastModified": "2026-06-02T22:22:21.000Z",
+    "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
     "id": "qwopus3.6-27b-coder-mtp",
@@ -4780,12 +5060,20 @@
     "defaultQuantLevel": "Q5_K_M",
     "quantVariants": [
       {
-        "quantLevel": "Q5_K_S",
-        "sizeBytes": 18971681120,
-        "ramRequirementBytes": 26000000000,
-        "vramRequirementBytes": 21500000000,
-        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF/resolve/d27c4b61e21001a55ad98b80dfcd9ed59065601d/Qwopus3.6-27B-Coder-MTP-Q5_K_S.gguf",
-        "sha256": "f46dd2990b1cba2ba70d0fcccf3beb533205a15b164b2aa829ca6558c0e958eb"
+        "quantLevel": "Q4_K_M",
+        "sizeBytes": 16810713440,
+        "ramRequirementBytes": 23000000000,
+        "vramRequirementBytes": 19000000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF/resolve/4a42149f5f065ea4edd7b1901e5bd35ecb5d9b38/Qwopus3.6-27B-Coder-MTP-Q4_K_M.gguf",
+        "sha256": "b2898667ed7b2388f0ab7691393833ae777f247492bbe62fdb4b2bd3e3cf3f79"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22430998880,
+        "ramRequirementBytes": 30500000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF/resolve/4a42149f5f065ea4edd7b1901e5bd35ecb5d9b38/Qwopus3.6-27B-Coder-MTP-Q6_K.gguf",
+        "sha256": "bc4dea55534a22b66b8e01ff630c6ab86534bd8e39400f1e71d70195184d5a3b"
       },
       {
         "quantLevel": "Q8_0",
@@ -4795,7 +5083,11 @@
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF/resolve/d27c4b61e21001a55ad98b80dfcd9ed59065601d/Qwopus3.6-27B-Coder-MTP-Q8_0.gguf",
         "sha256": "dd93fea82e92b780a0d14a81b354b63ffcbc53553cab1cc626d0fceec5631335"
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-06-11T23:28:10.000Z",
+    "hfReleasedAt": "2026-06-11T23:28:10.000Z",
+    "hfLastModified": "2026-06-12T11:09:27.000Z",
+    "cdnAddedAt": "2026-06-12T15:49:28+09:00"
   },
   {
     "id": "qwen3.6-40b-claude-opus-deckard-heretic-thinking",
@@ -4874,7 +5166,11 @@
         "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-40B-Claude-4.6-Opus-Deckard-Heretic-Uncensored-Thinking-NEO-CODE-Di-IMatrix-MAX-GGUF/resolve/main/Qwen3.6-40B-Deck-Opus-NEO-CODE-HERE-2T-OT-HIGH-Q8_0.gguf",
         "sha256": ""
       }
-    ]
+    ],
+    "hfCreatedAt": "2026-05-01T00:29:29.000Z",
+    "hfReleasedAt": "2026-05-01T00:29:29.000Z",
+    "hfLastModified": "2026-06-11T02:11:55.000Z",
+    "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
     "id": "step-3.7-flash-iq3_xxs",
@@ -4915,7 +5211,11 @@
     "mmprojUrl": "https://huggingface.co/stepfun-ai/Step-3.7-Flash-GGUF/resolve/main/mmproj-step3.7-flash-f16.gguf",
     "contextLength": 262144,
     "vramRequirementBytes": 86000000000,
-    "defaultQuantLevel": "IQ3_XXS"
+    "defaultQuantLevel": "IQ3_XXS",
+    "hfCreatedAt": "2026-05-28T11:34:17.000Z",
+    "hfReleasedAt": "2026-05-28T11:34:17.000Z",
+    "hfLastModified": "2026-06-03T07:35:13.000Z",
+    "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
     "id": "gpt-oss-20b",
@@ -4952,7 +5252,11 @@
         "downloadUrl": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/d449b42d93e1c2c7bda5312f5c25c8fb91dfa9b4/gpt-oss-20b-Q8_0.gguf",
         "sha256": "bcd455d4034ec02f71a875b46cb17df44a97911d7258291973be4d21f98329f3"
       }
-    ]
+    ],
+    "hfCreatedAt": "2025-08-05T17:12:17.000Z",
+    "hfReleasedAt": "2025-08-05T17:12:17.000Z",
+    "hfLastModified": "2025-12-19T01:39:27.000Z",
+    "cdnAddedAt": "2026-06-12T15:49:28+09:00"
   },
   {
     "id": "smolvlm-500m-instruct",
@@ -4993,7 +5297,11 @@
         "downloadUrl": "https://huggingface.co/ggml-org/SmolVLM-500M-Instruct-GGUF/resolve/72e986006ef53e37cdd3f6d4241c90b0f01df376/SmolVLM-500M-Instruct-f16.gguf",
         "sha256": "26c2ee46ef9f8472b3d305a71703153a55f4f2c3baaa12ff5feb566fddb65343"
       }
-    ]
+    ],
+    "hfCreatedAt": "2025-04-21T19:02:08.000Z",
+    "hfReleasedAt": "2025-04-21T19:02:08.000Z",
+    "hfLastModified": "2025-04-30T11:12:14.000Z",
+    "cdnAddedAt": "2026-06-12T15:49:28+09:00"
   },
   {
     "id": "phi-3-mini-4k-instruct",
@@ -5030,7 +5338,11 @@
         "downloadUrl": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct-gguf/resolve/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/Phi-3-mini-4k-instruct-fp16.gguf",
         "sha256": "5d99003e395775659b0dde3f941d88ff378b2837a8dc3a2ea94222ab1420fad3"
       }
-    ]
+    ],
+    "hfCreatedAt": "2024-04-22T17:02:08.000Z",
+    "hfReleasedAt": "2024-04-22T17:02:08.000Z",
+    "hfLastModified": "2025-12-10T20:22:37.000Z",
+    "cdnAddedAt": "2026-06-12T15:49:28+09:00"
   },
   {
     "id": "gpt-oss-120b",
@@ -5069,6 +5381,10 @@
     "canReadFiles": true,
     "contextLength": 131072,
     "vramRequirementBytes": 72000000000,
-    "defaultQuantLevel": "Q4_K_M"
+    "defaultQuantLevel": "Q4_K_M",
+    "hfCreatedAt": "2025-08-05T17:11:45.000Z",
+    "hfReleasedAt": "2025-08-05T17:11:45.000Z",
+    "hfLastModified": "2025-08-25T02:27:41.000Z",
+    "cdnAddedAt": "2026-06-12T15:49:28+09:00"
   }
 ]
