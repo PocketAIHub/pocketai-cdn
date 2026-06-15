@@ -714,6 +714,7 @@
     "supportsNegativePrompt": false,
     "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
     "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
     "weight": "heavy",
     "defaultQuantLevel": "Q4_0",
     "quantVariants": [
@@ -802,6 +803,7 @@
     "supportsNegativePrompt": false,
     "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
     "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
+    "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
     "weight": "heavy",
     "defaultQuantLevel": "Q4_0",
     "quantVariants": [
