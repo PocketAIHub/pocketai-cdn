@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-06-15T06:24:29Z",
+  "updatedAt": "2026-06-15T06:42:59Z",
   "downloads": {
     "android": {
       "version": "1.2.7",
@@ -39,11 +39,11 @@
       }
     },
     "windows": {
-      "version": "1.0.16",
+      "version": "1.0.22",
       "platform": "windows-x86_64",
-      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.16_x64-setup.exe",
-      "size": 0,
-      "sha256": null
+      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.22_x64-setup.exe?v=1.0.22",
+      "size": 78717378,
+      "sha256": "d8c640ef5b4e045abef5f7d9d751154d23328f8ba37d3a004dd34c9236b3c81f"
     },
     "vscode": {
       "version": "1.0.16",
