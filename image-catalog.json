@@ -18,7 +18,8 @@
       "ios",
       "android",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "sd1.5",
     "defaultSteps": 20,
@@ -73,7 +74,8 @@
     "supportedPlatforms": [
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "sdxl",
     "defaultSteps": 4,
@@ -131,7 +133,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "sd3",
     "defaultSteps": 28,
@@ -212,7 +215,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "sdxl",
     "defaultSteps": 4,
@@ -264,7 +268,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "z-image",
     "defaultSteps": 8,
@@ -344,7 +349,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "sdxl",
     "defaultSteps": 20,
@@ -406,7 +412,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "sd3",
     "defaultSteps": 28,
@@ -479,7 +486,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "sd3",
     "defaultSteps": 4,
@@ -552,7 +560,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "z-image",
     "defaultSteps": 28,
@@ -616,7 +625,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "z-image",
     "defaultSteps": 28,
@@ -680,7 +690,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "flux",
     "defaultSteps": 4,
@@ -769,7 +780,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "flux",
     "defaultSteps": 50,
@@ -858,7 +870,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "chroma",
     "defaultSteps": 8,
@@ -938,7 +951,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "chroma",
     "defaultSteps": 40,
@@ -1018,7 +1032,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "ovis-image",
     "defaultSteps": 28,
@@ -1082,7 +1097,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "chroma",
     "defaultSteps": 40,
@@ -1135,7 +1151,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "qwen-image",
     "defaultSteps": 30,

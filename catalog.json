@@ -18,7 +18,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -86,7 +87,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -154,7 +156,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -222,7 +225,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -274,7 +278,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "tool-calling"
@@ -333,7 +338,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "tool-calling"
@@ -400,7 +406,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -452,7 +459,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -515,7 +523,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -583,7 +592,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "reasoning"
@@ -634,7 +644,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -702,7 +713,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "reasoning",
@@ -762,7 +774,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "tool-calling"
@@ -821,7 +834,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -889,7 +903,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -949,7 +964,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1001,7 +1017,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1053,7 +1070,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1105,7 +1123,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1157,7 +1176,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -1226,7 +1246,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -1297,7 +1318,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "tool-calling",
@@ -1349,7 +1371,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -1415,7 +1438,8 @@
     "downloadUrl": "https://huggingface.co/PocketAiHub/talkie-1930-13b-it-GGUF/resolve/main/talkie-1930-13b-it-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
-      "macos"
+      "macos",
+      "linux"
     ],
     "capabilities": [],
     "canReadFiles": false,
@@ -1454,7 +1478,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1504,7 +1529,8 @@
     "sha256": "ffec017c7ecba924fbaa8a6576df8c74d949eacb2c264113842ddb4176bbcae1",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1570,7 +1596,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1628,7 +1655,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1694,7 +1722,8 @@
     "sha256": "19959a653e143bf51b3af7999b6434e35a0d61261a7741a7d01a4acae6f2a59a",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -1756,7 +1785,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1822,7 +1852,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1888,7 +1919,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "canReadFiles": true,
     "contextLength": 131072,
@@ -1915,7 +1947,8 @@
     "sha256": "13cb6228344898afa50d963c02ae0d991ae25094eea8837db8d0e452e91c5888",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -1989,7 +2022,8 @@
     "sha256": "1b7f1a37ddac09fc3a5cc4ff9a78410c30cd4a105edb4ee6b87194c9523b1c88",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "canReadFiles": true,
     "contextLength": 131072,
@@ -2051,7 +2085,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "reasoning"
@@ -2116,7 +2151,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -2182,7 +2218,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "canReadFiles": true,
     "contextLength": 131072,
@@ -2220,7 +2257,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "reasoning",
@@ -2286,7 +2324,8 @@
     "sha256": "1b0ac637dfa092bbba2793977db9485a40c4f8b42df5fe342f0076d61b66ae83",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -2360,7 +2399,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -2426,7 +2466,8 @@
     "sha256": "ff6941ded525b34eb159496762c29dd0ec6e71dc31b74d57e75d871a03eec259",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -2500,7 +2541,8 @@
     "sha256": "e44827d0ea3d5dd914f8c686ef530befaff6e9f0142f33956b4aa9e824f98a12",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -2574,7 +2616,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "tool-calling",
@@ -2640,7 +2683,8 @@
     "sha256": "5966748c91ce5f53a4ca5162c12060196a55abec8234bf055bdd6984f8ec59a3",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -2672,7 +2716,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "canReadFiles": true,
     "contextLength": 262144,
@@ -2734,7 +2779,8 @@
     "sha256": "4bb93f0a0221ef4ff963ca9094df629c8dfdfabc3b4fdd85c1a2e4c0624fce36",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "canReadFiles": true,
     "contextLength": 131072,
@@ -2779,7 +2825,8 @@
     ],
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -2890,7 +2937,8 @@
     ],
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "canReadFiles": true,
     "contextLength": 131072,
@@ -2997,7 +3045,8 @@
     ],
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "canReadFiles": true,
     "contextLength": 131072,
@@ -3119,7 +3168,8 @@
     ],
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -3250,7 +3300,8 @@
     ],
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -3381,7 +3432,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -3455,7 +3507,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -3529,7 +3582,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "canReadFiles": true,
     "contextLength": 32768,
@@ -3655,7 +3709,8 @@
     ],
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -3770,7 +3825,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "contextLength": 202752,
     "defaultQuantLevel": "UD-Q4_K_M",
@@ -3957,7 +4013,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -4034,7 +4091,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -4110,7 +4168,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -4184,7 +4243,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -4266,7 +4326,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -4340,7 +4401,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -4423,7 +4485,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "reasoning",
@@ -4491,7 +4554,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "tool-calling"
@@ -4574,7 +4638,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "reasoning",
@@ -4656,7 +4721,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "tool-calling"
@@ -4739,7 +4805,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -4823,7 +4890,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [],
     "contextLength": 128000,
@@ -4887,7 +4955,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -4961,7 +5030,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -5044,7 +5114,8 @@
     "sha256": "e6414ee26f347b1b7a5eee77dcb8b23b14d334a6102c93f666903ce3eec73a51",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -5106,7 +5177,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -5201,7 +5273,8 @@
     ],
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision",
@@ -5234,7 +5307,8 @@
     "sha256": "c27536640e410032865dc68781d80a08b98f8db5e93575919af8ccc0568aeb4f",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "reasoning"
@@ -5277,7 +5351,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "vision"
@@ -5322,7 +5397,8 @@
       "android",
       "ios",
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [],
     "canReadFiles": true,
@@ -5373,7 +5449,8 @@
     ],
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "capabilities": [
       "reasoning"

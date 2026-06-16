@@ -18,7 +18,8 @@
       "sha256": "",
       "supportedPlatforms": [
         "macos",
-        "windows"
+        "windows",
+        "linux"
       ],
       "architecture": "flux",
       "defaultSteps": 50,
@@ -88,7 +89,8 @@
       "sha256": "",
       "supportedPlatforms": [
         "macos",
-        "windows"
+        "windows",
+        "linux"
       ],
       "architecture": "ltxv-2.3",
       "backend": "comfyui",
@@ -194,7 +196,8 @@
       "sha256": "",
       "supportedPlatforms": [
         "macos",
-        "windows"
+        "windows",
+        "linux"
       ],
       "contextLength": 32768,
       "capabilities": [

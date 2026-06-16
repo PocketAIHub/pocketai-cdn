@@ -16,7 +16,8 @@
     "sha256": "",
     "supportedPlatforms": [
       "macos",
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "triposr",
     "inputModalities": [
@@ -45,7 +46,8 @@
     "downloadUrl": "https://huggingface.co/spaces/Wuvin/Unique3D/resolve/main/ckpt",
     "sha256": "",
     "supportedPlatforms": [
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "unique3d",
     "inputModalities": [
@@ -71,7 +73,8 @@
     "downloadUrl": "https://huggingface.co/microsoft/TRELLIS-image-large/resolve/main/model.safetensors",
     "sha256": "",
     "supportedPlatforms": [
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "trellis",
     "inputModalities": [
@@ -99,7 +102,8 @@
     "downloadUrl": "https://huggingface.co/microsoft/TRELLIS.2-4B/resolve/main/",
     "sha256": "",
     "supportedPlatforms": [
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "trellis2",
     "inputModalities": [
@@ -126,7 +130,8 @@
     "downloadUrl": "https://huggingface.co/tencent/Hunyuan3D-2.1/resolve/main/",
     "sha256": "",
     "supportedPlatforms": [
-      "windows"
+      "windows",
+      "linux"
     ],
     "architecture": "hunyuan3d",
     "inputModalities": [
