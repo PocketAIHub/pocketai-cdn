@@ -2600,6 +2600,39 @@
     "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
+    "id": "qwable3.6-27b",
+    "name": "Qwable 3.6 27B",
+    "category": "language",
+    "provider": "Mia-AiLab",
+    "summary": "Full Qwen3.6 27B fine-tune trained on Fable 5-style reasoning and instruction data. Built for coding, technical reasoning, and structured assistant responses on high-memory desktops.",
+    "sizeBytes": 16547398976,
+    "ramRequirementBytes": 23000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b/resolve/151207281f868368055195cd21365feef779a0ba/Qwable-27b_Q4_K_M.gguf",
+    "sha256": "d3633d8c2de49a5be341fecd3e9424250b2beeb457484cc4ed333aaa8abace0c",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "hfCreatedAt": "2026-06-15T14:32:38.000Z",
+    "hfReleasedAt": "2026-06-15T14:32:38.000Z",
+    "hfLastModified": "2026-06-16T09:44:57.000Z",
+    "cdnAddedAt": "2026-06-16T18:59:37+09:00"
+  },
+  {
     "id": "carnice-v2-27b",
     "name": "Carnice V2 27B",
     "category": "language",
