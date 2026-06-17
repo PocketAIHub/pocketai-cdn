@@ -2525,6 +2525,92 @@
     "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
+    "id": "qwen3.6-27b-fable5-experimental",
+    "name": "Qwen3.6 27B Fable 5 Experimental",
+    "category": "language",
+    "provider": "TeichAI",
+    "summary": "Qwen3.6 27B Fable 5 distillation trained from Claude Code-style traces. Focused on coding-agent responses, reasoning, and long-context workflows. Desktop only.",
+    "sizeBytes": 16547399840,
+    "ramRequirementBytes": 23000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/b8acc440dda9d59bd38c5e42c85e4e13db1281f7/Qwen3.6-27B-Fable-5-Distill.q4_k_m.gguf",
+    "sha256": "aaa4bcc526250d689f41a596a6619caed2e97d76219d66753b188f6cc3f34367",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/main/mmproj-F16.gguf",
+    "mmprojSha256": "ab44d0a0633ed3ca807bd01d1a5894f0b1dc52e49edac10fbb6972ea9693b124",
+    "contextLength": 262144,
+    "vramRequirementBytes": 18500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 12073953440,
+        "ramRequirementBytes": 17500000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/main/Qwen3.6-27B-Fable-5-Distill.q3_k_s.gguf",
+        "sha256": "542a5124172106315d77441ec8bfc946de208d45de42dfaf124116653b0770e6"
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13301442720,
+        "ramRequirementBytes": 19000000000,
+        "vramRequirementBytes": 15000000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/main/Qwen3.6-27B-Fable-5-Distill.q3_k_m.gguf",
+        "sha256": "1ae23982c972e5879921d376f3702a6608e4287ea925c1375958ccbd777fad0d"
+      },
+      {
+        "quantLevel": "IQ4_NL",
+        "sizeBytes": 15891056800,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/main/Qwen3.6-27B-Fable-5-Distill.iq4_nl.gguf",
+        "sha256": "7beaa335f009c5adb574795520f143e01da2f741ca03caad691f8de8068462f0"
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19231099040,
+        "ramRequirementBytes": 26000000000,
+        "vramRequirementBytes": 21500000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/main/Qwen3.6-27B-Fable-5-Distill.q5_k_m.gguf",
+        "sha256": "7f4f9b041dee284b52c401d4f8f85d488ec04da35d4efea9a2b8889a9e684033"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22082529440,
+        "ramRequirementBytes": 30000000000,
+        "vramRequirementBytes": 24500000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/main/Qwen3.6-27B-Fable-5-Distill.q6_k.gguf",
+        "sha256": "4bba66326a4fcbd4fc24155ff4cf6f95deb2c79649eb1148ce9933a2e55577c3"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595763360,
+        "ramRequirementBytes": 38000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/main/Qwen3.6-27B-Fable-5-Distill.q8_0.gguf",
+        "sha256": "b2c0af5806349a84d46cc9582cbc927a9d7f58709f9286bfa6fef1028a251d3f"
+      }
+    ],
+    "hfCreatedAt": "2026-06-16T13:49:36.000Z",
+    "hfReleasedAt": "2026-06-16T13:49:36.000Z",
+    "hfLastModified": "2026-06-17T01:25:14.000Z",
+    "cdnAddedAt": "2026-06-17T10:45:00+09:00"
+  },
+  {
     "id": "qwen3.6-27b-tuned-hauhaucs-aggressive",
     "name": "Qwen3.6 27B Tuned",
     "category": "language",
@@ -3529,7 +3615,7 @@
     "category": "language",
     "provider": "HauhauCS",
     "summary": "Qwen3.6 35B-A3B variant tuned to feel friendlier, more direct, and less inquisitive in everyday chats. Same 262K context as the base. Desktop-class memory footprint.",
-    "sizeBytes": 22763327488,
+    "sizeBytes": 21166758016,
     "ramRequirementBytes": 39500000000,
     "license": "Apache 2.0",
     "tier": "free",
@@ -3537,7 +3623,7 @@
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
-    "sha256": "",
+    "sha256": "bbef58c37ce88820be9d98b6437f1cf4bac890c947bd55fc7b68e22098574231",
     "supportedPlatforms": [
       "macos",
       "windows",
@@ -3549,54 +3635,63 @@
     "canReadFiles": true,
     "mmprojUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-f16.gguf",
     "contextLength": 262144,
-    "vramRequirementBytes": 25500000000,
+    "vramRequirementBytes": 24500000000,
     "defaultQuantLevel": "Q4_K_M",
     "quantVariants": [
       {
         "quantLevel": "IQ3_M",
-        "sizeBytes": 16536476876,
-        "ramRequirementBytes": 29000000000,
-        "vramRequirementBytes": 18000000000,
+        "sizeBytes": 15440519296,
+        "ramRequirementBytes": 27000000000,
+        "vramRequirementBytes": 17000000000,
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ3_M.gguf",
-        "sha256": ""
+        "sha256": "4dd9a27c68bd778ede351a553680a1a6e4ec62e5d383b549892860ea337be0c0"
       },
       {
         "quantLevel": "IQ4_XS",
-        "sizeBytes": 20080971776,
-        "ramRequirementBytes": 35000000000,
-        "vramRequirementBytes": 22000000000,
+        "sizeBytes": 18728777856,
+        "ramRequirementBytes": 32500000000,
+        "vramRequirementBytes": 21000000000,
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ4_XS.gguf",
-        "sha256": ""
+        "sha256": "c26708a77a26d6c0416502832a200de4135e91af8279b5e93c67fe4e4e081aae"
+      },
+      {
+        "quantLevel": "Q4_K_P",
+        "sizeBytes": 23424536704,
+        "ramRequirementBytes": 40500000000,
+        "vramRequirementBytes": 26500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+        "sha256": "8d344a4336d8ea7da0cbfc12792d1471e568be7abe8930c52260698bfd01d731"
       },
       {
         "quantLevel": "Q5_K_P",
-        "sizeBytes": 30064771072,
-        "ramRequirementBytes": 50000000000,
-        "vramRequirementBytes": 32500000000,
+        "sizeBytes": 28027394176,
+        "ramRequirementBytes": 48500000000,
+        "vramRequirementBytes": 31500000000,
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q5_K_P.gguf",
-        "sha256": ""
+        "sha256": "2a3b72ab458f99028b65cce7ef6a9d6e4c79aa4318296d1b01bac9923d6a3b12"
       },
       {
         "quantLevel": "Q6_K_P",
-        "sizeBytes": 32856793088,
-        "ramRequirementBytes": 54500000000,
-        "vramRequirementBytes": 35500000000,
+        "sizeBytes": 30649317504,
+        "ramRequirementBytes": 53000000000,
+        "vramRequirementBytes": 34500000000,
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q6_K_P.gguf",
-        "sha256": ""
+        "sha256": "90281d33e0790d6da2f125aa3f4352f429d8cc2ce2b32caafd78896397756fc3"
       },
       {
         "quantLevel": "Q8_K_P",
-        "sizeBytes": 46811969454,
-        "ramRequirementBytes": 77500000000,
-        "vramRequirementBytes": 49500000000,
+        "sizeBytes": 43605014656,
+        "ramRequirementBytes": 75000000000,
+        "vramRequirementBytes": 48000000000,
         "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
-        "sha256": ""
+        "sha256": "d5efc2a1fc3f595893128550cf8b7e792774be6c0409c4d2e4729d2b5bb51173"
       }
     ],
     "hfCreatedAt": "2026-04-17T00:15:26.000Z",
     "hfReleasedAt": "2026-04-17T00:15:26.000Z",
     "hfLastModified": "2026-04-17T02:59:21.000Z",
-    "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    "cdnAddedAt": "2026-05-08T18:02:12+09:00",
+    "mmprojSha256": "c8e702344a81f8c226a914aa980ed6e1f604bce9374f1fed8e65c896908af414"
   },
   {
     "id": "qwen3.6-35b-a3b-opus-distilled",
@@ -3839,6 +3934,197 @@
     "hfReleasedAt": "2026-04-20T15:27:51.000Z",
     "hfLastModified": "2026-04-22T11:59:50.000Z",
     "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+  },
+  {
+    "id": "kimi-k2.7-code",
+    "name": "Kimi K2.7 Code",
+    "category": "language",
+    "provider": "Moonshot AI / Unsloth",
+    "summary": "Kimi K2.7 Code is a coding-focused agentic MoE built on Kimi K2.6, tuned for long-horizon software engineering, tool use, and token-efficient reasoning. Datacenter-class multipart GGUF.",
+    "sizeBytes": 583710875520,
+    "ramRequirementBytes": 595000000000,
+    "license": "Modified MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00001-of-00014.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00001-of-00014.gguf",
+        "sha256": "65f0aca336f876902323a90e2aff32cac76d071b2cdd818c6a8d78be8fc2c680",
+        "sizeBytes": 6912928
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00002-of-00014.gguf",
+        "sha256": "f102be787da86a4aac79b7dfdc6494874324cc85ece4e45abc52afba0cb3e996",
+        "sizeBytes": 48227764256
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00003-of-00014.gguf",
+        "sha256": "89fb7712d8bed69d8bb7711bf72b2abdfe30bef5ae38052b3b7fa412ce473ec8",
+        "sizeBytes": 48389973248
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00004-of-00014.gguf",
+        "sha256": "5f877aa68d1d8dc8c2a8d2b524f9ab48036d36bebb26720d4e8b7ea8194b59b6",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00005-of-00014.gguf",
+        "sha256": "af6536329c917c540cb6836f4c01116625e4988c53d8ac7bffa2ef1fe55b8050",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00006-of-00014.gguf",
+        "sha256": "ec43a68ce0b74b5fab325301df74ee8e2101e2c054c87d13953b07190b07ef06",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00007-of-00014.gguf",
+        "sha256": "9df412dbd52c69a4336316d03e740cae35a7399094ef9a64e07dfa16635ecb34",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00008-of-00014.gguf",
+        "sha256": "b2d81255165052a24968a8f38f0bf33c3de5ed1afce90f29156d8d3f49e51c46",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00009-of-00014.gguf",
+        "sha256": "0c22d79912f1ecd3ec8ae25bb026e8b16ce6a3bda092eb013c91938a331c7e36",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00010-of-00014.gguf",
+        "sha256": "0b8ea23ffa13a2d9f532f7ba94b046e426ae774b6106d340de2d45c5913124ef",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00011-of-00014.gguf",
+        "sha256": "33cb554c2d84fc1ba865457df6c08bc4a3d22a39a17d462089bf56b42667f9a1",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00012-of-00014.gguf",
+        "sha256": "b3e784c728cd56a0eb9b19437a96f02fca37f196b1b6db7ae7097986856b01ed",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00013-of-00014.gguf",
+        "sha256": "5a0bad3e3064da729703717c235e7e2d2ba9e5976004457cbe4094f4b4518f59",
+        "sizeBytes": 48389973344
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/c227305ac338790ce3c58d5bbf2e1d2fb4a3a433/UD-Q4_K_XL/Kimi-K2.7-Code-UD-Q4_K_XL-00014-of-00014.gguf",
+        "sha256": "8e9d0a59883bc7f2ccbb3980109b78daaa11ece7b7c645c0119ccd984aadae7d",
+        "sizeBytes": 3186491648
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/mmproj-F16.gguf",
+    "mmprojSha256": "9036f4050ca6e0cb4007ad9e46644f47031b4b979ba29ae4e355de5e006e7afe",
+    "contextLength": 262144,
+    "vramRequirementBytes": 654000000000,
+    "defaultQuantLevel": "UD-Q4_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q8_K_XL",
+        "sizeBytes": 594544652160,
+        "ramRequirementBytes": 607000000000,
+        "vramRequirementBytes": 670000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00001-of-00014.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00001-of-00014.gguf",
+            "sha256": "65f0aca336f876902323a90e2aff32cac76d071b2cdd818c6a8d78be8fc2c680",
+            "sizeBytes": 6912928
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00002-of-00014.gguf",
+            "sha256": "40f4416c130827a11502778891f4ef95b2144db90f51d63aa3548d0952a39683",
+            "sizeBytes": 48351557408
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00003-of-00014.gguf",
+            "sha256": "ba2ba0b5168784ace7c752ecadfc3631279b2bb023824cb0fe9e2dab3dd28f22",
+            "sizeBytes": 49070421248
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00004-of-00014.gguf",
+            "sha256": "10298a6c98b13ef49be286fefbea8663e16473fb69bbeabe153bc80c60ae116e",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00005-of-00014.gguf",
+            "sha256": "8e9e4c8e35d34fc4fef6bfb65a715ad7defbd196970d833c1df6924d701c88b3",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00006-of-00014.gguf",
+            "sha256": "ccff6e7f299742f82cf6f51a871e3eb3167511efaee967477cc8387f54d16442",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00007-of-00014.gguf",
+            "sha256": "1a3b639633a2d22f71156a9f643ded2329cdd969cc21177b644b5741bac1af8e",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00008-of-00014.gguf",
+            "sha256": "bde28f682a1eab973538b2102007d952f37a13c1f7d55e2ed99177445ddc4282",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00009-of-00014.gguf",
+            "sha256": "b6a23a95b61e100f7593fa75e2363966323fa767b7e4fdf45d963b59e8fdc69f",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00010-of-00014.gguf",
+            "sha256": "fb10231c2e6d76921d40f22690f4aa08a8090c708edeaf7e581abafc24d3b25c",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00011-of-00014.gguf",
+            "sha256": "d2290be7ed1a22ac1f9f8a4813389689e075ce2ab8abc3aaaa1157a3cb1462d8",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00012-of-00014.gguf",
+            "sha256": "ce0d028314aa3fc783082dbca097e1055d69686a17ab8306574e2949568f26a5",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00013-of-00014.gguf",
+            "sha256": "217864ce63a1d130ab39dcb0996b6097e1aa78eb896e38efaefdbbac3a00b7ec",
+            "sizeBytes": 49070421344
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Kimi-K2.7-Code-GGUF/resolve/main/UD-Q8_K_XL/Kimi-K2.7-Code-UD-Q8_K_XL-00014-of-00014.gguf",
+            "sha256": "eb7582ad7066c5eaa01bde95acb00b4ad9cd7b07cd50a6cf5c9ee427258bc9dd",
+            "sizeBytes": 6411547136
+          }
+        ]
+      }
+    ],
+    "hfCreatedAt": "2026-06-12T18:03:48.000Z",
+    "hfReleasedAt": "2026-06-12T18:03:48.000Z",
+    "hfLastModified": "2026-06-15T05:40:32.000Z",
+    "cdnAddedAt": "2026-06-17T10:21:59+09:00"
   },
   {
     "id": "glm-5.1",
@@ -5047,6 +5333,103 @@
     "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
+    "id": "gemma-4-12b-coder-fable5-composer2.5-v1",
+    "name": "Gemma 4 12B Coder Fable5 Composer2.5 v1",
+    "category": "language",
+    "provider": "yuxinlu1",
+    "summary": "Gemma 4 12B coding fine-tune distilled from Fable 5 and Composer 2.5 style programming traces. Focused on local code generation, reasoning, and agent-friendly responses.",
+    "sizeBytes": 7381381664,
+    "ramRequirementBytes": 13500000000,
+    "license": "Gemma",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF/resolve/31fb24a53a127f1c66aeec6669094fec31172150/gemma4-coding-Q4_K_M.gguf",
+    "sha256": "1fe90b72e105d7bc71650aa59883edece3e84751af489075217a7ae717b1fe8d",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 8500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9786020384,
+        "ramRequirementBytes": 17500000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF/resolve/main/gemma4-coding-Q6_K.gguf",
+        "sha256": "9a4aa42ef5c540afedaeec47194c39abc9268745662dc44b8351f658e979b4b1"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12669645344,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 14500000000,
+        "downloadUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF/resolve/main/gemma4-coding-Q8_0.gguf",
+        "sha256": "18629e26f7b800357fe95ae3804c9be49af58ebc73e80754c301ebe997e29fbb"
+      }
+    ],
+    "hfCreatedAt": "2026-06-10T07:24:02.000Z",
+    "hfReleasedAt": "2026-06-10T07:24:02.000Z",
+    "hfLastModified": "2026-06-16T23:10:36.000Z",
+    "cdnAddedAt": "2026-06-17T10:21:59+09:00"
+  },
+  {
+    "id": "gemma-4-12b-obliterated",
+    "name": "Gemma 4 12B Obliterated",
+    "category": "language",
+    "provider": "OBLITERATUS",
+    "summary": "Gemma 4 12B abliterated variant for refusal-analysis and red-team research. Text-focused GGUF build with Q4 and Q8 downloads.",
+    "sizeBytes": 7381382208,
+    "ramRequirementBytes": 13500000000,
+    "license": "Gemma",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED/resolve/f81b0cbd28a3650138635823bc101adb56a0bc4a/Gemma-4-12B-OBLITERATED-Q4_K_M.gguf",
+    "sha256": "f5b01d65562305cad661d9ec83bd63220c101fec5355fa78fb6a27ba85116eb4",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "abliterated"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 8500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12669645888,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 14500000000,
+        "downloadUrl": "https://huggingface.co/OBLITERATUS/Gemma-4-12B-OBLITERATED/resolve/main/Gemma-4-12B-OBLITERATED-v2-Q8_0.gguf",
+        "sha256": "54ac8a7b39cf617a9980cf32c5c943e2688745e03d451e70f3b5e2846a589fda"
+      }
+    ],
+    "hfCreatedAt": "2026-06-05T08:58:36.000Z",
+    "hfReleasedAt": "2026-06-05T08:58:36.000Z",
+    "hfLastModified": "2026-06-09T10:55:06.000Z",
+    "cdnAddedAt": "2026-06-17T10:21:59+09:00"
+  },
+  {
     "id": "qwopus3.6-27b-v2-mtp",
     "name": "Qwopus3.6 27B v2 MTP",
     "category": "language",
@@ -5060,7 +5443,7 @@
     "format": "gguf",
     "source": "hugging-face",
     "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q4_K_M.gguf",
-    "sha256": "",
+    "sha256": "818d68223be4d8518dac0b3b5604dde633cbbcbae1f491d842a3e26711c6606d",
     "supportedPlatforms": [
       "macos",
       "windows",
@@ -5082,7 +5465,7 @@
         "ramRequirementBytes": 16000000000,
         "vramRequirementBytes": 13000000000,
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q2_K.gguf",
-        "sha256": ""
+        "sha256": "49c31ed863bc949b917ee8f6232ad370d1c910a2920f69d8c320aeaaf0845eee"
       },
       {
         "quantLevel": "Q3_K_M",
@@ -5090,7 +5473,7 @@
         "ramRequirementBytes": 19000000000,
         "vramRequirementBytes": 15500000000,
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q3_K_M.gguf",
-        "sha256": ""
+        "sha256": "844a2a31eff39b88650508cd4c73def56486629b13bf98cf0f33de33bedb5505"
       },
       {
         "quantLevel": "IQ4_XS",
@@ -5098,7 +5481,7 @@
         "ramRequirementBytes": 21000000000,
         "vramRequirementBytes": 17500000000,
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-IQ4_XS.gguf",
-        "sha256": ""
+        "sha256": "926ecae9aa23d2c18d3567f8af3c40947bedc02a5e88afab8a19040f67ff76bf"
       },
       {
         "quantLevel": "Q5_K_M",
@@ -5106,7 +5489,7 @@
         "ramRequirementBytes": 27000000000,
         "vramRequirementBytes": 22500000000,
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q5_K_M.gguf",
-        "sha256": ""
+        "sha256": "868fcb416ff674654aa2c2446a970df997ee55f0518c637a3d92982ed8b12f25"
       },
       {
         "quantLevel": "Q6_K",
@@ -5114,7 +5497,7 @@
         "ramRequirementBytes": 30500000000,
         "vramRequirementBytes": 25500000000,
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q6_K.gguf",
-        "sha256": ""
+        "sha256": "b9eb78bc80715fdefd343de5a3feb4676083d932069b9079c60387c69cb7ae75"
       },
       {
         "quantLevel": "Q8_0",
@@ -5122,13 +5505,14 @@
         "ramRequirementBytes": 39000000000,
         "vramRequirementBytes": 33000000000,
         "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q8_0.gguf",
-        "sha256": ""
+        "sha256": "1050507a4edade81123d4b732e8810a80135546c91a7e3d26ff632f8a992af45"
       }
     ],
     "hfCreatedAt": "2026-05-21T06:37:47.000Z",
     "hfReleasedAt": "2026-05-21T06:37:47.000Z",
     "hfLastModified": "2026-06-02T22:22:21.000Z",
-    "cdnAddedAt": "2026-06-07T20:28:24+09:00"
+    "cdnAddedAt": "2026-06-07T20:28:24+09:00",
+    "mmprojSha256": "bf51f62572c6e513659d3fa4989ac846e58fa8c30fb60ecb8112aebb1f3128a3"
   },
   {
     "id": "qwopus3.6-27b-coder-mtp",

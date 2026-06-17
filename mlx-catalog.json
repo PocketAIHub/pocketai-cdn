@@ -239,6 +239,29 @@
     "defaultQuantLevel": "4bit"
   },
   {
+    "id": "diffusiongemma-26b-a4b-it-4bit",
+    "name": "DiffusionGemma 26B-A4B IT 4bit",
+    "category": "language",
+    "provider": "Google / mlx-community",
+    "summary": "MLX 4-bit conversion of DiffusionGemma 26B-A4B IT for mlx-vlm image-text generation on Apple Silicon. Vision-capable MoE Gemma-family model.",
+    "sizeBytes": 16543055405,
+    "ramRequirementBytes": 23000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/diffusiongemma-26B-A4B-it-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 131072,
+    "defaultQuantLevel": "4bit"
+  },
+  {
     "id": "gemma-4-31b",
     "name": "Gemma 4 31B",
     "category": "language",
@@ -258,6 +281,31 @@
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
+  },
+  {
+    "id": "gemma-4-31b-jang-4m-crack",
+    "name": "Gemma 4 31B JANG 4M CRACK",
+    "category": "language",
+    "provider": "dealignai",
+    "summary": "JANG 4M CRACK v2 MLX-native Gemma 4 31B build with abliterated behavior and preserved multimodal vision path. Best for high-memory Apple Silicon Macs.",
+    "sizeBytes": 22659788112,
+    "ramRequirementBytes": 32000000000,
+    "license": "Gemma",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "dealignai/Gemma-4-31B-JANG_4M-CRACK",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "uncensored",
+      "abliterated"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "jang-4m"
   },
   {
     "id": "granite-4.1-30b",
@@ -457,6 +505,27 @@
     "defaultQuantLevel": "8bit"
   },
   {
+    "id": "gemma-4-12b-it-optiq-4bit",
+    "name": "Gemma 4 12B IT OptiQ 4bit",
+    "category": "language",
+    "provider": "Google / mlx-community",
+    "summary": "Mixed-precision OptiQ 4-bit text-inference build of Gemma 4 12B IT. Sensitivity-aware quantization improves reasoning, coding, and long-context retrieval versus uniform 4-bit.",
+    "sizeBytes": 8964644924,
+    "ramRequirementBytes": 13000000000,
+    "license": "Gemma",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12B-it-OptiQ-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 131072,
+    "defaultQuantLevel": "optiq-4bit"
+  },
+  {
     "id": "qwen3.6-35b-a3b-mxfp4-crack-mtp",
     "name": "Qwen 3.6 35B A3B MXFP4 CRACK MTP",
     "category": "language",
@@ -476,5 +545,30 @@
     "capabilities": [],
     "contextLength": 262144,
     "defaultQuantLevel": "mxfp4"
+  },
+  {
+    "id": "gpt-oss-120b-fable5-distilled",
+    "name": "GPT-OSS 120B Fable 5 Distilled",
+    "category": "language",
+    "provider": "cloudyu",
+    "summary": "Fable 5 distilled GPT-OSS 120B MLX model fine-tuned on real-world Claude Code programming sessions. Apple Silicon only; workstation-class memory footprint.",
+    "sizeBytes": 63386948506,
+    "ramRequirementBytes": 96000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "cloudyu/gpt-oss-120b-Fable-5-Distilled",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 131072,
+    "defaultQuantLevel": "4bit"
   }
 ]
