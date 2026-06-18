@@ -26,6 +26,14 @@ GET https://cdn.pocketaihub.com/image-catalog.json
 
 Returns the image generation model catalog (Stable Diffusion, FLUX, SDXL, Chroma, Z-Image, Ovis-Image, Qwen-Image). Each entry includes architecture, supported resolutions, default steps/CFG, and auxiliary model URLs (CLIP, T5, VAE).
 
+### MLX Image Models
+
+```
+GET https://cdn.pocketaihub.com/mlx-image-catalog.json
+```
+
+Returns Apple Silicon image generation models that load through MLX-native runtimes instead of the GGUF/stable-diffusion.cpp path. Each entry includes the Hugging Face repo id, snapshot revision, backend/runtime selector, quantization, supported resolutions, and default generation settings.
+
 ### Video Models
 
 ```
@@ -74,7 +82,11 @@ Returns the current version number for each catalog category. Used by apps to ch
   "language": 1,
   "image": 1,
   "video": 1,
-  "voice": 1
+  "voice": 1,
+  "gated": 1,
+  "mesh": 1,
+  "mlx": 1,
+  "mlxImage": 1
 }
 ```
 
@@ -99,6 +111,7 @@ There are two copies of the model catalogs that must stay in sync:
 |----------|-------------|
 | `pocketai-cdn/catalog.json` | **CDN (source of truth)** - language model catalog served at `cdn.pocketaihub.com/catalog.json` |
 | `pocketai-cdn/image-catalog.json` | CDN - image generation model catalog |
+| `pocketai-cdn/mlx-image-catalog.json` | CDN - MLX-native image generation model catalog |
 | `pocketai-cdn/video-catalog.json` | CDN - video generation model catalog |
 | `pocketai-cdn/voice-catalog.json` | CDN - voice model catalog (STT, TTS, VAD) |
 | `pocketai-cdn/gated-catalog.json` | CDN - gated/uncensored models (non-app-store builds only) |

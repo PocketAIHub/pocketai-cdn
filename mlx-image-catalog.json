@@ -1,0 +1,65 @@
+[
+  {
+    "id": "flux1-schnell-mflux-4bit",
+    "name": "FLUX.1 Schnell MLX",
+    "category": "image",
+    "provider": "Black Forest Labs / MFLUX",
+    "summary": "Apple Silicon MLX build of FLUX.1 Schnell for fast local image generation through MFLUX. Public Apache 2.0 weights, 4-bit quantized.",
+    "sizeBytes": 9853302365,
+    "ramRequirementBytes": 18000000000,
+    "vramRequirementBytes": 18000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "madroid/flux.1-schnell-mflux-4bit",
+    "hfBaseModelId": "black-forest-labs/FLUX.1-schnell",
+    "hfRevision": "4a5ef87e8f50a9d8576ea2f01e3bb4f00c5f1f5d",
+    "hfCreatedAt": "2024-09-02T08:31:57.000Z",
+    "hfReleasedAt": "2024-09-02T08:31:57.000Z",
+    "hfLastModified": "2024-09-02T08:43:44.000Z",
+    "cdnAddedAt": "2026-06-17T18:39:18+09:00",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "flux",
+    "backend": "mflux",
+    "downloadStrategy": "huggingface-snapshot",
+    "mlxModelAlias": "schnell",
+    "mlxQuantize": 4,
+    "mlxRuntimePackage": "mflux",
+    "mlxRuntimeMinVersion": "0.2.1",
+    "defaultSteps": 4,
+    "defaultCfgScale": 0.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "gated": false,
+    "defaultQuantLevel": "4bit"
+  }
+]
