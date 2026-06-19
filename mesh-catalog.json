@@ -26,8 +26,6 @@
     "maxInputImages": 1,
     "configUrl": "https://huggingface.co/stabilityai/TripoSR/resolve/main/config.yaml",
     "configSha256": "",
-    "vocabUrl": "https://huggingface.co/stabilityai/TripoSR/resolve/main/mv_vocab.pth",
-    "vocabSha256": "",
     "format": "ckpt"
   },
   {
@@ -70,7 +68,7 @@
     "tier": "free",
     "weight": "medium",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/microsoft/TRELLIS-image-large/resolve/main/model.safetensors",
+    "downloadUrl": "https://huggingface.co/microsoft/TRELLIS-image-large/resolve/main/",
     "sha256": "",
     "supportedPlatforms": [
       "windows",
@@ -84,7 +82,7 @@
     "maxInputImages": 4,
     "gated": false,
     "requiresGpuVendor": "nvidia",
-    "format": "safetensors"
+    "format": "snapshot"
   },
   {
     "id": "trellis2-4b",
