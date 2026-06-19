@@ -675,5 +675,123 @@
     ],
     "contextLength": 131072,
     "defaultQuantLevel": "4bit"
+  },
+  {
+    "id": "glm-5.2-mxfp4",
+    "name": "GLM-5.2 MXFP4",
+    "category": "language",
+    "provider": "Z.ai / mlx-community",
+    "summary": "MXFP4 MLX build of GLM-5.2 for Apple Silicon. 1M-context flagship MoE model for long-horizon coding, agentic workflows, and reasoning on very high-memory Macs.",
+    "sizeBytes": 395094391502,
+    "ramRequirementBytes": 520000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/GLM-5.2-mxfp4",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 1048576,
+    "defaultQuantLevel": "mxfp4"
+  },
+  {
+    "id": "qwen3.6-35b-a3b-optiq-4bit",
+    "name": "Qwen 3.6 35B A3B OptiQ 4bit",
+    "category": "language",
+    "provider": "Alibaba / mlx-community",
+    "summary": "Mixed-precision OptiQ 4-bit MLX build of Qwen 3.6 35B-A3B. MoE model with vision files, MTP weights, and 262K context for high-memory Apple Silicon.",
+    "sizeBytes": 24673471763,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Qwen3.6-35B-A3B-OptiQ-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "optiq-4bit"
+  },
+  {
+    "id": "qwen3.6-27b-optiq-4bit",
+    "name": "Qwen 3.6 27B OptiQ 4bit",
+    "category": "language",
+    "provider": "Alibaba / mlx-community",
+    "summary": "Mixed-precision OptiQ 4-bit MLX build of Qwen 3.6 27B. Dense vision-capable model with MTP weights and 262K context for high-memory Apple Silicon.",
+    "sizeBytes": 19979875117,
+    "ramRequirementBytes": 30000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Qwen3.6-27B-OptiQ-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "optiq-4bit"
+  },
+  {
+    "id": "gemma-4-12b-coder-fable5-composer2.5-nvfp4",
+    "name": "Gemma 4 12B Coder Fable5 Composer2.5 NVFP4",
+    "category": "language",
+    "provider": "srv-sngh",
+    "summary": "NVFP4 MLX build of the Gemma 4 12B coder fine-tune distilled from Fable 5 and Composer 2.5 traces. Focused on local coding, reasoning, and agent-friendly responses.",
+    "sizeBytes": 7203276460,
+    "ramRequirementBytes": 11000000000,
+    "license": "Gemma",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "srv-sngh/gemma-4-12B-coder-fable5-composer2.5-nvfp4",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 131072,
+    "defaultQuantLevel": "nvfp4"
+  },
+  {
+    "id": "qwen3.5-27b-opus-distilled-4bit",
+    "name": "Qwen 3.5 27B Opus Distilled 4bit",
+    "category": "language",
+    "provider": "Jackrong / mlx-community",
+    "summary": "4-bit MLX conversion of Qwen 3.5 27B distilled from Claude 4.6 Opus-style reasoning data. Strong local reasoning model for high-memory Apple Silicon Macs.",
+    "sizeBytes": 15133043513,
+    "ramRequirementBytes": 24000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Qwen3.5-27B-Claude-4.6-Opus-Distilled-MLX-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "reasoning"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "4bit"
   }
 ]

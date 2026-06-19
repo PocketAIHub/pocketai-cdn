@@ -4494,7 +4494,7 @@
       "vision"
     ],
     "canReadFiles": true,
-    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/Qwopus3.5-9B-Coder-MTP-mmproj.gguf",
+    "mmprojUrl": "https://huggingface.co/Jackrong/Qwopus3.5-9B-Coder-MTP-GGUF/resolve/main/mmproj-F32.gguf",
     "contextLength": 32768,
     "vramRequirementBytes": 7000000000,
     "defaultQuantLevel": "Q4_K_M",
@@ -6088,6 +6088,105 @@
     "cdnAddedAt": "2026-06-19T09:36:36+09:00"
   },
   {
+    "id": "gemmable-4-31b",
+    "name": "Gemmable 4 31B",
+    "category": "language",
+    "provider": "Mia-AiLab",
+    "summary": "Gemmable 4 31B fine-tune of Gemma 4 31B trained on Fable 5-style reasoning and assistant traces. Larger desktop-focused coding, reasoning, and structured assistant model.",
+    "sizeBytes": 18687045184,
+    "ramRequirementBytes": 36000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q4_K_M.gguf",
+    "sha256": "4f99643d623831291373053d2326ea64f09e889393bcbe891055ddd231decf2c",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 21000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 25201466944,
+        "ramRequirementBytes": 49500000000,
+        "vramRequirementBytes": 28000000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q6_K.gguf",
+        "sha256": "cd7dabf0dc6d3efd20b0d19b233b6493a3fb0bf61946fd2f257e265cbcff980f"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 32635657792,
+        "ramRequirementBytes": 64000000000,
+        "vramRequirementBytes": 36500000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q8_0.gguf",
+        "sha256": "7c81ec23952e46f7cb17ea1789e10e746e96f83cb4d93af36fb4c7b4a8e1bec8"
+      }
+    ],
+    "hfCreatedAt": "2026-06-18T08:14:48.000Z",
+    "hfReleasedAt": "2026-06-18T08:14:48.000Z",
+    "hfLastModified": "2026-06-18T22:33:04.000Z",
+    "cdnAddedAt": "2026-06-19T15:45:00+09:00"
+  },
+  {
+    "id": "gemmable-4-31b-mtp-draft",
+    "name": "Gemmable 4 31B MTP Draft",
+    "category": "language",
+    "provider": "Mia-AiLab",
+    "summary": "Small MTP draft companion files for Gemmable 4 31B speculative decoding. Install alongside the regular Gemmable 4 31B GGUF with the matching quant level.",
+    "sizeBytes": 357793920,
+    "ramRequirementBytes": 1000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q4_K_M-mtp.gguf",
+    "sha256": "06e20aabcf6f9ad52f033d99e82078828af028631916e80e85f8b2c7347edb7b",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 400980096,
+        "ramRequirementBytes": 1000000000,
+        "vramRequirementBytes": 500000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q6_K-mtp.gguf",
+        "sha256": "276e54af903793a4d504df5f3271d3b9da40745956584efb346013f1f3e1f8bd"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 514687104,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 750000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q8_0-mtp.gguf",
+        "sha256": "c7f7321c28d78b67de7f1779df09d5cddfe79b29807f7f40305bd2d3d82c9a55"
+      }
+    ],
+    "hfCreatedAt": "2026-06-18T08:14:48.000Z",
+    "hfReleasedAt": "2026-06-18T08:14:48.000Z",
+    "hfLastModified": "2026-06-18T22:33:04.000Z",
+    "cdnAddedAt": "2026-06-19T15:45:00+09:00"
+  },
+  {
     "id": "qwable3.6-27b-mtp",
     "name": "Qwable 3.6 27B MTP",
     "category": "language",
@@ -6188,5 +6287,513 @@
     "hfReleasedAt": "2026-06-16T20:53:40.000Z",
     "hfLastModified": "2026-06-17T09:23:34.000Z",
     "cdnAddedAt": "2026-06-18T15:30:00+09:00"
+  },
+  {
+    "id": "diffusiongemma-26b-a4b-it",
+    "name": "DiffusionGemma 26B-A4B IT",
+    "category": "language",
+    "provider": "Google / Unsloth",
+    "summary": "Block-diffusion Gemma 4 MoE model for faster local text generation with multimodal prompt support. Experimental GGUF that requires a DiffusionGemma-compatible llama.cpp build.",
+    "sizeBytes": 16806810336,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF/resolve/aab0a2972da0e41310fbcca5ea63fc47eb932a71/diffusiongemma-26B-A4B-it-Q4_K_M.gguf",
+    "sha256": "d2ca2c032ebfb23cf2d1794a3465e615c7545634d46b3c30652a26d8b07c4ad3",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22654490592,
+        "ramRequirementBytes": 46000000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF/resolve/aab0a2972da0e41310fbcca5ea63fc47eb932a71/diffusiongemma-26B-A4B-it-Q6_K.gguf",
+        "sha256": "2eb439010b5d63259795a4f516ceacf296a867477c168f7b25c65acabae57e3a"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 26878831328,
+        "ramRequirementBytes": 54000000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/diffusiongemma-26B-A4B-it-GGUF/resolve/aab0a2972da0e41310fbcca5ea63fc47eb932a71/diffusiongemma-26B-A4B-it-Q8_0.gguf",
+        "sha256": "fa5180660b80d52aae94ed814a6183af303841d8bb425a27f13ea27400a7b430"
+      }
+    ],
+    "hfCreatedAt": "2026-06-10T14:19:12.000Z",
+    "hfReleasedAt": "2026-06-10T14:19:12.000Z",
+    "hfLastModified": "2026-06-12T14:44:09.000Z",
+    "cdnAddedAt": "2026-06-19T16:30:00+09:00"
+  },
+  {
+    "id": "glm-5.2",
+    "name": "GLM-5.2",
+    "category": "language",
+    "provider": "Z.ai / Unsloth",
+    "summary": "Flagship GLM-5.2 Mixture-of-Experts model for long-horizon agentic work, code generation, and reasoning. Solid 1M-token context; datacenter-class memory footprint.",
+    "sizeBytes": 465825525088,
+    "ramRequirementBytes": 500000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00001-of-00011.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00001-of-00011.gguf",
+        "sha256": "3256ac8c290273f0965ff39e93a8bcd07dc99bcd23e923bd4b7306ef39061038",
+        "sizeBytes": 9423744
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00002-of-00011.gguf",
+        "sha256": "1020105e78d862988a6cabb3a78eafa75f29666ab8a5fd10de1b9b8c8a6bc5e8",
+        "sizeBytes": 49801980512
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00003-of-00011.gguf",
+        "sha256": "0b36f406e120759290894ea4960d5086f9b362a8c8f9c7fcaad24b4471172efb",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00004-of-00011.gguf",
+        "sha256": "04b19199f52ba29e7f9966b15df3fbc2d1e5c56cd6343c405076be7174d49d32",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00005-of-00011.gguf",
+        "sha256": "5cb76d724ee16e80c1cb6aba29aacd76161e7a6f147079be3447501c06d95f2c",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00006-of-00011.gguf",
+        "sha256": "ec2c65255c834b686f066e350bc5b8d8a7020cd1133f0ee9e819d2fb5d3afad0",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00007-of-00011.gguf",
+        "sha256": "53c8328852ca0b6791a9a9243bcc56157305adca8526a646054389845e7445a9",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00008-of-00011.gguf",
+        "sha256": "9a23bfb21c5f6fcc94b0329c108ec1ef3fdbd815c57eeb0bf105d26861d7271e",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00009-of-00011.gguf",
+        "sha256": "71088054fb1a09a4f38e2ee8a726526790660a4f77ead817f75cb7a484bdb0b8",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00010-of-00011.gguf",
+        "sha256": "848db99658faf24971df23638281305a15bdc187cbcaed968952ed9e9c835b50",
+        "sizeBytes": 48566415136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q4_K_M/GLM-5.2-UD-Q4_K_M-00011-of-00011.gguf",
+        "sha256": "629e23bce250fb500d9a190de7249c2882af524aacc112ce507a871ed5bebf90",
+        "sizeBytes": 27482799744
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 1048576,
+    "vramRequirementBytes": 500000000000,
+    "defaultQuantLevel": "UD-Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q6_K",
+        "sizeBytes": 625858969376,
+        "ramRequirementBytes": 675000000000,
+        "vramRequirementBytes": 675000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00001-of-00014.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00001-of-00014.gguf",
+            "sha256": "e3edbe857c52e760ccec32d02f188f3df3eb2560183a6223353c8e086863646f",
+            "sizeBytes": 9423744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00002-of-00014.gguf",
+            "sha256": "dba9d61b3b0d09e47bc8b0fe15c507f3095b56b6320246965ddaf006d7eb0989",
+            "sizeBytes": 49592946368
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00003-of-00014.gguf",
+            "sha256": "b835b87528c6df69f803ea77c6ccda67cad6e8756b81bf27883bb3dc9ba58fcb",
+            "sizeBytes": 48957391712
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00004-of-00014.gguf",
+            "sha256": "806496582661ca8ba92572bae6655904bb4742c4d80bf0e973b3ea0ee39f7007",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00005-of-00014.gguf",
+            "sha256": "97746625ac4b80bdd01f98432cdf1067d81ce9632370cac37a9b911410ef0389",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00006-of-00014.gguf",
+            "sha256": "e575fc0bf14a1dc98b5b1a9ced785cab782ff3b6de4586278b3cc83a96917f9e",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00007-of-00014.gguf",
+            "sha256": "bbd7eae65f0574b794c00227d8fedac437fb899be165f7f1b0c2caf98ade03c5",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00008-of-00014.gguf",
+            "sha256": "599d3a2cbc25296a3ffc79fde171a96165e408d144b4f40b26c2e929c4cd7327",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00009-of-00014.gguf",
+            "sha256": "dea9fcdada25f41d219c57dd9f8a1600e49e80950b00c481d7c637b75ca8312e",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00010-of-00014.gguf",
+            "sha256": "a6e7fe8834550a548550ee3e52618c8de10c4ac4a03237e8714936656e4e1a40",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00011-of-00014.gguf",
+            "sha256": "5cdf818e48d8792c80d99da11e9c6023fa82bee06adf434f31692c2ea4ffe208",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00012-of-00014.gguf",
+            "sha256": "5857516f873b0e962808f64acefea3b7d4e8348c6263b40e5c19ac029d3a6d86",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00013-of-00014.gguf",
+            "sha256": "b7be711e134839162c84787c142f504ab0d4466b915fb87b218018c7bc3bd28f",
+            "sizeBytes": 48957391744
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/UD-Q6_K/GLM-5.2-UD-Q6_K-00014-of-00014.gguf",
+            "sha256": "9a0369335fb822fbf459838a572ef4f5b69e7785ad2989cd057e80a8fa6b0ade",
+            "sizeBytes": 37725290112
+          }
+        ]
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 801357672256,
+        "ramRequirementBytes": 865000000000,
+        "vramRequirementBytes": 865000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00001-of-00017.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00001-of-00017.gguf",
+            "sha256": "d04fe0b6dda2b1acc8a2e47b20a249c6c8e5db99f3a64af1df84a1297167811f",
+            "sizeBytes": 48305484672
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00002-of-00017.gguf",
+            "sha256": "e872a77c3a56d93536531c46f86dbc4bc04e82903cc2b9fd841a5ff19888e514",
+            "sizeBytes": 49105526048
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00003-of-00017.gguf",
+            "sha256": "be4812dac3a6fd7b55e0d0285ece06269a523599f435c16141e176eedee22ae8",
+            "sizeBytes": 49299773536
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00004-of-00017.gguf",
+            "sha256": "9ac8eb3c5a802a6e2dec70015fbd1fe3a283b5ec9f57987d39be11d2adec8b33",
+            "sizeBytes": 49065113632
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00005-of-00017.gguf",
+            "sha256": "c314a85181beeaaae11f8f01883e7bae86997a60ed2ed10b9e146fc5ce15e9bb",
+            "sizeBytes": 49065113600
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00006-of-00017.gguf",
+            "sha256": "6f0ad6bc0a825ed2b8b818ab4c082afee5207242c3be08f4d5ff8fbba98b4770",
+            "sizeBytes": 48843319392
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00007-of-00017.gguf",
+            "sha256": "cafd62c56e76dcf01ca3eb12177feefcc845eb3ebe62ceec3e56468552a7c08c",
+            "sizeBytes": 49065113600
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00008-of-00017.gguf",
+            "sha256": "6b3a9a428aae5cc1355e3c63857e2e6a0e62ad847e0a9e4de1fce7c9f8590966",
+            "sizeBytes": 49065113632
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00009-of-00017.gguf",
+            "sha256": "bddf947ee4a3c6162e19d6ceb4d155a03d8e7f30a3a00f712181279155015790",
+            "sizeBytes": 48843319392
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00010-of-00017.gguf",
+            "sha256": "126c5d66871a1132e122a2edb86ec5d89cccd1beb97efe98043fee657db6515d",
+            "sizeBytes": 49065113600
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00011-of-00017.gguf",
+            "sha256": "c779af5b3d7d5d151c00fee376105816ce6f4d04df7bc7eb2f167b72879dee5f",
+            "sizeBytes": 49065113632
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00012-of-00017.gguf",
+            "sha256": "7a9f4634cc88e62f27bd8722016f30c61f7f5b646a323accb9105a42e072ac56",
+            "sizeBytes": 48883731776
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00013-of-00017.gguf",
+            "sha256": "f6c7baef1019b559ca90965d3e4da418662b31f9c6d0c535f4a47d1fad29fc8e",
+            "sizeBytes": 49065113632
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00014-of-00017.gguf",
+            "sha256": "6cb7990749efba16c56faaad4cba9502eebcc47064674e30a0588bdf382117dc",
+            "sizeBytes": 49065113600
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00015-of-00017.gguf",
+            "sha256": "2fbd2056fd1df4c0729835c7e73a9b7837946388c90d1160082ef7b65ddd6823",
+            "sizeBytes": 48843319392
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00016-of-00017.gguf",
+            "sha256": "d5469b815db12244c40232d7232f1260091530d5eb4c62d1780098f527ac93ab",
+            "sizeBytes": 49155939904
+          },
+          {
+            "url": "https://huggingface.co/unsloth/GLM-5.2-GGUF/resolve/edab67d52d10bc2f1b18aaf6002ede11b67e38c1/Q8_0/GLM-5.2-Q8_0-00017-of-00017.gguf",
+            "sha256": "6f5bbd05c12602b0b47bff76f86456c4ee42ac910ad18e0fa0be1a2ed5ce4cd3",
+            "sizeBytes": 17556349216
+          }
+        ]
+      }
+    ],
+    "hfCreatedAt": "2026-06-17T00:21:36.000Z",
+    "hfReleasedAt": "2026-06-17T00:21:36.000Z",
+    "hfLastModified": "2026-06-18T15:37:12.000Z",
+    "cdnAddedAt": "2026-06-19T16:30:00+09:00"
+  },
+  {
+    "id": "minimax-m3",
+    "name": "MiniMax M3",
+    "category": "language",
+    "provider": "MiniMax / Unsloth",
+    "summary": "MiniMax M3 native multimodal MoE model with roughly 428B total and 23B active parameters. Experimental GGUF; requires a MiniMax-M3-compatible llama.cpp build.",
+    "sizeBytes": 264031796736,
+    "ramRequirementBytes": 285000000000,
+    "license": "MiniMax Community",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q4_K_M/MiniMax-M3-UD-Q4_K_M-00001-of-00007.gguf",
+    "sha256": "",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q4_K_M/MiniMax-M3-UD-Q4_K_M-00001-of-00007.gguf",
+        "sha256": "e8e16c72310bd397e88e3ae5dc12d68dba4bf4d10e74825f91a9558e88f622a7",
+        "sizeBytes": 8243104
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q4_K_M/MiniMax-M3-UD-Q4_K_M-00002-of-00007.gguf",
+        "sha256": "b12d8b535a0c780fe8e8997848f605b80d8116bf213754b7a0d6b6148a231d7b",
+        "sizeBytes": 49049569184
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q4_K_M/MiniMax-M3-UD-Q4_K_M-00003-of-00007.gguf",
+        "sha256": "5df24493ea4bac7f20fcef4d6eb9df38a4274046d9e84f6c4d2a393f022aaa6c",
+        "sizeBytes": 49980655104
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q4_K_M/MiniMax-M3-UD-Q4_K_M-00004-of-00007.gguf",
+        "sha256": "6ac1e2a497109869f57467cafda8d1493e2098c60e0912795fbd6a57eb51b35c",
+        "sizeBytes": 48755420608
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q4_K_M/MiniMax-M3-UD-Q4_K_M-00005-of-00007.gguf",
+        "sha256": "a82fc7c3cee19dbe040ee9135d5b1b2d54d79441b6acfc1e956512af452d6b83",
+        "sizeBytes": 48732196096
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q4_K_M/MiniMax-M3-UD-Q4_K_M-00006-of-00007.gguf",
+        "sha256": "8a37df7f6bd59723846b58cd63f891da493340dbb9ec2bbf57e5f36ec617cd75",
+        "sizeBytes": 48754240896
+      },
+      {
+        "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q4_K_M/MiniMax-M3-UD-Q4_K_M-00007-of-00007.gguf",
+        "sha256": "b4e372acd5acbf57ad26891a088226ec90b5650a908925f01ae82848d45ca9c3",
+        "sizeBytes": 18751471744
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 1048576,
+    "vramRequirementBytes": 285000000000,
+    "defaultQuantLevel": "UD-Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q6_K",
+        "sizeBytes": 354416850624,
+        "ramRequirementBytes": 380000000000,
+        "vramRequirementBytes": 380000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00001-of-00009.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00001-of-00009.gguf",
+            "sha256": "96f3ab7621c87edb87826e302168acdd4a26ce85c2219af21dc5cb0f0b221b4f",
+            "sizeBytes": 8243104
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00002-of-00009.gguf",
+            "sha256": "04e0a82c50db10a557b37151d2ff90f1302774ca2a063aad2fcd67369804458d",
+            "sizeBytes": 48647578176
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00003-of-00009.gguf",
+            "sha256": "28c809f9e656d2f1f899c511e37dd4c58bba46644adbf7ea26d63a8412d2fc87",
+            "sizeBytes": 48979398688
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00004-of-00009.gguf",
+            "sha256": "c40daa130bc4e36d4adba3837a23a962f3a0741feef00df6f4db1c9bb0584262",
+            "sizeBytes": 48979398688
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00005-of-00009.gguf",
+            "sha256": "6deacae580d90f133b4d47e986124d78a138d4a672ed9d6b2a353163842a75ea",
+            "sizeBytes": 48979398688
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00006-of-00009.gguf",
+            "sha256": "93ebe80127e4ac8ca8726d4bbc652e0d61d186ab9a9aaeb126f2cdcefcfdbc68",
+            "sizeBytes": 48979398688
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00007-of-00009.gguf",
+            "sha256": "d683ac4f62a6d593fe0faabf39d9bbee7c7fda87de715802d3b4d89ad8f8e31f",
+            "sizeBytes": 48979398688
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00008-of-00009.gguf",
+            "sha256": "43f5221554a3feee64279bd6b67790335356b8d5e29e1a7641f5675f6c0aa42f",
+            "sizeBytes": 47562641312
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/UD-Q6_K/MiniMax-M3-UD-Q6_K-00009-of-00009.gguf",
+            "sha256": "00edef7dce40d79469b08ee39c172975bf6d8f33483236ea635ae74592ae7ad8",
+            "sizeBytes": 13301394592
+          }
+        ]
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 452714559392,
+        "ramRequirementBytes": 490000000000,
+        "vramRequirementBytes": 490000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00001-of-00011.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00001-of-00011.gguf",
+            "sha256": "9d44207527d6626ae6141c42c0638e2ba31e216c3882cf87c05b0d142c745891",
+            "sizeBytes": 8243104
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00002-of-00011.gguf",
+            "sha256": "36eb93d3edeafdd3375c83a291ff8fee50dd0bd099f13d6b062db8643415b206",
+            "sizeBytes": 48354553728
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00003-of-00011.gguf",
+            "sha256": "e0e512e3bae8cd3cd53dbfec1f86b9062dc717f5958e46ab6d2256e84214362c",
+            "sizeBytes": 49967080576
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00004-of-00011.gguf",
+            "sha256": "e3db6a55d77d4a610d0f42ec92d0deba376a50a4dc7ff14861e1af9a66f96a81",
+            "sizeBytes": 49853414592
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00005-of-00011.gguf",
+            "sha256": "bf5a305318dd44d486ad66efb7880786cb29d041f859d71b0d64987fd8e53ed9",
+            "sizeBytes": 49856585024
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00006-of-00011.gguf",
+            "sha256": "9a426c24348ecbabed0da6b40d668119c35b23f65ba402affe11f75e8808f2e6",
+            "sizeBytes": 49967080608
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00007-of-00011.gguf",
+            "sha256": "905d41c8f7a7c7ae1bbf68374812f57d0c67a9f1692f780b2c111bdaa20f1353",
+            "sizeBytes": 49853414592
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00008-of-00011.gguf",
+            "sha256": "1fb4510195fd985abbeb8fab9fc30a391bc46d7891505b0e1df3e63ff4a99a77",
+            "sizeBytes": 49856585024
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00009-of-00011.gguf",
+            "sha256": "0140e6f9a30c8f3b3db02d8eeeec29df15e11e54969b8cf124103baebde21881",
+            "sizeBytes": 49967080608
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00010-of-00011.gguf",
+            "sha256": "b086d72a70fc9712c0996a688dee929227575c8dace0453274ab5926a2cc151d",
+            "sizeBytes": 49853414592
+          },
+          {
+            "url": "https://huggingface.co/unsloth/MiniMax-M3-GGUF/resolve/18039c2c5277fc64109acee91fa3ca3a9da73c57/Q8_0/MiniMax-M3-Q8_0-00011-of-00011.gguf",
+            "sha256": "a0f7cc8a2e95c96f5b4658a80830fb63ce532f1e65e7917237d0e4a30279eca6",
+            "sizeBytes": 5177106944
+          }
+        ]
+      }
+    ],
+    "hfCreatedAt": "2026-06-12T05:56:13.000Z",
+    "hfReleasedAt": "2026-06-12T05:56:13.000Z",
+    "hfLastModified": "2026-06-15T01:57:42.000Z",
+    "cdnAddedAt": "2026-06-19T16:30:00+09:00"
   }
 ]
