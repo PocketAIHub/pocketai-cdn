@@ -484,6 +484,48 @@
     "defaultQuantLevel": "8bit"
   },
   {
+    "id": "gemma-4-12b-it-4bit",
+    "name": "Gemma 4 12B IT 4bit",
+    "category": "language",
+    "provider": "Google / mlx-community",
+    "summary": "Dense Gemma 4 instruct model. 4-bit MLX build for Apple Silicon Macs; lighter regular model to pair with the matching assistant draft.",
+    "sizeBytes": 6773372848,
+    "ramRequirementBytes": 10000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12B-it-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 131072,
+    "defaultQuantLevel": "4bit"
+  },
+  {
+    "id": "gemma-4-12b-it-6bit",
+    "name": "Gemma 4 12B IT 6bit",
+    "category": "language",
+    "provider": "Google / mlx-community",
+    "summary": "Dense Gemma 4 instruct model. 6-bit MLX build for Apple Silicon Macs; a middle-quality regular model to pair with the matching assistant draft.",
+    "sizeBytes": 9760954674,
+    "ramRequirementBytes": 14500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12B-it-6bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 131072,
+    "defaultQuantLevel": "6bit"
+  },
+  {
     "id": "gemma-4-12b-it",
     "name": "Gemma 4 12B IT",
     "category": "language",
@@ -524,6 +566,69 @@
     "capabilities": [],
     "contextLength": 131072,
     "defaultQuantLevel": "optiq-4bit"
+  },
+  {
+    "id": "gemma-4-12b-it-assistant-4bit",
+    "name": "Gemma 4 12B IT Assistant 4bit",
+    "category": "language",
+    "provider": "Google / mlx-community",
+    "summary": "MLX assistant draft model for Gemma 4 12B IT speculative decoding. Pair with the regular 4-bit Gemma 4 12B IT MLX model.",
+    "sizeBytes": 270077496,
+    "ramRequirementBytes": 1000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12B-it-assistant-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 131072,
+    "defaultQuantLevel": "4bit"
+  },
+  {
+    "id": "gemma-4-12b-it-assistant-6bit",
+    "name": "Gemma 4 12B IT Assistant 6bit",
+    "category": "language",
+    "provider": "Google / mlx-community",
+    "summary": "MLX assistant draft model for Gemma 4 12B IT speculative decoding. Pair with the regular 6-bit Gemma 4 12B IT MLX model.",
+    "sizeBytes": 375787073,
+    "ramRequirementBytes": 1250000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12B-it-assistant-6bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 131072,
+    "defaultQuantLevel": "6bit"
+  },
+  {
+    "id": "gemma-4-12b-it-assistant-8bit",
+    "name": "Gemma 4 12B IT Assistant 8bit",
+    "category": "language",
+    "provider": "Google / mlx-community",
+    "summary": "MLX assistant draft model for Gemma 4 12B IT speculative decoding. Pair with the regular 8-bit Gemma 4 12B IT MLX model.",
+    "sizeBytes": 481496662,
+    "ramRequirementBytes": 1500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12B-it-assistant-8bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 131072,
+    "defaultQuantLevel": "8bit"
   },
   {
     "id": "qwen3.6-35b-a3b-mxfp4-crack-mtp",

@@ -5880,5 +5880,313 @@
     "hfReleasedAt": "2025-08-05T17:11:45.000Z",
     "hfLastModified": "2025-08-25T02:27:41.000Z",
     "cdnAddedAt": "2026-06-12T15:49:28+09:00"
+  },
+  {
+    "id": "qwen3.6-27b-mtp-pi-tune",
+    "name": "Qwen3.6 27B MTP Pi Tune",
+    "category": "language",
+    "provider": "bytkim",
+    "summary": "Agentic-coding Qwen3.6 27B dense fine-tune with a Multi-Token Prediction (MTP) head for speculative decoding in supported llama.cpp builds. Built for coding, tool use, reasoning, and long-context desktop workflows.",
+    "sizeBytes": 16836927680,
+    "ramRequirementBytes": 23000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/bytkim/Qwen3.6-27B-MTP-pi-tune-GGUF/resolve/22943ba3319569b743d4cb3832e3aa336785d8b8/Qwen3.6-27B-MTP-pi-tune-Q4_K_M.gguf",
+    "sha256": "dbc7ff308e07345024466de9f57a0a9f32e64e50f536059ebaf2c03463e92e72",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22443696320,
+        "ramRequirementBytes": 30500000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/bytkim/Qwen3.6-27B-MTP-pi-tune-GGUF/resolve/22943ba3319569b743d4cb3832e3aa336785d8b8/Qwen3.6-27B-MTP-pi-tune-Q6_K.gguf",
+        "sha256": "48fd9b137cc8c0bdaf97fcddcf3a2e84e8d07ec63c7063452ad96ad6f4866fc3"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 29047083200,
+        "ramRequirementBytes": 39000000000,
+        "vramRequirementBytes": 33000000000,
+        "downloadUrl": "https://huggingface.co/bytkim/Qwen3.6-27B-MTP-pi-tune-GGUF/resolve/22943ba3319569b743d4cb3832e3aa336785d8b8/Qwen3.6-27B-MTP-pi-tune-Q8_0.gguf",
+        "sha256": "423ceef4d9c2df735b942ec6f9320d879c637ae73f687ca5da9139cd812ba095"
+      }
+    ],
+    "hfCreatedAt": "2026-06-02T08:31:19.000Z",
+    "hfReleasedAt": "2026-06-02T08:31:19.000Z",
+    "hfLastModified": "2026-06-15T07:15:56.000Z",
+    "cdnAddedAt": "2026-06-18T15:30:00+09:00"
+  },
+  {
+    "id": "vibethinker-3b",
+    "name": "VibeThinker 3B",
+    "category": "language",
+    "provider": "WeiboAI / prithivMLmods",
+    "summary": "Compact reasoning and coding model based on Qwen2.5 Coder 3B, tuned for math, code, GPQA-style reasoning, and instruction following. Good phone/tablet-sized option with a 131K native context.",
+    "sizeBytes": 1929902784,
+    "ramRequirementBytes": 5000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF/resolve/c94abbc502a2fb1aa54afc5048dafaeb84a7ba4e/VibeThinker-3B.Q4_K_M.gguf",
+    "sha256": "9782b918cc220fb81d59e21be3e45c3ae027e5d86fb56ce7c6d537a347c80d79",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 2500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2538158784,
+        "ramRequirementBytes": 6500000000,
+        "vramRequirementBytes": 3500000000,
+        "downloadUrl": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF/resolve/c94abbc502a2fb1aa54afc5048dafaeb84a7ba4e/VibeThinker-3B.Q6_K.gguf",
+        "sha256": "0895a93b7c81d67a9d3a3cff535fa0a03c6e114f6de2a864949559edc6957f80"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 3285476032,
+        "ramRequirementBytes": 8500000000,
+        "vramRequirementBytes": 4500000000,
+        "downloadUrl": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF/resolve/c94abbc502a2fb1aa54afc5048dafaeb84a7ba4e/VibeThinker-3B.Q8_0.gguf",
+        "sha256": "8e80bce863fedd7df3dfa05c2f6d052f3e9dface2139bd4b4239baedea64520e"
+      }
+    ],
+    "hfCreatedAt": "2026-06-16T13:56:59.000Z",
+    "hfReleasedAt": "2026-06-16T13:56:59.000Z",
+    "hfLastModified": "2026-06-16T14:35:12.000Z",
+    "cdnAddedAt": "2026-06-18T15:30:00+09:00"
+  },
+  {
+    "id": "gemmable-4-12b",
+    "name": "Gemmable 4 12B",
+    "category": "language",
+    "provider": "Mia-AiLab",
+    "summary": "Gemmable 4 12B fine-tune of Gemma 4 12B trained on Fable 5-style reasoning and assistant traces. Focused on local coding, reasoning, and structured assistant workflows.",
+    "sizeBytes": 7381364160,
+    "ramRequirementBytes": 13500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-12B-MTP-GGUF/resolve/de886717f7544350089d97cfd90a515430cfbcce/gemmable-4-12b-Q4_K_M.gguf",
+    "sha256": "bd15b283c2b564cb59a35b1d52ecb00fa33183aeac645a9cb41a82c86e656556",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 8500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9786002880,
+        "ramRequirementBytes": 17500000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-12B-MTP-GGUF/resolve/de886717f7544350089d97cfd90a515430cfbcce/gemmable-4-12b-Q6_K.gguf",
+        "sha256": "7a329ff815449893edb7feb9b53316ea8ae7f3bd4452602f9542e3d8a296639d"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12669627840,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 14500000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-12B-MTP-GGUF/resolve/de886717f7544350089d97cfd90a515430cfbcce/gemmable-4-12b-Q8_0.gguf",
+        "sha256": "778299be5cab65bd0b810099c17118306421ab5e285a2e0a33bf58279bdbe0fe"
+      }
+    ],
+    "hfCreatedAt": "2026-06-18T06:47:00.000Z",
+    "hfReleasedAt": "2026-06-18T06:47:00.000Z",
+    "hfLastModified": "2026-06-18T22:33:57.000Z",
+    "cdnAddedAt": "2026-06-19T09:36:36+09:00"
+  },
+  {
+    "id": "gemmable-4-12b-mtp-draft",
+    "name": "Gemmable 4 12B MTP Draft",
+    "category": "language",
+    "provider": "Mia-AiLab",
+    "summary": "Small MTP draft companion files for Gemmable 4 12B speculative decoding. Install alongside the regular Gemmable 4 12B GGUF with the matching quant level.",
+    "sizeBytes": 331546880,
+    "ramRequirementBytes": 1000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-12B-MTP-GGUF/resolve/de886717f7544350089d97cfd90a515430cfbcce/gemmable-4-12b-Q4_K_M-mtp.gguf",
+    "sha256": "217dc0ed177ecc733f801a851c3e3854cf1b17a1f86cd5430c0a7f82d93027bc",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 362703104,
+        "ramRequirementBytes": 1000000000,
+        "vramRequirementBytes": 500000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-12B-MTP-GGUF/resolve/de886717f7544350089d97cfd90a515430cfbcce/gemmable-4-12b-Q6_K-mtp.gguf",
+        "sha256": "0ad127e639618c71021793587ad246e5a409fa92b2f0440dd94896c9a445148b"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 465109248,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 750000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-12B-MTP-GGUF/resolve/de886717f7544350089d97cfd90a515430cfbcce/gemmable-4-12b-Q8_0-mtp.gguf",
+        "sha256": "15371df5ce281a0d623a96224574dcf9d176028211c00044d85a92737f72ecb8"
+      }
+    ],
+    "hfCreatedAt": "2026-06-18T06:47:00.000Z",
+    "hfReleasedAt": "2026-06-18T06:47:00.000Z",
+    "hfLastModified": "2026-06-18T22:33:57.000Z",
+    "cdnAddedAt": "2026-06-19T09:36:36+09:00"
+  },
+  {
+    "id": "qwable3.6-27b-mtp",
+    "name": "Qwable 3.6 27B MTP",
+    "category": "language",
+    "provider": "Mia-AiLab",
+    "summary": "Qwable 27B fine-tune of Qwen3.6 with MTP layers present, trained for coding, technical reasoning, structured answers, and trace-style assistant behavior. Desktop-focused with 262K context.",
+    "sizeBytes": 16810713056,
+    "ramRequirementBytes": 23000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b-MTP/resolve/6885137f8f27866c6c094a0692777c094d91feb3/Qwable-3.6-27b_q4_k_m.gguf",
+    "sha256": "a66ac9f635ff37bfb6afa6a4146294e1cb294e379a7fd7d6d100194227715a0e",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22430998496,
+        "ramRequirementBytes": 30500000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b-MTP/resolve/6885137f8f27866c6c094a0692777c094d91feb3/Qwable-3.6-27b_q6_k.gguf",
+        "sha256": "51be2214d916f4d2ea3d94d2b570c69c4589c9a71391c057bad4c9e312f44c70"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 29047082976,
+        "ramRequirementBytes": 39000000000,
+        "vramRequirementBytes": 33000000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b-MTP/resolve/6885137f8f27866c6c094a0692777c094d91feb3/Qwable-3.6-27b_q8_0.gguf",
+        "sha256": "e6f84f4a6dfece643cd41480fe2256998f40119cc05691e491d4a02a9192586c"
+      }
+    ],
+    "hfCreatedAt": "2026-06-16T10:42:08.000Z",
+    "hfReleasedAt": "2026-06-16T10:42:08.000Z",
+    "hfLastModified": "2026-06-17T05:55:07.000Z",
+    "cdnAddedAt": "2026-06-18T15:30:00+09:00"
+  },
+  {
+    "id": "qwable3.6-35b",
+    "name": "Qwable 3.6 35B",
+    "category": "language",
+    "provider": "Mia-AiLab",
+    "summary": "Qwable 35B fine-tune of Qwen3.6 trained on cleaned Fable 5-style reasoning and instruction data. Focused on coding, technical assistance, structured responses, and desktop local inference.",
+    "sizeBytes": 21166757920,
+    "ramRequirementBytes": 39500000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-35b/resolve/3534169871d12ff7614406085765203b0abf32ca/Qwable-3.6-35b_q4_k_m.gguf",
+    "sha256": "e56eb78e1d71fd58b5df795ed19951d74473d514ab24e9e65d36e64762d07b2a",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 24500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 28514152480,
+        "ramRequirementBytes": 51000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-35b/resolve/3534169871d12ff7614406085765203b0abf32ca/Qwable-3.6-35b_q6_k.gguf",
+        "sha256": "e94b14feddcd85f029bc51336e91cf1e630b8f7e882ff1950fe10f947ff5a039"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 36903139360,
+        "ramRequirementBytes": 66500000000,
+        "vramRequirementBytes": 41500000000,
+        "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-35b/resolve/3534169871d12ff7614406085765203b0abf32ca/Qwable-3.6-35b_q8_0.gguf",
+        "sha256": "256504ed0c4f4b3fe74185dab8ab1b067681d591e3cdffe32bdb12a2b2be3287"
+      }
+    ],
+    "hfCreatedAt": "2026-06-16T20:53:40.000Z",
+    "hfReleasedAt": "2026-06-16T20:53:40.000Z",
+    "hfLastModified": "2026-06-17T09:23:34.000Z",
+    "cdnAddedAt": "2026-06-18T15:30:00+09:00"
   }
 ]
