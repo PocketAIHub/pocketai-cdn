@@ -72,7 +72,7 @@
   "video": [
     {
       "id": "sulphur-2-q4_k_m",
-      "name": "Sulphur 2 (Q4_K_M)",
+      "name": "Sulphur 2",
       "category": "video",
       "provider": "SulphurAI / vantagewithai",
       "summary": "Uncensored fine-tune of LTX-2.3 22B. GGUF Q4_K_M quant for the PocketAI ComfyUI LTX path. NSFW-gated; pair with the Sulphur Prompt Enhancer for richer prompt-to-video results.",

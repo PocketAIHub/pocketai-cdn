@@ -745,7 +745,7 @@
   },
   {
     "id": "ltx-2.3-22b-q4_k_m",
-    "name": "LTX-2.3 22B (Q4_K_M)",
+    "name": "LTX-2.3 22B",
     "category": "video",
     "provider": "Lightricks / Unsloth",
     "summary": "High-quality 22B text-to-video model. Q4_K_M is the recommended quant for 24 GB RTX cards or high-memory Apple Silicon. ComfyUI-backed.",
