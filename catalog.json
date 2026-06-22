@@ -4847,6 +4847,106 @@
         "vramRequirementBytes": 180000000000,
         "downloadUrl": "https://huggingface.co/antirez/deepseek-v4-gguf/resolve/main/DeepSeek-V4-Flash-Q4KExperts-F16HC-F16Compressor-F16Indexer-Q8Attn-Q8Shared-Q8Out-chat-v2.gguf",
         "sha256": ""
+      },
+      {
+        "quantLevel": "Q2_K-XL",
+        "sizeBytes": 107034192768,
+        "ramRequirementBytes": 160000000000,
+        "vramRequirementBytes": 128000000000,
+        "downloadUrl": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q2_K-XL/DeepSeek-V4-Flash-Q2_K-XL-00001-of-00003.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q2_K-XL/DeepSeek-V4-Flash-Q2_K-XL-00001-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 49455415584
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q2_K-XL/DeepSeek-V4-Flash-Q2_K-XL-00002-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 49445772800
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q2_K-XL/DeepSeek-V4-Flash-Q2_K-XL-00003-of-00003.gguf",
+            "sha256": "",
+            "sizeBytes": 8133004384
+          }
+        ]
+      },
+      {
+        "quantLevel": "Q4_K_M-XL",
+        "sizeBytes": 174869720032,
+        "ramRequirementBytes": 256000000000,
+        "vramRequirementBytes": 200000000000,
+        "downloadUrl": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q4_K_M-XL/DeepSeek-V4-Flash-Q4_K_M-XL-00001-of-00004.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q4_K_M-XL/DeepSeek-V4-Flash-Q4_K_M-XL-00001-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 49022350688
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q4_K_M-XL/DeepSeek-V4-Flash-Q4_K_M-XL-00002-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 49997467360
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q4_K_M-XL/DeepSeek-V4-Flash-Q4_K_M-XL-00003-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 49982492960
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q4_K_M-XL/DeepSeek-V4-Flash-Q4_K_M-XL-00004-of-00004.gguf",
+            "sha256": "",
+            "sizeBytes": 25867409024
+          }
+        ]
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 302267624448,
+        "ramRequirementBytes": 384000000000,
+        "vramRequirementBytes": 340000000000,
+        "downloadUrl": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q8_0/DeepSeek-V4-Flash-Q8_0-00001-of-00007.gguf",
+        "sha256": "",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q8_0/DeepSeek-V4-Flash-Q8_0-00001-of-00007.gguf",
+            "sha256": "",
+            "sizeBytes": 47930286720
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q8_0/DeepSeek-V4-Flash-Q8_0-00002-of-00007.gguf",
+            "sha256": "",
+            "sizeBytes": 47915730560
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q8_0/DeepSeek-V4-Flash-Q8_0-00003-of-00007.gguf",
+            "sha256": "",
+            "sizeBytes": 47915730592
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q8_0/DeepSeek-V4-Flash-Q8_0-00004-of-00007.gguf",
+            "sha256": "",
+            "sizeBytes": 47915730592
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q8_0/DeepSeek-V4-Flash-Q8_0-00005-of-00007.gguf",
+            "sha256": "",
+            "sizeBytes": 47915730592
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q8_0/DeepSeek-V4-Flash-Q8_0-00006-of-00007.gguf",
+            "sha256": "",
+            "sizeBytes": 47915730592
+          },
+          {
+            "url": "https://huggingface.co/teamblobfish/DeepSeek-V4-Flash-GGUF/resolve/main/Q8_0/DeepSeek-V4-Flash-Q8_0-00007-of-00007.gguf",
+            "sha256": "",
+            "sizeBytes": 14758684800
+          }
+        ]
       }
     ],
     "hfCreatedAt": "2026-04-26T07:54:05.000Z",

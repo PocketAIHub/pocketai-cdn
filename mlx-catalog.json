@@ -350,14 +350,38 @@
     "defaultQuantLevel": "mxfp4"
   },
   {
-    "id": "deepseek-v4-flash",
-    "name": "DeepSeek V4 Flash",
+    "id": "deepseek-v4-flash-2bit-dq",
+    "name": "DeepSeek V4 Flash 2bit DQ",
     "category": "language",
     "provider": "DeepSeek / mlx-community",
-    "summary": "DeepSeek V4 Flash — frontier reasoning at 4-bit. 1M-token context. Requires 192GB Mac Studio Ultra. Released 2026-04-22.",
+    "summary": "DeepSeek V4 Flash dynamic mixed-precision 2-bit MLX build. Lower-memory 1M-context option for 128GB+ Apple Silicon Macs. Released 2026-04-24.",
+    "sizeBytes": 96500000000,
+    "ramRequirementBytes": 128000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "xlarge",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/DeepSeek-V4-Flash-2bit-DQ",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 1048576,
+    "defaultQuantLevel": "2bit-dq"
+  },
+  {
+    "id": "deepseek-v4-flash",
+    "name": "DeepSeek V4 Flash 4bit",
+    "category": "language",
+    "provider": "DeepSeek / mlx-community",
+    "summary": "DeepSeek V4 Flash 4-bit MLX build. Frontier reasoning with a 1M-token context for 192GB-class Apple Silicon Macs. Released 2026-04-24.",
     "sizeBytes": 151480000000,
     "ramRequirementBytes": 190000000000,
-    "license": "DeepSeek",
+    "license": "MIT",
     "tier": "free",
     "weight": "xlarge",
     "format": "mlx",
@@ -366,9 +390,60 @@
     "supportedPlatforms": [
       "macos"
     ],
-    "capabilities": [],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
     "contextLength": 1048576,
     "defaultQuantLevel": "4bit"
+  },
+  {
+    "id": "deepseek-v4-flash-6bit",
+    "name": "DeepSeek V4 Flash 6bit",
+    "category": "language",
+    "provider": "DeepSeek / mlx-community",
+    "summary": "DeepSeek V4 Flash 6-bit MLX build. Higher-fidelity 1M-context option for 192GB+ Apple Silicon Macs. Released 2026-04-24.",
+    "sizeBytes": 153000000000,
+    "ramRequirementBytes": 192000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "xlarge",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/DeepSeek-V4-Flash-6bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 1048576,
+    "defaultQuantLevel": "6bit"
+  },
+  {
+    "id": "deepseek-v4-flash-8bit",
+    "name": "DeepSeek V4 Flash 8bit",
+    "category": "language",
+    "provider": "DeepSeek / mlx-community",
+    "summary": "DeepSeek V4 Flash 8-bit MLX build. Highest-fidelity MLX catalog option for 200GB+ Apple Silicon machines. Released 2026-04-24.",
+    "sizeBytes": 155000000000,
+    "ramRequirementBytes": 200000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "xlarge",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/DeepSeek-V4-Flash-8bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 1048576,
+    "defaultQuantLevel": "8bit"
   },
   {
     "id": "kimi-k2.6",
