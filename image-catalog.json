@@ -1,5 +1,163 @@
 [
   {
+    "id": "hidream-o1-image-full",
+    "name": "HiDream O1 Image",
+    "category": "image",
+    "provider": "HiDream.ai",
+    "summary": "HiDream O1 full image model for PocketAI's local CUDA runtime. Large bf16 snapshot with strong prompt adherence and high-detail images; requires a high-VRAM NVIDIA GPU.",
+    "sizeBytes": 35246982137,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 48000000000,
+    "license": "MIT",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HiDream-ai/HiDream-O1-Image/tree/main",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows",
+      "linux"
+    ],
+    "architecture": "hidream-o1",
+    "defaultSteps": 50,
+    "defaultCfgScale": 5,
+    "supportedResolutions": [
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 1536,
+        "height": 1536
+      },
+      {
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "nvidia",
+    "weight": "massive"
+  },
+  {
+    "id": "hidream-o1-image-dev",
+    "name": "HiDream O1 Image Dev",
+    "category": "image",
+    "provider": "HiDream.ai",
+    "summary": "HiDream O1 Dev image model for PocketAI's local CUDA runtime. Faster distilled path with the same large snapshot footprint; requires a high-VRAM NVIDIA GPU.",
+    "sizeBytes": 35246982137,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 48000000000,
+    "license": "MIT",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/HiDream-ai/HiDream-O1-Image-Dev/tree/main",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows",
+      "linux"
+    ],
+    "architecture": "hidream-o1",
+    "defaultSteps": 28,
+    "defaultCfgScale": 0,
+    "supportedResolutions": [
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 1536,
+        "height": 1536
+      },
+      {
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "nvidia",
+    "weight": "massive"
+  },
+  {
+    "id": "krea-2-turbo",
+    "name": "Krea 2 Turbo",
+    "category": "image",
+    "provider": "Krea.ai",
+    "summary": "Krea 2 Turbo text-to-image model for PocketAI's local CUDA Diffusers runtime. Distilled 8-step safetensors path with strong prompt adherence; requires a high-VRAM NVIDIA GPU.",
+    "sizeBytes": 35678280258,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 48000000000,
+    "license": "Krea 2 Community License",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/krea/Krea-2-Turbo/tree/main?allow=model_index.json&allow=scheduler/*&allow=text_encoder/*&allow=tokenizer/*&allow=transformer/*&allow=vae/*&allow=README.md&allow=LICENSE.pdf",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows",
+      "linux"
+    ],
+    "architecture": "krea-2",
+    "defaultSteps": 8,
+    "defaultCfgScale": 0,
+    "supportedResolutions": [
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 1536,
+        "height": 1536
+      },
+      {
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 1024
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "nvidia",
+    "weight": "massive",
+    "hfReleasedAt": "2026-06-22",
+    "releaseDate": "2026-06-22"
+  },
+  {
     "id": "sd-1.5-q8_0",
     "name": "Stable Diffusion 1.5",
     "category": "image",
