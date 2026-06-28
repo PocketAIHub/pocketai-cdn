@@ -868,5 +868,34 @@
     ],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit"
+  },
+  {
+    "id": "gemma-4-12b-coder-fable5-composer2.5-4bit",
+    "name": "Gemma 4 12B Coder Fable5 Composer2.5 4bit",
+    "category": "language",
+    "provider": "yuxinlu1 / mlx-community",
+    "summary": "4-bit MLX build of the Gemma 4 12B coder fine-tune distilled from Fable 5 and Composer 2.5 traces. Apple Silicon option for local coding, reasoning, and agent-friendly responses.",
+    "sizeBytes": 6699160683,
+    "ramRequirementBytes": 10000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12b-coder-fable5-composer2.5-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 131072,
+    "defaultQuantLevel": "4bit",
+    "hfCreatedAt": "2026-06-19T15:43:17.000Z",
+    "hfReleasedAt": "2026-06-19T15:43:17.000Z",
+    "hfLastModified": "2026-06-21T11:03:36.000Z",
+    "cdnAddedAt": "2026-06-27T08:35:26+09:00"
   }
 ]

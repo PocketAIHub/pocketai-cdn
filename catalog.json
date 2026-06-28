@@ -1466,7 +1466,7 @@
     "name": "Qwen3.5 27B Opus Distilled",
     "category": "language",
     "provider": "Jackrong",
-    "summary": "Desktop-focused Qwen3.5 27B variant distilled toward Claude-style reasoning and longer-form responses. Best suited to Macs and PCs with substantial unified memory or RAM.",
+    "summary": "High-memory Qwen3.5 27B variant distilled toward Claude-style reasoning and longer-form responses. Best suited to devices with substantial unified memory or RAM.",
     "sizeBytes": 16540267968,
     "ramRequirementBytes": 34000000000,
     "license": "Apache 2.0",
@@ -1477,6 +1477,8 @@
     "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/5825aa2c6c361e3ee4f588021192d1f919dd60d7/Qwen3.5-27B.Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -1517,7 +1519,7 @@
     "name": "Qwen3.5 27B Tuned",
     "category": "language",
     "provider": "HauhauCS",
-    "summary": "Desktop-focused Qwen3.5 27B variant tuned for more direct and less filtered responses than the base 27B. Best suited to Macs and PCs with substantial memory headroom.",
+    "summary": "High-memory Qwen3.5 27B variant tuned for more direct and less filtered responses than the base 27B. Best suited to devices with substantial memory headroom.",
     "sizeBytes": 16540271712,
     "ramRequirementBytes": 34000000000,
     "license": "Apache 2.0",
@@ -1528,6 +1530,8 @@
     "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/6601ca30d45fa62dfa2b74f1460d4feebd83a3b0/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
     "sha256": "ffec017c7ecba924fbaa8a6576df8c74d949eacb2c264113842ddb4176bbcae1",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -1584,7 +1588,7 @@
     "name": "Qwen3.5 27B Opus Distilled v2",
     "category": "language",
     "provider": "Jackrong",
-    "summary": "Improved v2 distillation of Qwen3.5 27B with ~24% shorter chain-of-thought and 31.6% more correct solutions per token. 96.91% HumanEval pass@1. Desktop only.",
+    "summary": "Improved v2 distillation of Qwen3.5 27B with ~24% shorter chain-of-thought and 31.6% more correct solutions per token. 96.91% HumanEval pass@1. Best on high-memory devices.",
     "sizeBytes": 16547395008,
     "ramRequirementBytes": 34000000000,
     "license": "Apache 2.0",
@@ -1595,6 +1599,8 @@
     "downloadUrl": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled-v2-GGUF/resolve/f54be2474003de643b26d1a44560dad3cbf717f1/Qwen3.5-27B.Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -1643,7 +1649,7 @@
     "name": "Qwopus3.5 27B v3",
     "category": "language",
     "provider": "Jackrong",
-    "summary": "Reasoning-enhanced Qwen3.5 27B with tool-calling RL and act-then-refine agentic workflows. 95.73% HumanEval Plus. Best for desktop setups with high memory.",
+    "summary": "Reasoning-enhanced Qwen3.5 27B with tool-calling RL and act-then-refine agentic workflows. 95.73% HumanEval Plus. Best for high-memory setups.",
     "sizeBytes": 16547395456,
     "ramRequirementBytes": 34000000000,
     "license": "Apache 2.0",
@@ -1654,6 +1660,8 @@
     "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.5-27B-v3-GGUF/resolve/2f5cb77d60fa4023ceff83a7d9d493e50a134eb7/Qwopus3.5-27B-v3-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -1710,7 +1718,7 @@
     "name": "Gemopus 4 26B-A4B",
     "category": "language",
     "provider": "Jackrong",
-    "summary": "Gemma 4 26B-A4B fine-tuned for higher answer quality with chain-of-thought reasoning. MoE with only 4B active params. Vision-capable. Desktop only.",
+    "summary": "Gemma 4 26B-A4B fine-tuned for higher answer quality with chain-of-thought reasoning. MoE with only 4B active params. Vision-capable. Best on high-memory devices.",
     "sizeBytes": 16796011104,
     "ramRequirementBytes": 34000000000,
     "license": "Apache 2.0",
@@ -1721,6 +1729,8 @@
     "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/617b7603779d8f81aa17d24c4e8214b4db03fce8/Gemopus-4-26B-A4B-it-Preview-Q4_K_M.gguf",
     "sha256": "19959a653e143bf51b3af7999b6434e35a0d61261a7741a7d01a4acae6f2a59a",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -1851,6 +1861,8 @@
     "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/9500faac1662832e14183e07879270659860271d/gemma-4-26b-a4b-it-heretic.q4_k_m.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -1907,7 +1919,7 @@
     "name": "SuperGemma4 26B Uncensored",
     "category": "language",
     "provider": "Jiunsong",
-    "summary": "Uncensored Gemma 4 26B-A4B MoE variant tuned for direct, unfiltered chat. Only 4B active params. Desktop only due to size.",
+    "summary": "Uncensored Gemma 4 26B-A4B MoE variant tuned for direct, unfiltered chat. Only 4B active params. Best on high-memory devices due to size.",
     "sizeBytes": 16796036239,
     "ramRequirementBytes": 34000000000,
     "license": "Gemma",
@@ -1918,6 +1930,8 @@
     "downloadUrl": "https://huggingface.co/Jiunsong/supergemma4-26b-uncensored-gguf-v2/resolve/3ea8c452a2b136875c0c8b529612bed39c81e27a/supergemma4-26b-uncensored-fast-v2-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -1935,7 +1949,7 @@
     "name": "Qwen3.5 27B",
     "category": "language",
     "provider": "Qwen / Unsloth",
-    "summary": "Desktop-class Qwen3.5 model tuned for stronger reasoning and coding quality. Intended for higher-memory laptops and workstations.",
+    "summary": "High-memory Qwen3.5 model tuned for stronger reasoning and coding quality. Intended for higher-memory devices and workstations.",
     "sizeBytes": 17621125024,
     "ramRequirementBytes": 34000000000,
     "license": "Apache 2.0",
@@ -1946,6 +1960,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/30d153c8bdfd8ea1f25d47c4d2c4933cbb5bca52/Qwen3.5-27B-UD-Q4_K_XL.gguf",
     "sha256": "13cb6228344898afa50d963c02ae0d991ae25094eea8837db8d0e452e91c5888",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2073,7 +2089,7 @@
     "name": "Granite 4.1 30B",
     "category": "language",
     "provider": "IBM / Bartowski",
-    "summary": "IBM's flagship Granite 4.1 dense 30B model with 128K context. Strong reasoning, instruction following, and enterprise-friendly Apache 2.0 licensing. Desktop only.",
+    "summary": "IBM's flagship Granite 4.1 dense 30B model with 128K context. Strong reasoning, instruction following, and enterprise-friendly Apache 2.0 licensing. Best on high-memory devices.",
     "sizeBytes": 17796425280,
     "ramRequirementBytes": 33000000000,
     "license": "Apache 2.0",
@@ -2084,6 +2100,8 @@
     "downloadUrl": "https://huggingface.co/bartowski/ibm-granite_granite-4.1-30b-GGUF/resolve/main/ibm-granite_granite-4.1-30b-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2139,7 +2157,7 @@
     "name": "Gemma 4 31B IT",
     "category": "language",
     "provider": "Google / Unsloth",
-    "summary": "Google's flagship Gemma 4 dense model. 30.7B params, 256K context, vision, and top-tier benchmarks (MMLU Pro 85.2%, AIME 89.2%). Desktop only.",
+    "summary": "Google's flagship Gemma 4 dense model. 30.7B params, 256K context, vision, and top-tier benchmarks (MMLU Pro 85.2%, AIME 89.2%). Best on high-memory devices.",
     "sizeBytes": 18323726304,
     "ramRequirementBytes": 36000000000,
     "license": "Apache 2.0",
@@ -2150,6 +2168,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/resolve/main/gemma-4-31B-it-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2206,7 +2226,7 @@
     "name": "Gemma 4 31B Tuned",
     "category": "language",
     "provider": "paperscarecrow",
-    "summary": "Gemma 4 31B variant tuned for more direct responses. Full dense 31B architecture for maximum quality. Desktop only.",
+    "summary": "Gemma 4 31B variant tuned for more direct responses. Full dense 31B architecture for maximum quality. Best on high-memory devices.",
     "sizeBytes": 18687057536,
     "ramRequirementBytes": 36000000000,
     "license": "Apache 2.0",
@@ -2217,6 +2237,8 @@
     "downloadUrl": "https://huggingface.co/paperscarecrow/Gemma-4-31B-it-abliterated/resolve/2491ee58472b82a2372d288f982943b9d5e6a82c/gemma-4-31b-abliterated-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2312,7 +2334,7 @@
     "name": "Qwen3.5 35B-A3B",
     "category": "language",
     "provider": "Qwen / Unsloth",
-    "summary": "Large Mixture-of-Experts Qwen3.5 option for high-end desktop setups where quality matters more than memory footprint.",
+    "summary": "Large Mixture-of-Experts Qwen3.5 option for high-memory setups where quality matters more than memory footprint.",
     "sizeBytes": 22241950336,
     "ramRequirementBytes": 40000000000,
     "license": "Apache 2.0",
@@ -2323,6 +2345,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/Qwen3.5-35B-A3B-GGUF/resolve/1b8fd3edeba1835ff8545d8ac9c60d3616a3f792/Qwen3.5-35B-A3B-UD-Q4_K_XL.gguf",
     "sha256": "1b0ac637dfa092bbba2793977db9485a40c4f8b42df5fe342f0076d61b66ae83",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2398,6 +2422,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/56b9b6695c1d341398ea990cf2172ba4311647d8/Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2411,6 +2437,30 @@
     "vramRequirementBytes": 25000000000,
     "defaultQuantLevel": "Q4_K_XL",
     "quantVariants": [
+      {
+        "quantLevel": "UD-IQ2_XXS",
+        "sizeBytes": 10756586464,
+        "ramRequirementBytes": 19500000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/a483e9e6cbd595906af30beda3187c2663a1118c/Qwen3.6-35B-A3B-UD-IQ2_XXS.gguf",
+        "sha256": "2e8f5f705355c56311432d0a8a5d14a696dbb7e4b197d05c75ba805fc1857bef"
+      },
+      {
+        "quantLevel": "UD-IQ2_M",
+        "sizeBytes": 11522702304,
+        "ramRequirementBytes": 21000000000,
+        "vramRequirementBytes": 13000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/a483e9e6cbd595906af30beda3187c2663a1118c/Qwen3.6-35B-A3B-UD-IQ2_M.gguf",
+        "sha256": "2be7ef1ed7e1af8b10d3829102cf9a6c2bd5ddb64d675b4ece23a60799403d43"
+      },
+      {
+        "quantLevel": "UD-Q2_K_XL",
+        "sizeBytes": 12290628576,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-GGUF/resolve/a483e9e6cbd595906af30beda3187c2663a1118c/Qwen3.6-35B-A3B-UD-Q2_K_XL.gguf",
+        "sha256": "96b9c0af5c77a4ecaabe3983175112b5ece763261c1ece12b2494b692a70dad7"
+      },
       {
         "quantLevel": "Q3_K_M",
         "sizeBytes": 16356375168,
@@ -2454,7 +2504,7 @@
     "name": "Qwen3.6 27B",
     "category": "language",
     "provider": "Qwen / Unsloth",
-    "summary": "Dense Qwen 3.6 27B with Gated DeltaNet + Gated Attention hybrid. Reasoning-first, vision-capable, 262K native context. Desktop only — best on 24GB+ VRAM or high-memory Apple Silicon.",
+    "summary": "Dense Qwen 3.6 27B with Gated DeltaNet + Gated Attention hybrid. Reasoning-first, vision-capable, 262K native context. Best on high-memory devices with roughly 24GB+ available memory.",
     "sizeBytes": 17612564704,
     "ramRequirementBytes": 24000000000,
     "license": "Apache 2.0",
@@ -2465,6 +2515,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/resolve/82d411acf4a06cfb8d9b073a5211bf410bfc29bf/Qwen3.6-27B-UD-Q4_K_XL.gguf",
     "sha256": "ff6941ded525b34eb159496762c29dd0ec6e71dc31b74d57e75d871a03eec259",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2529,7 +2581,7 @@
     "name": "Qwen3.6 27B Fable 5 Experimental",
     "category": "language",
     "provider": "TeichAI",
-    "summary": "Qwen3.6 27B Fable 5 distillation trained from Claude Code-style traces. Focused on coding-agent responses, reasoning, and long-context workflows. Desktop only.",
+    "summary": "Qwen3.6 27B Fable 5 distillation trained from Claude Code-style traces. Focused on coding-agent responses, reasoning, and long-context workflows. Best on high-memory devices.",
     "sizeBytes": 16547399840,
     "ramRequirementBytes": 23000000000,
     "license": "Apache 2.0",
@@ -2540,6 +2592,8 @@
     "downloadUrl": "https://huggingface.co/TeichAI/Qwen3.6-27B-Fable-5-Experimental-GGUF/resolve/b8acc440dda9d59bd38c5e42c85e4e13db1281f7/Qwen3.6-27B-Fable-5-Distill.q4_k_m.gguf",
     "sha256": "aaa4bcc526250d689f41a596a6619caed2e97d76219d66753b188f6cc3f34367",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2615,7 +2669,7 @@
     "name": "Qwen3.6 27B Tuned",
     "category": "language",
     "provider": "HauhauCS",
-    "summary": "Qwen3.6 27B dense variant tuned for more direct and less filtered responses than the base 27B. Vision-capable with 262K native context. Desktop only — best on 24GB+ VRAM or high-memory Apple Silicon.",
+    "summary": "Qwen3.6 27B dense variant tuned for more direct and less filtered responses than the base 27B. Vision-capable with 262K native context. Best on high-memory devices with roughly 24GB+ available memory.",
     "sizeBytes": 17536279776,
     "ramRequirementBytes": 24000000000,
     "license": "Apache 2.0",
@@ -2626,6 +2680,8 @@
     "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/f2db94d03eccf3b133aeea3dea62388acf98e864/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
     "sha256": "e44827d0ea3d5dd914f8c686ef530befaff6e9f0142f33956b4aa9e824f98a12",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2690,7 +2746,7 @@
     "name": "Qwable 3.6 27B",
     "category": "language",
     "provider": "Mia-AiLab",
-    "summary": "Full Qwen3.6 27B fine-tune trained on Fable 5-style reasoning and instruction data. Built for coding, technical reasoning, and structured assistant responses on high-memory desktops.",
+    "summary": "Full Qwen3.6 27B fine-tune trained on Fable 5-style reasoning and instruction data. Built for coding, technical reasoning, and structured assistant responses on high-memory devices.",
     "sizeBytes": 16547398976,
     "ramRequirementBytes": 23000000000,
     "license": "MIT",
@@ -2701,6 +2757,8 @@
     "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b/resolve/151207281f868368055195cd21365feef779a0ba/Qwable-27b_Q4_K_M.gguf",
     "sha256": "d3633d8c2de49a5be341fecd3e9424250b2beeb457484cc4ed333aaa8abace0c",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2723,7 +2781,7 @@
     "name": "Carnice V2 27B",
     "category": "language",
     "provider": "kai-os",
-    "summary": "Qwen3.6 27B SFT-merged fine-tune optimized for Hermes-style agent traces and multi-turn tool workflows. Desktop only — best on 24GB+ VRAM or high-memory Apple Silicon.",
+    "summary": "Qwen3.6 27B SFT-merged fine-tune optimized for Hermes-style agent traces and multi-turn tool workflows. Best on high-memory devices with roughly 24GB+ available memory.",
     "sizeBytes": 17716740096,
     "ramRequirementBytes": 24000000000,
     "license": "Apache 2.0",
@@ -2734,6 +2792,8 @@
     "downloadUrl": "https://huggingface.co/kai-os/Carnice-V2-27b-GGUF/resolve/main/carnice-v2-27b-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2790,7 +2850,7 @@
     "name": "Qwopus3.6 27B v1 Preview",
     "category": "language",
     "provider": "Jackrong",
-    "summary": "Reasoning-focused fine-tune of Qwen3.6 27B on ~12K curated examples. Dense vision-capable model with 262K native context. Desktop only.",
+    "summary": "Reasoning-focused fine-tune of Qwen3.6 27B on ~12K curated examples. Dense vision-capable model with 262K native context. Best on high-memory devices.",
     "sizeBytes": 16547395424,
     "ramRequirementBytes": 34000000000,
     "license": "Apache 2.0",
@@ -2801,6 +2861,8 @@
     "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v1-preview-GGUF/resolve/da099cf000b1be2b256123fe51b4ff1a8e255f18/Qwopus3.6-27B-v1-preview-Q4_K_M.gguf",
     "sha256": "5966748c91ce5f53a4ca5162c12060196a55abec8234bf055bdd6984f8ec59a3",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -2823,7 +2885,7 @@
     "name": "Ornstein3.6 35B-A3B",
     "category": "language",
     "provider": "DJLougen",
-    "summary": "Community-tuned Qwen 3.6 MoE fine-tune with 35B total / 3B active params. Optimized for creative writing and open-ended conversation. Desktop only.",
+    "summary": "Community-tuned Qwen 3.6 MoE fine-tune with 35B total / 3B active params. Optimized for creative writing and open-ended conversation. Best on high-memory devices.",
     "sizeBytes": 21200000000,
     "ramRequirementBytes": 40000000000,
     "license": "Apache 2.0",
@@ -2834,6 +2896,8 @@
     "downloadUrl": "https://huggingface.co/DJLougen/Ornstein3.6-35B-A3B-GGUF/resolve/7365a6d9104a1a9a68761279b2513122db6f6dc1/Ornstein3.6-35B-A3B-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -3614,7 +3678,7 @@
     "name": "Qwen3.6 35B-A3B Tuned",
     "category": "language",
     "provider": "HauhauCS",
-    "summary": "Qwen3.6 35B-A3B variant tuned to feel friendlier, more direct, and less inquisitive in everyday chats. Same 262K context as the base. Desktop-class memory footprint.",
+    "summary": "Qwen3.6 35B-A3B variant tuned to feel friendlier, more direct, and less inquisitive in everyday chats. Same 262K context as the base. High-memory memory footprint.",
     "sizeBytes": 21166758016,
     "ramRequirementBytes": 39500000000,
     "license": "Apache 2.0",
@@ -3625,6 +3689,8 @@
     "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
     "sha256": "bbef58c37ce88820be9d98b6437f1cf4bac890c947bd55fc7b68e22098574231",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -3698,7 +3764,7 @@
     "name": "Qwen3.6 35B-A3B Opus Distilled",
     "category": "language",
     "provider": "hesamation",
-    "summary": "Qwen3.6 35B-A3B fine-tuned on Claude Opus 4.6-style chain-of-thought reasoning traces. Sharper structured reasoning and longer-form answers than the base. Desktop-class memory footprint.",
+    "summary": "Qwen3.6 35B-A3B fine-tuned on Claude Opus 4.6-style chain-of-thought reasoning traces. Sharper structured reasoning and longer-form answers than the base. High-memory memory footprint.",
     "sizeBytes": 22763327488,
     "ramRequirementBytes": 39500000000,
     "license": "Apache 2.0",
@@ -3709,6 +3775,8 @@
     "downloadUrl": "https://huggingface.co/hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF/resolve/main/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled.Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -4550,7 +4618,7 @@
     "name": "Qwen3.6 35B-A3B MTP",
     "category": "language",
     "provider": "Qwen / Unsloth",
-    "summary": "Qwen3.6 35B-A3B MoE (35B total / 3B active) with Multi-Token Prediction (MTP) head bundled in the GGUF. Same vision-capable base model and 262K context as Qwen3.6 35B-A3B; the extra MTP layer enables speculative decoding in supported llama.cpp builds. Desktop only.",
+    "summary": "Qwen3.6 35B-A3B MoE (35B total / 3B active) with Multi-Token Prediction (MTP) head bundled in the GGUF. Same vision-capable base model and 262K context as Qwen3.6 35B-A3B; the extra MTP layer enables speculative decoding in supported llama.cpp builds. Best on high-memory devices.",
     "sizeBytes": 22853663008,
     "ramRequirementBytes": 41000000000,
     "license": "Apache 2.0",
@@ -4561,6 +4629,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/5bc3e238d916f48a861bac2f8a1990a0e9b7e98d/Qwen3.6-35B-A3B-UD-Q4_K_XL.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -4574,6 +4644,14 @@
     "vramRequirementBytes": 25500000000,
     "defaultQuantLevel": "UD-Q4_K_XL",
     "quantVariants": [
+      {
+        "quantLevel": "UD-IQ2_XXS",
+        "sizeBytes": 11819399456,
+        "ramRequirementBytes": 21000000000,
+        "vramRequirementBytes": 13000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-35B-A3B-MTP-GGUF/resolve/5bc3e238d916f48a861bac2f8a1990a0e9b7e98d/Qwen3.6-35B-A3B-UD-IQ2_XXS.gguf",
+        "sha256": "627e2b05f83088448e27861ec392d56efc2b178783cae5adfa4ad2d988441203"
+      },
       {
         "quantLevel": "UD-IQ2_M",
         "sizeBytes": 11882969376,
@@ -4633,7 +4711,7 @@
     "name": "Qwen3.6 27B MTP",
     "category": "language",
     "provider": "Qwen / Unsloth",
-    "summary": "Qwen3.6 27B dense model with Multi-Token Prediction (MTP) head bundled in the GGUF. Same vision-capable base, Gated DeltaNet + Gated Attention hybrid, and 262K context as Qwen3.6 27B; the extra MTP layer enables speculative decoding in supported llama.cpp builds. Desktop only — best on 24GB+ VRAM or high-memory Apple Silicon.",
+    "summary": "Qwen3.6 27B dense model with Multi-Token Prediction (MTP) head bundled in the GGUF. Same vision-capable base, Gated DeltaNet + Gated Attention hybrid, and 262K context as Qwen3.6 27B; the extra MTP layer enables speculative decoding in supported llama.cpp builds. Best on high-memory devices with roughly 24GB+ available memory.",
     "sizeBytes": 19208609792,
     "ramRequirementBytes": 26000000000,
     "license": "Apache 2.0",
@@ -4644,6 +4722,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/resolve/b3a58239d8d40b953e34936c9afeb28baa518230/Qwen3.6-27B-UD-Q4_K_XL.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -4708,7 +4788,7 @@
     "name": "Qwopus3.6 27B v2",
     "category": "language",
     "provider": "Jackrong",
-    "summary": "Second-generation reasoning fine-tune of Qwen3.6 27B with refined distillation data and Claude-style chain-of-thought. Dense vision-capable model with 262K native context. Desktop only.",
+    "summary": "Second-generation reasoning fine-tune of Qwen3.6 27B with refined distillation data and Claude-style chain-of-thought. Dense vision-capable model with 262K native context. Best on high-memory devices.",
     "sizeBytes": 16810713344,
     "ramRequirementBytes": 23000000000,
     "license": "Apache 2.0",
@@ -4719,6 +4799,8 @@
     "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF/resolve/575ca01e86914a5ebb2f8b18cd6b354b7faeb6ad/Qwopus3.6-27B-v2-Q4_K_M.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -5128,7 +5210,7 @@
     "name": "Qwen3 Coder 30B-A3B Instruct",
     "category": "language",
     "provider": "Qwen / Unsloth",
-    "summary": "Qwen3 Coder MoE: 30B total / 3B active parameters, optimized for code generation, repo-scale agent workflows, and tool use across many programming languages. 256K native context, MoE shape fits the 3090's 24GB VRAM comfortably. Desktop only.",
+    "summary": "Qwen3 Coder MoE: 30B total / 3B active parameters, optimized for code generation, repo-scale agent workflows, and tool use across many programming languages. 256K native context, MoE shape fits the 3090's 24GB VRAM comfortably. Best on high-memory devices.",
     "sizeBytes": 17665334432,
     "ramRequirementBytes": 26000000000,
     "license": "Apache 2.0",
@@ -5139,6 +5221,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/Qwen3-Coder-30B-A3B-Instruct-GGUF/resolve/b17cb02dd882d5b6ab62fc777ad2995f19668350/Qwen3-Coder-30B-A3B-Instruct-UD-Q4_K_XL.gguf",
     "sha256": "",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -5464,6 +5548,14 @@
     "defaultQuantLevel": "Q4_K_M",
     "quantVariants": [
       {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 4830147104,
+        "ramRequirementBytes": 9000000000,
+        "vramRequirementBytes": 5500000000,
+        "downloadUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-coder-fable5-composer2.5-v1-GGUF/resolve/main/gemma4-coding-Q2_K.gguf",
+        "sha256": "adbd331a74121b78f223b40b3a51f4418aa6f55122c1fa3711b0615f56bf8729"
+      },
+      {
         "quantLevel": "Q6_K",
         "sizeBytes": 9786020384,
         "ramRequirementBytes": 17500000000,
@@ -5482,7 +5574,7 @@
     ],
     "hfCreatedAt": "2026-06-10T07:24:02.000Z",
     "hfReleasedAt": "2026-06-10T07:24:02.000Z",
-    "hfLastModified": "2026-06-16T23:10:36.000Z",
+    "hfLastModified": "2026-06-19T03:52:11.000Z",
     "cdnAddedAt": "2026-06-17T10:21:59+09:00"
   },
   {
@@ -5534,7 +5626,7 @@
     "name": "Qwopus3.6 27B v2 MTP",
     "category": "language",
     "provider": "Jackrong",
-    "summary": "Qwopus3.6 27B v2 reasoning fine-tune with a Multi-Token Prediction (MTP) head for speculative decoding in supported llama.cpp builds. Desktop-focused and vision-capable.",
+    "summary": "Qwopus3.6 27B v2 reasoning fine-tune with a Multi-Token Prediction (MTP) head for speculative decoding in supported llama.cpp builds. High-memory and vision-capable.",
     "sizeBytes": 16810713312,
     "ramRequirementBytes": 23000000000,
     "license": "Apache 2.0",
@@ -5545,6 +5637,8 @@
     "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF/resolve/main/Qwopus3.6-27B-v2-MTP-Q4_K_M.gguf",
     "sha256": "818d68223be4d8518dac0b3b5604dde633cbbcbae1f491d842a3e26711c6606d",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -5619,7 +5713,7 @@
     "name": "Qwopus3.6 27B Coder MTP",
     "category": "language",
     "provider": "Jackrong",
-    "summary": "Qwopus3.6 27B v2 fine-tuned for agentic coding, structured tool calling, debugging, and repository-level workflows, with a Multi-Token Prediction (MTP) head for faster speculative decoding. Desktop-focused and vision-capable.",
+    "summary": "Qwopus3.6 27B v2 fine-tuned for agentic coding, structured tool calling, debugging, and repository-level workflows, with a Multi-Token Prediction (MTP) head for faster speculative decoding. High-memory and vision-capable.",
     "sizeBytes": 19535700320,
     "ramRequirementBytes": 27000000000,
     "license": "Apache 2.0",
@@ -5630,6 +5724,8 @@
     "downloadUrl": "https://huggingface.co/Jackrong/Qwopus3.6-27B-Coder-MTP-GGUF/resolve/d27c4b61e21001a55ad98b80dfcd9ed59065601d/Qwopus3.6-27B-Coder-MTP-Q5_K_M.gguf",
     "sha256": "e6414ee26f347b1b7a5eee77dcb8b23b14d334a6102c93f666903ce3eec73a51",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -5812,7 +5908,7 @@
     "name": "GPT-OSS 20B",
     "category": "language",
     "provider": "OpenAI / Unsloth",
-    "summary": "Strong desktop-tier open-weight MoE model with 131K context. Good local reasoning option for high-memory laptops and workstations.",
+    "summary": "Strong high-memory open-weight MoE model with 131K context. Good local reasoning option for high-memory devices and workstations.",
     "sizeBytes": 11624759488,
     "ramRequirementBytes": 24000000000,
     "license": "Apache 2.0",
@@ -5823,6 +5919,8 @@
     "downloadUrl": "https://huggingface.co/unsloth/gpt-oss-20b-GGUF/resolve/d449b42d93e1c2c7bda5312f5c25c8fb91dfa9b4/gpt-oss-20b-Q4_K_M.gguf",
     "sha256": "c27536640e410032865dc68781d80a08b98f8db5e93575919af8ccc0568aeb4f",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -5986,7 +6084,7 @@
     "name": "Qwen3.6 27B MTP Pi Tune",
     "category": "language",
     "provider": "bytkim",
-    "summary": "Agentic-coding Qwen3.6 27B dense fine-tune with a Multi-Token Prediction (MTP) head for speculative decoding in supported llama.cpp builds. Built for coding, tool use, reasoning, and long-context desktop workflows.",
+    "summary": "Agentic-coding Qwen3.6 27B dense fine-tune with a Multi-Token Prediction (MTP) head for speculative decoding in supported llama.cpp builds. Built for coding, tool use, reasoning, and long-context high-memory local workflows.",
     "sizeBytes": 16836927680,
     "ramRequirementBytes": 23000000000,
     "license": "Apache 2.0",
@@ -5997,6 +6095,8 @@
     "downloadUrl": "https://huggingface.co/bytkim/Qwen3.6-27B-MTP-pi-tune-GGUF/resolve/22943ba3319569b743d4cb3832e3aa336785d8b8/Qwen3.6-27B-MTP-pi-tune-Q4_K_M.gguf",
     "sha256": "dbc7ff308e07345024466de9f57a0a9f32e64e50f536059ebaf2c03463e92e72",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -6064,6 +6164,14 @@
     "vramRequirementBytes": 2500000000,
     "defaultQuantLevel": "Q4_K_M",
     "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 1274755776,
+        "ramRequirementBytes": 3500000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/prithivMLmods/VibeThinker-3B-GGUF/resolve/c94abbc502a2fb1aa54afc5048dafaeb84a7ba4e/VibeThinker-3B.Q2_K.gguf",
+        "sha256": "f70afd49998bc405ac20d0e922f24d79c6cb2db9df4bcdc978127e8697b33cb0"
+      },
       {
         "quantLevel": "Q6_K",
         "sizeBytes": 2538158784,
@@ -6192,7 +6300,7 @@
     "name": "Gemmable 4 31B",
     "category": "language",
     "provider": "Mia-AiLab",
-    "summary": "Gemmable 4 31B fine-tune of Gemma 4 31B trained on Fable 5-style reasoning and assistant traces. Larger desktop-focused coding, reasoning, and structured assistant model.",
+    "summary": "Gemmable 4 31B fine-tune of Gemma 4 31B trained on Fable 5-style reasoning and assistant traces. Larger high-memory coding, reasoning, and structured assistant model.",
     "sizeBytes": 18687045184,
     "ramRequirementBytes": 36000000000,
     "license": "Apache 2.0",
@@ -6203,6 +6311,8 @@
     "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q4_K_M.gguf",
     "sha256": "4f99643d623831291373053d2326ea64f09e889393bcbe891055ddd231decf2c",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -6254,6 +6364,8 @@
     "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q4_K_M-mtp.gguf",
     "sha256": "06e20aabcf6f9ad52f033d99e82078828af028631916e80e85f8b2c7347edb7b",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -6291,7 +6403,7 @@
     "name": "Qwable 3.6 27B MTP",
     "category": "language",
     "provider": "Mia-AiLab",
-    "summary": "Qwable 27B fine-tune of Qwen3.6 with MTP layers present, trained for coding, technical reasoning, structured answers, and trace-style assistant behavior. Desktop-focused with 262K context.",
+    "summary": "Qwable 27B fine-tune of Qwen3.6 with MTP layers present, trained for coding, technical reasoning, structured answers, and trace-style assistant behavior. High-memory with 262K context.",
     "sizeBytes": 16810713056,
     "ramRequirementBytes": 23000000000,
     "license": "MIT",
@@ -6302,6 +6414,8 @@
     "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-27b-MTP/resolve/6885137f8f27866c6c094a0692777c094d91feb3/Qwable-3.6-27b_q4_k_m.gguf",
     "sha256": "a66ac9f635ff37bfb6afa6a4146294e1cb294e379a7fd7d6d100194227715a0e",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -6342,7 +6456,7 @@
     "name": "Qwable 3.6 35B",
     "category": "language",
     "provider": "Mia-AiLab",
-    "summary": "Qwable 35B fine-tune of Qwen3.6 trained on cleaned Fable 5-style reasoning and instruction data. Focused on coding, technical assistance, structured responses, and desktop local inference.",
+    "summary": "Qwable 35B fine-tune of Qwen3.6 trained on cleaned Fable 5-style reasoning and instruction data. Focused on coding, technical assistance, structured responses, and high-memory local inference.",
     "sizeBytes": 21166757920,
     "ramRequirementBytes": 39500000000,
     "license": "MIT",
@@ -6353,6 +6467,8 @@
     "downloadUrl": "https://huggingface.co/Mia-AiLab/Qwable-3.6-35b/resolve/3534169871d12ff7614406085765203b0abf32ca/Qwable-3.6-35b_q4_k_m.gguf",
     "sha256": "e56eb78e1d71fd58b5df795ed19951d74473d514ab24e9e65d36e64762d07b2a",
     "supportedPlatforms": [
+      "android",
+      "ios",
       "macos",
       "windows",
       "linux"
@@ -6895,5 +7011,420 @@
     "hfReleasedAt": "2026-06-12T05:56:13.000Z",
     "hfLastModified": "2026-06-15T01:57:42.000Z",
     "cdnAddedAt": "2026-06-19T16:30:00+09:00"
+  },
+  {
+    "id": "qwythos-9b-claude-mythos-5-1m",
+    "name": "Qwythos 9B Claude Mythos 5 1M",
+    "category": "language",
+    "provider": "Empero AI",
+    "summary": "Qwen3.5 9B-based Claude Mythos fine-tune with a 1M context window, tool-calling, and vision projector support. Good for long-context local reasoning and agentic chat on high-memory devices.",
+    "sizeBytes": 5629109248,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF/resolve/dfbb573e92c4ffb1b1b168a070daa6d0584ff1f8/Qwythos-9B-Claude-Mythos-5-1M-Q4_K_M.gguf",
+    "sha256": "0de41ff56ab4eff26764437b276f0bd5d20f44232add34e14c4f593fa1aeb08f",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 1048576,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "mmprojUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF/resolve/dfbb573e92c4ffb1b1b168a070daa6d0584ff1f8/mmproj-Qwythos-9B-Claude-Mythos-5-1M-F16.gguf",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7359259648,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF/resolve/dfbb573e92c4ffb1b1b168a070daa6d0584ff1f8/Qwythos-9B-Claude-Mythos-5-1M-Q6_K.gguf",
+        "sha256": "05f2420a669a83ae239d1328c6e83d9fc19e8a4b8dab5d0673cab28cc161dfc5"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527501824,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF/resolve/dfbb573e92c4ffb1b1b168a070daa6d0584ff1f8/Qwythos-9B-Claude-Mythos-5-1M-Q8_0.gguf",
+        "sha256": "ecf51ef3904694e04a1967a06fe7539619c34e6e81a721fc5f5415827081d8f6"
+      }
+    ],
+    "hfCreatedAt": "2026-06-19T14:32:14.000Z",
+    "hfReleasedAt": "2026-06-19T14:32:14.000Z",
+    "hfLastModified": "2026-06-22T13:23:52.000Z",
+    "cdnAddedAt": "2026-06-27T08:35:26+09:00"
+  },
+  {
+    "id": "qwythos-9b-claude-mythos-5-1m-mtp",
+    "name": "Qwythos 9B Claude Mythos 5 1M MTP",
+    "category": "language",
+    "provider": "Empero AI",
+    "summary": "Qwythos 9B with the Qwen3.5-compatible MTP head bundled for llama.cpp draft speculation. Same 1M-context, tool-calling, and vision projector support as the regular Qwythos weights.",
+    "sizeBytes": 5887668160,
+    "ramRequirementBytes": 11500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF/resolve/dfbb573e92c4ffb1b1b168a070daa6d0584ff1f8/Qwythos-9B-Claude-Mythos-5-1M-MTP-Q4_K_M.gguf",
+    "sha256": "24ee22e0f5d9f0d3d615809607f365c728d9b0c3f3fb6eb19d8bd83a1c2933d8",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 1048576,
+    "vramRequirementBytes": 7000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "mmprojUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF/resolve/dfbb573e92c4ffb1b1b168a070daa6d0584ff1f8/mmproj-Qwythos-9B-Claude-Mythos-5-1M-F16.gguf",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7617818560,
+        "ramRequirementBytes": 15000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF/resolve/dfbb573e92c4ffb1b1b168a070daa6d0584ff1f8/Qwythos-9B-Claude-Mythos-5-1M-MTP-Q6_K.gguf",
+        "sha256": "eae2adb4b451f673218fba96ebdc024fb95c4026ef35a56837dc9af47f99ca39"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9786060736,
+        "ramRequirementBytes": 19000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF/resolve/dfbb573e92c4ffb1b1b168a070daa6d0584ff1f8/Qwythos-9B-Claude-Mythos-5-1M-MTP-Q8_0.gguf",
+        "sha256": "34eada291b4f4d1b8592f53d1739c7a2e029011b5bc2624b979b0a544562a5e9"
+      }
+    ],
+    "hfCreatedAt": "2026-06-19T14:32:14.000Z",
+    "hfReleasedAt": "2026-06-19T14:32:14.000Z",
+    "hfLastModified": "2026-06-22T13:23:52.000Z",
+    "cdnAddedAt": "2026-06-27T08:35:26+09:00"
+  },
+  {
+    "id": "gemma-4-12b-agentic-fable5-composer2.5-v2",
+    "name": "Gemma 4 12B Agentic Fable5 Composer2.5 v2",
+    "category": "language",
+    "provider": "yuxinlu1",
+    "summary": "Agentic Gemma 4 12B coding and reasoning fine-tune distilled from Fable 5 and Composer 2.5 traces, tuned for multi-step local coding workflows and tool-style assistant behavior.",
+    "sizeBytes": 7381381664,
+    "ramRequirementBytes": 13500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF/resolve/190a31365a6b80a692349be34ccdac730cad4fe4/gemma4-v2-Q4_K_M.gguf",
+    "sha256": "0b9506cab36f7f818e34f9c0f5a3d6568d0b37100f3a3e1092e2eec3c4c96791",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 8500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9786020384,
+        "ramRequirementBytes": 17500000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF/resolve/190a31365a6b80a692349be34ccdac730cad4fe4/gemma4-v2-Q6_K.gguf",
+        "sha256": "edb98c934c50c8a5a32074b27f9ccf6e22552619e70245c0f83ccfbea9b1fe61"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12669645344,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 14500000000,
+        "downloadUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF/resolve/190a31365a6b80a692349be34ccdac730cad4fe4/gemma4-v2-Q8_0.gguf",
+        "sha256": "2c20a496baf3e9a3ead59d37c7afe228a863662d58155f360d44eb8b2465cb7f"
+      }
+    ],
+    "hfCreatedAt": "2026-06-19T00:06:07.000Z",
+    "hfReleasedAt": "2026-06-19T00:06:07.000Z",
+    "hfLastModified": "2026-06-19T09:31:48.000Z",
+    "cdnAddedAt": "2026-06-27T08:35:26+09:00"
+  },
+  {
+    "id": "gemma-4-12b-agentic-fable5-composer2.5-v2-mtp-draft",
+    "name": "Gemma 4 12B Agentic Fable5 Composer2.5 v2 MTP Draft",
+    "category": "language",
+    "provider": "yuxinlu1",
+    "summary": "Small MTP draft-head companion for Gemma 4 12B Agentic Fable5 Composer2.5 v2 speculative decoding. Install alongside the regular GGUF when using llama.cpp MTP draft speculation.",
+    "sizeBytes": 465109248,
+    "ramRequirementBytes": 1500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/yuxinlu1/gemma-4-12B-agentic-fable5-composer2.5-v2-3.5x-tau2-GGUF/resolve/190a31365a6b80a692349be34ccdac730cad4fe4/MTP/gemma-4-12B-it-MTP-Q8_0.gguf",
+    "sha256": "145db9094bc0f85f1701e255a2ed216dcc9800fc8bc8631ad00905b456bd451b",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 750000000,
+    "defaultQuantLevel": "Q8_0",
+    "hfCreatedAt": "2026-06-19T00:06:07.000Z",
+    "hfReleasedAt": "2026-06-19T00:06:07.000Z",
+    "hfLastModified": "2026-06-19T09:31:48.000Z",
+    "cdnAddedAt": "2026-06-27T08:35:26+09:00"
+  },
+  {
+    "id": "ornith-1.0-9b",
+    "name": "Ornith 1.0 9B",
+    "category": "language",
+    "provider": "DeepReinforce AI",
+    "summary": "Lightweight Ornith 1.0 agentic coding model optimized for coding agents, repository tasks, and reasoning-heavy local development workflows.",
+    "sizeBytes": 5629108704,
+    "ramRequirementBytes": 11000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF/resolve/3296bc7a404871a72ac3f1903f561459c09b5c17/ornith-1.0-9b-Q4_K_M.gguf",
+    "sha256": "5720d1f671b4996481274fffe01868c3c36e87c135cc8538471cc7bd6087b106",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7359259072,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF/resolve/3296bc7a404871a72ac3f1903f561459c09b5c17/ornith-1.0-9b-Q6_K.gguf",
+        "sha256": "33b6f6a3e3f05078438e12df8a4b55c8acf78ceadcc639d2af1cf35a026e8387"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527500992,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-9B-GGUF/resolve/3296bc7a404871a72ac3f1903f561459c09b5c17/ornith-1.0-9b-Q8_0.gguf",
+        "sha256": "d0e4bebaa8b3450c62090df1408f2ee5ccb2094f9c610ffde564a654483d4f37"
+      }
+    ],
+    "hfCreatedAt": "2026-06-25T04:56:13.000Z",
+    "hfReleasedAt": "2026-06-25T04:56:13.000Z",
+    "hfLastModified": "2026-06-25T14:12:12.000Z",
+    "cdnAddedAt": "2026-06-27T08:35:26+09:00"
+  },
+  {
+    "id": "ornith-1.0-35b",
+    "name": "Ornith 1.0 35B",
+    "category": "language",
+    "provider": "DeepReinforce AI",
+    "summary": "Large Ornith 1.0 agentic coding model for high-memory devices and workstations. Tuned for coding agents, repository repair, and long-horizon software tasks.",
+    "sizeBytes": 21166757760,
+    "ramRequirementBytes": 39500000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF/resolve/c2e1703039380de4ce6820e97afd185682d3c16c/ornith-1.0-35b-Q4_K_M.gguf",
+    "sha256": "ff25291b2599fb927a835e624d2b3540106af61761c3fa57ac4264046dbec002",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 24500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 28514152288,
+        "ramRequirementBytes": 51000000000,
+        "vramRequirementBytes": 32000000000,
+        "downloadUrl": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF/resolve/c2e1703039380de4ce6820e97afd185682d3c16c/ornith-1.0-35b-Q6_K.gguf",
+        "sha256": "b3da60c3643af02e7979eb47267c3046dc3f6e3a5c88b6790db12208c051116c",
+        "weight": "heavy"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 36903138880,
+        "ramRequirementBytes": 66500000000,
+        "vramRequirementBytes": 41500000000,
+        "downloadUrl": "https://huggingface.co/deepreinforce-ai/Ornith-1.0-35B-GGUF/resolve/c2e1703039380de4ce6820e97afd185682d3c16c/ornith-1.0-35b-Q8_0.gguf",
+        "sha256": "cbc992bca07901c1a51f33e65e6fc5d687de179c852a772dfd15e4c3261dbf5c",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-06-25T04:56:44.000Z",
+    "hfReleasedAt": "2026-06-25T04:56:44.000Z",
+    "hfLastModified": "2026-06-25T14:31:04.000Z",
+    "cdnAddedAt": "2026-06-27T08:35:26+09:00"
+  },
+  {
+    "id": "mythos-nano-i1",
+    "name": "Mythos Nano i1",
+    "category": "language",
+    "provider": "mradermacher",
+    "summary": "Compact Mythos Nano i1 GGUF build for low-memory local chat. Useful as a fast lightweight Mythos-style assistant on phones and small desktops.",
+    "sizeBytes": 1929903328,
+    "ramRequirementBytes": 5000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/mradermacher/Mythos-nano-i1-GGUF/resolve/110a0437f2de5891ffd593beaa54e9540839e46a/Mythos-nano.i1-Q4_K_M.gguf",
+    "sha256": "722ea938bb40259d0c866a558d7f81f8aebe67dfc43d6ef1ad71abbfb52c6f51",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 32768,
+    "vramRequirementBytes": 2500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 1274756320,
+        "ramRequirementBytes": 3500000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/Mythos-nano-i1-GGUF/resolve/110a0437f2de5891ffd593beaa54e9540839e46a/Mythos-nano.i1-Q2_K.gguf",
+        "sha256": "1601e4ae46a944b2a6af06c048e2863750632e7d4aae05fca5ad46fb3c860a4c"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2538159328,
+        "ramRequirementBytes": 6500000000,
+        "vramRequirementBytes": 3500000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/Mythos-nano-i1-GGUF/resolve/110a0437f2de5891ffd593beaa54e9540839e46a/Mythos-nano.i1-Q6_K.gguf",
+        "sha256": "4f847cdd26decf7e1647c5684c0b1ca8212d44f67860d1ca5afb397f26b9a96b"
+      }
+    ],
+    "hfCreatedAt": "2026-06-19T13:26:10.000Z",
+    "hfReleasedAt": "2026-06-19T13:26:10.000Z",
+    "hfLastModified": "2026-06-19T14:00:10.000Z",
+    "cdnAddedAt": "2026-06-27T08:35:26+09:00"
+  },
+  {
+    "id": "unlimited-ocr",
+    "name": "Unlimited OCR",
+    "category": "language",
+    "provider": "Baidu / sahilchachra",
+    "summary": "3B vision-language OCR and document parsing model built on the DeepSeek-OCR architecture. Requires the shared mmproj and a DeepSeek-OCR-aware llama.cpp build; useful for image-to-markdown, multilingual OCR, and layout-aware document extraction.",
+    "sizeBytes": 1950326784,
+    "ramRequirementBytes": 6000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/sahilchachra/Unlimited-OCR-GGUF/resolve/028d04678db356095d0015b70f0803f2179180f4/Unlimited-OCR-Q4_K_M.gguf",
+    "sha256": "c8461bded976eac709a33f6b26e1414efcd2124a203f2ee93ee984a4c9e9265b",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/sahilchachra/Unlimited-OCR-GGUF/resolve/028d04678db356095d0015b70f0803f2179180f4/mmproj-Unlimited-OCR-F16.gguf",
+    "contextLength": 8192,
+    "vramRequirementBytes": 3000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "IQ2_M",
+        "sizeBytes": 1232148224,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/sahilchachra/Unlimited-OCR-GGUF/resolve/028d04678db356095d0015b70f0803f2179180f4/Unlimited-OCR-IQ2_M.gguf",
+        "sha256": "fecb9e983f0fadbc11c6cce00611c05179dd7b6003abfad3956404778595d59e"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2613275904,
+        "ramRequirementBytes": 7000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/sahilchachra/Unlimited-OCR-GGUF/resolve/028d04678db356095d0015b70f0803f2179180f4/Unlimited-OCR-Q6_K.gguf",
+        "sha256": "a9994800e005190197a4cc5c0b54a88db5c6aba6f6dca48a27992ea2e1c0b3b3"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 3126139904,
+        "ramRequirementBytes": 8500000000,
+        "vramRequirementBytes": 5000000000,
+        "downloadUrl": "https://huggingface.co/sahilchachra/Unlimited-OCR-GGUF/resolve/028d04678db356095d0015b70f0803f2179180f4/Unlimited-OCR-Q8_0.gguf",
+        "sha256": "234c36f679a3768f5564e9e02c2c1deacbd5677b9c8558a57133f1813f6dd3b8"
+      }
+    ],
+    "hfCreatedAt": "2026-06-23T01:52:56.000Z",
+    "hfReleasedAt": "2026-06-23T01:52:56.000Z",
+    "hfLastModified": "2026-06-26T16:08:23.000Z",
+    "cdnAddedAt": "2026-06-27T14:07:47+09:00"
   }
 ]
