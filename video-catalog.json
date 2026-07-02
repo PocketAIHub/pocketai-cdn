@@ -235,7 +235,7 @@
     "tier": "free",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-q4_0.gguf",
+    "downloadUrl": "https://huggingface.co/city96/Wan2.1-T2V-14B-GGUF/resolve/main/wan2.1-t2v-14b-Q4_0.gguf",
     "sha256": "",
     "supportedPlatforms": [
       "macos",
@@ -736,7 +736,7 @@
     "t5xxlUrl": "https://huggingface.co/city96/umt5-xxl-encoder-gguf/resolve/main/umt5-xxl-encoder-Q4_K_S.gguf",
     "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
     "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
-    "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_0.gguf",
+    "highNoiseDiffusionModelUrl": "https://huggingface.co/QuantStack/Wan2.2-I2V-A14B-GGUF/resolve/main/HighNoise/Wan2.2-I2V-A14B-HighNoise-Q4_K_S.gguf",
     "defaultHighNoiseSteps": 8,
     "defaultHighNoiseCfgScale": 3.5,
     "defaultMoeBoundary": 0,
