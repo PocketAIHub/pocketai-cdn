@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-04T06:53:37Z",
+  "updatedAt": "2026-07-04T06:58:27Z",
   "downloads": {
     "android": {
       "version": "1.2.7",
@@ -27,15 +27,15 @@
     "macos": {
       "version": "1.0.29",
       "platform": "darwin-aarch64",
-      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.29_aarch64.dmg?v=1.0.29-signed-20260704T065337Z",
+      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.29_aarch64.dmg?v=1.0.29-signed-20260704T065827Z",
       "size": 79401802,
       "sha256": "74726377031f11ab6a5d0ca75ccb2b378aebf34e91423caf7b703142cae37e43",
       "updater": {
-        "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.29_aarch64.app.tar.gz?v=1.0.29-signed-20260704T065337Z",
+        "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.29_aarch64.app.tar.gz?v=1.0.29-signed-20260704T065827Z",
         "size": 78795267,
         "sha256": "68baa4cf406f09dd596026123aed0a4bef39ed30dd236ac7f3f96a43521cae03",
         "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZVVEZoWlMzSk5WM00yUVZsckwweEpjRWc1YUVwT1NWUkRVMU5pTUZGclZVVTNNazlHVVhKb2NVMTJURTVMTldoeU5qRnVaR3RUTWxGVkwyOVBWWGRWWkVrMFoxWlRURll6Wmt4d1JXVmtlVTVMUjJGcU5ua3hibVZpVXpocmFGRnpQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94Tnpnek1UUTNPVGc0Q1dacGJHVTZVRzlqYTJWMFFVa3VZWEJ3TG5SaGNpNW5lZ3B5ZVVvemFsZHZhbkV2U1c5NWQyNXFUbUZDYjB0U1NHcDZVRU5KUVZGMFJHTXJVVEJIVmtwVlowODNMME01WTFKT09FdExWRXB4WjNKS1FrNXRkVXd4WmlzM09YRmFNazFwYm1wc1MySTNPWHBGUzFkQ1FUMDlDZz09",
-        "signatureUrl": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.29_aarch64.app.tar.gz.sig?v=1.0.29-signed-20260704T065337Z"
+        "signatureUrl": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.29_aarch64.app.tar.gz.sig?v=1.0.29-signed-20260704T065827Z"
       }
     },
     "windows": {
