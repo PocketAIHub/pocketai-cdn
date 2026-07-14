@@ -897,5 +897,205 @@
     "hfReleasedAt": "2026-06-19T15:43:17.000Z",
     "hfLastModified": "2026-06-21T11:03:36.000Z",
     "cdnAddedAt": "2026-06-27T08:35:26+09:00"
+  },
+  {
+    "id": "gemma-4-12b-coder-fable5-composer2.5-8bit",
+    "name": "Gemma 4 12B Coder Fable5 Composer2.5 8bit",
+    "category": "language",
+    "provider": "yuxinlu1 / mlx-community",
+    "summary": "Near-lossless 8-bit MLX build of the Gemma 4 12B coder fine-tune distilled from Fable 5 and Composer 2.5 traces. A higher-fidelity Apple Silicon option for local coding, reasoning, and agentic responses.",
+    "sizeBytes": 12684783387,
+    "ramRequirementBytes": 18000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gemma-4-12b-coder-fable5-composer2.5-8bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "8bit",
+    "hfCreatedAt": "2026-06-19T15:34:39.000Z",
+    "hfReleasedAt": "2026-06-19T15:34:39.000Z",
+    "hfLastModified": "2026-06-21T11:04:06.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "qwen3.5-9b-optiq-4bit",
+    "name": "Qwen 3.5 9B OptiQ 4bit",
+    "category": "language",
+    "provider": "Alibaba / mlx-community",
+    "summary": "Mixed-precision OptiQ 4-bit MLX build of Qwen 3.5 9B. Preserves sensitive layers at higher precision while retaining vision, tool calling, and the full 262K context window.",
+    "sizeBytes": 8218070905,
+    "ramRequirementBytes": 13000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Qwen3.5-9B-OptiQ-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "optiq-4bit",
+    "hfCreatedAt": "2026-03-05T12:04:40.000Z",
+    "hfReleasedAt": "2026-03-05T12:04:40.000Z",
+    "hfLastModified": "2026-07-11T02:12:01.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "ornith-1.0-35b-5bit-xl",
+    "name": "Ornith 1.0 35B 5bit XL",
+    "category": "language",
+    "provider": "DeepReinforce AI / leonsarmiento",
+    "summary": "BaseQuant XL mixed 5/8-bit MLX build of Ornith 1.0 35B. Preserves the vision encoder and routing-critical layers for multimodal agentic coding, repository work, reasoning, and tool use on high-memory Apple Silicon.",
+    "sizeBytes": 25836457077,
+    "ramRequirementBytes": 36000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "leonsarmiento/Ornith-1.0-35B-5bit-XL-mlx",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "basequant-xl-5bit",
+    "hfCreatedAt": "2026-06-29T12:13:07.000Z",
+    "hfReleasedAt": "2026-06-29T12:13:07.000Z",
+    "hfLastModified": "2026-07-02T22:31:23.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "ornith-1.0-35b-oq4e",
+    "name": "Ornith 1.0 35B oQ4e",
+    "category": "language",
+    "provider": "DeepReinforce AI / Jundot",
+    "summary": "oMLX mixed-precision 4-bit build of Ornith 1.0 35B. A smaller high-memory Apple Silicon option for multimodal agentic coding, repository repair, reasoning, and tool-driven workflows.",
+    "sizeBytes": 21129620740,
+    "ramRequirementBytes": 30000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "Jundot/Ornith-1.0-35B-oQ4e",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "oQ4e",
+    "hfCreatedAt": "2026-07-02T05:30:59.000Z",
+    "hfReleasedAt": "2026-07-02T05:30:59.000Z",
+    "hfLastModified": "2026-07-02T05:37:55.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "qwen3.5-9b-fable-5-v1-oq4",
+    "name": "Qwen 3.5 9B Fable 5 v1 oQ4",
+    "category": "language",
+    "provider": "Qwen / mlx-community",
+    "summary": "oMLX mixed-precision 4-bit build of the Qwen 3.5 9B Fable 5 v1 fine-tune. A compact Apple Silicon model for vision-capable chat and reasoning with a 262K context window.",
+    "sizeBytes": 6069893714,
+    "ramRequirementBytes": 10000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Qwen3.5-9B-Fable-5-v1-oQ4",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "oQ4",
+    "hfCreatedAt": "2026-07-03T14:29:29.000Z",
+    "hfReleasedAt": "2026-07-03T14:29:29.000Z",
+    "hfLastModified": "2026-07-03T14:46:37.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "deepseek-v4-flash-oq2.5e-mtp",
+    "name": "DeepSeek V4 Flash oQ2.5e MTP",
+    "category": "language",
+    "provider": "DeepSeek / Jundot",
+    "summary": "oMLX mixed-precision 2.5-bit-class build of DeepSeek V4 Flash with its MTP layer included. The smallest requested MLX option for 1M-context coding and reasoning, but still requires a 192GB-class Apple Silicon Mac.",
+    "sizeBytes": 113243079632,
+    "ramRequirementBytes": 150000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "Jundot/DeepSeek-V4-Flash-oQ2.5e-mtp",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 1048576,
+    "defaultQuantLevel": "oQ2.5e-mtp",
+    "hfCreatedAt": "2026-07-09T00:26:20.000Z",
+    "hfReleasedAt": "2026-07-09T00:26:20.000Z",
+    "hfLastModified": "2026-07-09T02:56:11.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "gpt-oss-20b-mxfp4-q8",
+    "name": "GPT-OSS 20B MXFP4 Q8",
+    "category": "language",
+    "provider": "OpenAI / mlx-community",
+    "summary": "MXFP4 MLX build of GPT-OSS 20B with sensitive attention, routing, embedding, and output layers retained at 8-bit. A higher-fidelity local reasoning option for Apple Silicon Macs.",
+    "sizeBytes": 12104218243,
+    "ramRequirementBytes": 18000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/gpt-oss-20b-MXFP4-Q8",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "reasoning"
+    ],
+    "contextLength": 131072,
+    "defaultQuantLevel": "mxfp4-q8",
+    "hfCreatedAt": "2025-08-29T17:57:36.000Z",
+    "hfReleasedAt": "2025-08-29T17:57:36.000Z",
+    "hfLastModified": "2026-03-19T10:30:16.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
   }
 ]

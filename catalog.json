@@ -2016,6 +2016,18 @@
         "sha256": ""
       }
     ],
+    "cloudRuntime": {
+      "runtimeTemplate": "vllm-openai",
+      "runtimeModelId": "Qwen/Qwen3.5-27B",
+      "minGpuMemoryGb": 48,
+      "estimatedDownloadGb": 55,
+      "preferredGpuTierIds": [
+        "gpu-pro-l40s"
+      ],
+      "aliases": [
+        "Qwen3.5 27B"
+      ]
+    },
     "hfCreatedAt": "2026-02-24T14:50:03.000Z",
     "hfReleasedAt": "2026-02-24T14:50:03.000Z",
     "hfLastModified": "2026-03-05T16:31:31.000Z",
@@ -7426,5 +7438,365 @@
     "hfReleasedAt": "2026-06-23T01:52:56.000Z",
     "hfLastModified": "2026-06-26T16:08:23.000Z",
     "cdnAddedAt": "2026-06-27T14:07:47+09:00"
+  },
+  {
+    "id": "minicpm5-1b-claude-opus-fable5-thinking",
+    "name": "MiniCPM5 1B Claude Opus Fable5 Thinking",
+    "category": "language",
+    "provider": "GnLOLot",
+    "summary": "Compact MiniCPM5 1B thinking fine-tune for local reasoning, coding, instruction following, and tool use. Its 131K context and small footprint make it suitable for phones as well as desktops.",
+    "sizeBytes": 688066496,
+    "ramRequirementBytes": 3000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF/resolve/5a4ed2c3605634e7b043e8b98fa01e504b0dfbed/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-Q4_K_M.gguf",
+    "sha256": "b1c3bf2995e96cb792a0031e4e1497a500e9244c68ba17c24a7e6edf1fc59019",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "vramRequirementBytes": 1500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1153529792,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-GGUF/resolve/5a4ed2c3605634e7b043e8b98fa01e504b0dfbed/MiniCPM5-1B-Claude-Opus-Fable5-Thinking-Q8_0.gguf",
+        "sha256": "8125095ae223278e728adb4148a8a466cec920929c1de5a5f5ebcb479ec31a2c",
+        "weight": "light"
+      }
+    ],
+    "hfCreatedAt": "2026-07-03T09:24:41.000Z",
+    "hfReleasedAt": "2026-07-03T09:24:41.000Z",
+    "hfLastModified": "2026-07-13T14:56:34.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "qwythos-9b-v2",
+    "name": "Qwythos 9B v2",
+    "category": "language",
+    "provider": "Empero AI",
+    "summary": "Second-generation Qwythos 9B fine-tune with 1M-token context, vision, tool calling, and improved reasoning behavior. A high-memory local assistant for long documents and agentic workflows.",
+    "sizeBytes": 5736063744,
+    "ramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF/resolve/97c11b03687f194b300efbdb4760d9bc4021b759/Qwythos-9B-v2-Q4_K_M.gguf",
+    "sha256": "c0a588704f422b713eca29b2c1f192ae6f69aea3f9e7cb64f9ecdb76ff7a85f4",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF/resolve/97c11b03687f194b300efbdb4760d9bc4021b759/mmproj-Qwythos-9B-v2-BF16.gguf",
+    "mmprojSha256": "0d1687cb33124c78acab788b342d4a2eaf85b3035e87c3abe4ee9d0b84ddb4f5",
+    "contextLength": 1048576,
+    "vramRequirementBytes": 6500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7458300672,
+        "ramRequirementBytes": 14500000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF/resolve/97c11b03687f194b300efbdb4760d9bc4021b759/Qwythos-9B-v2-Q6_K.gguf",
+        "sha256": "dd39e148823f0bab858e946d603e4bf424240aae34435580be820f09c75ca379"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9527501568,
+        "ramRequirementBytes": 18500000000,
+        "vramRequirementBytes": 10500000000,
+        "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF/resolve/97c11b03687f194b300efbdb4760d9bc4021b759/Qwythos-9B-v2-Q8_0.gguf",
+        "sha256": "3324ac1a7260fbb484d10373df7d54d156ff6c4f5c577d87dbd0218928beab89"
+      }
+    ],
+    "hfCreatedAt": "2026-07-09T23:19:33.000Z",
+    "hfReleasedAt": "2026-07-09T23:19:33.000Z",
+    "hfLastModified": "2026-07-12T00:58:46.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "qwythos-9b-v2-mtp",
+    "name": "Qwythos 9B v2 MTP",
+    "category": "language",
+    "provider": "Empero AI",
+    "summary": "Qwythos 9B v2 with its Multi-Token Prediction head bundled for speculative decoding in supported llama.cpp builds. It retains the regular v2 model's 1M context, vision projector, reasoning, and tool calling.",
+    "sizeBytes": 5903822528,
+    "ramRequirementBytes": 11500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF/resolve/97c11b03687f194b300efbdb4760d9bc4021b759/Qwythos-9B-v2-MTP-Q4_K_M.gguf",
+    "sha256": "cfdd00ac1c1dc9ced33f23817fb4282f2594067e02e34d82e3e63bc0ea275b05",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF/resolve/97c11b03687f194b300efbdb4760d9bc4021b759/mmproj-Qwythos-9B-v2-BF16.gguf",
+    "mmprojSha256": "0d1687cb33124c78acab788b342d4a2eaf85b3035e87c3abe4ee9d0b84ddb4f5",
+    "contextLength": 1048576,
+    "vramRequirementBytes": 7000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7666069184,
+        "ramRequirementBytes": 15000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF/resolve/97c11b03687f194b300efbdb4760d9bc4021b759/Qwythos-9B-v2-MTP-Q6_K.gguf",
+        "sha256": "24271fb6e16b2b8f581d192cf77d947453d7852f965ce6801fefa6964bbea060"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9786060480,
+        "ramRequirementBytes": 19000000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/empero-ai/Qwythos-9B-v2-GGUF/resolve/97c11b03687f194b300efbdb4760d9bc4021b759/Qwythos-9B-v2-MTP-Q8_0.gguf",
+        "sha256": "6d72e896721f2be249b2584fb06a007a8f8ce506e592ea54c103952303a5f11f"
+      }
+    ],
+    "hfCreatedAt": "2026-07-09T23:19:33.000Z",
+    "hfReleasedAt": "2026-07-09T23:19:33.000Z",
+    "hfLastModified": "2026-07-12T00:58:46.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "agents-a1-35b",
+    "name": "Agents-A1 35B",
+    "category": "language",
+    "provider": "InternScience",
+    "summary": "35B mixture-of-experts model built for long-horizon search, engineering, scientific research, planning, and native tool calling. Includes a vision projector and 262K context for broad agentic workflows.",
+    "sizeBytes": 21166757632,
+    "ramRequirementBytes": 39500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/InternScience/Agents-A1-Q4_K_M-GGUF/resolve/186735205c03d08e3eca41d0a541fe5a23108c0f/Agents-A1-Q4_K_M.gguf",
+    "sha256": "31aefa25b7e1edbde436e643e2b5e3f6e57820a4811d97b131130e48ff0772c2",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/InternScience/Agents-A1-Q4_K_M-GGUF/resolve/186735205c03d08e3eca41d0a541fe5a23108c0f/Agents-A1-mmproj.gguf",
+    "mmprojSha256": "781c47706c2a2002401358f2acbeeccf545ee4cf9bd7314d4470f4c17f083b1c",
+    "contextLength": 262144,
+    "vramRequirementBytes": 24500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [],
+    "hfCreatedAt": "2026-07-01T07:27:18.000Z",
+    "hfReleasedAt": "2026-07-01T07:27:18.000Z",
+    "hfLastModified": "2026-07-04T10:27:38.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "tess-4-27b",
+    "name": "Tess 4 27B",
+    "category": "language",
+    "provider": "Migtissera",
+    "summary": "Vision-capable Tess 4 agentic reasoning model based on Qwen3.6 27B. Designed for high-quality multimodal chat, planning, and tool-using workflows with a 262K context window.",
+    "sizeBytes": 16547398656,
+    "ramRequirementBytes": 23000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/migtissera/Tess-4-27B-GGUF/resolve/dea354d5618894cd874a376e69e03060fee0bec1/Tess-4-27B-Q4_K_M.gguf",
+    "sha256": "99b94644e6b31dff920ec5eb1b8598edc95eed7fcc8c3058a98f42319fb2fef4",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/migtissera/Tess-4-27B-GGUF/resolve/dea354d5618894cd874a376e69e03060fee0bec1/mmproj-Tess-4-27B-F16.gguf",
+    "mmprojSha256": "6be9dd0b2298225381277c2b7df9c4bbcc5b9d95b43b7299123f8392527cde69",
+    "contextLength": 262144,
+    "vramRequirementBytes": 19000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22082528256,
+        "ramRequirementBytes": 30500000000,
+        "vramRequirementBytes": 25500000000,
+        "downloadUrl": "https://huggingface.co/migtissera/Tess-4-27B-GGUF/resolve/dea354d5618894cd874a376e69e03060fee0bec1/Tess-4-27B-Q6_K.gguf",
+        "sha256": "bea0033503a38ceac3938ecd4eca191a9886be85e5656f9aa5c17a00df301905"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 28595762176,
+        "ramRequirementBytes": 39000000000,
+        "vramRequirementBytes": 33000000000,
+        "downloadUrl": "https://huggingface.co/migtissera/Tess-4-27B-GGUF/resolve/dea354d5618894cd874a376e69e03060fee0bec1/Tess-4-27B-Q8_0.gguf",
+        "sha256": "35d0b640edc1a9c00f8089bada11c4a58fc825d9d0fbf4ac44f4054ec3cb3a57",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-07-08T03:04:21.000Z",
+    "hfReleasedAt": "2026-07-08T03:04:21.000Z",
+    "hfLastModified": "2026-07-09T19:28:43.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "tess-4-27b-mtp-draft",
+    "name": "Tess 4 27B MTP Draft",
+    "category": "language",
+    "provider": "Migtissera",
+    "summary": "MTP draft-head companion for Tess 4 27B speculative decoding. Install it alongside the regular Tess 4 27B GGUF and select the matching quant level in a llama.cpp build with draft-model support.",
+    "sizeBytes": 2032383424,
+    "ramRequirementBytes": 4000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/migtissera/Tess-4-27B-GGUF/resolve/dea354d5618894cd874a376e69e03060fee0bec1/mtp-Tess-4-27B-Q4_K_M.gguf",
+    "sha256": "c8dd872f71f584eef1693779c98d9c6c81daaa9bf97a7d9b24ae9cb968a30a77",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 2500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 3164005824,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/migtissera/Tess-4-27B-GGUF/resolve/dea354d5618894cd874a376e69e03060fee0bec1/mtp-Tess-4-27B-Q8_0.gguf",
+        "sha256": "43446e1c536721180f49ce1cf998cfdc2b55b4e8040f404b9bef4e61f4334b3d",
+        "weight": "medium"
+      }
+    ],
+    "hfCreatedAt": "2026-07-08T03:04:21.000Z",
+    "hfReleasedAt": "2026-07-08T03:04:21.000Z",
+    "hfLastModified": "2026-07-09T19:28:43.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "qwen-agentworld-35b-a3b",
+    "name": "Qwen AgentWorld 35B-A3B",
+    "category": "language",
+    "provider": "Qwen / Unsloth",
+    "summary": "35B-total, 3B-active world-model fine-tune for agents that reason about environments, actions, and multi-step outcomes. Provides 262K context for long-horizon planning and tool-driven workflows.",
+    "sizeBytes": 22134529280,
+    "ramRequirementBytes": 39500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen-AgentWorld-35B-A3B-GGUF/resolve/3a305abf5cfd119ee999dfe929c433746edd8d63/Qwen-AgentWorld-35B-A3B-UD-Q4_K_M.gguf",
+    "sha256": "e7a8eafdd8013443b6bcc4b6fb47b2d2025f772d359650b9ceb7d75971e22cad",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "vramRequirementBytes": 24500000000,
+    "defaultQuantLevel": "UD-Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q2_K_XL",
+        "sizeBytes": 12251290880,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen-AgentWorld-35B-A3B-GGUF/resolve/3a305abf5cfd119ee999dfe929c433746edd8d63/Qwen-AgentWorld-35B-A3B-UD-Q2_K_XL.gguf",
+        "sha256": "57a10d319763468eacf9213a8ffc3d37b62837fee4dc3b5e17613a1b386ca895"
+      },
+      {
+        "quantLevel": "UD-Q6_K",
+        "sizeBytes": 29308321024,
+        "ramRequirementBytes": 52000000000,
+        "vramRequirementBytes": 33000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen-AgentWorld-35B-A3B-GGUF/resolve/3a305abf5cfd119ee999dfe929c433746edd8d63/Qwen-AgentWorld-35B-A3B-UD-Q6_K.gguf",
+        "sha256": "cce7ec62095093b9415afa0aa68efa29dbae892e87d2c663a0f864908f60b9b6",
+        "weight": "heavy"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 36903140608,
+        "ramRequirementBytes": 66500000000,
+        "vramRequirementBytes": 41500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen-AgentWorld-35B-A3B-GGUF/resolve/3a305abf5cfd119ee999dfe929c433746edd8d63/Qwen-AgentWorld-35B-A3B-Q8_0.gguf",
+        "sha256": "60f9a4323a2e00834e788e9b025aa7fd350c7c92923b70b6d524688a806dcf99",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-06-24T23:45:03.000Z",
+    "hfReleasedAt": "2026-06-24T23:45:03.000Z",
+    "hfLastModified": "2026-06-25T05:51:07.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
   }
 ]

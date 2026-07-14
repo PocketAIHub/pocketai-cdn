@@ -1455,5 +1455,270 @@
         "sha256": "e285a0692582acf09bb4086d9b120eb0e357c4386565d169a033cb968c6fa9a5"
       }
     ]
+  },
+  {
+    "id": "flux2-klein-9b-true-v3-q4_k",
+    "name": "FLUX.2 Klein 9B True V3",
+    "category": "image",
+    "provider": "Black Forest Labs / wikeeyang",
+    "summary": "V3 fine-tune of FLUX.2 Klein 9B with improved aesthetics, composition, prompt-only image editing, and low-loss GGUF quantization. Uses the FLUX.2 Qwen3 8B text encoder and supports fast four-step generation.",
+    "sizeBytes": 5716892032,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 12000000000,
+    "license": "FLUX Non-Commercial License",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V3/resolve/997e0977d4ba7d3103d2cfb6c7029724603b73a8/Flux2-Klein-9B-True-V3-Q4_K.gguf",
+    "sha256": "d8ad4c27c683064796cc9894e6d5633d7a4977d029edb3228caedc19d65ee5e4",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "architecture": "flux",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "vaeUrl": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/23fbc8aa8b621f29f2249cd1bd9c47e5d0eebd83/split_files/vae/flux2-vae.safetensors",
+    "vaeSha256": "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3",
+    "llmUrl": "https://huggingface.co/unsloth/Qwen3-8B-GGUF/resolve/a6adef130ffb23ddaf1a62fec9dced968c9bc482/Qwen3-8B-Q4_K_M.gguf",
+    "llmSha256": "120307ba529eb2439d6c430d94104dabd578497bc7bfe7e322b5d9933b449bd4",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_K",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 7865424256,
+        "ramRequirementBytes": 20000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V3/resolve/997e0977d4ba7d3103d2cfb6c7029724603b73a8/Flux2-Klein-9B-True-V3-Q6_K.gguf",
+        "sha256": "7fd4438a51e76d7076f625a2c63516a075dad48ee980f4bc9b4bc63e58e8adc0"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 9978304896,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V3/resolve/997e0977d4ba7d3103d2cfb6c7029724603b73a8/Flux2-Klein-9B-True-V3-Q8_0.gguf",
+        "sha256": "44b08a48da8a8037d0d2cc9f64fdc13094483a1d1bbfd4c2b5fea82bc0be0dcb"
+      }
+    ],
+    "requiresComfyUiConversion": true,
+    "hfCreatedAt": "2026-06-25T01:41:31.000Z",
+    "hfReleasedAt": "2026-06-25T01:41:31.000Z",
+    "hfLastModified": "2026-07-13T11:29:36.000Z",
+    "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "krea2-turbo-hd-v1-gguf",
+    "name": "Krea 2 Turbo HD V1",
+    "category": "image",
+    "provider": "Krea / wikeeyang",
+    "summary": "Krea 2 Turbo HD fine-tune for detailed, photorealistic text-to-image generation. Runs its pinned GGUF diffusion weights through ComfyUI in eight steps; includes Q4, Q6, and Q8 variants.",
+    "sizeBytes": 8209788832,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Krea 2 Community License",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/wikeeyang/Krea2-Turbo-HD-V1/resolve/4ebaa9abc4145ad1176099e5d7f8d491fc016e34/Krea2-Turbo-HD-V1-Q4_K_S.gguf",
+    "sha256": "a72178f781fdfa655b6307b3945094a44c00a04eaaa8ef5bcd4f1d72036119c4",
+    "supportedPlatforms": [
+      "windows"
+    ],
+    "architecture": "krea-2-comfyui",
+    "backend": "comfyui-krea2",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "nvidia",
+    "vaeUrl": "https://huggingface.co/wikeeyang/Krea2-Turbo-HD-V1/resolve/4ebaa9abc4145ad1176099e5d7f8d491fc016e34/Krea2-HD-vae.safetensors",
+    "vaeSha256": "3401bbf1953cdc920c3d20ec178cb0368f5527a96cb78abe30904b27a82361f2",
+    "textEncoderUrl": "https://huggingface.co/Comfy-Org/Krea-2/resolve/8038ce89b91b042141541ad0fa51b985ca262c5f/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+    "textEncoderSha256": "54bd5144df0bbc25dd6ccadfcb826b521445a1b06ae5a42570bdd2974ca87094",
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_K_S",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 10895847328,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/wikeeyang/Krea2-Turbo-HD-V1/resolve/4ebaa9abc4145ad1176099e5d7f8d491fc016e34/Krea2-Turbo-HD-V1-Q6_K.gguf",
+        "sha256": "7b8b303cdf4904955ea9e56231fd8bbfcd0e19f9dd744f394f87ca5e58a13b44"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 13922828192,
+        "ramRequirementBytes": 40000000000,
+        "vramRequirementBytes": 24000000000,
+        "downloadUrl": "https://huggingface.co/wikeeyang/Krea2-Turbo-HD-V1/resolve/4ebaa9abc4145ad1176099e5d7f8d491fc016e34/Krea2-Turbo-HD-V1-Q8_0.gguf",
+        "sha256": "9e038bf3a491607c3c46f0dd5dc78ce245b060af09c5f80d363ba2e0a87a06ae"
+      }
+    ],
+    "hfCreatedAt": "2026-07-05T02:12:41.000Z",
+    "hfReleasedAt": "2026-07-05T02:12:41.000Z",
+    "hfLastModified": "2026-07-13T11:30:19.000Z",
+    "cdnAddedAt": "2026-07-14T10:05:05+09:00"
+  },
+  {
+    "id": "krea2-turbo-alis-mlx-8bit",
+    "name": "Krea 2 Turbo Alis MLX 8-bit",
+    "category": "image",
+    "provider": "Krea / avlp12",
+    "summary": "Pre-quantized 8-bit Krea 2 Turbo for Apple Silicon. Uses a pinned MLX pipeline and locally downloaded Krea VAE, Qwen3-VL text encoder, and tokenizer components for eight-step generation.",
+    "sizeBytes": 23644984159,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 32000000000,
+    "license": "Krea 2 Community License",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/avlp12/Krea-2-Turbo-Alis-MLX-8bit/tree/f8602982f7b5b21d277be883dda51fb6beb5bd79",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "krea-2-mlx",
+    "backend": "mflux",
+    "mlxPipeline": "krea2-alis",
+    "defaultSteps": 8,
+    "defaultCfgScale": 0.0,
+    "supportedResolutions": [
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "llmUrl": "https://huggingface.co/krea/Krea-2-Turbo/tree/1161245028ef398cd0a951101b2bbf486464f841?allow=vae/*&allow=text_encoder/*&allow=tokenizer/*&allow=model_index.json",
+    "weight": "massive",
+    "defaultQuantLevel": "8-bit",
+    "hfCreatedAt": "2026-06-26T02:50:14.000Z",
+    "hfReleasedAt": "2026-06-26T02:50:14.000Z",
+    "hfLastModified": "2026-07-01T07:24:59.000Z",
+    "cdnAddedAt": "2026-07-14T10:05:05+09:00"
+  },
+  {
+    "id": "flux2-klein-base-4b-mlx",
+    "name": "FLUX.2 Klein Base 4B MLX",
+    "category": "image",
+    "provider": "Black Forest Labs / MLX Community",
+    "summary": "Full bf16 MLX conversion of FLUX.2 Klein Base 4B for Apple Silicon. A complete local snapshot with the Qwen3 text encoder, transformer, tokenizer, scheduler, and VAE.",
+    "sizeBytes": 15980135098,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/mlx-community/FLUX.2-klein-base-4B-bf16/tree/bb7aa617c8498525db40caa221d96165caf15571",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "flux2-mlx",
+    "backend": "mflux",
+    "mlxPipeline": "flux2-klein",
+    "mlxModelConfig": "flux2-klein-base-4b",
+    "defaultSteps": 28,
+    "defaultCfgScale": 4.0,
+    "supportedResolutions": [
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "weight": "heavy",
+    "defaultQuantLevel": "bf16",
+    "hfCreatedAt": "2026-07-07T01:16:48.000Z",
+    "hfReleasedAt": "2026-07-07T01:16:48.000Z",
+    "hfLastModified": "2026-07-07T01:17:24.000Z",
+    "cdnAddedAt": "2026-07-14T10:05:05+09:00"
   }
 ]
