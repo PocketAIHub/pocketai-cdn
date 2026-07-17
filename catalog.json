@@ -6376,8 +6376,6 @@
     "downloadUrl": "https://huggingface.co/Mia-AiLab/Gemmable-4-31B-MTP-GGUF/resolve/6366a8ad30cd572a7390b40b62df311b6945d2dc/gemmable-4-31b-Q4_K_M-mtp.gguf",
     "sha256": "06e20aabcf6f9ad52f033d99e82078828af028631916e80e85f8b2c7347edb7b",
     "supportedPlatforms": [
-      "android",
-      "ios",
       "macos",
       "windows",
       "linux"

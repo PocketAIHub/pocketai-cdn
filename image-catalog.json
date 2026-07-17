@@ -1720,5 +1720,156 @@
     "hfReleasedAt": "2026-07-07T01:16:48.000Z",
     "hfLastModified": "2026-07-07T01:17:24.000Z",
     "cdnAddedAt": "2026-07-14T10:05:05+09:00"
+  },
+  {
+    "id": "flux2-klein-4b-q4_0",
+    "name": "FLUX.2 Klein 4B",
+    "category": "image",
+    "provider": "Black Forest Labs / leejet",
+    "summary": "Apache-2.0 FLUX.2 distilled model for fast four-step text-to-image and reference-image editing. Compact Q4_0 diffusion weights paired with the Qwen3 4B text encoder.",
+    "sizeBytes": 2460378560,
+    "ramRequirementBytes": 12000000000,
+    "vramRequirementBytes": 10000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/leejet/FLUX.2-klein-4B-GGUF/resolve/3b1f5a9dc3abb32238b053aeb3d823c30afdacbd/flux-2-klein-4b-Q4_0.gguf",
+    "sha256": "d1023499ef3f2f82ff7c50e6778495195c1b6cc34835741778868428111f9ff4",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "architecture": "flux",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "vaeUrl": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/23fbc8aa8b621f29f2249cd1bd9c47e5d0eebd83/split_files/vae/flux2-vae.safetensors",
+    "vaeSha256": "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3",
+    "llmUrl": "https://huggingface.co/unsloth/Qwen3-4B-GGUF/resolve/22c9fc8a8c7700b76a1789366280a6a5a1ad1120/Qwen3-4B-Q4_K_M.gguf",
+    "llmSha256": "f6f851777709861056efcdad3af01da38b31223a3ba26e61a4f8bf3a2195813a",
+    "weight": "medium",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 4300629440,
+        "ramRequirementBytes": 16000000000,
+        "vramRequirementBytes": 12000000000,
+        "downloadUrl": "https://huggingface.co/leejet/FLUX.2-klein-4B-GGUF/resolve/3b1f5a9dc3abb32238b053aeb3d823c30afdacbd/flux-2-klein-4b-Q8_0.gguf",
+        "sha256": "0bba6951258ec8f92d51114a8fa13e66828297bfff58a738f52729b3ef66fa28"
+      }
+    ],
+    "hfCreatedAt": "2026-01-17T05:59:17.000Z",
+    "hfReleasedAt": "2026-01-17T05:59:17.000Z",
+    "hfLastModified": "2026-01-17T06:39:12.000Z",
+    "cdnAddedAt": "2026-07-17T08:56:31+09:00"
+  },
+  {
+    "id": "qwen-image-edit-2511-q4_k_m",
+    "name": "Qwen-Image-Edit 2511",
+    "category": "image",
+    "provider": "Alibaba / Qwen / Unsloth",
+    "summary": "Apache-2.0 reference-image editor with strong identity consistency, text editing, industrial design, and geometric reasoning. Requires an input image and substantial memory.",
+    "sizeBytes": 13244758624,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF/resolve/0d33d9692b4b26212297240d87b0d4719aa4fd06/qwen-image-edit-2511-Q4_K_M.gguf",
+    "sha256": "8677bac90627adbbc11efab87b1870e701c4eb3689ee865a3de8ab81b705a723",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "architecture": "qwen-image",
+    "defaultSteps": 40,
+    "defaultCfgScale": 2.5,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresInitImage": true,
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Qwen-Image_ComfyUI/resolve/main/split_files/vae/qwen_image_vae.safetensors",
+    "vaeSha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
+    "llmUrl": "https://huggingface.co/unsloth/Qwen2.5-VL-7B-Instruct-GGUF/resolve/main/Qwen2.5-VL-7B-Instruct-UD-Q4_K_XL.gguf",
+    "llmSha256": "8edd10e3ae170ab8b8d114e70763ff63a220f16deec9a56acf9330034efc0bb5",
+    "weight": "massive",
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 16852417120,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF/resolve/0d33d9692b4b26212297240d87b0d4719aa4fd06/qwen-image-edit-2511-Q6_K.gguf",
+        "sha256": "fdc28e5b8f7d9cfe0399fd1700c375f25f000fc4159bbdb0d4a809ae898eb759"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 21761817184,
+        "ramRequirementBytes": 40000000000,
+        "vramRequirementBytes": 28000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen-Image-Edit-2511-GGUF/resolve/0d33d9692b4b26212297240d87b0d4719aa4fd06/qwen-image-edit-2511-Q8_0.gguf",
+        "sha256": "ab4f0622fb002fccaaa679a2ecce6fd1b3190d8ea28a5b7b2b17b8669bc24afa"
+      }
+    ],
+    "hfCreatedAt": "2025-12-20T02:31:59.000Z",
+    "hfReleasedAt": "2025-12-20T02:31:59.000Z",
+    "hfLastModified": "2026-01-08T21:13:12.000Z",
+    "cdnAddedAt": "2026-07-17T08:56:31+09:00"
   }
 ]
