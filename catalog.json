@@ -3829,6 +3829,209 @@
     "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
+    "id": "kimi-vl-a3b-thinking-2506",
+    "name": "Kimi-VL A3B Thinking 2506",
+    "category": "language",
+    "provider": "Moonshot AI / ggml-org",
+    "summary": "Efficient Kimi vision-language reasoning model with 16B total and 3B active parameters, upgraded visual chain-of-thought behavior, and 128K context. Released 2025-06-21.",
+    "sizeBytes": 10540747680,
+    "ramRequirementBytes": 16000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/ggml-org/Kimi-VL-A3B-Thinking-2506-GGUF/resolve/e7dcd093335f922a057772febc7ab27eda985b40/Kimi-VL-A3B-Thinking-2506-Q4_K_M.gguf",
+    "sha256": "72253d82d21c546587139dfd12597d491c25a13c6540d2ce18ca1581967338c5",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/ggml-org/Kimi-VL-A3B-Thinking-2506-GGUF/resolve/e7dcd093335f922a057772febc7ab27eda985b40/mmproj-Kimi-VL-A3B-Thinking-2506-Q8_0.gguf",
+    "mmprojSha256": "5af5e5fc0ad5e2348f5227ddfa97e9241d453020c149dbe0e920ed603189ca15",
+    "contextLength": 131072,
+    "vramRequirementBytes": 13000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 16974941088,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/ggml-org/Kimi-VL-A3B-Thinking-2506-GGUF/resolve/e7dcd093335f922a057772febc7ab27eda985b40/Kimi-VL-A3B-Thinking-2506-Q8_0.gguf",
+        "sha256": "ffcfd257855ee9f16243d8d16b4d74fcb106d3dc1fd65f466d1c089bf320b377"
+      }
+    ],
+    "releaseDate": "2025-06-21",
+    "hfCreatedAt": "2025-08-20T22:12:29.000Z",
+    "hfReleasedAt": "2025-08-20T22:12:29.000Z",
+    "hfLastModified": "2025-08-20T22:18:32.000Z",
+    "cdnAddedAt": "2026-07-17T16:42:36+09:00"
+  },
+  {
+    "id": "kimi-linear-48b-a3b",
+    "name": "Kimi Linear 48B-A3B Instruct",
+    "category": "language",
+    "provider": "Moonshot AI / Bartowski",
+    "summary": "Kimi's 48B-total, 3B-active hybrid linear-attention MoE for efficient long-context instruction following, with native 1M context. Released 2025-10-30.",
+    "sizeBytes": 30061058720,
+    "ramRequirementBytes": 42000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/bartowski/moonshotai_Kimi-Linear-48B-A3B-Instruct-GGUF/resolve/228dbe476e5a02091624a19068f4c962caa8a1c5/moonshotai_Kimi-Linear-48B-A3B-Instruct-Q4_K_M.gguf",
+    "sha256": "a1a7d865370652221f937163f7e94c99e1f114861335ba4f8666606843f1620f",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "canReadFiles": true,
+    "contextLength": 1048576,
+    "vramRequirementBytes": 34000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 52248386432,
+        "ramRequirementBytes": 68000000000,
+        "vramRequirementBytes": 58000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/moonshotai_Kimi-Linear-48B-A3B-Instruct-GGUF/resolve/228dbe476e5a02091624a19068f4c962caa8a1c5/moonshotai_Kimi-Linear-48B-A3B-Instruct-Q8_0/moonshotai_Kimi-Linear-48B-A3B-Instruct-Q8_0-00001-of-00002.gguf",
+        "sha256": "8b9902c6072803a56f89ab515c363d433117b2ba601989565a3aa9c0836771bc",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/bartowski/moonshotai_Kimi-Linear-48B-A3B-Instruct-GGUF/resolve/228dbe476e5a02091624a19068f4c962caa8a1c5/moonshotai_Kimi-Linear-48B-A3B-Instruct-Q8_0/moonshotai_Kimi-Linear-48B-A3B-Instruct-Q8_0-00001-of-00002.gguf",
+            "sha256": "8b9902c6072803a56f89ab515c363d433117b2ba601989565a3aa9c0836771bc",
+            "sizeBytes": 39761166432
+          },
+          {
+            "url": "https://huggingface.co/bartowski/moonshotai_Kimi-Linear-48B-A3B-Instruct-GGUF/resolve/228dbe476e5a02091624a19068f4c962caa8a1c5/moonshotai_Kimi-Linear-48B-A3B-Instruct-Q8_0/moonshotai_Kimi-Linear-48B-A3B-Instruct-Q8_0-00002-of-00002.gguf",
+            "sha256": "999d77a85f36d296c557e26a4a0ced2c628c6f1faed79ca3550442d7c02a45c5",
+            "sizeBytes": 12487220000
+          }
+        ]
+      }
+    ],
+    "releaseDate": "2025-10-30",
+    "hfCreatedAt": "2026-02-06T20:37:23.000Z",
+    "hfReleasedAt": "2026-02-06T20:37:23.000Z",
+    "hfLastModified": "2026-02-09T20:01:06.000Z",
+    "cdnAddedAt": "2026-07-17T16:42:36+09:00"
+  },
+  {
+    "id": "kimi-k2.5",
+    "name": "Kimi K2.5 1T-A32B",
+    "category": "language",
+    "provider": "Moonshot AI / Unsloth + Bartowski",
+    "summary": "Visual-agentic Kimi MoE with 1T total and 32B active parameters for reasoning, coding, tool use, and multimodal work across a 256K context. Released 2026-01-27. Datacenter-class memory footprint.",
+    "sizeBytes": 622005231424,
+    "ramRequirementBytes": 635000000000,
+    "license": "Modified MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00001-of-00013.gguf",
+    "sha256": "848fffb3ac4b5da143119ee75cb8aaf58dfb48b162b4944e2dd382462684b111",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00001-of-00013.gguf",
+        "sha256": "848fffb3ac4b5da143119ee75cb8aaf58dfb48b162b4944e2dd382462684b111",
+        "sizeBytes": 46407881280
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00002-of-00013.gguf",
+        "sha256": "edee77d8b54916c21ff4a470d6b7a47dc1d47ab8530be80e3679a136864632e3",
+        "sizeBytes": 49245543424
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00003-of-00013.gguf",
+        "sha256": "cf555b1e86364552c7be10e74af8c5ed612e31f51b6d179aace4f20f581bd500",
+        "sizeBytes": 49564083552
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00004-of-00013.gguf",
+        "sha256": "c5ddfe12885f690393998e38172fe7ac55e6a959f1ea1771233bf09878d293a7",
+        "sizeBytes": 47808050240
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00005-of-00013.gguf",
+        "sha256": "dc46ddd4525bf95a3ab5a104b282ee362fb444c3c2fab459933343e25fd114aa",
+        "sizeBytes": 47060739264
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00006-of-00013.gguf",
+        "sha256": "92a687860321f017c84ea79b0deed813fc2832ffd1393cfc9da216dae7737b1c",
+        "sizeBytes": 47746473056
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00007-of-00013.gguf",
+        "sha256": "342035ae076d92406d33ba9151e077994ff19ddf27d3ba670a5a8b55f433fdf2",
+        "sizeBytes": 47798613056
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00008-of-00013.gguf",
+        "sha256": "454cf0e873a13cd97f351cac8c66ddc40f9de3abc70497b06d96bbd2693b9a3d",
+        "sizeBytes": 49530611040
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00009-of-00013.gguf",
+        "sha256": "257029c0d82fb2962b4447666d4f36a721b144e0829a8513829c19ae5fb338fc",
+        "sizeBytes": 47801001152
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00010-of-00013.gguf",
+        "sha256": "cc12a505c733944d0e431c5971001b36e47836871a3392c9643da43c8da265c0",
+        "sizeBytes": 49530611040
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00011-of-00013.gguf",
+        "sha256": "9630b19353fd9e95c4928e33ad3f6b74411adb8d95c27c8f845f9716e646b50c",
+        "sizeBytes": 47741607008
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00012-of-00013.gguf",
+        "sha256": "0df8f477f3e6b086fecc921929aab604b7e9584fce0692daada2bdc28fab9807",
+        "sizeBytes": 47522329536
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Kimi-K2.5-GGUF/resolve/386fed8b054275941d6a495a9a7010fbf31b560d/UD-Q4_K_XL/Kimi-K2.5-UD-Q4_K_XL-00013-of-00013.gguf",
+        "sha256": "f58d1e2bd1ac65a2cc02a3d5ff53d42e726ece3602a492a0a96ba27b24aa2a53",
+        "sizeBytes": 44247687776
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/bartowski/moonshotai_Kimi-K2.5-GGUF/resolve/5b64e856ff9f4d062857d952451f38219dff1382/mmproj-moonshotai_Kimi-K2.5-Q8_0.gguf",
+    "mmprojSha256": "72df8ea9ef4d98dc27dd0c60e0052b9e73ae864c6d307565a9c9182ef00de601",
+    "contextLength": 262144,
+    "vramRequirementBytes": 700000000000,
+    "defaultQuantLevel": "UD-Q4_K_XL",
+    "releaseDate": "2026-01-27",
+    "hfCreatedAt": "2026-01-27T07:02:00.000Z",
+    "hfReleasedAt": "2026-01-27T07:02:00.000Z",
+    "hfLastModified": "2026-01-28T23:05:21.000Z",
+    "cdnAddedAt": "2026-07-17T16:42:36+09:00"
+  },
+  {
     "id": "kimi-k2.6-1t-a32b",
     "name": "Kimi K2.6 1T-A32B",
     "category": "language",
@@ -4201,6 +4404,7 @@
         ]
       }
     ],
+    "releaseDate": "2026-06-12",
     "hfCreatedAt": "2026-06-12T18:03:48.000Z",
     "hfReleasedAt": "2026-06-12T18:03:48.000Z",
     "hfLastModified": "2026-06-15T05:40:32.000Z",
