@@ -53,6 +53,18 @@ Returns the voice model catalog covering:
 - **TTS** - Kokoro and Piper text-to-speech models
 - **VAD** - Silero voice activity detection
 
+### Audio Generation Models
+
+```
+GET https://cdn.pocketaihub.com/audio-catalog.json
+```
+
+Returns music and sound-effect generation models. Entries pin their upstream
+repository revisions and SHA-256-verified artifacts. Model weights download
+directly from the publisher; this CDN hosts metadata only. Discovery-only
+entries intentionally omit install artifacts until their runtime admission is
+complete.
+
 ### Gated Models
 
 ```
@@ -60,14 +72,6 @@ GET https://cdn.pocketaihub.com/gated-catalog.json
 ```
 
 Returns gated/uncensored models separated from the main catalogs. Structured as `{ "image": [...], "video": [...], "language": [...] }`. Only fetched by non-app-store builds — app store builds never request this endpoint.
-
-### Combined Manifest
-
-```
-GET https://cdn.pocketaihub.com/manifest.json
-```
-
-Returns a single combined manifest containing all catalogs with a top-level `version` field.
 
 ### Catalog Versions
 
@@ -83,6 +87,7 @@ Returns the current version number for each catalog category. Used by apps to ch
   "image": 1,
   "video": 1,
   "voice": 1,
+  "audio": 1,
   "gated": 1,
   "mesh": 1,
   "mlx": 1,
@@ -114,12 +119,13 @@ There are two copies of the model catalogs that must stay in sync:
 | `pocketai-cdn/mlx-image-catalog.json` | CDN - MLX-native image generation model catalog |
 | `pocketai-cdn/video-catalog.json` | CDN - video generation model catalog |
 | `pocketai-cdn/voice-catalog.json` | CDN - voice model catalog (STT, TTS, VAD) |
+| `pocketai-cdn/audio-catalog.json` | CDN - upstream-linked music and sound generation catalog |
 | `pocketai-cdn/gated-catalog.json` | CDN - gated/uncensored models (non-app-store builds only) |
-| `pocketai-cdn/manifest.json` | CDN - combined manifest (all catalogs + version) |
 | `pocketai-cdn/catalog-versions.json` | CDN - version numbers for update checks |
 | `pocketai-mono/packages/core/src/catalog-manifest.json` | **Local bundled copy** - embedded in the app's core package. Structure: `{ "version": 1, "models": [...] }` wrapping the same data as `catalog.json` |
 
-When adding or updating models, update `catalog.json` first, then sync `manifest.json` and the local `catalog-manifest.json` to match.
+When adding or updating models, edit the appropriate CDN catalog, bump its
+version, then run `npm run sync:catalogs` from `pocketai-mono`.
 
 ## App Store vs Website Builds
 

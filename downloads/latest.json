@@ -46,10 +46,10 @@
       "sha256": "2ec24ce3ad0ecff9ee319b7edff12666385a382d16e751e9cac738b2a81336d3"
     },
     "vscode": {
-      "version": "1.0.16",
-      "url": "https://cdn.pocketaihub.com/downloads/pocketai-vscode-1.0.16.vsix",
-      "size": 0,
-      "sha256": null
+      "version": "1.0.20",
+      "url": "https://cdn.pocketaihub.com/downloads/pocketai-vscode-1.0.20.vsix",
+      "size": 810000,
+      "sha256": "077d2592a74ac2b1ba2d5607adfdfed9595bdf7f2918f094d150b96b27b4a088"
     },
     "ios": {
       "version": "1.2.10",
