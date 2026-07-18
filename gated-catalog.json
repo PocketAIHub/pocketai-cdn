@@ -174,6 +174,64 @@
           "sha256": ""
         }
       ]
+    },
+    {
+      "id": "sulphur-2-distill-mlx-q4",
+      "name": "Sulphur 2 Distilled MLX 4-bit",
+      "category": "video",
+      "provider": "SulphurAI / MLXBits",
+      "summary": "Native 4-bit MLX conversion of the distilled Sulphur 2 / LTX-2.3 pipeline for Apple Silicon. Uses the fast 8+3-step two-stage path and a pinned local Gemma encoder; NSFW-gated.",
+      "sizeBytes": 28813203595,
+      "ramRequirementBytes": 32000000000,
+      "vramRequirementBytes": 32000000000,
+      "license": "LTX-2 Community License",
+      "licenseId": "ltx-2-community",
+      "tier": "free",
+      "weight": "large",
+      "format": "snapshot",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/MLXBits/sulphur-2-distill-mlx-q4/tree/d210a0937cac3464ef80c74806e886beddf19a8e",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos"
+      ],
+      "requiresGpuVendor": "apple-silicon",
+      "architecture": "ltxv-2.3",
+      "backend": "mlx",
+      "nsfwGated": true,
+      "mode": "t2v",
+      "defaultSteps": 8,
+      "defaultCfgScale": 1.0,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 320
+        },
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 704,
+          "height": 480
+        }
+      ],
+      "defaultResolution": {
+        "width": 512,
+        "height": 320
+      },
+      "defaultFrames": 25,
+      "maxFrames": 49,
+      "defaultFps": 24,
+      "supportsNegativePrompt": false,
+      "llmUrl": "https://huggingface.co/mlx-community/gemma-3-12b-it-4bit/tree/86cc6a8dedbc456dd0e4af01a9d09f396f77e558",
+      "llmSha256": "",
+      "promptEnhancerModelId": "sulphur-prompt-enhancer-q8",
+      "defaultQuantLevel": "4-bit",
+      "hfCreatedAt": "2026-05-12T18:23:21.000Z",
+      "hfReleasedAt": "2026-05-12T18:23:21.000Z",
+      "hfLastModified": "2026-05-12T20:32:15.000Z",
+      "cdnAddedAt": "2026-07-18T19:29:00+09:00"
     }
   ],
   "language": [
