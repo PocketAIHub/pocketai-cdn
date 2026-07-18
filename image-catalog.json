@@ -1726,6 +1726,64 @@
     "cdnAddedAt": "2026-07-18T18:32:35+09:00"
   },
   {
+    "id": "mlx-image-qwen-image-2512-q4",
+    "name": "Qwen-Image 2512 MLX 4-bit",
+    "category": "image",
+    "provider": "Qwen / MLX Community",
+    "summary": "Pre-quantized 4-bit Qwen-Image 2512 snapshot for Apple Silicon. Runs locally through PocketAI's pinned MFLUX runtime with negative-prompt support and strong prompt adherence.",
+    "sizeBytes": 25907123451,
+    "ramRequirementBytes": 40000000000,
+    "vramRequirementBytes": 40000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/mlx-community/Qwen-Image-2512-4bit/tree/d1f150ea87ea8a468cd962f81cf4c14c17cc5678",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "qwen-image",
+    "backend": "mflux",
+    "mlxPipeline": "qwen-image",
+    "defaultSteps": 30,
+    "defaultCfgScale": 4.0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 512
+    },
+    "supportsNegativePrompt": true,
+    "requiresGpuVendor": "apple-silicon",
+    "weight": "heavy",
+    "defaultQuantLevel": "4-bit",
+    "hfCreatedAt": "2026-01-01T07:43:21.000Z",
+    "hfReleasedAt": "2026-01-01T07:43:21.000Z",
+    "hfLastModified": "2026-01-01T07:43:51.000Z",
+    "cdnAddedAt": "2026-07-18T19:06:00+09:00"
+  },
+  {
     "id": "flux2-klein-base-4b-mlx",
     "name": "FLUX.2 Klein Base 4B MLX",
     "category": "image",
