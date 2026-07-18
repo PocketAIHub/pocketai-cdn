@@ -1667,6 +1667,65 @@
     "cdnAddedAt": "2026-07-14T10:05:05+09:00"
   },
   {
+    "id": "mlx-image-flux1-dev-q4",
+    "name": "FLUX.1 Dev MLX 4-bit",
+    "category": "image",
+    "provider": "Black Forest Labs / dhairyashil",
+    "summary": "Pre-quantized 4-bit FLUX.1 Dev snapshot for Apple Silicon. Runs through PocketAI's pinned MFLUX runtime with substantially lower storage and unified-memory requirements than the original weights.",
+    "sizeBytes": 9621508754,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "FLUX.1 [dev] Non-Commercial License",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/dhairyashil/FLUX.1-dev-mflux-4bit/tree/f15c8a9231c3142976e8a1aa8c6d18b34a442a53",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "flux",
+    "backend": "mflux",
+    "mlxPipeline": "flux1",
+    "mlxModelConfig": "dev",
+    "defaultSteps": 28,
+    "defaultCfgScale": 3.5,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "weight": "medium",
+    "defaultQuantLevel": "4-bit",
+    "hfCreatedAt": "2025-03-15T03:07:48.000Z",
+    "hfReleasedAt": "2025-03-15T03:07:48.000Z",
+    "hfLastModified": "2025-03-16T11:53:29.000Z",
+    "cdnAddedAt": "2026-07-18T18:32:35+09:00"
+  },
+  {
     "id": "flux2-klein-base-4b-mlx",
     "name": "FLUX.2 Klein Base 4B MLX",
     "category": "image",
