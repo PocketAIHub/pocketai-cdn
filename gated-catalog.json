@@ -5,7 +5,7 @@
       "name": "FHDR Uncensored",
       "category": "image",
       "provider": "kpsss34",
-      "summary": "Uncensored FLUX.1 Dev fine-tune with safety filters removed. 11.9B parameters quantized to Q4_K_M for a good balance of quality and size. Gated model — requires a HuggingFace token.",
+      "summary": "Uncensored FLUX.1 Dev fine-tune for eligible non-commercial and non-production use. PocketAI does not install it automatically; review the BFL license and choose a file on Hugging Face.",
       "sizeBytes": 6930000000,
       "ramRequirementBytes": 16000000000,
       "vramRequirementBytes": 12000000000,
@@ -14,7 +14,10 @@
       "weight": "heavy",
       "format": "gguf",
       "source": "hugging-face",
-      "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/resolve/main/FHDR_ComfyUI-Q4_K_M.gguf",
+      "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/tree/main",
+      "sourcePageUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/tree/main",
+      "licenseUrl": "https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev",
+      "installStatus": "external-only",
       "sha256": "",
       "supportedPlatforms": [
         "macos",
@@ -55,18 +58,7 @@
       "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
       "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
       "gated": true,
-      "requiresComfyUiConversion": true,
-      "defaultQuantLevel": "Q4_K_M",
-      "quantVariants": [
-        {
-          "quantLevel": "Q8_0",
-          "sizeBytes": 12710000000,
-          "ramRequirementBytes": 24000000000,
-          "vramRequirementBytes": 16000000000,
-          "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/resolve/main/FHDR_ComfyUI-Q8_0.gguf",
-          "sha256": ""
-        }
-      ]
+      "requiresComfyUiConversion": true
     }
   ],
   "video": [

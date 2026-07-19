@@ -926,7 +926,7 @@
     "name": "FLUX.1 Dev",
     "category": "image",
     "provider": "Black Forest Labs",
-    "summary": "Highest-quality FLUX.1 model. 50-step generation produces exceptional photorealistic images with outstanding prompt fidelity. Non-commercial license.",
+    "summary": "High-quality FLUX.1 model for eligible non-commercial and non-production use. PocketAI does not install it automatically; review the BFL license and choose a GGUF file on Hugging Face.",
     "sizeBytes": 6790000000,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 12000000000,
@@ -934,7 +934,10 @@
     "tier": "free",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q4_0.gguf",
+    "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/tree/main",
+    "sourcePageUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/tree/main",
+    "licenseUrl": "https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev",
+    "installStatus": "external-only",
     "sha256": "",
     "supportedPlatforms": [
       "macos",
@@ -974,42 +977,7 @@
     "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
     "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
     "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
-    "weight": "heavy",
-    "defaultQuantLevel": "Q4_0",
-    "quantVariants": [
-      {
-        "quantLevel": "Q2_K",
-        "sizeBytes": 4030000000,
-        "ramRequirementBytes": 10000000000,
-        "vramRequirementBytes": 8000000000,
-        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q2_K.gguf",
-        "sha256": ""
-      },
-      {
-        "quantLevel": "Q3_K_S",
-        "sizeBytes": 5230000000,
-        "ramRequirementBytes": 12000000000,
-        "vramRequirementBytes": 10000000000,
-        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q3_K_S.gguf",
-        "sha256": ""
-      },
-      {
-        "quantLevel": "Q6_K",
-        "sizeBytes": 9860000000,
-        "ramRequirementBytes": 24000000000,
-        "vramRequirementBytes": 18000000000,
-        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q6_K.gguf",
-        "sha256": ""
-      },
-      {
-        "quantLevel": "Q8_0",
-        "sizeBytes": 12700000000,
-        "ramRequirementBytes": 24000000000,
-        "vramRequirementBytes": 16000000000,
-        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf",
-        "sha256": ""
-      }
-    ]
+    "weight": "heavy"
   },
   {
     "id": "chroma1-hd-flash-q4_0",
