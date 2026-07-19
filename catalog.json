@@ -69,6 +69,75 @@
     "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
+    "id": "qwen3.5-0.8b-abliterated-huihui",
+    "name": "Qwen3.5 0.8B Abliterated",
+    "category": "language",
+    "provider": "Huihui AI / mradermacher",
+    "summary": "Abliterated Qwen3.5 0.8B variant with reduced refusal behavior. Keeps the same tiny footprint and vision support as the standard model for quick, direct local chats.",
+    "sizeBytes": 527503840,
+    "ramRequirementBytes": 2400000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-0.8B-abliterated-GGUF/resolve/2fabc82874616f44cdc494ec8ddc0e8ee10654b3/Huihui-Qwen3.5-0.8B-abliterated.Q4_K_M.gguf",
+    "sha256": "411e0f945a5d57c63f33bcb5bfa4d5c2711d1ce28cb7635201ac0c311a7dfdf0",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-0.8B-abliterated-GGUF/resolve/2fabc82874616f44cdc494ec8ddc0e8ee10654b3/Huihui-Qwen3.5-0.8B-abliterated.mmproj-f16.gguf",
+    "contextLength": 32768,
+    "vramRequirementBytes": 1000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 464781280,
+        "ramRequirementBytes": 2000000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-0.8B-abliterated-GGUF/resolve/2fabc82874616f44cdc494ec8ddc0e8ee10654b3/Huihui-Qwen3.5-0.8B-abliterated.Q3_K_M.gguf",
+        "sha256": "d18405f2d1703cf2768d85e88ad71a8c4a659af566dd82ef12ee18502ccf1107"
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 584823264,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-0.8B-abliterated-GGUF/resolve/2fabc82874616f44cdc494ec8ddc0e8ee10654b3/Huihui-Qwen3.5-0.8B-abliterated.Q5_K_M.gguf",
+        "sha256": "f20fe2718de7d7414ae4121b35a5943c8e3cdd0af6355025d0fe0f24b2a1db38"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 629744608,
+        "ramRequirementBytes": 3000000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-0.8B-abliterated-GGUF/resolve/2fabc82874616f44cdc494ec8ddc0e8ee10654b3/Huihui-Qwen3.5-0.8B-abliterated.Q6_K.gguf",
+        "sha256": "631e126473dcd1452145cb4c203f873b3c3b3eb02e10f198fc1e2471ff225693"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 811844064,
+        "ramRequirementBytes": 3500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/Huihui-Qwen3.5-0.8B-abliterated-GGUF/resolve/2fabc82874616f44cdc494ec8ddc0e8ee10654b3/Huihui-Qwen3.5-0.8B-abliterated.Q8_0.gguf",
+        "sha256": "54e2a3903cbd0ff264b770f29ac59c1fc547d2865db2b42e4e3ef36700767946"
+      }
+    ],
+    "hfCreatedAt": "2026-03-04T08:49:43.000Z",
+    "hfReleasedAt": "2026-03-04T08:49:43.000Z",
+    "hfLastModified": "2026-03-04T09:37:01.000Z",
+    "cdnAddedAt": "2026-07-19T07:28:22+09:00"
+  },
+  {
     "id": "qwen3.5-2b-opus-distilled",
     "name": "Qwen3.5 2B Opus Distilled",
     "category": "language",
