@@ -3786,6 +3786,15 @@
     "defaultQuantLevel": "Q4_K_M",
     "quantVariants": [
       {
+        "quantLevel": "Q2_K_P",
+        "sizeBytes": 14981265536,
+        "ramRequirementBytes": 21000000000,
+        "vramRequirementBytes": 17500000000,
+        "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/f12a584fecbeb5f20001130d8ecd66c9327ae685/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q2_K_P.gguf",
+        "sha256": "5a97f38db0ffb455bbcba7a7c7b8e82d1e42740ddd30893ac1ad57a2df5e94a4",
+        "weight": "large"
+      },
+      {
         "quantLevel": "IQ3_M",
         "sizeBytes": 15440519296,
         "ramRequirementBytes": 27000000000,
@@ -8069,5 +8078,562 @@
     "hfReleasedAt": "2026-06-24T23:45:03.000Z",
     "hfLastModified": "2026-06-25T05:51:07.000Z",
     "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "ternary-bonsai-27b",
+    "name": "Ternary Bonsai 27B",
+    "category": "language",
+    "provider": "Prism ML",
+    "summary": "Ternary 2-bit Qwen3.6 27B conversion for unusually small vision-capable local inference. Uses Prism ML's ternary kernels and is best suited to recent llama.cpp builds with the required quant support.",
+    "sizeBytes": 7165121600,
+    "ramRequirementBytes": 10500000000,
+    "vramRequirementBytes": 8500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf/resolve/abbae723028d71be674e71e1a71201a6f43fab22/Ternary-Bonsai-27B-Q2_0.gguf",
+    "sha256": "868c11714cf8fe47f5ec9eeb2be0ab1a337112886f92ee0ede6b855c4fa31757",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf/resolve/abbae723028d71be674e71e1a71201a6f43fab22/Ternary-Bonsai-27B-mmproj-Q8_0.gguf",
+    "mmprojSha256": "eb561d41a7bbeb0fcf04883c8af11078ef6cae0a66862a0b68443cfca495269d",
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q2_0",
+    "quantVariants": [
+      {
+        "quantLevel": "PQ2_0",
+        "sizeBytes": 7165121600,
+        "ramRequirementBytes": 10500000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf/resolve/abbae723028d71be674e71e1a71201a6f43fab22/Ternary-Bonsai-27B-PQ2_0.gguf",
+        "sha256": "e4781999f1997ef97ce0c58d05750835acc999d18d83ee6489ba7ac7b14cb5f6"
+      },
+      {
+        "quantLevel": "Q2_g64",
+        "sizeBytes": 7585330240,
+        "ramRequirementBytes": 11000000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf/resolve/abbae723028d71be674e71e1a71201a6f43fab22/Ternary-Bonsai-27B-Q2_g64.gguf",
+        "sha256": "59a45d1ecef702b14531b06d22949f33b25c1897da31a8c0b298e01e4d9138eb"
+      }
+    ],
+    "hfCreatedAt": "2026-07-04T00:24:01.000Z",
+    "hfReleasedAt": "2026-07-04T00:24:01.000Z",
+    "hfLastModified": "2026-07-18T06:05:31.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "bonsai-27b",
+    "name": "Bonsai 27B",
+    "category": "language",
+    "provider": "Prism ML",
+    "summary": "Experimental 1-bit Qwen3.6 27B conversion with vision support. This is the only general GGUF quant published for Bonsai and requires a recent compatible llama.cpp runtime.",
+    "sizeBytes": 3803452480,
+    "ramRequirementBytes": 5500000000,
+    "vramRequirementBytes": 4500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/prism-ml/Bonsai-27B-gguf/resolve/f10afb355f104535e3e3e98cf7ab7795c72bd292/Bonsai-27B-Q1_0.gguf",
+    "sha256": "17ef842e47450caeb8eaa3ebfbbab5d2f2278b62b79be107985fb69a2f819aa0",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/prism-ml/Bonsai-27B-gguf/resolve/f10afb355f104535e3e3e98cf7ab7795c72bd292/Bonsai-27B-mmproj-Q8_0.gguf",
+    "mmprojSha256": "eb561d41a7bbeb0fcf04883c8af11078ef6cae0a66862a0b68443cfca495269d",
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q1_0",
+    "quantVariants": [],
+    "hfCreatedAt": "2026-07-04T00:24:38.000Z",
+    "hfReleasedAt": "2026-07-04T00:24:38.000Z",
+    "hfLastModified": "2026-07-17T16:05:42.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "minicpm5-1b-claude-opus-fable5-v2-thinking",
+    "name": "MiniCPM5 1B Claude Opus Fable5 V2 Thinking",
+    "category": "language",
+    "provider": "GnLOLot",
+    "summary": "Second-generation compact MiniCPM5 thinking tune for reasoning, coding, instruction following, and tool use. Upstream currently publishes only the Q8 GGUF quant.",
+    "sizeBytes": 1153529184,
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF/resolve/1c5821260e77c42e0b350f0248fabcf3c90ecade/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-Q8_0.gguf",
+    "sha256": "fc3ee1eddd305c155f63b6bd7bb189daa4d5f226ca325ab219bd7acd3b00ec77",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [],
+    "hfCreatedAt": "2026-07-13T14:28:08.000Z",
+    "hfReleasedAt": "2026-07-13T14:28:08.000Z",
+    "hfLastModified": "2026-07-13T14:58:54.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "qwen3.6-35b-a3b-genesis-hermes-v3",
+    "name": "Qwen3.6 35B-A3B Genesis Hermes V3",
+    "category": "language",
+    "provider": "LuffyTheFox",
+    "summary": "Vision-capable, agentic Hermes-style Qwen3.6 35B-A3B tune with function-calling data. The publisher's APEX profiles are specialized mixed quants; Compact is the smaller recommended default.",
+    "sizeBytes": 17327724672,
+    "ramRequirementBytes": 24500000000,
+    "vramRequirementBytes": 20000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF/resolve/2537d711d9230a695475a60b2343592be3c91d01/Hermes3.6-35B-A3B-Uncensored-Genesis-V3-APEX-Compact.gguf",
+    "sha256": "50594a0b81d4c951e6925b0e4e6804d2d9d3ce060cabfdf3c697e552415fed0f",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF/resolve/2537d711d9230a695475a60b2343592be3c91d01/mmproj-Hermes3.6-35B-A3B-Uncensored-Genesis-F16.gguf",
+    "mmprojSha256": "aa99753f29540d1442b48f37fb72a36d264874888d42f4018f9e01e17ace3323",
+    "contextLength": 262144,
+    "defaultQuantLevel": "APEX-Compact",
+    "quantVariants": [
+      {
+        "quantLevel": "APEX",
+        "sizeBytes": 25624957056,
+        "ramRequirementBytes": 36000000000,
+        "vramRequirementBytes": 29500000000,
+        "downloadUrl": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF/resolve/2537d711d9230a695475a60b2343592be3c91d01/Hermes3.6-35B-A3B-Uncensored-Genesis-V3-APEX.gguf",
+        "sha256": "ba4c26191c873190f7f2e8d947e3f293cf74ce7f2c90a2fc167587f253ed63f1",
+        "weight": "heavy"
+      },
+      {
+        "quantLevel": "Q8_K_P",
+        "sizeBytes": 43605014656,
+        "ramRequirementBytes": 61500000000,
+        "vramRequirementBytes": 50500000000,
+        "downloadUrl": "https://huggingface.co/LuffyTheFox/Qwen3.6-35B-A3B-Uncensored-Genesis-Hermes-V3-GGUF/resolve/2537d711d9230a695475a60b2343592be3c91d01/Hermes3.6-35B-A3B-Uncensored-Genesis-V3-Q8_K_P.gguf",
+        "sha256": "d61de7268c907d639f60fd95b075629355274ea3b9849998ad3b5d28d2b2b68b",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-07-13T06:40:13.000Z",
+    "hfReleasedAt": "2026-07-13T06:40:13.000Z",
+    "hfLastModified": "2026-07-20T04:50:36.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "thinkingcap-qwen3.6-27b",
+    "name": "ThinkingCap Qwen3.6 27B",
+    "category": "language",
+    "provider": "bottlecapai",
+    "summary": "Token-efficient Qwen3.6 27B reasoning tune designed to preserve answer quality while using fewer thinking tokens. Includes vision projection and Q4, Q6, and Q8 GGUFs.",
+    "sizeBytes": 16810713056,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 19500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B-GGUF/resolve/0dd71bbcc88a4134cf2abc389480211d77e5a586/ThinkingCap-Qwen3.6-27B-Q4_K_M.gguf",
+    "sha256": "b0651e28555bde7d2459ce99f091319b1a547143463e8d49f2aa7f572675fe67",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B-GGUF/resolve/0dd71bbcc88a4134cf2abc389480211d77e5a586/mmproj-ThinkingCap-Qwen3.6-27B-f16.gguf",
+    "mmprojSha256": "81a714ac5e8e15687371fc95a180953a29b732962f6616f791063ff127559412",
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22430998496,
+        "ramRequirementBytes": 31500000000,
+        "vramRequirementBytes": 26000000000,
+        "downloadUrl": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B-GGUF/resolve/0dd71bbcc88a4134cf2abc389480211d77e5a586/ThinkingCap-Qwen3.6-27B-Q6_K.gguf",
+        "sha256": "37d93cb02a08e42a2b8e917d79efc340709b90546cac1fa655121ccadf4aa791",
+        "weight": "large"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 29047082976,
+        "ramRequirementBytes": 41000000000,
+        "vramRequirementBytes": 33500000000,
+        "downloadUrl": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B-GGUF/resolve/0dd71bbcc88a4134cf2abc389480211d77e5a586/ThinkingCap-Qwen3.6-27B-Q8_0.gguf",
+        "sha256": "efcb358ef86f07cf24bfd617a66bb0baa7220e9dd1c31b7d7beacd7b49e67d93",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-07-01T01:14:31.000Z",
+    "hfReleasedAt": "2026-07-01T01:14:31.000Z",
+    "hfLastModified": "2026-07-16T10:10:07.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "inkling",
+    "name": "Inkling",
+    "category": "language",
+    "provider": "Thinking Machines / Unsloth",
+    "summary": "Datacenter-scale multimodal Inkling MoE conversion with image and audio understanding. Even the smallest practical GGUF is hundreds of gigabytes and sharded, so this is intended for large multi-GPU workstations.",
+    "sizeBytes": 317330224855,
+    "ramRequirementBytes": 444500000000,
+    "vramRequirementBytes": 365000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00001-of-00008.gguf",
+    "sha256": "8b153eb6a470303f227ef2ba5b515e4e53cc51be65f4395490aa6e37f377bebf",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00001-of-00008.gguf",
+        "sha256": "8b153eb6a470303f227ef2ba5b515e4e53cc51be65f4395490aa6e37f377bebf",
+        "sizeBytes": 12986167
+      },
+      {
+        "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00002-of-00008.gguf",
+        "sha256": "ce8f3744996512d15a8cf492b167b7f4c294e0d0392fe61ee56b49cb49d13b54",
+        "sizeBytes": 49248983808
+      },
+      {
+        "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00003-of-00008.gguf",
+        "sha256": "32ec6aa63190f7f8e6d55c82684cecb9de6f0805049293f6c571fce3026c9e24",
+        "sizeBytes": 49801033664
+      },
+      {
+        "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00004-of-00008.gguf",
+        "sha256": "e50df46ba2449632852528068f5b7b8a7ec17ffb2f8371cd0a9525bb37dea2a3",
+        "sizeBytes": 48271231936
+      },
+      {
+        "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00005-of-00008.gguf",
+        "sha256": "6c32f93f4e173d39d8706278fa53e666f9d35ec8a3b62d7ff4a4a7602814f093",
+        "sizeBytes": 48988457920
+      },
+      {
+        "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00006-of-00008.gguf",
+        "sha256": "1c4175ab3e931e27c83598212d60c8fbe1e651e3979338bd4bae33ad9a719275",
+        "sizeBytes": 48281553856
+      },
+      {
+        "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00007-of-00008.gguf",
+        "sha256": "e01a0eb569bf2702a091b6bd281a09d6180900df96d56a43d7b54b53f27f083b",
+        "sizeBytes": 49705683904
+      },
+      {
+        "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q2_K_XL/inkling-UD-Q2_K_XL-00008-of-00008.gguf",
+        "sha256": "84076130e70a8c94f96c42e064ed7ed51535dbbf08c8620877f4c6726625dcfd",
+        "sizeBytes": 23020293600
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/mmproj-BF16.gguf",
+    "mmprojSha256": "662c925e1df293cfba16ffd6bd53dac31d3c73160ba65dff7270d7a70f351e91",
+    "contextLength": 131072,
+    "defaultQuantLevel": "UD-Q2_K_XL",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-IQ1_M",
+        "sizeBytes": 285036820087,
+        "ramRequirementBytes": 399500000000,
+        "vramRequirementBytes": 328000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-IQ1_M/inkling-UD-IQ1_M-00001-of-00007.gguf",
+        "sha256": "10581f7be64f23add1dde904cee5fdf8949b85159905cdb61c44148d72c0174b",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-IQ1_M/inkling-UD-IQ1_M-00001-of-00007.gguf",
+            "sha256": "10581f7be64f23add1dde904cee5fdf8949b85159905cdb61c44148d72c0174b",
+            "sizeBytes": 12986167
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-IQ1_M/inkling-UD-IQ1_M-00002-of-00007.gguf",
+            "sha256": "3865568ea23e1e63c6367bcb9c445e6c75c95f15b17a1867b2f3399302bf9b8d",
+            "sizeBytes": 48303052000
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-IQ1_M/inkling-UD-IQ1_M-00003-of-00007.gguf",
+            "sha256": "41e8f3aa082596e2db0766b2271c114f9c45f6348bad13f252954a2e59c272b4",
+            "sizeBytes": 49739114400
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-IQ1_M/inkling-UD-IQ1_M-00004-of-00007.gguf",
+            "sha256": "a433d3dad7510013002ac10b2ad70eccc706bb2e4de736c63f713501634ac91b",
+            "sizeBytes": 48235157952
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-IQ1_M/inkling-UD-IQ1_M-00005-of-00007.gguf",
+            "sha256": "eeaaca1088fbdab414bd440075810fc1448131821563a2af0ba0217128b2be31",
+            "sizeBytes": 49105808832
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-IQ1_M/inkling-UD-IQ1_M-00006-of-00007.gguf",
+            "sha256": "d564781624824921394b34750060caccc85b410ddb05c9a8ae55201ceea4d6c9",
+            "sizeBytes": 49600333216
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-IQ1_M/inkling-UD-IQ1_M-00007-of-00007.gguf",
+            "sha256": "6d8830f392fd44d4fb17049026f9b5a97fda888dc20fb714abcf100fa8eecd84",
+            "sizeBytes": 40040367520
+          }
+        ],
+        "weight": "massive"
+      },
+      {
+        "quantLevel": "UD-Q4_K_XL",
+        "sizeBytes": 587040864663,
+        "ramRequirementBytes": 822000000000,
+        "vramRequirementBytes": 675500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00001-of-00014.gguf",
+        "sha256": "357731bfbcfc9b8f4cc19d6d344ee02795785f06cb33f2084b7783eebcdd86f8",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00001-of-00014.gguf",
+            "sha256": "357731bfbcfc9b8f4cc19d6d344ee02795785f06cb33f2084b7783eebcdd86f8",
+            "sizeBytes": 12986167
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00002-of-00014.gguf",
+            "sha256": "a9493e151f5f332395908575cca9fd695ed4d416aad21bbeb9ee5f68194074d1",
+            "sizeBytes": 49121214848
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00003-of-00014.gguf",
+            "sha256": "99b485f3e7a35213defd8e49c24afa98264ca439e800fa8611079362a210cbd4",
+            "sizeBytes": 48474113664
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00004-of-00014.gguf",
+            "sha256": "831e843b4d8be4cbb92f7467c6df11f9f96f8f0d937ae03cd507b0f6dca19267",
+            "sizeBytes": 47876532096
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00005-of-00014.gguf",
+            "sha256": "1ba50f8527ca6ff186e0825c21df5f870af9a6ba896187572cf560aab9164081",
+            "sizeBytes": 48010834432
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00006-of-00014.gguf",
+            "sha256": "3a40f15f380090460b04b1f2f9ad30ba22f07e178be9230900ab278edcb13b34",
+            "sizeBytes": 48487450304
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00007-of-00014.gguf",
+            "sha256": "0ae846f4ed59aa2c4d5f5de6776a2f86baa1edd1ded103a57dca54c4e5a7c6ed",
+            "sizeBytes": 47876499328
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00008-of-00014.gguf",
+            "sha256": "e1b004ff002d4551ebcf53021a43a2bf8f12a044d238b805879b9a4bc86aad7d",
+            "sizeBytes": 48010834432
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00009-of-00014.gguf",
+            "sha256": "fd9144da92f908c1b2f7969db8cb037dfeb51260db2e5b1e9b236a5bfb844896",
+            "sizeBytes": 49115842240
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00010-of-00014.gguf",
+            "sha256": "665063b2386964133555c3e215d8c942bfba806a40a6c3bf595b518e1217220b",
+            "sizeBytes": 47876499328
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00011-of-00014.gguf",
+            "sha256": "036558f8e8e9afad993f221d62679af01cd9956ff403e98709820da3b497e90b",
+            "sizeBytes": 48010834432
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00012-of-00014.gguf",
+            "sha256": "3591a13899b1938d7313d6881c37cc06d139831082aedb57762dd160430434a4",
+            "sizeBytes": 49757570752
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00013-of-00014.gguf",
+            "sha256": "31f9c05516ca08cca8538d46b8f144cc106481bcab0beb1310457ce0eeb6bf0a",
+            "sizeBytes": 47679063584
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/UD-Q4_K_XL/inkling-UD-Q4_K_XL-00014-of-00014.gguf",
+            "sha256": "bc4aaa9dd7f71da45ad7e0314dca8b78fc09bf1f767e6aed1d71743c62440a1b",
+            "sizeBytes": 6730589056
+          }
+        ],
+        "weight": "massive"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 856755583751,
+        "ramRequirementBytes": 1199500000000,
+        "vramRequirementBytes": 985500000000,
+        "downloadUrl": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00001-of-00019.gguf",
+        "sha256": "0f0608710c933e07462c4966eeb48606e0f6b622cdc39f27da6d217b6b5f86d1",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00001-of-00019.gguf",
+            "sha256": "0f0608710c933e07462c4966eeb48606e0f6b622cdc39f27da6d217b6b5f86d1",
+            "sizeBytes": 12985927
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00002-of-00019.gguf",
+            "sha256": "592d2771734ef4f4f52822e655cc2f627b29e91865b543b1b969f356bc6167ad",
+            "sizeBytes": 49155057248
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00003-of-00019.gguf",
+            "sha256": "4115f909d75c0914931e3dc6b7d62b1fecb6d50729eef51b9a58462fc90713c4",
+            "sizeBytes": 48139843392
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00004-of-00019.gguf",
+            "sha256": "c03132fafbbcdf1e8a332e475b1bc4e26abffefa63eb2f916569bcecab85d66c",
+            "sizeBytes": 49156017216
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00005-of-00019.gguf",
+            "sha256": "3fe00f403c7bb12c5fc64184386d254017492b258afdc366fd78ad869f8f17e0",
+            "sizeBytes": 49303721664
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00006-of-00019.gguf",
+            "sha256": "732203d6f2c9493d1c4509ac1e2e210f17645c1ce5d27c723f0651213de21aa2",
+            "sizeBytes": 48126506912
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00007-of-00019.gguf",
+            "sha256": "b9ca50719f7c2ed6da84906e1eea1be2c74d0d43a490d12724f4c800df22d11d",
+            "sizeBytes": 49156049984
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00008-of-00019.gguf",
+            "sha256": "6d256344c3abe75fa9ba97e963930ccd3c0843fe54cd93557666aacbc67ec4f7",
+            "sizeBytes": 49303688896
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00009-of-00019.gguf",
+            "sha256": "bbba4587f834be3954cdcf7c113a04862e3b30a96025434a8e8ee9ea39265ec2",
+            "sizeBytes": 48126506912
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00010-of-00019.gguf",
+            "sha256": "61becae97fa25151f8326d6a4e89baae59f76bfe19f3d5e11083e17b3173a19b",
+            "sizeBytes": 49169386560
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00011-of-00019.gguf",
+            "sha256": "a9963a56f868a3450468cb1f5bd6633b5dd0668dde4413d1037bbdc906de2aec",
+            "sizeBytes": 49290352320
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00012-of-00019.gguf",
+            "sha256": "d9c61b68e51e44c63524921ef8671a4e8461b02e942f0157392540d462b50049",
+            "sizeBytes": 48126506912
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00013-of-00019.gguf",
+            "sha256": "e8715c3c2e3ce6d33f11a148d350659305d6b662893be48997b7d903d2d44ecf",
+            "sizeBytes": 49169386560
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00014-of-00019.gguf",
+            "sha256": "b3bf6a496f2d69ec226d3eadd43d275e8270ae2a73f33cf0a268a2a4b88188be",
+            "sizeBytes": 49290352320
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00015-of-00019.gguf",
+            "sha256": "d01789b187dda97be561841a55a75ca430c2c0fef8e90322d71fa2ea02c6f6d3",
+            "sizeBytes": 48126539680
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00016-of-00019.gguf",
+            "sha256": "52914f7462b2e6008eaba1f6cf5345b642cb83bf2a94ad6d9590a3d1da198596",
+            "sizeBytes": 49169353792
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00017-of-00019.gguf",
+            "sha256": "c75e1eb66a2aed263564765465125b0686703005e71c61e0e463d82b74d90ad8",
+            "sizeBytes": 49290352320
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00018-of-00019.gguf",
+            "sha256": "4e7353f9ee749102b79d6145c707c0c3c2e2114a44556b2391c2dead43b973e5",
+            "sizeBytes": 48139876256
+          },
+          {
+            "url": "https://huggingface.co/unsloth/inkling-GGUF/resolve/d3e9ffca48751dbe8b59dab5cfa364621257c682/Q8_0/inkling-GGUF-Q8_0-00019-of-00019.gguf",
+            "sha256": "9d9ecb5298a0d850f4623a4fd700711bea572c50f02f11604d7570789c84c1e7",
+            "sizeBytes": 26503098880
+          }
+        ],
+        "weight": "massive"
+      }
+    ],
+    "hfCreatedAt": "2026-07-14T15:42:22.000Z",
+    "hfReleasedAt": "2026-07-14T15:42:22.000Z",
+    "hfLastModified": "2026-07-16T13:16:01.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
   }
 ]

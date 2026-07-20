@@ -181,7 +181,7 @@
     ],
     "architecture": "sd1.5",
     "defaultSteps": 20,
-    "defaultCfgScale": 7.0,
+    "defaultCfgScale": 7,
     "supportedResolutions": [
       {
         "width": 512,
@@ -237,7 +237,7 @@
     ],
     "architecture": "sdxl",
     "defaultSteps": 4,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 512,
@@ -296,7 +296,7 @@
     ],
     "architecture": "sd3",
     "defaultSteps": 28,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 512,
@@ -378,7 +378,7 @@
     ],
     "architecture": "sdxl",
     "defaultSteps": 4,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 512,
@@ -414,7 +414,7 @@
     "name": "Z-Image Turbo",
     "category": "image",
     "provider": "Z-Image",
-    "summary": "Blazing fast 6B model \u2014 10x faster than FLUX with ~95% of the quality. Excellent bilingual text rendering (EN/CN). Only 3.7 GB. Apache 2.0.",
+    "summary": "Blazing fast 6B model — 10x faster than FLUX with ~95% of the quality. Excellent bilingual text rendering (EN/CN). Only 3.7 GB. Apache 2.0.",
     "sizeBytes": 3680000000,
     "ramRequirementBytes": 8000000000,
     "vramRequirementBytes": 6000000000,
@@ -431,7 +431,7 @@
     ],
     "architecture": "z-image",
     "defaultSteps": 8,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 512,
@@ -512,7 +512,7 @@
     ],
     "architecture": "sdxl",
     "defaultSteps": 20,
-    "defaultCfgScale": 7.0,
+    "defaultCfgScale": 7,
     "supportedResolutions": [
       {
         "width": 512,
@@ -575,7 +575,7 @@
     ],
     "architecture": "sd3",
     "defaultSteps": 28,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 512,
@@ -649,7 +649,7 @@
     ],
     "architecture": "sd3",
     "defaultSteps": 4,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 512,
@@ -723,7 +723,7 @@
     ],
     "architecture": "z-image",
     "defaultSteps": 28,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 512,
@@ -788,7 +788,7 @@
     ],
     "architecture": "z-image",
     "defaultSteps": 28,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 512,
@@ -836,7 +836,7 @@
     "name": "FLUX.1 Schnell",
     "category": "image",
     "provider": "Black Forest Labs",
-    "summary": "State-of-the-art image generation in just 4 steps. Exceptional prompt understanding and photorealistic output. Desktop only \u2014 needs significant memory.",
+    "summary": "State-of-the-art image generation in just 4 steps. Exceptional prompt understanding and photorealistic output. Desktop only — needs significant memory.",
     "sizeBytes": 6800000000,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 12000000000,
@@ -853,7 +853,7 @@
     ],
     "architecture": "flux",
     "defaultSteps": 4,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 512,
@@ -1001,7 +1001,7 @@
     ],
     "architecture": "chroma",
     "defaultSteps": 8,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 512,
@@ -1082,7 +1082,7 @@
     ],
     "architecture": "chroma",
     "defaultSteps": 40,
-    "defaultCfgScale": 3.0,
+    "defaultCfgScale": 3,
     "supportedResolutions": [
       {
         "width": 512,
@@ -1146,7 +1146,7 @@
     "name": "Ovis-Image 7B",
     "category": "image",
     "provider": "Alibaba AIDC-AI",
-    "summary": "7B model that punches above its weight \u2014 text rendering accuracy (0.92) beats 20B Qwen-Image (0.83) and GPT-4o (0.86). Built on FLUX architecture. Great for typography-heavy content.",
+    "summary": "7B model that punches above its weight — text rendering accuracy (0.92) beats 20B Qwen-Image (0.83) and GPT-4o (0.86). Built on FLUX architecture. Great for typography-heavy content.",
     "sizeBytes": 4200000000,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 12000000000,
@@ -1163,7 +1163,7 @@
     ],
     "architecture": "ovis-image",
     "defaultSteps": 28,
-    "defaultCfgScale": 5.0,
+    "defaultCfgScale": 5,
     "supportedResolutions": [
       {
         "width": 512,
@@ -1211,7 +1211,7 @@
     "name": "Chroma1 Radiance",
     "category": "image",
     "provider": "Lodestone / CircleStone",
-    "summary": "10B pixel-space diffusion model \u2014 no VAE needed. Works directly on image pixels for exceptional detail and coherence. 40-step generation. Apache 2.0.",
+    "summary": "10B pixel-space diffusion model — no VAE needed. Works directly on image pixels for exceptional detail and coherence. 40-step generation. Apache 2.0.",
     "sizeBytes": 10400000000,
     "ramRequirementBytes": 24000000000,
     "vramRequirementBytes": 16000000000,
@@ -1228,7 +1228,7 @@
     ],
     "architecture": "chroma",
     "defaultSteps": 40,
-    "defaultCfgScale": 4.0,
+    "defaultCfgScale": 4,
     "supportedResolutions": [
       {
         "width": 512,
@@ -1265,7 +1265,7 @@
     "name": "Qwen-Image",
     "category": "image",
     "provider": "Alibaba / Qwen",
-    "summary": "20B MMDiT \u2014 the text-to-image king. Dominates text rendering benchmarks (96.8 vs FLUX's 84.5). Best overall open-source image quality. Needs 24 GB+ RAM.",
+    "summary": "20B MMDiT — the text-to-image king. Dominates text rendering benchmarks (96.8 vs FLUX's 84.5). Best overall open-source image quality. Needs 24 GB+ RAM.",
     "sizeBytes": 13100000000,
     "ramRequirementBytes": 24000000000,
     "vramRequirementBytes": 16000000000,
@@ -1446,7 +1446,7 @@
     ],
     "architecture": "flux",
     "defaultSteps": 4,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 512,
@@ -1525,7 +1525,7 @@
     "architecture": "krea-2-comfyui",
     "backend": "comfyui-krea2",
     "defaultSteps": 8,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 768,
@@ -1601,7 +1601,7 @@
     "backend": "mflux",
     "mlxPipeline": "krea2-alis",
     "defaultSteps": 8,
-    "defaultCfgScale": 0.0,
+    "defaultCfgScale": 0,
     "supportedResolutions": [
       {
         "width": 768,
@@ -1657,7 +1657,7 @@
     "mlxPipeline": "flux2-klein",
     "mlxModelConfig": "flux2-klein-base-4b",
     "defaultSteps": 28,
-    "defaultCfgScale": 4.0,
+    "defaultCfgScale": 4,
     "supportedResolutions": [
       {
         "width": 768,
@@ -1711,7 +1711,7 @@
     ],
     "architecture": "flux",
     "defaultSteps": 4,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 512,
@@ -1839,5 +1839,66 @@
     "hfReleasedAt": "2025-12-20T02:31:59.000Z",
     "hfLastModified": "2026-01-08T21:13:12.000Z",
     "cdnAddedAt": "2026-07-17T08:56:31+09:00"
+  },
+  {
+    "id": "bonsai-image-ternary-4b-mlx-2bit",
+    "name": "Bonsai Image Ternary 4B MLX",
+    "category": "image",
+    "provider": "Prism ML",
+    "summary": "Ternary 1.58-bit FLUX.2 Klein 4B image model for Apple Silicon. Its packed transformer and 4-bit MLX text encoder target a much smaller memory footprint than the full-precision pipeline.",
+    "sizeBytes": 3888281402,
+    "ramRequirementBytes": 8000000000,
+    "vramRequirementBytes": 8000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/prism-ml/bonsai-image-ternary-4B-mlx-2bit/tree/2c24c81b934a658ba5590cf39088ba929985b4a8",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "flux2-mlx",
+    "backend": "mflux",
+    "mlxPipeline": "flux2-klein",
+    "mlxModelConfig": "flux2-klein-base-4b",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "defaultQuantLevel": "ternary-2bit",
+    "hfModelId": "prism-ml/bonsai-image-ternary-4B-mlx-2bit",
+    "hfRevision": "2c24c81b934a658ba5590cf39088ba929985b4a8",
+    "hfCreatedAt": "2026-05-21T16:15:18.000Z",
+    "hfReleasedAt": "2026-05-21T16:15:18.000Z",
+    "hfLastModified": "2026-06-01T22:12:50.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
   }
 ]
