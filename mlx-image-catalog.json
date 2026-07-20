@@ -31,7 +31,7 @@
     "mlxRuntimePackage": "mflux",
     "mlxRuntimeMinVersion": "0.2.1",
     "defaultSteps": 4,
-    "defaultCfgScale": 0.0,
+    "defaultCfgScale": 0,
     "supportedResolutions": [
       {
         "width": 512,
@@ -61,5 +61,69 @@
     "supportsNegativePrompt": false,
     "gated": false,
     "defaultQuantLevel": "4bit"
+  },
+  {
+    "id": "bonsai-image-ternary-4b-mlx-2bit",
+    "name": "Bonsai Image Ternary 4B MLX",
+    "category": "image",
+    "provider": "Prism ML",
+    "summary": "Ternary 1.58-bit FLUX.2 Klein 4B image model for Apple Silicon. Its packed transformer and 4-bit MLX text encoder target a much smaller memory footprint than the full-precision pipeline.",
+    "sizeBytes": 3888281402,
+    "ramRequirementBytes": 8000000000,
+    "vramRequirementBytes": 8000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/prism-ml/bonsai-image-ternary-4B-mlx-2bit/tree/2c24c81b934a658ba5590cf39088ba929985b4a8",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "flux2-mlx",
+    "backend": "mflux",
+    "mlxPipeline": "flux2-klein",
+    "mlxModelConfig": "flux2-klein-base-4b",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "defaultQuantLevel": "ternary-2bit",
+    "hfModelId": "prism-ml/bonsai-image-ternary-4B-mlx-2bit",
+    "hfRevision": "2c24c81b934a658ba5590cf39088ba929985b4a8",
+    "hfCreatedAt": "2026-05-21T16:15:18.000Z",
+    "hfReleasedAt": "2026-05-21T16:15:18.000Z",
+    "hfLastModified": "2026-06-01T22:12:50.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00",
+    "downloadStrategy": "huggingface-snapshot",
+    "mlxRuntimePackage": "mflux",
+    "mlxRuntimeMinVersion": "0.18.0"
   }
 ]

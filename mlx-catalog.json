@@ -1097,5 +1097,63 @@
     "hfReleasedAt": "2025-08-29T17:57:36.000Z",
     "hfLastModified": "2026-03-19T10:30:16.000Z",
     "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "bonsai-27b-mlx-1bit",
+    "name": "Bonsai 27B MLX 1-bit",
+    "category": "language",
+    "provider": "Prism ML",
+    "summary": "Experimental 1-bit Bonsai conversion of Qwen3.6 27B for Apple Silicon, with vision processor files included in the pinned snapshot.",
+    "sizeBytes": 5159415841,
+    "ramRequirementBytes": 8000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "prism-ml/Bonsai-27B-mlx-1bit",
+    "hfRevision": "ef22f239c670078e1507f9769bcaa66657332b96",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "1bit",
+    "hfCreatedAt": "2026-07-04T00:24:55.000Z",
+    "hfReleasedAt": "2026-07-04T00:24:55.000Z",
+    "hfLastModified": "2026-07-14T21:39:12.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "ternary-bonsai-27b-mlx-2bit",
+    "name": "Ternary Bonsai 27B MLX 2-bit",
+    "category": "language",
+    "provider": "Prism ML",
+    "summary": "Ternary 2-bit Bonsai conversion of Qwen3.6 27B for Apple Silicon, with vision processor files included in the pinned snapshot.",
+    "sizeBytes": 8521085419,
+    "ramRequirementBytes": 13000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "prism-ml/Ternary-Bonsai-27B-mlx-2bit",
+    "hfRevision": "70f75f3ad081ab840a42f3304c02c27e7f89bfb7",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "2bit",
+    "hfCreatedAt": "2026-07-04T00:24:22.000Z",
+    "hfReleasedAt": "2026-07-04T00:24:22.000Z",
+    "hfLastModified": "2026-07-14T21:39:03.000Z",
+    "cdnAddedAt": "2026-07-21T00:00:00+09:00"
   }
 ]
