@@ -1788,15 +1788,15 @@
     "category": "language",
     "provider": "Jackrong",
     "summary": "Gemma 4 26B-A4B fine-tuned for higher answer quality with chain-of-thought reasoning. MoE with only 4B active params. Vision-capable. Best on high-memory devices.",
-    "sizeBytes": 16796011104,
+    "sizeBytes": 16796015488,
     "ramRequirementBytes": 34000000000,
     "license": "Apache 2.0",
     "tier": "free",
     "weight": "large",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/617b7603779d8f81aa17d24c4e8214b4db03fce8/Gemopus-4-26B-A4B-it-Preview-Q4_K_M.gguf",
-    "sha256": "19959a653e143bf51b3af7999b6434e35a0d61261a7741a7d01a4acae6f2a59a",
+    "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/3b5753b1a17e61bc2abd04fd5d7f6a37573fdbf6/Gemopus-4-26B-A4B-it-Preview-Q4_K_M.gguf",
+    "sha256": "2037b8c978db6c8b947d10e34a70f410dde6301919c6040624fdda50647f7940",
     "supportedPlatforms": [
       "android",
       "ios",
@@ -1809,7 +1809,7 @@
       "reasoning"
     ],
     "canReadFiles": true,
-    "mmprojUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/617b7603779d8f81aa17d24c4e8214b4db03fce8/mmproj.gguf",
+    "mmprojUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/3b5753b1a17e61bc2abd04fd5d7f6a37573fdbf6/mmproj-F32.gguf",
     "mmprojSha256": "99b653270893f8971ab217d94af797074b956729655cce1fff7193bc791cccab",
     "contextLength": 131072,
     "vramRequirementBytes": 19000000000,
@@ -1820,29 +1820,29 @@
         "sizeBytes": 19132889984,
         "ramRequirementBytes": 38500000000,
         "vramRequirementBytes": 21500000000,
-        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/main/Gemopus-4-26B-A4B-it-Preview-Q5_K_M.gguf",
-        "sha256": ""
+        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/3b5753b1a17e61bc2abd04fd5d7f6a37573fdbf6/Gemopus-4-26B-A4B-it-Preview-Q5_K_M.gguf",
+        "sha256": "61c7149345e9cf0275da64f18fcc6be5f99b95e55b072785e10b2c2d5ee38101"
       },
       {
         "quantLevel": "Q6_K",
         "sizeBytes": 22638398848,
         "ramRequirementBytes": 46000000000,
         "vramRequirementBytes": 25500000000,
-        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/main/Gemopus-4-26B-A4B-it-Preview-Q6_K.gguf",
-        "sha256": ""
+        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/3b5753b1a17e61bc2abd04fd5d7f6a37573fdbf6/Gemopus-4-26B-A4B-it-Preview-Q6_K.gguf",
+        "sha256": "9a46dadc719eabb3e32e85dfcb1ec5182305f6900f7b1ce2ffbbe64086fef2c3"
       },
       {
         "quantLevel": "Q8_0",
         "sizeBytes": 26859858816,
         "ramRequirementBytes": 54500000000,
         "vramRequirementBytes": 30000000000,
-        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/main/Gemopus-4-26B-A4B-it-Preview-Q8_0.gguf",
-        "sha256": ""
+        "downloadUrl": "https://huggingface.co/Jackrong/Gemopus-4-26B-A4B-it-GGUF/resolve/3b5753b1a17e61bc2abd04fd5d7f6a37573fdbf6/Gemopus-4-26B-A4B-it-Preview-Q8_0.gguf",
+        "sha256": "da5ad3a405a2b87e895e891fd089a29f206b44a5ec4b7ec4056f1363880aa4d9"
       }
     ],
     "hfCreatedAt": "2026-04-09T08:27:21.000Z",
     "hfReleasedAt": "2026-04-09T08:27:21.000Z",
-    "hfLastModified": "2026-04-11T01:04:32.000Z",
+    "hfLastModified": "2026-07-09T03:27:21.000Z",
     "cdnAddedAt": "2026-05-08T18:02:12+09:00"
   },
   {
