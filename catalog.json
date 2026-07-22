@@ -5734,6 +5734,37 @@
     "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
+    "id": "lfm2.5-8b-a1b-uncensored-gaston",
+    "name": "LFM2.5 8B-A1B Uncensored",
+    "category": "language",
+    "provider": "Gastón Parravicini / Liquid AI",
+    "summary": "Low-refusal derivative of Liquid AI’s LFM2.5 MoE reasoning model, with approximately 1.5B active parameters per token and 128K context. Intended as an optional unrestricted local assistant for general chat and creative use.",
+    "sizeBytes": 5155564704,
+    "ramRequirementBytes": 9000000000,
+    "license": "LFM Open License v1 / LFM 1.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/gaston-parravicini/LFM2.5-8B-A1B-Uncensored-Gaston-GGUF/resolve/c4e8cb570263f2d6f79911f3ecf3538d143d682f/LFM2.5-8B-A1B-Uncensored-Gaston-Q4_K_M.gguf",
+    "sha256": "8c566f1d45e370f82ffa59d7ed563df955680b810b517c94fe6c1fbdab3ee29a",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [],
+    "contextLength": 128000,
+    "vramRequirementBytes": 6000000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "hfCreatedAt": "2026-05-30T01:32:26.000Z",
+    "hfReleasedAt": "2026-05-30T01:32:26.000Z",
+    "hfLastModified": "2026-05-30T04:33:25.000Z",
+    "cdnAddedAt": "2026-07-22T15:42:00+09:00"
+  },
+  {
     "id": "gemma-4-12b-it",
     "name": "Gemma 4 12B IT",
     "category": "language",
@@ -8635,5 +8666,133 @@
     "hfReleasedAt": "2026-07-14T15:42:22.000Z",
     "hfLastModified": "2026-07-16T13:16:01.000Z",
     "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "laguna-s-2.1",
+    "name": "Laguna S 2.1",
+    "category": "language",
+    "provider": "Poolside",
+    "summary": "118B-total, 8B-active agentic coding model for long-horizon software work. The current GGUF release requires Poolside's Laguna llama.cpp fork, so this entry is listed for discovery until that runtime support lands in PocketAI.",
+    "sizeBytes": 75173103200,
+    "ramRequirementBytes": 110000000000,
+    "vramRequirementBytes": 85000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/resolve/19bafe9bde46a3c7f9c0b2ef10ecb8a0ef154a1e/laguna-s-2.1-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/tree/19bafe9bde46a3c7f9c0b2ef10ecb8a0ef154a1e",
+    "installStatus": "discovery-only",
+    "sha256": "7da520c5f44bc3c79d4eeebfd1151ba7114c5d7568e72a995638417093c5753f",
+    "supportedPlatforms": [],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 127650800960,
+        "ramRequirementBytes": 180000000000,
+        "vramRequirementBytes": 145000000000,
+        "downloadUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/resolve/19bafe9bde46a3c7f9c0b2ef10ecb8a0ef154a1e/laguna-s-2.1-Q8_0.gguf",
+        "sha256": "45094ed99a492fab7bb1b23ec1850853bfc90898404b317e5d0279fb4e7bda1a",
+        "weight": "massive"
+      }
+    ],
+    "hfCreatedAt": "2026-07-13T10:50:45.000Z",
+    "hfReleasedAt": "2026-07-13T10:50:45.000Z",
+    "hfLastModified": "2026-07-21T22:27:30.000Z",
+    "cdnAddedAt": "2026-07-22T00:00:00+09:00"
+  },
+  {
+    "id": "agents-a1-4b",
+    "name": "Agents-A1 4B",
+    "category": "language",
+    "provider": "InternScience",
+    "summary": "Compact vision-capable agent model for long-horizon search, engineering, scientific research, instruction following, and native tool use. Upstream currently publishes only the Q8 GGUF quant.",
+    "sizeBytes": 4482404032,
+    "ramRequirementBytes": 7000000000,
+    "vramRequirementBytes": 5500000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/InternScience/Agents-A1-4B-Q8_0-GGUF/resolve/a5d63881e0ca8eee3c0f14663a5fa2a2c55e1b54/Agents-A1-4B-Q8_0.gguf",
+    "sha256": "c327f66e820dae550bd230394595071c79f48c88d411b452d013ee4b5999fcea",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/InternScience/Agents-A1-4B-Q8_0-GGUF/resolve/a5d63881e0ca8eee3c0f14663a5fa2a2c55e1b54/Agents-A1-4B-mmproj.gguf",
+    "mmprojSha256": "254145e7e03e9e8d3120813fac8033ffa04e411eb6d70a198833504935681084",
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q8_0",
+    "quantVariants": [],
+    "hfCreatedAt": "2026-07-13T09:48:51.000Z",
+    "hfReleasedAt": "2026-07-13T09:48:51.000Z",
+    "hfLastModified": "2026-07-14T12:37:24.000Z",
+    "cdnAddedAt": "2026-07-22T00:00:00+09:00"
+  },
+  {
+    "id": "minicpm5-1b-agentic-tooluse",
+    "name": "MiniCPM5 1B Agentic Tooluse",
+    "category": "language",
+    "provider": "ewinregirgojr / OpenBMB",
+    "summary": "Small MiniCPM5 fine-tune optimized with Nemotron SFT and DPO data for reliable XML function calling. Q4 is the recommended phone-friendly default; Q8 preserves more fidelity.",
+    "sizeBytes": 688066560,
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1000000000,
+    "license": "Other",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/ewinregirgojr/MiniCPM5-1B-Agentic-Tooluse-GGUF/resolve/57cd9c9f35b83770732b1833732bb79d6c2b1513/MiniCPM5-1B-Agentic-Tooluse-Nemotron-DPO.Q4_K_M.gguf",
+    "sha256": "0ef0df606184c57b8127a6bcad4fecb6ab1bde15f22a77fa0ea1566d74beed46",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1153529856,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 1800000000,
+        "downloadUrl": "https://huggingface.co/ewinregirgojr/MiniCPM5-1B-Agentic-Tooluse-GGUF/resolve/57cd9c9f35b83770732b1833732bb79d6c2b1513/MiniCPM5-1B-Agentic-Tooluse-Nemotron-DPO.Q8_0.gguf",
+        "sha256": "3cc43d741c951b81ec1b99e42617c10c90204b54c11e311825180ffca6c4e450",
+        "weight": "light"
+      }
+    ],
+    "hfCreatedAt": "2026-07-07T14:06:26.000Z",
+    "hfReleasedAt": "2026-07-07T14:06:26.000Z",
+    "hfLastModified": "2026-07-15T04:44:31.000Z",
+    "cdnAddedAt": "2026-07-22T00:00:00+09:00"
   }
 ]

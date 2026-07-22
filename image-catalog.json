@@ -926,7 +926,7 @@
     "name": "FLUX.1 Dev",
     "category": "image",
     "provider": "Black Forest Labs",
-    "summary": "High-quality FLUX.1 model for eligible non-commercial and non-production use. PocketAI does not install it automatically; review the BFL license and choose a GGUF file on Hugging Face.",
+    "summary": "High-quality FLUX.1 model for eligible non-commercial and non-production use. Review the BFL license before installing.",
     "sizeBytes": 6790000000,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 12000000000,
@@ -934,10 +934,9 @@
     "tier": "free",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/tree/main",
+    "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q4_0.gguf",
     "sourcePageUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/tree/main",
     "licenseUrl": "https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev",
-    "installStatus": "external-only",
     "sha256": "",
     "supportedPlatforms": [
       "macos",
@@ -977,7 +976,42 @@
     "clipLUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/clip_l.safetensors",
     "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
     "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
-    "weight": "heavy"
+    "weight": "heavy",
+    "defaultQuantLevel": "Q4_0",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 4030000000,
+        "ramRequirementBytes": 10000000000,
+        "vramRequirementBytes": 8000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q2_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q3_K_S",
+        "sizeBytes": 5230000000,
+        "ramRequirementBytes": 12000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q3_K_S.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 9860000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q6_K.gguf",
+        "sha256": ""
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 12700000000,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/city96/FLUX.1-dev-gguf/resolve/main/flux1-dev-Q8_0.gguf",
+        "sha256": ""
+      }
+    ]
   },
   {
     "id": "chroma1-hd-flash-q4_0",
@@ -2017,5 +2051,98 @@
     "hfReleasedAt": "2026-05-21T16:15:18.000Z",
     "hfLastModified": "2026-06-01T22:12:50.000Z",
     "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "flux2-dev-q4_k_m",
+    "name": "FLUX.2 Dev",
+    "category": "image",
+    "provider": "Black Forest Labs / Unsloth",
+    "summary": "32B FLUX.2 developer model for high-quality text-to-image generation plus single- and multi-reference editing. Uses Unsloth Dynamic 2.0 GGUF weights and the FLUX.2 Qwen3 8B text encoder.",
+    "sizeBytes": 19959731168,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "FLUX [dev] Non-Commercial License",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/unsloth/FLUX.2-dev-GGUF/resolve/d9105cfeb7c59853ba7b1857c7f53d1371e38ade/flux2-dev-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/unsloth/FLUX.2-dev-GGUF/tree/d9105cfeb7c59853ba7b1857c7f53d1371e38ade",
+    "licenseUrl": "https://huggingface.co/black-forest-labs/FLUX.2-dev/blob/main/LICENSE.txt",
+    "sha256": "5f7ac6649e2f5e21a49a6f83931a67530bd887e2d34379c3da1d0f0406501de1",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "architecture": "flux",
+    "defaultSteps": 28,
+    "defaultCfgScale": 4,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "vaeUrl": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/23fbc8aa8b621f29f2249cd1bd9c47e5d0eebd83/split_files/vae/flux2-vae.safetensors",
+    "vaeSha256": "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3",
+    "llmUrl": "https://huggingface.co/unsloth/Qwen3-8B-GGUF/resolve/a6adef130ffb23ddaf1a62fec9dced968c9bc482/Qwen3-8B-Q4_K_M.gguf",
+    "llmSha256": "120307ba529eb2439d6c430d94104dabd578497bc7bfe7e322b5d9933b449bd4",
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 12858250208,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 16000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/FLUX.2-dev-GGUF/resolve/d9105cfeb7c59853ba7b1857c7f53d1371e38ade/flux2-dev-Q2_K.gguf",
+        "sha256": "fcbae186d445c80b216387bb596179813f5c9d480e22c820750b6a04be1fb20d",
+        "weight": "large"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 27396232160,
+        "ramRequirementBytes": 44000000000,
+        "vramRequirementBytes": 34000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/FLUX.2-dev-GGUF/resolve/d9105cfeb7c59853ba7b1857c7f53d1371e38ade/flux2-dev-Q6_K.gguf",
+        "sha256": "0a662e0303d65b7da4741c7bc54bbccd4d7fc17b23e71ced36d177467f4a0ef1",
+        "weight": "heavy"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 35002602464,
+        "ramRequirementBytes": 56000000000,
+        "vramRequirementBytes": 44000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/FLUX.2-dev-GGUF/resolve/d9105cfeb7c59853ba7b1857c7f53d1371e38ade/flux2-dev-Q8_0.gguf",
+        "sha256": "09d005300dd8dcbbd489bb75ada6254145c84c2c9c3d7cc1829e3c5dedcb42ce",
+        "weight": "heavy"
+      }
+    ],
+    "requiresComfyUiConversion": true,
+    "hfCreatedAt": "2025-12-10T03:35:41.000Z",
+    "hfReleasedAt": "2025-12-10T03:35:41.000Z",
+    "hfLastModified": "2025-12-10T16:47:58.000Z",
+    "cdnAddedAt": "2026-07-22T00:00:00+09:00"
   }
 ]
