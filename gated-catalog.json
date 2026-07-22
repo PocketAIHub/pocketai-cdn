@@ -5,7 +5,7 @@
       "name": "FHDR Uncensored",
       "category": "image",
       "provider": "kpsss34",
-      "summary": "Uncensored FLUX.1 Dev fine-tune for eligible non-commercial and non-production use. PocketAI does not install it automatically; review the BFL license and choose a file on Hugging Face.",
+      "summary": "Uncensored FLUX.1 Dev fine-tune for eligible non-commercial and non-production use. Review the BFL license before installing.",
       "sizeBytes": 6930000000,
       "ramRequirementBytes": 16000000000,
       "vramRequirementBytes": 12000000000,
@@ -14,10 +14,9 @@
       "weight": "heavy",
       "format": "gguf",
       "source": "hugging-face",
-      "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/tree/main",
+      "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/resolve/main/FHDR_ComfyUI-Q4_K_M.gguf",
       "sourcePageUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/tree/main",
       "licenseUrl": "https://github.com/black-forest-labs/flux/blob/main/model_licenses/LICENSE-FLUX1-dev",
-      "installStatus": "external-only",
       "sha256": "",
       "supportedPlatforms": [
         "macos",
@@ -25,7 +24,7 @@
         "linux"
       ],
       "architecture": "flux",
-      "defaultSteps": 50,
+      "defaultSteps": 24,
       "defaultCfgScale": 3.5,
       "supportedResolutions": [
         {
@@ -58,7 +57,101 @@
       "t5xxlUrl": "https://huggingface.co/comfyanonymous/flux_text_encoders/resolve/main/t5xxl_fp16.safetensors",
       "vaeUrl": "https://huggingface.co/sirorable/flux-ae-vae/resolve/main/ae.safetensors",
       "gated": true,
-      "requiresComfyUiConversion": true
+      "requiresComfyUiConversion": true,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 12710000000,
+          "ramRequirementBytes": 24000000000,
+          "vramRequirementBytes": 16000000000,
+          "downloadUrl": "https://huggingface.co/kpsss34/FHDR_Uncensored/resolve/main/FHDR_ComfyUI-Q8_0.gguf",
+          "sha256": ""
+        }
+      ]
+    },
+    {
+      "id": "flux2-klein-9b-true-v3-uncensored-encoder-q4_k",
+      "name": "FLUX.2 Klein 9B True V3 + Uncensored Encoder",
+      "category": "image",
+      "provider": "wikeeyang / ponpoke",
+      "summary": "FLUX.2 Klein 9B True V3 paired with ponpoke's abliterated Qwen3 text encoder. The encoder removes prompt-stage refusals but does not add visual concepts that the diffusion model never learned.",
+      "sizeBytes": 5716892032,
+      "ramRequirementBytes": 16000000000,
+      "vramRequirementBytes": 12000000000,
+      "license": "FLUX Non-Commercial License",
+      "tier": "free",
+      "weight": "heavy",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V3/resolve/997e0977d4ba7d3103d2cfb6c7029724603b73a8/Flux2-Klein-9B-True-V3-Q4_K.gguf",
+      "sourcePageUrl": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder/tree/fba36e796aac081246708dd30392a401ba44922e",
+      "licenseUrl": "https://huggingface.co/black-forest-labs/FLUX.2-klein-9B/blob/main/LICENSE.md",
+      "sha256": "d8ad4c27c683064796cc9894e6d5633d7a4977d029edb3228caedc19d65ee5e4",
+      "supportedPlatforms": [
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "architecture": "flux",
+      "defaultSteps": 4,
+      "defaultCfgScale": 1,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "vaeUrl": "https://huggingface.co/Comfy-Org/vae-text-encorder-for-flux-klein-9b/resolve/23fbc8aa8b621f29f2249cd1bd9c47e5d0eebd83/split_files/vae/flux2-vae.safetensors",
+      "vaeSha256": "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3",
+      "llmUrl": "https://huggingface.co/ponpoke/flux2-klein-9b-uncensored-text-encoder/resolve/fba36e796aac081246708dd30392a401ba44922e/flux2-klein-9b-uncensored-q4_k_m.gguf",
+      "llmSha256": "df33c8bef6f75c00dd282cd9850e2bf40afb363c6bbe464e977b225882550a14",
+      "gated": true,
+      "defaultQuantLevel": "Q4_K",
+      "quantVariants": [
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 7865424256,
+          "ramRequirementBytes": 20000000000,
+          "vramRequirementBytes": 16000000000,
+          "downloadUrl": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V3/resolve/997e0977d4ba7d3103d2cfb6c7029724603b73a8/Flux2-Klein-9B-True-V3-Q6_K.gguf",
+          "sha256": "7fd4438a51e76d7076f625a2c63516a075dad48ee980f4bc9b4bc63e58e8adc0"
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 9978304896,
+          "ramRequirementBytes": 24000000000,
+          "vramRequirementBytes": 20000000000,
+          "downloadUrl": "https://huggingface.co/wikeeyang/Flux2-Klein-9B-True-V3/resolve/997e0977d4ba7d3103d2cfb6c7029724603b73a8/Flux2-Klein-9B-True-V3-Q8_0.gguf",
+          "sha256": "44b08a48da8a8037d0d2cc9f64fdc13094483a1d1bbfd4c2b5fea82bc0be0dcb"
+        }
+      ],
+      "requiresComfyUiConversion": true,
+      "hfCreatedAt": "2026-06-25T01:41:31.000Z",
+      "hfReleasedAt": "2026-06-25T01:41:31.000Z",
+      "hfLastModified": "2026-07-13T11:29:36.000Z",
+      "cdnAddedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "video": [
@@ -166,6 +259,88 @@
           "sha256": ""
         }
       ]
+    },
+    {
+      "id": "ltx2.3-10eros-1.4-q4_k_m",
+      "name": "LTX-2.3 10Eros 1.4",
+      "category": "video",
+      "provider": "TenStrip / vantagewithai",
+      "summary": "Explicit image-to-video LTX-2.3 fine-tune focused on directed motion. Listed for discovery until PocketAI's ComfyUI runtime gains its required I2V workflow and LoRA stack.",
+      "sizeBytes": 14296161632,
+      "ramRequirementBytes": 28000000000,
+      "vramRequirementBytes": 22000000000,
+      "license": "LTX-2 Community License",
+      "licenseId": "ltx-2-community",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/vantagewithai/LTX2.3-10Eros-1.4-GGUF/resolve/7d836322e5bd2c7e62e76ce39dbfb295d04548aa/10Eros_v1.4-Q4_K_M.gguf",
+      "sourcePageUrl": "https://huggingface.co/vantagewithai/LTX2.3-10Eros-1.4-GGUF/tree/7d836322e5bd2c7e62e76ce39dbfb295d04548aa",
+      "installStatus": "discovery-only",
+      "sha256": "9e0e865ba43548cedc9678549e8fe82d1eb8c1c493ba404625398c0ac7a2c7e3",
+      "supportedPlatforms": [],
+      "architecture": "ltxv-2.3",
+      "backend": "comfyui",
+      "nsfwGated": true,
+      "mode": "i2v",
+      "defaultSteps": 20,
+      "defaultCfgScale": 3,
+      "supportedResolutions": [
+        {
+          "width": 768,
+          "height": 512
+        },
+        {
+          "width": 512,
+          "height": 768
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 576
+        }
+      ],
+      "defaultResolution": {
+        "width": 768,
+        "height": 512
+      },
+      "defaultFrames": 25,
+      "maxFrames": 121,
+      "defaultFps": 24,
+      "supportsNegativePrompt": true,
+      "textEncoderGgufUrl": "https://huggingface.co/unsloth/gemma-3-12b-it-qat-GGUF/resolve/main/gemma-3-12b-it-qat-UD-Q4_K_XL.gguf",
+      "textEncoderGgufSha256": "",
+      "vaeUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/vae/ltx-2.3-22b-dev_video_vae.safetensors",
+      "vaeSha256": "",
+      "embeddingsConnectorUrl": "https://huggingface.co/unsloth/LTX-2.3-GGUF/resolve/main/text_encoders/ltx-2.3-22b-dev_embeddings_connectors.safetensors",
+      "embeddingsConnectorSha256": "",
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 17774931296,
+          "ramRequirementBytes": 36000000000,
+          "vramRequirementBytes": 30000000000,
+          "downloadUrl": "https://huggingface.co/vantagewithai/LTX2.3-10Eros-1.4-GGUF/resolve/7d836322e5bd2c7e62e76ce39dbfb295d04548aa/10Eros_v1.4-Q6_K.gguf",
+          "sha256": "a541bb4e1e4dea2e899b9486d631ef9052f6e931b6c4b37ef19b3e248f4dfc0b"
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 22755564896,
+          "ramRequirementBytes": 48000000000,
+          "vramRequirementBytes": 40000000000,
+          "downloadUrl": "https://huggingface.co/vantagewithai/LTX2.3-10Eros-1.4-GGUF/resolve/7d836322e5bd2c7e62e76ce39dbfb295d04548aa/10Eros_v1.4-Q8_0.gguf",
+          "sha256": "dafb4b6881927636902be4f75eb4d618b3b65613cae07333c5a01ec272715b2b"
+        }
+      ],
+      "hfCreatedAt": "2026-07-13T07:09:39.000Z",
+      "hfReleasedAt": "2026-07-13T07:09:39.000Z",
+      "hfLastModified": "2026-07-13T08:51:01.000Z",
+      "cdnAddedAt": "2026-07-22T00:00:00+09:00"
     }
   ],
   "language": [
@@ -197,6 +372,71 @@
       ],
       "canReadFiles": true,
       "mmprojUrl": "https://huggingface.co/SulphurAI/Sulphur-2-base/resolve/main/prompt_enhancer/mmproj-BF16.gguf"
+    },
+    {
+      "id": "qwen3.5-9b-defiant-fable-heretic-mtp",
+      "name": "Qwen3.5 9B Defiant Fable Heretic MTP",
+      "category": "language",
+      "provider": "DavidAU / Nightmedia",
+      "summary": "Uncensored Qwen3.5 9B multi-stage tune for reasoning, coding, creative writing, and roleplay. The MTP GGUFs include higher-precision prediction tensors for faster speculative decoding in compatible llama.cpp builds.",
+      "sizeBytes": 6979975392,
+      "ramRequirementBytes": 10000000000,
+      "vramRequirementBytes": 8500000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "medium",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/resolve/0d140fff2a4d66a04fe11807fd12edacba3d1017/Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q4_K_M.gguf",
+      "sha256": "d7eb4fac9389d53fa576f64a6ff53e914a00bc7705dc354d1065887565147320",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision",
+        "code",
+        "reasoning"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/resolve/0d140fff2a4d66a04fe11807fd12edacba3d1017/mmproj-F16.gguf",
+      "mmprojSha256": "f70dc3509053962b0d0d3ee8a7eacebf5d60aa560cad78254ae8698516ae029f",
+      "contextLength": 262144,
+      "defaultQuantLevel": "MTP-Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "MTP-IQ2_M",
+          "sizeBytes": 4942442720,
+          "ramRequirementBytes": 7500000000,
+          "vramRequirementBytes": 6000000000,
+          "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/resolve/0d140fff2a4d66a04fe11807fd12edacba3d1017/Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-IQ2_M.gguf",
+          "sha256": "3349c656c2b16659a230a8d92acf0c55c2ae41876747deb5ba04a76a5a31a004"
+        },
+        {
+          "quantLevel": "MTP-Q6_K",
+          "sizeBytes": 8758786272,
+          "ramRequirementBytes": 13000000000,
+          "vramRequirementBytes": 10500000000,
+          "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/resolve/0d140fff2a4d66a04fe11807fd12edacba3d1017/Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q6_K.gguf",
+          "sha256": "b54d045cc07cc48259a2329f2b86ba8956de15a44d71d5004a6f8598d71c36d"
+        },
+        {
+          "quantLevel": "MTP-Q8_0",
+          "sizeBytes": 10739611872,
+          "ramRequirementBytes": 16000000000,
+          "vramRequirementBytes": 13000000000,
+          "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.5-9B-The-Defiant-Fable-Uncensored-Heretic-NEO-IMATRIX-MAX-MTP-GGUF/resolve/0d140fff2a4d66a04fe11807fd12edacba3d1017/Qwen3.5-9B-The-Defiant-Fable-Uncnr-Heretic-NEO-MAX-MTP-Q8_0.gguf",
+          "sha256": "1830f3beffb43850143bf45ee6f9d637f82ca22ddd9e08e40be1399062be32a2",
+          "weight": "large"
+        }
+      ],
+      "hfCreatedAt": "2026-07-19T04:33:55.000Z",
+      "hfReleasedAt": "2026-07-19T04:33:55.000Z",
+      "hfLastModified": "2026-07-20T01:43:48.000Z",
+      "cdnAddedAt": "2026-07-22T00:00:00+09:00"
     }
   ]
 }

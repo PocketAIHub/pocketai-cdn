@@ -128,7 +128,7 @@
     "category": "audio",
     "kind": "music",
     "provider": "ACE-Step",
-    "summary": "Long-form instrumental music generation with the pinned ACE-Step 1.5 turbo backend and a separate managed runtime.",
+    "summary": "Long-form instrumental music generation with MLX on Apple Silicon or CUDA on Windows and a separate pinned runtime.",
     "backend": "ace-step-1.5",
     "hfRepoId": "ACE-Step/Ace-Step1.5",
     "revision": "19671f406d603126926c1b7e2adc169acbcade22",
@@ -298,7 +298,8 @@
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 4000000000,
     "supportedPlatforms": [
-      "macos"
+      "macos",
+      "windows"
     ],
     "installStatus": "available",
     "license": "MIT",

@@ -990,5 +990,75 @@
     "clipLUrl": "https://huggingface.co/openai/clip-vit-large-patch14/tree/main?allow=config.json&allow=merges.txt&allow=model.safetensors&allow=special_tokens_map.json&allow=tokenizer.json&allow=tokenizer_config.json&allow=vocab.json",
     "vaeUrl": "https://huggingface.co/hunyuanvideo-community/HunyuanVideo/tree/main/vae",
     "defaultQuantLevel": "SFT"
+  },
+  {
+    "id": "wan-dancer-14b-q4_k_m",
+    "name": "Wan Dancer 14B",
+    "category": "video",
+    "provider": "Wan-AI / realrebelai",
+    "summary": "Hierarchical music-to-dance model using paired global and local Wan 14B diffusion weights. Listed for discovery until PocketAI gains audio-conditioned Wan Dancer generation and its required distillation-LoRA workflow.",
+    "sizeBytes": 25091267072,
+    "ramRequirementBytes": 40000000000,
+    "vramRequirementBytes": 32000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/realrebelai/Wan_Dancer_GGUFs/resolve/4804d09a3a466e57c741367da95eec5de8b3c675/Wan-Dancer-14B-Global-Q4_K_M-native.gguf",
+    "sourcePageUrl": "https://huggingface.co/realrebelai/Wan_Dancer_GGUFs/tree/4804d09a3a466e57c741367da95eec5de8b3c675",
+    "installStatus": "discovery-only",
+    "sha256": "4031f3bf7ae426f5c64a2b37389ea39923d78b16d70663e81f6339a270264cc8",
+    "supportedPlatforms": [],
+    "architecture": "wan2.1",
+    "backend": "comfyui",
+    "mode": "s2v",
+    "defaultSteps": 20,
+    "defaultCfgScale": 3.5,
+    "supportedResolutions": [
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 624,
+        "height": 624
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 81,
+    "maxFrames": 961,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "t5xxlUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
+    "clipVisionUrl": "https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/clip_vision/clip_vision_h.safetensors",
+    "highNoiseDiffusionModelUrl": "https://huggingface.co/realrebelai/Wan_Dancer_GGUFs/resolve/4804d09a3a466e57c741367da95eec5de8b3c675/Wan-Dancer-14B-Local-Q4_K_M-native.gguf",
+    "highNoiseDiffusionModelSha256": "4ed1fea11a3cad3a3189cad5645498591cfbf932ad22056148d05649415fc3b2",
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 30880681472,
+        "ramRequirementBytes": 50000000000,
+        "vramRequirementBytes": 40000000000,
+        "downloadUrl": "https://huggingface.co/realrebelai/Wan_Dancer_GGUFs/resolve/4804d09a3a466e57c741367da95eec5de8b3c675/Wan-Dancer-14B-Global-Q6_K-native.gguf",
+        "sha256": "40608c9e3a2d1d1658fc7c1a8221ee5e5c55647eb70fb240a5c43b9471dcd92c",
+        "highNoiseDownloadUrl": "https://huggingface.co/realrebelai/Wan_Dancer_GGUFs/resolve/4804d09a3a466e57c741367da95eec5de8b3c675/Wan-Dancer-14B-Local-Q6_K-native.gguf",
+        "highNoiseSha256": "19409df83c7c489b02c59d8f4c200f466a2ecd90d59bf5c17b6f86f5e45592a",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-07-15T04:56:37.000Z",
+    "hfReleasedAt": "2026-07-15T04:56:37.000Z",
+    "hfLastModified": "2026-07-17T22:22:12.000Z",
+    "cdnAddedAt": "2026-07-22T00:00:00+09:00"
   }
 ]
