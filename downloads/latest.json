@@ -1,26 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-19T06:41:27Z",
+  "updatedAt": "2026-07-23T10:02:28Z",
   "downloads": {
     "android": {
-      "version": "1.2.18",
-      "versionCode": 44,
+      "version": "1.2.19",
+      "versionCode": 45,
       "recommended": "arm64-v8a",
       "files": {
         "arm64-v8a": {
-          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.18_arm64-v8a.apk?v=1.2.18-signed-20260719T033324Z",
-          "size": 55114634,
-          "sha256": "12cc79cdaa1ac94619eaa6bc9e455e872d8d714948f1a6865109b5c1c892fe5d"
-        },
-        "armeabi-v7a": {
-          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.18_armeabi-v7a.apk?v=1.2.18-signed-20260719T033324Z",
-          "size": 46158149,
-          "sha256": "7f76eb20703f47aff7f427289ab41ec6ee2b1d31530678ec0eb060eaee60bef0"
-        },
-        "x86_64": {
-          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.18_x86_64.apk?v=1.2.18-signed-20260719T033324Z",
-          "size": 56417583,
-          "sha256": "d50143c2826492199469d13d4903b3e877d5e02bc148814a47d54761c192a45e"
+          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.19_arm64-v8a.apk?v=1.2.19-signed-20260723T100228Z",
+          "size": 55458853,
+          "sha256": "bcbb1aecab897fcc4a91ba5e58c19c03fee83932d673177483b3bddbd8030062"
         }
       }
     },
