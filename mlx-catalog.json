@@ -538,6 +538,27 @@
     "defaultQuantLevel": "8bit"
   },
   {
+    "id": "lfm2.5-350m",
+    "name": "LFM2.5 350M",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Compact multilingual instruction model for on-device chat, structured output, and tool use. Official 4-bit MLX build for Apple Silicon with 128K context.",
+    "sizeBytes": 226568462,
+    "ramRequirementBytes": 750000000,
+    "license": "LFM 1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "LiquidAI/LFM2.5-350M-MLX-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [],
+    "contextLength": 128000,
+    "defaultQuantLevel": "4bit"
+  },
+  {
     "id": "lfm2.5-8b-a1b",
     "name": "LFM2.5 8B-A1B",
     "category": "language",

@@ -5669,6 +5669,37 @@
     "cdnAddedAt": "2026-06-07T20:28:24+09:00"
   },
   {
+    "id": "lfm2.5-350m",
+    "name": "LFM2.5 350M",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Compact multilingual instruction model for on-device chat, data extraction, structured output, and tool use. Its 128K context and tiny Q4 footprint make it suitable for phones and desktops.",
+    "sizeBytes": 229312224,
+    "ramRequirementBytes": 1000000000,
+    "license": "LFM 1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/resolve/bb7ee58b243e4cede04187e323e760b04f8a0091/LFM2.5-350M-Q4_K_M.gguf",
+    "sha256": "7e6f72643caafc9a68256686638c4d7916f2cec76d1df478d4c3ddcd95a6aed4",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [],
+    "contextLength": 128000,
+    "vramRequirementBytes": 500000000,
+    "defaultQuantLevel": "Q4_K_M",
+    "hfCreatedAt": "2026-03-25T02:45:48.000Z",
+    "hfReleasedAt": "2026-03-25T02:45:48.000Z",
+    "hfLastModified": "2026-04-08T13:36:34.000Z",
+    "cdnAddedAt": "2026-07-23T09:46:46+09:00"
+  },
+  {
     "id": "lfm2.5-8b-a1b",
     "name": "LFM2.5 8B-A1B",
     "category": "language",
