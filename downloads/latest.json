@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-19T06:41:27Z",
+  "updatedAt": "2026-07-23T11:54:54Z",
   "downloads": {
     "android": {
       "version": "1.2.18",
@@ -39,11 +39,18 @@
       }
     },
     "windows": {
-      "version": "1.0.32",
+      "version": "1.0.33",
       "platform": "windows-x86_64",
-      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.32_x64-setup.exe?v=1.0.32",
-      "size": 95706739,
-      "sha256": "51fac39fa69d041234a8aa42719fbd79f3e6515db7e1bc7c29c4ad632cbf2b7b"
+      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.33_x64-setup.exe?v=1.0.33",
+      "size": 89702032,
+      "sha256": "48ba58b9ea89a869540559b6bc6d9c793af2d6fdde45fc44d60cd2f943860778",
+      "updater": {
+        "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.33_x64-setup.exe?v=1.0.33",
+        "size": 89702032,
+        "sha256": "48ba58b9ea89a869540559b6bc6d9c793af2d6fdde45fc44d60cd2f943860778",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QVorVkU5QmIzVjVsZk5lcFNZc0d5Y2FnUXpLRTM4UDdFMWcweTkvbUs4T21ncFBWbk5OWnAxSzF0UGN4eTBoZC9SKy9GMzAwZEI5YVo1ZEd5KzF1VGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODA3MzIzCWZpbGU6UG9ja2V0QUlfMS4wLjMzX3g2NC1zZXR1cC5leGUKQkZjck9kd1E3RHVhcVJ1QTVQb3lDYkwzNU9RQy9rZ1NabFJvUGM2ek9VYU5RZnd0Zy9zVUlTVm9IYUt1aVBjWWhSTERPUHRkcGRocWIzZ2xSSUoyRFE9PQo=",
+        "signatureUrl": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.33_x64-setup.exe.sig?v=1.0.33"
+      }
     },
     "vscode": {
       "version": "1.0.20",
