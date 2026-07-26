@@ -156,6 +156,57 @@
   ],
   "video": [
     {
+      "id": "pocketai-hunyuanvideo-1.5-mlx",
+      "name": "PocketAI Video MLX — HunyuanVideo 1.5",
+      "category": "video",
+      "provider": "PocketAI / Tencent Hunyuan",
+      "summary": "PocketAI's native 8-bit MLX release of Tencent HunyuanVideo 1.5 Distilled 480p for Apple Silicon. Listed for discovery until PocketAI's native Hunyuan runner ships. Access approval is required, and the upstream license excludes the EU, UK, and South Korea.",
+      "sizeBytes": 21081938483,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 24000000000,
+      "license": "Tencent Hunyuan Community License",
+      "tier": "free",
+      "weight": "large",
+      "format": "snapshot",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5/tree/caa6e5a389116b11e8bed99699c73c3e24da7848",
+      "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5/tree/caa6e5a389116b11e8bed99699c73c3e24da7848",
+      "licenseUrl": "https://huggingface.co/tencent/HunyuanVideo-1.5/blob/9b49404b3f5df2a8f0b31df27a0c7ab872e7b038/LICENSE",
+      "installStatus": "discovery-only",
+      "sha256": "",
+      "supportedPlatforms": [],
+      "requiresGpuVendor": "apple-silicon",
+      "architecture": "hunyuanvideo-1.5",
+      "backend": "mlx",
+      "mode": "t2v",
+      "defaultSteps": 10,
+      "defaultCfgScale": 6,
+      "supportedResolutions": [
+        {
+          "width": 448,
+          "height": 256
+        },
+        {
+          "width": 832,
+          "height": 480
+        }
+      ],
+      "defaultResolution": {
+        "width": 832,
+        "height": 480
+      },
+      "defaultFrames": 9,
+      "maxFrames": 9,
+      "defaultFps": 24,
+      "supportsNegativePrompt": true,
+      "gated": true,
+      "defaultQuantLevel": "8-bit mixed",
+      "hfCreatedAt": "2026-07-25T23:45:17.000Z",
+      "hfReleasedAt": "2026-07-25T23:45:17.000Z",
+      "hfLastModified": "2026-07-26T00:25:02.000Z",
+      "cdnAddedAt": "2026-07-26T10:33:10+09:00"
+    },
+    {
       "id": "sulphur-2-distill-mlx-q4",
       "name": "Sulphur 2 Distilled MLX 4-bit",
       "category": "video",

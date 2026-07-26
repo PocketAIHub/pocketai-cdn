@@ -823,6 +823,68 @@
     ]
   },
   {
+    "id": "pocketai-ltx-2.3-distilled-mlx-q4",
+    "name": "PocketAI Video MLX — LTX-2.3 Distilled",
+    "category": "video",
+    "provider": "PocketAI / Lightricks",
+    "summary": "PocketAI's native 4-bit MLX release of the distilled LTX-2.3 audio-video pipeline for Apple Silicon. Uses the fast 8+3-step two-stage path with synchronized audio; 16 GB works in low-memory mode and 24 GB is recommended.",
+    "sizeBytes": 20480206295,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "LTX-2 Community License",
+    "licenseId": "ltx-2-community",
+    "tier": "free",
+    "weight": "large",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/57c900f27e8d826b260a86248a36ac88b7ef204e",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/57c900f27e8d826b260a86248a36ac88b7ef204e",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "ltxv-2.3",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 256,
+        "height": 256
+      },
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 704,
+        "height": 480
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 25,
+    "maxFrames": 97,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "llmUrl": "https://huggingface.co/mlx-community/gemma-3-12b-it-4bit/tree/86cc6a8dedbc456dd0e4af01a9d09f396f77e558",
+    "llmSha256": "",
+    "gated": true,
+    "defaultQuantLevel": "4-bit",
+    "hfCreatedAt": "2026-07-26T01:21:53.000Z",
+    "hfReleasedAt": "2026-07-26T01:21:53.000Z",
+    "hfLastModified": "2026-07-26T01:25:23.000Z",
+    "cdnAddedAt": "2026-07-26T10:33:10+09:00"
+  },
+  {
     "id": "kandinsky-5-t2v-lite-distilled16steps-5s",
     "name": "Kandinsky 5 T2V Lite Distilled 5s",
     "category": "video",
