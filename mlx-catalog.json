@@ -573,10 +573,26 @@
     "source": "hugging-face",
     "hfModelId": "LiquidAI/LFM2.5-8B-A1B-MLX-8bit",
     "supportedPlatforms": [
-      "macos"
+      "macos",
+      "ios"
     ],
     "capabilities": [],
     "contextLength": 128000,
+    "visionCompanion": {
+      "id": "lfm2.5-vl-450m",
+      "format": "gguf",
+      "modelUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/LFM2.5-VL-450M-Q8_0.gguf",
+      "modelSha256": "263aca93039e22140d55e046831c700c796affa8143d7638581c488a30c712bc",
+      "modelSizeBytes": 379219104,
+      "projectorUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/mmproj-LFM2.5-VL-450m-Q8_0.gguf",
+      "projectorSha256": "ebfc428baa37efad8bae93864f914b2634a09009f91ad59f974fe1a1565d8561",
+      "projectorSizeBytes": 102815168,
+      "ramRequirementBytes": 1100000000,
+      "contextLength": 32768,
+      "supportedPlatforms": [
+        "ios"
+      ]
+    },
     "defaultQuantLevel": "8bit"
   },
   {
@@ -975,6 +991,130 @@
     "hfReleasedAt": "2026-03-05T12:04:40.000Z",
     "hfLastModified": "2026-07-11T02:12:01.000Z",
     "cdnAddedAt": "2026-07-14T08:48:15+09:00"
+  },
+  {
+    "id": "ornith-1.0-9b-optiq-4bit",
+    "name": "Ornith 1.0 9B OptiQ 4bit",
+    "category": "language",
+    "provider": "DeepReinforce AI / mlx-community",
+    "summary": "Community OptiQ mixed-precision 4-bit MLX build of Ornith 1.0 9B. Compact agentic coding model for repository work, reasoning, tool use, and multimodal prompts on Apple Silicon.",
+    "sizeBytes": 8032757468,
+    "ramRequirementBytes": 13000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "medium",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Ornith-1.0-9B-OptiQ-4bit",
+    "hfRevision": "9543bc1abaf49ba2bf57f0066181637b5a4cb91d",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "optiq-4bit",
+    "hfCreatedAt": "2026-07-14T13:15:37.000Z",
+    "hfReleasedAt": "2026-07-14T13:15:37.000Z",
+    "hfLastModified": "2026-07-14T15:40:36.000Z",
+    "cdnAddedAt": "2026-07-27T08:31:47+09:00"
+  },
+  {
+    "id": "ornith-1.0-9b-8bit",
+    "name": "Ornith 1.0 9B 8bit",
+    "category": "language",
+    "provider": "DeepReinforce AI / mlx-community",
+    "summary": "Community 8-bit MLX build of Ornith 1.0 9B. Higher-fidelity agentic coding model for repository work, reasoning, tool use, and multimodal prompts on Apple Silicon.",
+    "sizeBytes": 10446580236,
+    "ramRequirementBytes": 16000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Ornith-1.0-9B-8bit",
+    "hfRevision": "6e4589f75dcbafd675d1af0e42ba75b9349393c0",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "8bit",
+    "hfCreatedAt": "2026-06-28T09:34:14.000Z",
+    "hfReleasedAt": "2026-06-28T09:34:14.000Z",
+    "hfLastModified": "2026-06-28T09:34:41.000Z",
+    "cdnAddedAt": "2026-07-27T08:31:47+09:00"
+  },
+  {
+    "id": "ornith-1.0-35b-optiq-4bit",
+    "name": "Ornith 1.0 35B OptiQ 4bit",
+    "category": "language",
+    "provider": "DeepReinforce AI / mlx-community",
+    "summary": "Community OptiQ mixed-precision 4-bit MLX build of Ornith 1.0 35B. High-quality MoE coding and reasoning model with tool use and multimodal support for 32GB-class Apple Silicon Macs.",
+    "sizeBytes": 23078104625,
+    "ramRequirementBytes": 34000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Ornith-1.0-35B-OptiQ-4bit",
+    "hfRevision": "ce62c23d34b91d84f838e0b292d517dbe4b9b60f",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "optiq-4bit",
+    "hfCreatedAt": "2026-07-14T14:00:13.000Z",
+    "hfReleasedAt": "2026-07-14T14:00:13.000Z",
+    "hfLastModified": "2026-07-14T15:40:40.000Z",
+    "cdnAddedAt": "2026-07-27T08:31:47+09:00"
+  },
+  {
+    "id": "ornith-1.0-35b-8bit",
+    "name": "Ornith 1.0 35B 8bit",
+    "category": "language",
+    "provider": "DeepReinforce AI / mlx-community",
+    "summary": "Community 8-bit MLX build of Ornith 1.0 35B. High-fidelity MoE coding and reasoning model with tool use and multimodal support for high-memory Apple Silicon Macs.",
+    "sizeBytes": 37742949920,
+    "ramRequirementBytes": 48000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Ornith-1.0-35B-8bit",
+    "hfRevision": "28d10f45a04981989f5a2e53e38f6473e81e815a",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "8bit",
+    "hfCreatedAt": "2026-06-27T20:58:43.000Z",
+    "hfReleasedAt": "2026-06-27T20:58:43.000Z",
+    "hfLastModified": "2026-06-27T21:00:29.000Z",
+    "cdnAddedAt": "2026-07-27T08:31:47+09:00"
   },
   {
     "id": "ornith-1.0-35b-5bit-xl",

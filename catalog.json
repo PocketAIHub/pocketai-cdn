@@ -5723,6 +5723,22 @@
     ],
     "capabilities": [],
     "contextLength": 128000,
+    "visionCompanion": {
+      "id": "lfm2.5-vl-450m",
+      "format": "gguf",
+      "modelUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/LFM2.5-VL-450M-Q8_0.gguf",
+      "modelSha256": "263aca93039e22140d55e046831c700c796affa8143d7638581c488a30c712bc",
+      "modelSizeBytes": 379219104,
+      "projectorUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/mmproj-LFM2.5-VL-450m-Q8_0.gguf",
+      "projectorSha256": "ebfc428baa37efad8bae93864f914b2634a09009f91ad59f974fe1a1565d8561",
+      "projectorSizeBytes": 102815168,
+      "ramRequirementBytes": 1100000000,
+      "contextLength": 32768,
+      "supportedPlatforms": [
+        "android",
+        "ios"
+      ]
+    },
     "vramRequirementBytes": 6000000000,
     "defaultQuantLevel": "Q4_K_M",
     "quantVariants": [
