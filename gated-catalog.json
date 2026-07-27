@@ -563,8 +563,8 @@
       "weight": "medium",
       "format": "gguf",
       "source": "hugging-face",
-      "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-GGUF/resolve/c3be31235ef6b4f285b239ab923ed30c2fac75b0/LFM2.5-8B-A1B-Abliterated-Q4_K_M.gguf",
-      "sourcePageUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-GGUF/tree/c3be31235ef6b4f285b239ab923ed30c2fac75b0",
+      "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated/resolve/d56db9a5f16256abc27de88d33d4083a29bb1ea5/LFM2.5-8B-A1B-Abliterated-Q4_K_M.gguf",
+      "sourcePageUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated/tree/d56db9a5f16256abc27de88d33d4083a29bb1ea5",
       "sha256": "9b6b3f5127d279083ee95946af3f5c26e60d63ce07c249a260b3c4bdba6a4aa2",
       "supportedPlatforms": [
         "android",
@@ -585,13 +585,13 @@
           "sizeBytes": 6959787424,
           "ramRequirementBytes": 12000000000,
           "vramRequirementBytes": 8000000000,
-          "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-GGUF/resolve/c3be31235ef6b4f285b239ab923ed30c2fac75b0/LFM2.5-8B-A1B-Abliterated-Q6_K.gguf",
+          "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated/resolve/d56db9a5f16256abc27de88d33d4083a29bb1ea5/LFM2.5-8B-A1B-Abliterated-Q6_K.gguf",
           "sha256": "dbcad2ae002645910354f22eb26d69797f04c9a2ffe36687525a0052eb8bcebf"
         }
       ],
       "hfCreatedAt": "2026-07-26T23:21:26.000Z",
       "hfReleasedAt": "2026-07-26T23:21:26.000Z",
-      "hfLastModified": "2026-07-26T23:58:08.000Z",
+      "hfLastModified": "2026-07-27T09:03:27.000Z",
       "cdnAddedAt": "2026-07-27T09:08:32+09:00"
     },
     {
@@ -608,11 +608,11 @@
       "weight": "medium",
       "format": "mlx",
       "source": "hugging-face",
-      "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-MLX-4bit/tree/741536d05d7620dd1f180b46bfce4a9f7f4ca003",
-      "sourcePageUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-MLX-4bit/tree/741536d05d7620dd1f180b46bfce4a9f7f4ca003",
+      "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated/tree/d56db9a5f16256abc27de88d33d4083a29bb1ea5",
+      "sourcePageUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated/tree/d56db9a5f16256abc27de88d33d4083a29bb1ea5",
       "sha256": "",
-      "hfModelId": "PocketAiHub/LFM2.5-8B-A1B-Abliterated-MLX-4bit",
-      "hfRevision": "741536d05d7620dd1f180b46bfce4a9f7f4ca003",
+      "hfModelId": "PocketAiHub/LFM2.5-8B-A1B-Abliterated",
+      "hfRevision": "d56db9a5f16256abc27de88d33d4083a29bb1ea5",
       "supportedPlatforms": [
         "macos"
       ],
@@ -624,7 +624,7 @@
       "defaultQuantLevel": "4-bit mixed",
       "hfCreatedAt": "2026-07-26T23:21:26.000Z",
       "hfReleasedAt": "2026-07-26T23:21:26.000Z",
-      "hfLastModified": "2026-07-26T23:38:19.000Z",
+      "hfLastModified": "2026-07-27T09:03:27.000Z",
       "cdnAddedAt": "2026-07-27T09:08:32+09:00"
     }
   ]
