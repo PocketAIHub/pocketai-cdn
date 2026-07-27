@@ -638,6 +638,162 @@
       "cdnAddedAt": "2026-07-22T00:00:00+09:00"
     },
     {
+      "id": "qwen3.6-27b-fable-fusion-711-heretic-mtp",
+      "name": "Qwen3.6 27B Fable Fusion 711 Heretic MTP",
+      "category": "language",
+      "provider": "DavidAU / Nightmedia",
+      "summary": "Uncensored multi-stage Qwen3.6 27B fusion tuned for reasoning, coding, creative writing, and roleplay. These NEO imatrix GGUFs include an MTP head for speculative decoding in compatible llama.cpp builds.",
+      "sizeBytes": 18498575840,
+      "ramRequirementBytes": 26000000000,
+      "vramRequirementBytes": 22000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF/resolve/b8d9a22ffd8208ab6fc4e45d19d3ee7a839c23ac/Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q4_K_M.gguf",
+      "sha256": "c796c2c011eaa0edf06395ff49cda5bfd4843ad52b86b58a83296dfc33849e4e",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision",
+        "code",
+        "reasoning"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF/resolve/b8d9a22ffd8208ab6fc4e45d19d3ee7a839c23ac/mmproj-F16.gguf",
+      "mmprojSha256": "eacf610d1ee4bd5ed0197a0777dd8f4fceb8eefa27009067c7d496cb68fbde45",
+      "contextLength": 262144,
+      "defaultQuantLevel": "MTP-Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "MTP-Q6_K",
+          "sizeBytes": 24033705440,
+          "ramRequirementBytes": 33000000000,
+          "vramRequirementBytes": 28000000000,
+          "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF/resolve/b8d9a22ffd8208ab6fc4e45d19d3ee7a839c23ac/Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q6_K.gguf",
+          "sha256": "2e8a9bdb478cad4ad53a3b02568ed6f5a6c7f8f569e8c030e4806438ca49828e"
+        },
+        {
+          "quantLevel": "MTP-Q8_0",
+          "sizeBytes": 30239022560,
+          "ramRequirementBytes": 41000000000,
+          "vramRequirementBytes": 35000000000,
+          "downloadUrl": "https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF/resolve/b8d9a22ffd8208ab6fc4e45d19d3ee7a839c23ac/Qwen3.6-27B-Fable-Fus-711-UnHeretic-NM-DAU-NEO-MAX-NEO-MTP-Q8_0.gguf",
+          "sha256": "041c175f03b76adb70077ba470258f6b916ec4f5f066077377ef96396c3dd1d0",
+          "weight": "heavy"
+        }
+      ],
+      "hfCreatedAt": "2026-07-17T00:27:17.000Z",
+      "hfReleasedAt": "2026-07-17T00:27:17.000Z",
+      "hfLastModified": "2026-07-27T04:35:17.000Z",
+      "cdnAddedAt": "2026-07-27T13:42:07+09:00"
+    },
+    {
+      "id": "qwen3.6-27b-fable-fusion-711-mtplx-4bit",
+      "name": "Qwen3.6 27B Fable Fusion 711 MLX 4-bit",
+      "category": "language",
+      "provider": "DavidAU / philipjohnbasile",
+      "summary": "Apple Silicon MLX conversion of DavidAU's uncensored Qwen3.6 27B Fable Fusion 711 tune for reasoning, coding, creative writing, and roleplay. The repository includes an MTP sidecar; PocketAI currently uses standard autoregressive generation.",
+      "sizeBytes": 16934247585,
+      "ramRequirementBytes": 26000000000,
+      "vramRequirementBytes": 26000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "mlx",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-4bit/tree/1667a39bf081b15feec12df1e5ba558071e74445",
+      "sourcePageUrl": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-4bit/tree/1667a39bf081b15feec12df1e5ba558071e74445",
+      "sha256": "",
+      "hfModelId": "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-4bit",
+      "hfRevision": "1667a39bf081b15feec12df1e5ba558071e74445",
+      "supportedPlatforms": [
+        "macos"
+      ],
+      "capabilities": [
+        "code",
+        "reasoning"
+      ],
+      "contextLength": 262144,
+      "defaultQuantLevel": "4bit",
+      "hfCreatedAt": "2026-07-25T15:42:21.000Z",
+      "hfReleasedAt": "2026-07-25T15:42:21.000Z",
+      "hfLastModified": "2026-07-26T18:09:42.000Z",
+      "cdnAddedAt": "2026-07-27T14:11:57+09:00"
+    },
+    {
+      "id": "qwen3.6-27b-fable-fusion-711-mtplx-6bit",
+      "name": "Qwen3.6 27B Fable Fusion 711 MLX 6-bit",
+      "category": "language",
+      "provider": "DavidAU / philipjohnbasile",
+      "summary": "Higher-fidelity 6-bit Apple Silicon MLX conversion of DavidAU's uncensored Qwen3.6 27B Fable Fusion 711 tune. The repository includes an MTP sidecar; PocketAI currently uses standard autoregressive generation.",
+      "sizeBytes": 23657585817,
+      "ramRequirementBytes": 34000000000,
+      "vramRequirementBytes": 34000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "mlx",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-6bit/tree/94974b07178a2943a7127861bd06380c28052721",
+      "sourcePageUrl": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-6bit/tree/94974b07178a2943a7127861bd06380c28052721",
+      "sha256": "",
+      "hfModelId": "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-6bit",
+      "hfRevision": "94974b07178a2943a7127861bd06380c28052721",
+      "supportedPlatforms": [
+        "macos"
+      ],
+      "capabilities": [
+        "code",
+        "reasoning"
+      ],
+      "contextLength": 262144,
+      "defaultQuantLevel": "6bit",
+      "hfCreatedAt": "2026-07-25T14:59:44.000Z",
+      "hfReleasedAt": "2026-07-25T14:59:44.000Z",
+      "hfLastModified": "2026-07-26T18:09:42.000Z",
+      "cdnAddedAt": "2026-07-27T14:11:57+09:00"
+    },
+    {
+      "id": "qwen3.6-27b-fable-fusion-711-mtplx-8bit",
+      "name": "Qwen3.6 27B Fable Fusion 711 MLX 8-bit",
+      "category": "language",
+      "provider": "DavidAU / philipjohnbasile",
+      "summary": "Highest-fidelity 8-bit Apple Silicon MLX conversion of DavidAU's uncensored Qwen3.6 27B Fable Fusion 711 tune. The repository includes an MTP sidecar; PocketAI currently uses standard autoregressive generation.",
+      "sizeBytes": 30380924499,
+      "ramRequirementBytes": 42000000000,
+      "vramRequirementBytes": 42000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "heavy",
+      "format": "mlx",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit/tree/12cb1f00aa523c45f85978a6c4621590832e5b04",
+      "sourcePageUrl": "https://huggingface.co/philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit/tree/12cb1f00aa523c45f85978a6c4621590832e5b04",
+      "sha256": "",
+      "hfModelId": "philipjohnbasile/Qwen3.6-27B-Fable-Fusion-711-MTPLX-8bit",
+      "hfRevision": "12cb1f00aa523c45f85978a6c4621590832e5b04",
+      "supportedPlatforms": [
+        "macos"
+      ],
+      "capabilities": [
+        "code",
+        "reasoning"
+      ],
+      "contextLength": 262144,
+      "defaultQuantLevel": "8bit",
+      "hfCreatedAt": "2026-07-25T15:08:26.000Z",
+      "hfReleasedAt": "2026-07-25T15:08:26.000Z",
+      "hfLastModified": "2026-07-26T18:09:42.000Z",
+      "cdnAddedAt": "2026-07-27T14:11:57+09:00"
+    },
+    {
       "id": "lfm2.5-8b-a1b-abliterated",
       "name": "LFM2.5 8B-A1B Abliterated",
       "category": "language",
