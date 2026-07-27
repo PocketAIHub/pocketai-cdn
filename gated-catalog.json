@@ -169,8 +169,8 @@
       "weight": "large",
       "format": "snapshot",
       "source": "hugging-face",
-      "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5/tree/caa6e5a389116b11e8bed99699c73c3e24da7848",
-      "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5/tree/caa6e5a389116b11e8bed99699c73c3e24da7848",
+      "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5/tree/c159cc9f811b96869f3706f02fa43e71c2cf4ee0",
+      "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5/tree/c159cc9f811b96869f3706f02fa43e71c2cf4ee0",
       "licenseUrl": "https://huggingface.co/tencent/HunyuanVideo-1.5/blob/9b49404b3f5df2a8f0b31df27a0c7ab872e7b038/LICENSE",
       "installStatus": "discovery-only",
       "sha256": "",
@@ -203,7 +203,7 @@
       "defaultQuantLevel": "8-bit mixed",
       "hfCreatedAt": "2026-07-25T23:45:17.000Z",
       "hfReleasedAt": "2026-07-25T23:45:17.000Z",
-      "hfLastModified": "2026-07-26T00:25:02.000Z",
+      "hfLastModified": "2026-07-26T12:43:28.000Z",
       "cdnAddedAt": "2026-07-26T10:33:10+09:00"
     },
     {
@@ -546,6 +546,84 @@
       "hfReleasedAt": "2026-07-19T04:33:55.000Z",
       "hfLastModified": "2026-07-20T01:43:48.000Z",
       "cdnAddedAt": "2026-07-22T00:00:00+09:00"
+    },
+    {
+      "id": "lfm2.5-8b-a1b-abliterated",
+      "name": "LFM2.5 8B-A1B Abliterated",
+      "category": "language",
+      "provider": "PocketAI / Liquid AI",
+      "summary": "PocketAI Model Lab's validated reduced-refusal LFM2.5 MoE assistant. The Q4 default and Q6 quality variant preserve the 128K context, reasoning behavior, and native tool routes.",
+      "sizeBytes": 5155565280,
+      "ramRequirementBytes": 9000000000,
+      "vramRequirementBytes": 6000000000,
+      "license": "LFM Open License v1.0",
+      "tier": "free",
+      "weight": "medium",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-GGUF/resolve/c3be31235ef6b4f285b239ab923ed30c2fac75b0/LFM2.5-8B-A1B-Abliterated-Q4_K_M.gguf",
+      "sourcePageUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-GGUF/tree/c3be31235ef6b4f285b239ab923ed30c2fac75b0",
+      "sha256": "9b6b3f5127d279083ee95946af3f5c26e60d63ce07c249a260b3c4bdba6a4aa2",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "reasoning",
+        "tool-calling"
+      ],
+      "contextLength": 128000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 6959787424,
+          "ramRequirementBytes": 12000000000,
+          "vramRequirementBytes": 8000000000,
+          "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-GGUF/resolve/c3be31235ef6b4f285b239ab923ed30c2fac75b0/LFM2.5-8B-A1B-Abliterated-Q6_K.gguf",
+          "sha256": "dbcad2ae002645910354f22eb26d69797f04c9a2ffe36687525a0052eb8bcebf"
+        }
+      ],
+      "hfCreatedAt": "2026-07-26T23:21:26.000Z",
+      "hfReleasedAt": "2026-07-26T23:21:26.000Z",
+      "hfLastModified": "2026-07-26T23:58:08.000Z",
+      "cdnAddedAt": "2026-07-27T09:08:32+09:00"
+    },
+    {
+      "id": "lfm2.5-8b-a1b-abliterated-mlx",
+      "name": "LFM2.5 8B-A1B Abliterated MLX 4-bit",
+      "category": "language",
+      "provider": "PocketAI / Liquid AI",
+      "summary": "PocketAI Model Lab's validated reduced-refusal LFM2.5 MoE assistant for Apple Silicon. This mixed 4/6/8-bit MLX build preserves the 128K context, reasoning behavior, and native tool routes.",
+      "sizeBytes": 5529384887,
+      "ramRequirementBytes": 9000000000,
+      "vramRequirementBytes": 9000000000,
+      "license": "LFM Open License v1.0",
+      "tier": "free",
+      "weight": "medium",
+      "format": "mlx",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-MLX-4bit/tree/741536d05d7620dd1f180b46bfce4a9f7f4ca003",
+      "sourcePageUrl": "https://huggingface.co/PocketAiHub/LFM2.5-8B-A1B-Abliterated-MLX-4bit/tree/741536d05d7620dd1f180b46bfce4a9f7f4ca003",
+      "sha256": "",
+      "hfModelId": "PocketAiHub/LFM2.5-8B-A1B-Abliterated-MLX-4bit",
+      "hfRevision": "741536d05d7620dd1f180b46bfce4a9f7f4ca003",
+      "supportedPlatforms": [
+        "macos"
+      ],
+      "capabilities": [
+        "reasoning",
+        "tool-calling"
+      ],
+      "contextLength": 128000,
+      "defaultQuantLevel": "4-bit mixed",
+      "hfCreatedAt": "2026-07-26T23:21:26.000Z",
+      "hfReleasedAt": "2026-07-26T23:21:26.000Z",
+      "hfLastModified": "2026-07-26T23:38:19.000Z",
+      "cdnAddedAt": "2026-07-27T09:08:32+09:00"
     }
   ]
 }

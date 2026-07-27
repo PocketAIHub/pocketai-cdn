@@ -885,6 +885,60 @@
     "cdnAddedAt": "2026-07-26T10:33:10+09:00"
   },
   {
+    "id": "pocketai-wan2.2-t2v-a14b-mlx-q4",
+    "name": "PocketAI Video MLX — Wan2.2 T2V A14B",
+    "category": "video",
+    "provider": "PocketAI / Wan-AI",
+    "summary": "PocketAI's Apple-Silicon-native MLX packaging of Wan2.2 T2V A14B. The Q4 dual-expert snapshot is the recommended default; the repository also includes Q8 and BF16. Listed for discovery until PocketAI's native Wan MLX runner ships.",
+    "sizeBytes": 28644241134,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/9382d8b401da2d13a06586a5e73d595a78f9dd5e",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/9382d8b401da2d13a06586a5e73d595a78f9dd5e",
+    "installStatus": "discovery-only",
+    "sha256": "",
+    "supportedPlatforms": [],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "wan2.2",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 10,
+    "defaultCfgScale": 3,
+    "supportedResolutions": [
+      {
+        "width": 256,
+        "height": 256
+      },
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 768,
+        "height": 512
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 81,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "defaultHighNoiseCfgScale": 4,
+    "defaultQuantLevel": "Q4",
+    "hfCreatedAt": "2026-07-26T11:45:05.000Z",
+    "hfReleasedAt": "2026-07-26T11:45:05.000Z",
+    "hfLastModified": "2026-07-26T11:48:03.000Z",
+    "cdnAddedAt": "2026-07-27T09:08:32+09:00"
+  },
+  {
     "id": "kandinsky-5-t2v-lite-distilled16steps-5s",
     "name": "Kandinsky 5 T2V Lite Distilled 5s",
     "category": "video",
