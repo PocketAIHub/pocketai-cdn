@@ -939,6 +939,116 @@
     "cdnAddedAt": "2026-07-27T09:08:32+09:00"
   },
   {
+    "id": "pocketai-hunyuanvideo-1.5-mlx-q4",
+    "name": "PocketAI Video MLX — HunyuanVideo 1.5 Q4",
+    "category": "video",
+    "provider": "PocketAI / Tencent Hunyuan",
+    "summary": "PocketAI's lower-memory native MLX release of HunyuanVideo 1.5 480p T2V Distilled for Apple Silicon. The transformer uses Q4 group-64 with sensitive BF16 paths, the Qwen text tower uses Q4, and the VAE remains BF16. Territory excludes the EU, UK, and South Korea. Listed for discovery until PocketAI's native Hunyuan MLX runner ships.",
+    "sizeBytes": 14310996651,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "Tencent Hunyuan Community License Agreement",
+    "licenseId": "tencent-hunyuan-community",
+    "tier": "free",
+    "weight": "large",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5-Q4/tree/127ac28e482673bbdda322e85c7367e48d0a3524",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5-Q4/tree/127ac28e482673bbdda322e85c7367e48d0a3524",
+    "installStatus": "discovery-only",
+    "sha256": "",
+    "supportedPlatforms": [],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "hunyuanvideo-1.5",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 50,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 640,
+        "height": 384
+      },
+      {
+        "width": 832,
+        "height": 480
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 81,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": false,
+    "gated": true,
+    "defaultQuantLevel": "Q4",
+    "hfCreatedAt": "2026-07-27T00:54:35.000Z",
+    "hfReleasedAt": "2026-07-27T00:54:35.000Z",
+    "hfLastModified": "2026-07-27T01:34:08.000Z",
+    "cdnAddedAt": "2026-07-27T11:18:55+09:00"
+  },
+  {
+    "id": "pocketai-hunyuanvideo-1.5-mlx-bf16",
+    "name": "PocketAI Video MLX — HunyuanVideo 1.5 BF16",
+    "category": "video",
+    "provider": "PocketAI / Tencent Hunyuan",
+    "summary": "PocketAI's full-fidelity native BF16 MLX release of HunyuanVideo 1.5 480p T2V Distilled for high-memory Apple Silicon Macs. The transformer, Qwen text tower, and VAE are BF16. Territory excludes the EU, UK, and South Korea. Listed for discovery until PocketAI's native Hunyuan MLX runner ships.",
+    "sizeBytes": 31618096854,
+    "ramRequirementBytes": 48000000000,
+    "vramRequirementBytes": 48000000000,
+    "license": "Tencent Hunyuan Community License Agreement",
+    "licenseId": "tencent-hunyuan-community",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5-BF16/tree/8f0e5873983ddc2e33364abfd7a12ae1a3cb3c31",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5-BF16/tree/8f0e5873983ddc2e33364abfd7a12ae1a3cb3c31",
+    "installStatus": "discovery-only",
+    "sha256": "",
+    "supportedPlatforms": [],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "hunyuanvideo-1.5",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 50,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 640,
+        "height": 384
+      },
+      {
+        "width": 832,
+        "height": 480
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 81,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": false,
+    "gated": true,
+    "defaultQuantLevel": "BF16",
+    "hfCreatedAt": "2026-07-27T00:54:36.000Z",
+    "hfReleasedAt": "2026-07-27T00:54:36.000Z",
+    "hfLastModified": "2026-07-27T01:34:10.000Z",
+    "cdnAddedAt": "2026-07-27T11:18:55+09:00"
+  },
+  {
     "id": "kandinsky-5-t2v-lite-distilled16steps-5s",
     "name": "Kandinsky 5 T2V Lite Distilled 5s",
     "category": "video",
