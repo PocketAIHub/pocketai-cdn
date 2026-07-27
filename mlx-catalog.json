@@ -1688,5 +1688,39 @@
     "hfReleasedAt": "2026-06-18T18:33:37.000Z",
     "hfLastModified": "2026-06-18T18:38:25.000Z",
     "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "qwopus3.5-122b-a10b-kimi-k2.6-mtplx-4bit",
+    "name": "Qwopus 3.5 122B A10B Kimi K2.6 MTPLX 4-bit",
+    "category": "language",
+    "provider": "OpenYourMind",
+    "summary": "4-bit MLX build of the 122B / ~10B-active Qwopus 3.5 MoE, healed with Opus reasoning data and Kimi K2.6 DPO. Includes vision and a BF16 MTP head for MTPLX speculative decoding on 96GB+ Apple Silicon Macs.",
+    "sizeBytes": 74681977131,
+    "ramRequirementBytes": 96000000000,
+    "license": "Other",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit",
+    "hfRevision": "7600eceb4bb8cebd0010af25ef0d2c02af79e909",
+    "sourcePageUrl": "https://huggingface.co/OpenYourMind/Qwopus3.5-122B-A10B-Kimi-K2.6-destill-healed-abliterated-MTPLX-4bit/tree/7600eceb4bb8cebd0010af25ef0d2c02af79e909",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling",
+      "uncensored",
+      "abliterated"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "4bit",
+    "hfCreatedAt": "2026-05-25T13:43:03.000Z",
+    "hfReleasedAt": "2026-05-25T13:43:03.000Z",
+    "hfLastModified": "2026-06-16T09:28:44.000Z",
+    "cdnAddedAt": "2026-07-28T06:30:53+09:00"
   }
 ]
