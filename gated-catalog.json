@@ -71,6 +71,94 @@
       ]
     },
     {
+      "id": "mlx-image-fhdr-uncensored",
+      "name": "FHDR Uncensored MLX",
+      "category": "image",
+      "provider": "PocketAI / kpsss34 / Black Forest Labs",
+      "summary": "PocketAI's native MFLUX release of the FHDR Uncensored FLUX.1 Dev fine-tune for Apple Silicon. The 4-bit default minimizes storage and unified-memory use, the 8-bit variant offers higher numerical fidelity, and BF16 preserves the original unquantized precision. Non-commercial, non-production use only.",
+      "sizeBytes": 9619103740,
+      "ramRequirementBytes": 24000000000,
+      "vramRequirementBytes": 24000000000,
+      "license": "FLUX.1 [dev] Non-Commercial License",
+      "tier": "free",
+      "weight": "medium",
+      "format": "snapshot",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/PocketAiHub/FHDR-Uncensored-MFLUX/tree/1333b1ed1bcc8501960c3fa1a81d39a576c54908",
+      "sourcePageUrl": "https://huggingface.co/PocketAiHub/FHDR-Uncensored-MFLUX/tree/1333b1ed1bcc8501960c3fa1a81d39a576c54908",
+      "licenseUrl": "https://huggingface.co/PocketAiHub/FHDR-Uncensored-MFLUX/blob/1333b1ed1bcc8501960c3fa1a81d39a576c54908/LICENSE.md",
+      "sha256": "",
+      "supportedPlatforms": [
+        "macos"
+      ],
+      "architecture": "flux",
+      "backend": "mflux",
+      "mlxPipeline": "flux1",
+      "mlxModelConfig": "dev",
+      "defaultSteps": 40,
+      "defaultCfgScale": 4,
+      "supportedResolutions": [
+        {
+          "width": 512,
+          "height": 512
+        },
+        {
+          "width": 768,
+          "height": 768
+        },
+        {
+          "width": 1024,
+          "height": 1024
+        },
+        {
+          "width": 768,
+          "height": 1024
+        },
+        {
+          "width": 1024,
+          "height": 768
+        }
+      ],
+      "defaultResolution": {
+        "width": 1024,
+        "height": 1024
+      },
+      "supportsNegativePrompt": false,
+      "requiresGpuVendor": "apple-silicon",
+      "gated": true,
+      "downloadStrategy": "huggingface-snapshot",
+      "mlxRuntimePackage": "mflux",
+      "mlxRuntimeMinVersion": "0.18.0",
+      "defaultQuantLevel": "4-bit",
+      "quantVariants": [
+        {
+          "quantLevel": "8-bit",
+          "sizeBytes": 18011856845,
+          "ramRequirementBytes": 32000000000,
+          "vramRequirementBytes": 32000000000,
+          "downloadUrl": "https://huggingface.co/PocketAiHub/FHDR-Uncensored-MFLUX/tree/c68ad64b055d29c94ffc4fd09dffd25bf08f0fa3",
+          "sha256": "",
+          "weight": "large"
+        },
+        {
+          "quantLevel": "BF16",
+          "sizeBytes": 33747993529,
+          "ramRequirementBytes": 48000000000,
+          "vramRequirementBytes": 48000000000,
+          "downloadUrl": "https://huggingface.co/PocketAiHub/FHDR-Uncensored-MFLUX/tree/848f13b4b1589b0fe3933143b878e628477db6e6",
+          "sha256": "",
+          "weight": "massive"
+        }
+      ],
+      "hfModelId": "PocketAiHub/FHDR-Uncensored-MFLUX",
+      "hfBaseModelId": "kpsss34/FHDR_Uncensored",
+      "hfRevision": "1333b1ed1bcc8501960c3fa1a81d39a576c54908",
+      "hfCreatedAt": "2026-07-27T08:58:03.000Z",
+      "hfReleasedAt": "2026-07-27T08:58:03.000Z",
+      "hfLastModified": "2026-07-27T08:58:30.000Z",
+      "cdnAddedAt": "2026-07-27T15:51:08+09:00"
+    },
+    {
       "id": "flux2-klein-9b-true-v3-uncensored-encoder-q4_k",
       "name": "FLUX.2 Klein 9B True V3 + Uncensored Encoder",
       "category": "image",
