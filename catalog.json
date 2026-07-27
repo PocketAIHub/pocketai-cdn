@@ -8684,24 +8684,27 @@
     "cdnAddedAt": "2026-07-21T00:00:00+09:00"
   },
   {
-    "id": "laguna-s-2.1",
-    "name": "Laguna S 2.1",
+    "id": "laguna-xs-2.1",
+    "name": "Laguna XS 2.1",
     "category": "language",
-    "provider": "Poolside",
-    "summary": "118B-total, 8B-active agentic coding model for long-horizon software work. The current GGUF release requires Poolside's Laguna llama.cpp fork, so this entry is listed for discovery until that runtime support lands in PocketAI.",
-    "sizeBytes": 75173103200,
-    "ramRequirementBytes": 110000000000,
-    "vramRequirementBytes": 85000000000,
+    "provider": "Poolside / Bartowski",
+    "summary": "33B-total, 3B-active agentic coding model for repository work, reasoning, and tool-driven software tasks. The Q4 default balances quality with practical 24–32GB desktop deployment.",
+    "sizeBytes": 20548085120,
+    "ramRequirementBytes": 29000000000,
+    "vramRequirementBytes": 24000000000,
     "license": "OpenMDW 1.1",
     "tier": "free",
-    "weight": "heavy",
+    "weight": "large",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/resolve/19bafe9bde46a3c7f9c0b2ef10ecb8a0ef154a1e/laguna-s-2.1-Q4_K_M.gguf",
-    "sourcePageUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/tree/19bafe9bde46a3c7f9c0b2ef10ecb8a0ef154a1e",
-    "installStatus": "discovery-only",
-    "sha256": "7da520c5f44bc3c79d4eeebfd1151ba7114c5d7568e72a995638417093c5753f",
-    "supportedPlatforms": [],
+    "downloadUrl": "https://huggingface.co/bartowski/Laguna-XS-2.1-GGUF/resolve/8f7579d6ab7d3122716100116cf1a62f490ab6f3/Laguna-XS-2.1-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/bartowski/Laguna-XS-2.1-GGUF/tree/8f7579d6ab7d3122716100116cf1a62f490ab6f3",
+    "sha256": "239b1417ab36565241b2cb5dd366b89919033b1cf16d6f51b8d870db3491dae6",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
     "capabilities": [
       "code",
       "reasoning",
@@ -8712,19 +8715,388 @@
     "defaultQuantLevel": "Q4_K_M",
     "quantVariants": [
       {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 12157833600,
+        "ramRequirementBytes": 18000000000,
+        "vramRequirementBytes": 15000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/Laguna-XS-2.1-GGUF/resolve/8f7579d6ab7d3122716100116cf1a62f490ab6f3/Laguna-XS-2.1-Q2_K.gguf",
+        "sha256": "7d847dbf41fe1c41a633a43fd3603a3d7079e48238e9f06a653da8a4f430149a"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 29036854144,
+        "ramRequirementBytes": 41000000000,
+        "vramRequirementBytes": 34000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/Laguna-XS-2.1-GGUF/resolve/8f7579d6ab7d3122716100116cf1a62f490ab6f3/Laguna-XS-2.1-Q6_K.gguf",
+        "sha256": "9e60928790494e66c22dec0bdf8a877a593594cc81f181656177d8cd35787d0b",
+        "weight": "heavy"
+      },
+      {
         "quantLevel": "Q8_0",
-        "sizeBytes": 127650800960,
-        "ramRequirementBytes": 180000000000,
-        "vramRequirementBytes": 145000000000,
-        "downloadUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/resolve/19bafe9bde46a3c7f9c0b2ef10ecb8a0ef154a1e/laguna-s-2.1-Q8_0.gguf",
-        "sha256": "45094ed99a492fab7bb1b23ec1850853bfc90898404b317e5d0279fb4e7bda1a",
+        "sizeBytes": 35597116800,
+        "ramRequirementBytes": 50000000000,
+        "vramRequirementBytes": 42000000000,
+        "downloadUrl": "https://huggingface.co/bartowski/Laguna-XS-2.1-GGUF/resolve/8f7579d6ab7d3122716100116cf1a62f490ab6f3/Laguna-XS-2.1-Q8_0.gguf",
+        "sha256": "f8e63721a5ef5473fca6b93b4a9d24449bdf4f2d8a4626a60410f027ee8920b5",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-07-22T14:38:57.000Z",
+    "hfReleasedAt": "2026-07-22T14:38:57.000Z",
+    "hfLastModified": "2026-07-22T16:59:34.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-s-2.1",
+    "name": "Laguna S 2.1",
+    "category": "language",
+    "provider": "Poolside",
+    "summary": "118B-total, 8B-active agentic coding model for long-horizon repository work, reasoning, and tool-driven software tasks. Q4 is the recommended balance; Q2, Q6, and Q8 cover lower-memory through maximum-quality deployments.",
+    "sizeBytes": 68248760064,
+    "ramRequirementBytes": 96000000000,
+    "vramRequirementBytes": 80000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/resolve/edd093522473dc7313b0738d8b4116b7f8b9745f/laguna-s-2.1-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/tree/edd093522473dc7313b0738d8b4116b7f8b9745f",
+    "sha256": "a34c74e46688122bef83122f4133031bababbefcf57436dde97048c91e2cc6ff",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "UD-Q2_K_XL",
+        "sizeBytes": 39684584480,
+        "ramRequirementBytes": 56000000000,
+        "vramRequirementBytes": 47000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF/resolve/750f92f90cf54159c4d7a610cb7b3e74498e75c6/Laguna-S-2.1-UD-Q2_K_XL.gguf",
+        "sha256": "d77f2c9e55eeb7793a9d4389a4cf1b1c60b1ea3f1e887135b0b8587ca70a1574"
+      },
+      {
+        "quantLevel": "UD-Q6_K",
+        "sizeBytes": 97912976032,
+        "ramRequirementBytes": 138000000000,
+        "vramRequirementBytes": 114000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF/resolve/750f92f90cf54159c4d7a610cb7b3e74498e75c6/UD-Q6_K/Laguna-S-2.1-UD-Q6_K-00001-of-00003.gguf",
+        "sha256": "07b73f4ffb3695a6e005bd6a2130b0965edaf57a46ce2a5eefffdc16282968d2",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF/resolve/750f92f90cf54159c4d7a610cb7b3e74498e75c6/UD-Q6_K/Laguna-S-2.1-UD-Q6_K-00001-of-00003.gguf",
+            "sha256": "07b73f4ffb3695a6e005bd6a2130b0965edaf57a46ce2a5eefffdc16282968d2",
+            "sizeBytes": 3683648
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF/resolve/750f92f90cf54159c4d7a610cb7b3e74498e75c6/UD-Q6_K/Laguna-S-2.1-UD-Q6_K-00002-of-00003.gguf",
+            "sha256": "b5540a2204c391cd975198a016524fb4462abe63142156715bdd3c6974f14acf",
+            "sizeBytes": 49527849888
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Laguna-S-2.1-GGUF/resolve/750f92f90cf54159c4d7a610cb7b3e74498e75c6/UD-Q6_K/Laguna-S-2.1-UD-Q6_K-00003-of-00003.gguf",
+            "sha256": "f36ce3c7677ff7ec8995a60e79eed506f470855b5510c110bc628f6de4681a4d",
+            "sizeBytes": 48381442496
+          }
+        ],
+        "weight": "massive"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 128750823168,
+        "ramRequirementBytes": 181000000000,
+        "vramRequirementBytes": 149000000000,
+        "downloadUrl": "https://huggingface.co/poolside/Laguna-S-2.1-GGUF/resolve/edd093522473dc7313b0738d8b4116b7f8b9745f/laguna-s-2.1-Q8_0.gguf",
+        "sha256": "d946b221d69f2c5f87a986952bcd3cfb75831e5a6a2184e626e361663e1bfe2b",
         "weight": "massive"
       }
     ],
     "hfCreatedAt": "2026-07-13T10:50:45.000Z",
     "hfReleasedAt": "2026-07-13T10:50:45.000Z",
-    "hfLastModified": "2026-07-21T22:27:30.000Z",
-    "cdnAddedAt": "2026-07-22T00:00:00+09:00"
+    "hfLastModified": "2026-07-24T10:53:02.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-m.1",
+    "name": "Laguna M.1",
+    "category": "language",
+    "provider": "Poolside / sigargv",
+    "summary": "225B-total, 23B-active flagship agentic coding model for long-horizon software engineering, repository reasoning, and tool use. The Q4 default targets 192GB-class systems, with Q2, Q6, and Q8 options.",
+    "sizeBytes": 136723580576,
+    "ramRequirementBytes": 180000000000,
+    "vramRequirementBytes": 158000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00001-of-00010.gguf",
+    "sourcePageUrl": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/tree/bb24e147185a542845bc94ed062918aac699b85b",
+    "sha256": "23fc8e27c2c474781763a1968a6ce7c5775f5e28d9a5b56190f5957e9e1f2f70",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00001-of-00010.gguf",
+        "sha256": "23fc8e27c2c474781763a1968a6ce7c5775f5e28d9a5b56190f5957e9e1f2f70",
+        "sizeBytes": 15097138016
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00002-of-00010.gguf",
+        "sha256": "edcbb03f1ff627db73b45a5675818626c58eb27bdec9d8573db8008d11d4cb36",
+        "sizeBytes": 14118029024
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00003-of-00010.gguf",
+        "sha256": "34cb7ec4c470f8bc3439a0d33df950d67940f540f093649b02b76d90c7342726",
+        "sizeBytes": 13841204960
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00004-of-00010.gguf",
+        "sha256": "09d298ad9d194e1394f6d372af776dd8aa6cf6cc4d1bcd1a29353d457bffa00a",
+        "sizeBytes": 14118029024
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00005-of-00010.gguf",
+        "sha256": "52e16fc36fb3957683b202dae3829e3c13620220598f1c6ac8b3d0651151f271",
+        "sizeBytes": 13841204960
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00006-of-00010.gguf",
+        "sha256": "223c38b2460de4fdf3348a7ef0a3b686e649d381c6b1c24934afc22100c74f49",
+        "sizeBytes": 14118029024
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00007-of-00010.gguf",
+        "sha256": "e92f2ed92c4a97120067e06f8de22d764e66f1ac5048639c5611de7a0f7454f0",
+        "sizeBytes": 13841204960
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00008-of-00010.gguf",
+        "sha256": "558e011fd1c073be59dfbc813ceb669a5b9d401fe8195b5a0e29f9ec61093896",
+        "sizeBytes": 14118029024
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00009-of-00010.gguf",
+        "sha256": "b0d4668fe9b6ba2839d750863d378fbc39667252f4e3f01f1d4a1f27811ef2d7",
+        "sizeBytes": 14671677152
+      },
+      {
+        "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q4_K_M/Laguna-M.1-Q4_K_M-imatrix-public-v1-00010-of-00010.gguf",
+        "sha256": "e6f3ac79033f0c484d52b1e7c0f2dd4b679ef9529896df1bffebb2fbe3f3b39a",
+        "sizeBytes": 8959034432
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 83388614304,
+        "ramRequirementBytes": 115000000000,
+        "vramRequirementBytes": 100000000000,
+        "downloadUrl": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00001-of-00010.gguf",
+        "sha256": "a0a18a259ea92671291c0cd647cb30c9dd37c5dfca0d4ad1168ec40a60a3935e",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00001-of-00010.gguf",
+            "sha256": "a0a18a259ea92671291c0cd647cb30c9dd37c5dfca0d4ad1168ec40a60a3935e",
+            "sizeBytes": 9929558880
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00002-of-00010.gguf",
+            "sha256": "c622398e38f34a081db4dab4ce07b3165110a185605c965743b16395b3dcf3a3",
+            "sizeBytes": 8623490784
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00003-of-00010.gguf",
+            "sha256": "40c06a15c3108f4f116d503270a41c1a851e487c15fb405c1b66c2caa74d554e",
+            "sizeBytes": 8514438880
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00004-of-00010.gguf",
+            "sha256": "3b166c228fbee7990b9d021956725551fc6951b7998b0b52ecd6445b63577e12",
+            "sizeBytes": 8514438880
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00005-of-00010.gguf",
+            "sha256": "37ad72b235d34e0c0cf8a3be9972366a1414be41717b0320903dda29084f872d",
+            "sizeBytes": 8623490784
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00006-of-00010.gguf",
+            "sha256": "befbc56af912b622afcfc2995c1319e2fb092f6bdbb2b782fe51bdf8972f6b72",
+            "sizeBytes": 8514438880
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00007-of-00010.gguf",
+            "sha256": "aef50eb5e02021e607c46bffe44663559a35e40bbe25a3469dee8c9355dee2b9",
+            "sizeBytes": 8514438880
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00008-of-00010.gguf",
+            "sha256": "665a7d380b9948c053fb18869aa4cf02a5ca96bcf36cb51570ee3a2781bac250",
+            "sizeBytes": 8623490784
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00009-of-00010.gguf",
+            "sha256": "265241f92d9ca55f1fa9c3d57c7e0f647def0b34f2c7262fec8e16144cca1c1a",
+            "sizeBytes": 8514438880
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q2_K/Laguna-M.1-Q2_K-imatrix-public-v1-00010-of-00010.gguf",
+            "sha256": "26b14501e8e8aba8309bb9862e7d0b580e0bd72ff0abfa22e6a18252f63e9ff9",
+            "sizeBytes": 5016388672
+          }
+        ],
+        "weight": "massive"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 185594365600,
+        "ramRequirementBytes": 240000000000,
+        "vramRequirementBytes": 215000000000,
+        "downloadUrl": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00001-of-00010.gguf",
+        "sha256": "6a6c0334f7820b3d88f85e25742fc58432f5312dca98a530d272842397b0fa9e",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00001-of-00010.gguf",
+            "sha256": "6a6c0334f7820b3d88f85e25742fc58432f5312dca98a530d272842397b0fa9e",
+            "sizeBytes": 19122424672
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00002-of-00010.gguf",
+            "sha256": "4fac97ce8bfab39b1f516007a341c5310ab767fbfddbbd82a570caabe1b5b2e5",
+            "sizeBytes": 19377686240
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00003-of-00010.gguf",
+            "sha256": "ec81e4d5c5383f0593e69ae975274d1c132b7adca11474689b27e3b214688212",
+            "sizeBytes": 19377686240
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00004-of-00010.gguf",
+            "sha256": "23980616805ff742048f4a3b38a5b7bd764b4c1c5c5c3d37d4f3be2acbd171ef",
+            "sizeBytes": 19377686240
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00005-of-00010.gguf",
+            "sha256": "9c0f7a7006d9ad85a96abb9c5d02b7fa8f666c29f8747e2ff935cd8a60995945",
+            "sizeBytes": 19377686240
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00006-of-00010.gguf",
+            "sha256": "b82fe99dfa746b08802361d43ff1acc2bb3601dcd6e27e5b47ba9cd1d6e0c442",
+            "sizeBytes": 19377686240
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00007-of-00010.gguf",
+            "sha256": "a27288144f361edccee204c8747b018f61a6fceaa8f1f6d4031d4ca995a3be75",
+            "sizeBytes": 19377686240
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00008-of-00010.gguf",
+            "sha256": "51c01d9066767cae8fdb60fe8aad886ea94c08c9dc98894fe8010150ee615d75",
+            "sizeBytes": 19377686240
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00009-of-00010.gguf",
+            "sha256": "e421489111d4606999258f974c46dbc6a91d578367ff781d333221137bd9431c",
+            "sizeBytes": 19377686240
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q6_K/Laguna-M.1-Q6_K-imatrix-public-v1-00010-of-00010.gguf",
+            "sha256": "05350f2679c76d07783b3e20aacbde7a9f90b366bb02bcb015150adca79a44a8",
+            "sizeBytes": 11450451008
+          }
+        ],
+        "weight": "massive"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 240119891264,
+        "ramRequirementBytes": 310000000000,
+        "vramRequirementBytes": 275000000000,
+        "downloadUrl": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00001-of-00010.gguf",
+        "sha256": "9c9f979b450761abea4c45ae4e8b54e5c182279f424d19d7600e620cf563e3e9",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00001-of-00010.gguf",
+            "sha256": "9c9f979b450761abea4c45ae4e8b54e5c182279f424d19d7600e620cf563e3e9",
+            "sizeBytes": 24499096064
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00002-of-00010.gguf",
+            "sha256": "4462ef4338391f0d042ca254a0692b83cf3cd083515bc337ff32ef980dd017ae",
+            "sizeBytes": 25098716896
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00003-of-00010.gguf",
+            "sha256": "2b93d5c73f05ae5b305cafef4b27557c409317a351c09ced909a0ece3a77d1c4",
+            "sizeBytes": 25098716896
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00004-of-00010.gguf",
+            "sha256": "ad4195572c190a111d1f4beac071150bec820bcc965476db2e51b7ba6d76a2bd",
+            "sizeBytes": 25098716896
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00005-of-00010.gguf",
+            "sha256": "0d89c9bfdba3d18959b35b3b1f9df92810c7693ffac6f69ed5a6cb84a8bfbea5",
+            "sizeBytes": 25098716896
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00006-of-00010.gguf",
+            "sha256": "b91ea5b294d1d34631f41fb984c59ce1baf12c43080d4af166abc7a89748ebc0",
+            "sizeBytes": 25098716896
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00007-of-00010.gguf",
+            "sha256": "9c197dfa0879ca1903d34b5e719cacbc48a3ca736f7fb83fcf45962ad688331a",
+            "sizeBytes": 25098716896
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00008-of-00010.gguf",
+            "sha256": "0335a4b70cc064bcb9b558d71673377ee330de5b3578c5bbc86f6fe25749a347",
+            "sizeBytes": 25098716896
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00009-of-00010.gguf",
+            "sha256": "4dd2534c2131a830162c344b2b6efe40ee94a87d8630a9d8df26d3b8aa49d49d",
+            "sizeBytes": 25098716896
+          },
+          {
+            "url": "https://huggingface.co/sigargv/Laguna-M.1-GGUF/resolve/bb24e147185a542845bc94ed062918aac699b85b/Q8_0/Laguna-M.1-Q8_0-00010-of-00010.gguf",
+            "sha256": "960707fc0c00288f7c8914eb38665ced8c15185ec7adf6a65392dc2d902f4984",
+            "sizeBytes": 14831060032
+          }
+        ],
+        "weight": "massive"
+      }
+    ],
+    "hfCreatedAt": "2026-06-21T03:16:31.000Z",
+    "hfReleasedAt": "2026-06-21T03:16:31.000Z",
+    "hfLastModified": "2026-06-23T22:04:29.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
   },
   {
     "id": "agents-a1-4b",
@@ -8810,5 +9182,151 @@
     "hfReleasedAt": "2026-07-07T14:06:26.000Z",
     "hfLastModified": "2026-07-15T04:44:31.000Z",
     "cdnAddedAt": "2026-07-22T00:00:00+09:00"
+  },
+  {
+    "id": "qwen3.6-14b-a3b-fablevibes",
+    "name": "Qwen3.6 14B-A3B FableVibes",
+    "category": "language",
+    "provider": "tvall43",
+    "summary": "14B-total, 3B-active Qwen3.6 MoE reasoning distill trained on Claude Fable 5 and Opus traces with supplemental tool-calling and coding data. Vision-capable and sized for consumer hardware.",
+    "sizeBytes": 8465553920,
+    "ramRequirementBytes": 13000000000,
+    "vramRequirementBytes": 11000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF/resolve/9cf910a7ad68dfedcbdfc46ef0fe5003dec07c23/Qwen3.6-14B-A3B-FableVibes-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF/tree/9cf910a7ad68dfedcbdfc46ef0fe5003dec07c23",
+    "sha256": "21aa4b0b28090469e8a319c889451df2f1ea6aad27ac3818c8c8a86f86d5bc9e",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF/resolve/9cf910a7ad68dfedcbdfc46ef0fe5003dec07c23/Qwen3.6-14B-A3B-FableVibes-mmproj-F16.gguf",
+    "mmprojSha256": "8971ee4f331ff0a4c609374f32984b3d4e6dc086c0aa35f1d637fad1829e887f",
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 5324311040,
+        "ramRequirementBytes": 8500000000,
+        "vramRequirementBytes": 7000000000,
+        "downloadUrl": "https://huggingface.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF/resolve/9cf910a7ad68dfedcbdfc46ef0fe5003dec07c23/Qwen3.6-14B-A3B-FableVibes-Q2_K.gguf",
+        "sha256": "2fdbc7a2125a4b0688e9943a182f69ba30c63b3642f21a6cbe5bad44318ca787"
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 6766985728,
+        "ramRequirementBytes": 10500000000,
+        "vramRequirementBytes": 9000000000,
+        "downloadUrl": "https://huggingface.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF/resolve/9cf910a7ad68dfedcbdfc46ef0fe5003dec07c23/Qwen3.6-14B-A3B-FableVibes-Q3_K_M.gguf",
+        "sha256": "41beaee055acc2c3ea38ac09abeea6e880f7fa33dcb187af0ea1643288f12d93"
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 9852131840,
+        "ramRequirementBytes": 15000000000,
+        "vramRequirementBytes": 13000000000,
+        "downloadUrl": "https://huggingface.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF/resolve/9cf910a7ad68dfedcbdfc46ef0fe5003dec07c23/Qwen3.6-14B-A3B-FableVibes-Q5_K_M.gguf",
+        "sha256": "d8fe99004cefb2cf26a1750851acf3cabd53247958e144f88e08beeb36ffbcab"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 11325370880,
+        "ramRequirementBytes": 17000000000,
+        "vramRequirementBytes": 15000000000,
+        "downloadUrl": "https://huggingface.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF/resolve/9cf910a7ad68dfedcbdfc46ef0fe5003dec07c23/Qwen3.6-14B-A3B-FableVibes-Q6_K.gguf",
+        "sha256": "7ae56e5003365c568635c14158381df134577877c90ae15f34dbc6de2ca7ffb1",
+        "weight": "large"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 14655633920,
+        "ramRequirementBytes": 21000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/tvall43/Qwen3.6-14B-A3B-FableVibes-GGUF/resolve/9cf910a7ad68dfedcbdfc46ef0fe5003dec07c23/Qwen3.6-14B-A3B-FableVibes-Q8_0.gguf",
+        "sha256": "ddea86093b863215fa75969d81df494fafdb0e6c4a65af557ed3a710e2238e58",
+        "weight": "large"
+      }
+    ],
+    "hfCreatedAt": "2026-06-14T21:38:28.000Z",
+    "hfReleasedAt": "2026-06-14T21:38:28.000Z",
+    "hfLastModified": "2026-06-15T00:32:57.000Z",
+    "cdnAddedAt": "2026-07-27T14:00:59+09:00"
+  },
+  {
+    "id": "pocket-35b",
+    "name": "POCKET 35B",
+    "category": "language",
+    "provider": "FINAL-Bench / VIDRAFT",
+    "summary": "35B-total, 3B-active Qwen3.5-family MoE derived from Darwin 36B Opus for fast CPU and GPU inference in stock llama.cpp. Q2_K is the publisher's daily-driver build; IQ1_M fits 16GB systems.",
+    "sizeBytes": 12939593664,
+    "ramRequirementBytes": 18000000000,
+    "vramRequirementBytes": 15000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/FINAL-Bench/POCKET-35B-GGUF/resolve/725f97e9187ca87c60aac55e2700f9b23bd4bb46/POCKET-35B-Q2_K.gguf",
+    "sourcePageUrl": "https://huggingface.co/FINAL-Bench/POCKET-35B-GGUF/tree/725f97e9187ca87c60aac55e2700f9b23bd4bb46",
+    "sha256": "2567ed710fb5b5bdf0df99ecfa241ab1a2b35edc618d2830b91d468e3a3ce191",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "reasoning"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q2_K",
+    "quantVariants": [
+      {
+        "quantLevel": "IQ1_M",
+        "sizeBytes": 8239208384,
+        "ramRequirementBytes": 16000000000,
+        "vramRequirementBytes": 10000000000,
+        "downloadUrl": "https://huggingface.co/FINAL-Bench/POCKET-35B-GGUF/resolve/725f97e9187ca87c60aac55e2700f9b23bd4bb46/POCKET-35B-IQ1_M.gguf",
+        "sha256": "c56c77d158786f6dfb084e8cf3467456668e400cc7632c366cc0444b9f8565a1",
+        "weight": "medium"
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 16764763840,
+        "ramRequirementBytes": 24000000000,
+        "vramRequirementBytes": 20000000000,
+        "downloadUrl": "https://huggingface.co/FINAL-Bench/POCKET-35B-GGUF/resolve/725f97e9187ca87c60aac55e2700f9b23bd4bb46/POCKET-35B-Q3_K_M.gguf",
+        "sha256": "9ab4184f0f5af0cc1cf8eee7e553664b692c3f837a8868c4a16137bb3a3c97a2"
+      },
+      {
+        "quantLevel": "Q4_K_M",
+        "sizeBytes": 21166757568,
+        "ramRequirementBytes": 32000000000,
+        "vramRequirementBytes": 25000000000,
+        "downloadUrl": "https://huggingface.co/FINAL-Bench/POCKET-35B-GGUF/resolve/725f97e9187ca87c60aac55e2700f9b23bd4bb46/POCKET-35B-Q4_K_M.gguf",
+        "sha256": "6f479f637c8fb932df39b9cfabdc454568eee48c0e7c0584e1815a27558e8ffe"
+      }
+    ],
+    "hfCreatedAt": "2026-07-22T22:24:56.000Z",
+    "hfReleasedAt": "2026-07-22T22:24:56.000Z",
+    "hfLastModified": "2026-07-26T07:16:19.000Z",
+    "cdnAddedAt": "2026-07-27T14:00:59+09:00"
   }
 ]

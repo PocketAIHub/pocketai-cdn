@@ -1316,5 +1316,377 @@
     "hfReleasedAt": "2026-07-04T00:24:22.000Z",
     "hfLastModified": "2026-07-14T21:39:03.000Z",
     "cdnAddedAt": "2026-07-21T00:00:00+09:00"
+  },
+  {
+    "id": "laguna-xs-2.1-3bit",
+    "name": "Laguna XS 2.1 MLX 3-bit",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "Low-memory 3-bit MLX build of Laguna XS 2.1 for agentic coding, repository reasoning, and tool use on Apple Silicon.",
+    "sizeBytes": 14651974317,
+    "ramRequirementBytes": 22000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-XS-2.1-3bit",
+    "hfRevision": "ddc08bb1d6afee9ebb625eda4f06465c4665e333",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-XS-2.1-3bit/tree/ddc08bb1d6afee9ebb625eda4f06465c4665e333",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "3bit",
+    "hfCreatedAt": "2026-07-03T00:23:41.000Z",
+    "hfReleasedAt": "2026-07-03T00:23:41.000Z",
+    "hfLastModified": "2026-07-03T00:35:43.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-xs-2.1-4bit",
+    "name": "Laguna XS 2.1 MLX 4-bit",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "Recommended 4-bit MLX build of Laguna XS 2.1, balancing quality and memory for agentic coding on Apple Silicon.",
+    "sizeBytes": 18829722378,
+    "ramRequirementBytes": 28000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-XS-2.1-4bit",
+    "hfRevision": "c42e0a8f8d504ceacde015a535dcb286d65c8799",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-XS-2.1-4bit/tree/c42e0a8f8d504ceacde015a535dcb286d65c8799",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "4bit",
+    "hfCreatedAt": "2026-07-03T00:35:46.000Z",
+    "hfReleasedAt": "2026-07-03T00:35:46.000Z",
+    "hfLastModified": "2026-07-03T00:51:05.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-xs-2.1-6bit",
+    "name": "Laguna XS 2.1 MLX 6-bit",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "High-quality 6-bit MLX build of Laguna XS 2.1 for agentic coding and repository work on higher-memory Apple Silicon Macs.",
+    "sizeBytes": 27185218129,
+    "ramRequirementBytes": 38000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-XS-2.1-6bit",
+    "hfRevision": "5f60b7511ea0be481a68be1500baf15b0bcccba6",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-XS-2.1-6bit/tree/5f60b7511ea0be481a68be1500baf15b0bcccba6",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "6bit",
+    "hfCreatedAt": "2026-07-03T00:52:46.000Z",
+    "hfReleasedAt": "2026-07-03T00:52:46.000Z",
+    "hfLastModified": "2026-07-03T00:53:03.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-xs-2.1-8bit",
+    "name": "Laguna XS 2.1 MLX 8-bit",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "Maximum-quality 8-bit MLX build of Laguna XS 2.1 for high-memory Apple Silicon Macs.",
+    "sizeBytes": 35540714176,
+    "ramRequirementBytes": 48000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-XS-2.1-8bit",
+    "hfRevision": "b4d85d00f3aaf9f91364e9773548776fcf3885ad",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-XS-2.1-8bit/tree/b4d85d00f3aaf9f91364e9773548776fcf3885ad",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "8bit",
+    "hfCreatedAt": "2026-07-03T00:53:06.000Z",
+    "hfReleasedAt": "2026-07-03T00:53:06.000Z",
+    "hfLastModified": "2026-07-03T00:53:27.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-s-2.1-oq2e-fast",
+    "name": "Laguna S 2.1 MLX oQ2e Fast",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "Low-memory calibrated oQ2e-fast MLX build of Laguna S 2.1 for agentic coding on 64GB-class Apple Silicon Macs.",
+    "sizeBytes": 34743928638,
+    "ramRequirementBytes": 52000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-S-2.1-oQ2e-fast",
+    "hfRevision": "c98939f4fe0918fc670fb41d6627370b44c1d2c7",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-S-2.1-oQ2e-fast/tree/c98939f4fe0918fc670fb41d6627370b44c1d2c7",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "oQ2e-fast",
+    "hfCreatedAt": "2026-07-22T12:59:07.000Z",
+    "hfReleasedAt": "2026-07-22T12:59:07.000Z",
+    "hfLastModified": "2026-07-24T01:24:52.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-s-2.1-oq4e-fast",
+    "name": "Laguna S 2.1 MLX oQ4e Fast",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "Recommended calibrated oQ4e-fast MLX build of Laguna S 2.1, balancing quality and speed on Apple Silicon.",
+    "sizeBytes": 63318049001,
+    "ramRequirementBytes": 88000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-S-2.1-oQ4e-fast",
+    "hfRevision": "871f699b0e8852ee2ab74fb1e67767bdcc6358ee",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-S-2.1-oQ4e-fast/tree/871f699b0e8852ee2ab74fb1e67767bdcc6358ee",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "oQ4e-fast",
+    "hfCreatedAt": "2026-07-23T23:05:15.000Z",
+    "hfReleasedAt": "2026-07-23T23:05:15.000Z",
+    "hfLastModified": "2026-07-24T01:24:56.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-s-2.1-oq6e",
+    "name": "Laguna S 2.1 MLX oQ6e",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "High-quality calibrated oQ6e MLX build of Laguna S 2.1 for 128GB-class Apple Silicon Macs.",
+    "sizeBytes": 92507934506,
+    "ramRequirementBytes": 124000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-S-2.1-oQ6e",
+    "hfRevision": "bf1b3f5c4ddf9e5a4fb306a9fe11c53db44656d9",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-S-2.1-oQ6e/tree/bf1b3f5c4ddf9e5a4fb306a9fe11c53db44656d9",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "oQ6e",
+    "hfCreatedAt": "2026-07-22T05:08:54.000Z",
+    "hfReleasedAt": "2026-07-22T05:08:54.000Z",
+    "hfLastModified": "2026-07-24T01:24:49.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-s-2.1-oq8e",
+    "name": "Laguna S 2.1 MLX oQ8e",
+    "category": "language",
+    "provider": "Poolside / dfp-official",
+    "summary": "Maximum-quality calibrated oQ8e MLX build of Laguna S 2.1 for very-high-memory Apple Silicon Macs.",
+    "sizeBytes": 124915916273,
+    "ramRequirementBytes": 160000000000,
+    "license": "OpenMDW 1.1",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "dfp-official/Laguna-S-2.1-oQ8e",
+    "hfRevision": "fc70d6e756a3231c767f3a2ef9a9c83c9b2bfc98",
+    "sourcePageUrl": "https://huggingface.co/dfp-official/Laguna-S-2.1-oQ8e/tree/fc70d6e756a3231c767f3a2ef9a9c83c9b2bfc98",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "oQ8e",
+    "hfCreatedAt": "2026-07-23T22:30:22.000Z",
+    "hfReleasedAt": "2026-07-23T22:30:22.000Z",
+    "hfLastModified": "2026-07-24T17:57:07.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-m.1-q3",
+    "name": "Laguna M.1 MLX Q3",
+    "category": "language",
+    "provider": "Poolside / ox-ox",
+    "summary": "Low-memory Q3 MLX build of Laguna M.1 that brings the flagship model within reach of 128GB-class Apple Silicon Macs.",
+    "sizeBytes": 100188806459,
+    "ramRequirementBytes": 120000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "ox-ox/Laguna-M.1-MLX-Q3",
+    "hfRevision": "cbf2988e6b321d6b7aee9be2247341086dc50529",
+    "sourcePageUrl": "https://huggingface.co/ox-ox/Laguna-M.1-MLX-Q3/tree/cbf2988e6b321d6b7aee9be2247341086dc50529",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q3",
+    "hfCreatedAt": "2026-06-18T18:08:37.000Z",
+    "hfReleasedAt": "2026-06-18T18:08:37.000Z",
+    "hfLastModified": "2026-06-19T10:23:17.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-m.1-4bit",
+    "name": "Laguna M.1 MLX 4-bit",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "Recommended 4-bit MLX build of Laguna M.1 for flagship agentic coding quality on 192GB-class Apple Silicon Macs.",
+    "sizeBytes": 127054157749,
+    "ramRequirementBytes": 155000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-M.1-4bit",
+    "hfRevision": "5a397b458851eef77062f07c298752a5accfb8c3",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-M.1-4bit/tree/5a397b458851eef77062f07c298752a5accfb8c3",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "4bit",
+    "hfCreatedAt": "2026-06-18T17:59:26.000Z",
+    "hfReleasedAt": "2026-06-18T17:59:26.000Z",
+    "hfLastModified": "2026-06-18T18:02:22.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-m.1-6bit",
+    "name": "Laguna M.1 MLX 6-bit",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "High-quality 6-bit MLX build of Laguna M.1 for 256GB-class Apple Silicon systems.",
+    "sizeBytes": 183485372657,
+    "ramRequirementBytes": 215000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-M.1-6bit",
+    "hfRevision": "e70f929ce2f6f7f99af11ac8c632601596aad8e2",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-M.1-6bit/tree/e70f929ce2f6f7f99af11ac8c632601596aad8e2",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "6bit",
+    "hfCreatedAt": "2026-06-18T18:21:41.000Z",
+    "hfReleasedAt": "2026-06-18T18:21:41.000Z",
+    "hfLastModified": "2026-06-18T18:25:33.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
+  },
+  {
+    "id": "laguna-m.1-8bit",
+    "name": "Laguna M.1 MLX 8-bit",
+    "category": "language",
+    "provider": "Poolside / mlx-community",
+    "summary": "Maximum-quality 8-bit MLX build of Laguna M.1 for exceptionally high-memory Apple Silicon systems.",
+    "sizeBytes": 239916587915,
+    "ramRequirementBytes": 280000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "mlx-community/Laguna-M.1-8bit",
+    "hfRevision": "1cf588f86d5ae3b304041167d99a590b73bd5c79",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/Laguna-M.1-8bit/tree/1cf588f86d5ae3b304041167d99a590b73bd5c79",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "8bit",
+    "hfCreatedAt": "2026-06-18T18:33:37.000Z",
+    "hfReleasedAt": "2026-06-18T18:33:37.000Z",
+    "hfLastModified": "2026-06-18T18:38:25.000Z",
+    "cdnAddedAt": "2026-07-27T13:53:44+09:00"
   }
 ]

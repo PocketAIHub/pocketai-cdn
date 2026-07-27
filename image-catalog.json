@@ -104,6 +104,187 @@
     "weight": "massive"
   },
   {
+    "id": "mlx-hidream-o1-image-dev-bf16",
+    "name": "HiDream O1 Image Dev MLX BF16",
+    "category": "image",
+    "provider": "HiDream.ai / MLX Community",
+    "summary": "Native BF16 MLX port of HiDream O1 Image Dev for Apple Silicon. Supports text-to-image, instruction editing, multi-reference generation, and clean non-square output. Catalog-only until PocketAI's dedicated HiDream MLX runtime is available.",
+    "sizeBytes": 17638228703,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 32000000000,
+    "license": "MIT",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-bf16/tree/33c7a00bce8e3410304f83ec408a15a1eb6782df",
+    "installStatus": "external-only",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-bf16/tree/33c7a00bce8e3410304f83ec408a15a1eb6782df",
+    "licenseUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-bf16/blob/33c7a00bce8e3410304f83ec408a15a1eb6782df/LICENSE",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "hidream-o1",
+    "defaultSteps": 28,
+    "defaultCfgScale": 0,
+    "supportedResolutions": [
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "width": 2304,
+        "height": 1728
+      },
+      {
+        "width": 1728,
+        "height": 2304
+      },
+      {
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "width": 2496,
+        "height": 1664
+      },
+      {
+        "width": 1664,
+        "height": 2496
+      },
+      {
+        "width": 3104,
+        "height": 1312
+      },
+      {
+        "width": 1312,
+        "height": 3104
+      },
+      {
+        "width": 2304,
+        "height": 1792
+      },
+      {
+        "width": 1792,
+        "height": 2304
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "weight": "heavy",
+    "defaultQuantLevel": "bf16",
+    "hfCreatedAt": "2026-05-09T18:19:52.000Z",
+    "hfReleasedAt": "2026-05-09T18:19:52.000Z",
+    "hfLastModified": "2026-05-11T19:30:59.000Z",
+    "cdnAddedAt": "2026-07-27T00:00:00+09:00"
+  },
+  {
+    "id": "mlx-hidream-o1-image-dev-q6",
+    "name": "HiDream O1 Image Dev MLX Q6",
+    "category": "image",
+    "provider": "HiDream.ai / MLX Community",
+    "summary": "Six-bit MLX port of HiDream O1 Image Dev for memory-constrained Apple Silicon Macs. Fast, clean text-to-image generation at square resolutions; editing, multi-reference, and non-square output are not recommended. Catalog-only until PocketAI's dedicated HiDream MLX runtime is available.",
+    "sizeBytes": 8100000008,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "MIT",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-q6/tree/2d7ababe520eda80b58c06f387fcbdd6655af81b",
+    "installStatus": "external-only",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-q6/tree/2d7ababe520eda80b58c06f387fcbdd6655af81b",
+    "licenseUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-bf16/blob/33c7a00bce8e3410304f83ec408a15a1eb6782df/LICENSE",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "hidream-o1",
+    "defaultSteps": 28,
+    "defaultCfgScale": 0,
+    "supportedResolutions": [
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 2048,
+        "height": 2048
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "weight": "medium",
+    "defaultQuantLevel": "Q6",
+    "hfCreatedAt": "2026-05-10T11:21:06.000Z",
+    "hfReleasedAt": "2026-05-10T11:21:06.000Z",
+    "hfLastModified": "2026-05-11T19:31:02.000Z",
+    "cdnAddedAt": "2026-07-27T00:00:00+09:00"
+  },
+  {
+    "id": "mlx-hidream-o1-image-dev-q8",
+    "name": "HiDream O1 Image Dev MLX Q8",
+    "category": "image",
+    "provider": "HiDream.ai / MLX Community",
+    "summary": "Eight-bit MLX port of HiDream O1 Image Dev for Apple Silicon. Offers a predictable memory ceiling for square text-to-image generation; editing, multi-reference, and non-square output are not recommended. Catalog-only until PocketAI's dedicated HiDream MLX runtime is available.",
+    "sizeBytes": 10102095968,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "MIT",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-q8/tree/aa8261c559d5b899e021581440d06925ed3f2a57",
+    "installStatus": "external-only",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-q8/tree/aa8261c559d5b899e021581440d06925ed3f2a57",
+    "licenseUrl": "https://huggingface.co/mlx-community/HiDream-O1-Image-Dev-mlx-bf16/blob/33c7a00bce8e3410304f83ec408a15a1eb6782df/LICENSE",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "hidream-o1",
+    "defaultSteps": 28,
+    "defaultCfgScale": 0,
+    "supportedResolutions": [
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 2048,
+        "height": 2048
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "weight": "heavy",
+    "defaultQuantLevel": "Q8",
+    "hfCreatedAt": "2026-05-10T11:21:07.000Z",
+    "hfReleasedAt": "2026-05-10T11:21:07.000Z",
+    "hfLastModified": "2026-05-11T19:31:06.000Z",
+    "cdnAddedAt": "2026-07-27T00:00:00+09:00"
+  },
+  {
     "id": "krea-2-turbo",
     "name": "Krea 2 Turbo",
     "category": "image",
