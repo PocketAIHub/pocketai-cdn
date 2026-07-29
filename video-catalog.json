@@ -902,7 +902,9 @@
     "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/9382d8b401da2d13a06586a5e73d595a78f9dd5e",
     "installStatus": "discovery-only",
     "sha256": "",
-    "supportedPlatforms": [],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "requiresGpuVendor": "apple-silicon",
     "architecture": "wan2.2",
     "backend": "mlx",
@@ -957,7 +959,9 @@
     "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5/tree/4953fe05fe143ebfee69dddc78861119e18fc30f",
     "installStatus": "discovery-only",
     "sha256": "",
-    "supportedPlatforms": [],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "requiresGpuVendor": "apple-silicon",
     "architecture": "hunyuanvideo-1.5",
     "backend": "mlx",
@@ -1014,7 +1018,9 @@
     "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-HunyuanVideo-1.5/tree/0c340762c66addbc956c46e4db6930756a68e083",
     "installStatus": "discovery-only",
     "sha256": "",
-    "supportedPlatforms": [],
+    "supportedPlatforms": [
+      "macos"
+    ],
     "requiresGpuVendor": "apple-silicon",
     "architecture": "hunyuanvideo-1.5",
     "backend": "mlx",

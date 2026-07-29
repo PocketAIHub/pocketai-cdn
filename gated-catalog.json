@@ -262,7 +262,9 @@
       "licenseUrl": "https://huggingface.co/tencent/HunyuanVideo-1.5/blob/9b49404b3f5df2a8f0b31df27a0c7ab872e7b038/LICENSE",
       "installStatus": "discovery-only",
       "sha256": "",
-      "supportedPlatforms": [],
+      "supportedPlatforms": [
+        "macos"
+      ],
       "requiresGpuVendor": "apple-silicon",
       "architecture": "hunyuanvideo-1.5",
       "backend": "mlx",
