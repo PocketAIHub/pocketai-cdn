@@ -1,0 +1,18 @@
+{
+    "schemaVersion":  1,
+    "packId":  "image",
+    "version":  "1.0.34",
+    "target":  "x86_64-pc-windows-msvc",
+    "archive":  {
+                    "url":  "https://github.com/trev222/pocketai-mono/releases/download/windows-runtime-packs-v1.0.34/pocketai-image-windows-x64-1.0.34.zip",
+                    "size":  25666860,
+                    "sha256":  "a14513f9ec5dedbdfbe22b9c10092db4a57a5c70f5828613ba2ca319901e0c1d"
+                },
+    "files":  [
+                  {
+                      "path":  "bin/sd-server.exe",
+                      "size":  80408576,
+                      "sha256":  "08bdfde42212ed531303e6d0a8cd19dda4d148241a90026d50cfd59d1e67640c"
+                  }
+              ]
+}

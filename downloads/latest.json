@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-23T11:54:54Z",
+  "updatedAt": "2026-07-30T01:37:00Z",
   "downloads": {
     "android": {
       "version": "1.2.19",
@@ -29,17 +29,17 @@
       }
     },
     "windows": {
-      "version": "1.0.33",
+      "version": "1.0.34",
       "platform": "windows-x86_64",
-      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.33_x64-setup.exe?v=1.0.33",
-      "size": 89702032,
-      "sha256": "48ba58b9ea89a869540559b6bc6d9c793af2d6fdde45fc44d60cd2f943860778",
+      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.34_x64-setup.exe?v=1.0.34",
+      "size": 74928262,
+      "sha256": "14e90e0080f7ac3a3967412eadc27327dffb8b9b173e04d18a6338edc86d59f7",
       "updater": {
-        "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.33_x64-setup.exe?v=1.0.33",
-        "size": 89702032,
-        "sha256": "48ba58b9ea89a869540559b6bc6d9c793af2d6fdde45fc44d60cd2f943860778",
-        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QVorVkU5QmIzVjVsZk5lcFNZc0d5Y2FnUXpLRTM4UDdFMWcweTkvbUs4T21ncFBWbk5OWnAxSzF0UGN4eTBoZC9SKy9GMzAwZEI5YVo1ZEd5KzF1VGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0ODA3MzIzCWZpbGU6UG9ja2V0QUlfMS4wLjMzX3g2NC1zZXR1cC5leGUKQkZjck9kd1E3RHVhcVJ1QTVQb3lDYkwzNU9RQy9rZ1NabFJvUGM2ek9VYU5RZnd0Zy9zVUlTVm9IYUt1aVBjWWhSTERPUHRkcGRocWIzZ2xSSUoyRFE9PQo=",
-        "signatureUrl": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.33_x64-setup.exe.sig?v=1.0.33"
+        "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.34_x64-setup.nsis.zip?v=1.0.34",
+        "size": 74928418,
+        "sha256": "815407fd97b5be0076adbd21c9c7b89d10f63f803b9955a7ed1b5279d8123311",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QVdKdENneTJlMVJpUm9lTTZCa0ErUS9YVktwYlV0MWRScjFkbEdPZlUxZzdUUlBQOFYwaWcvTC9OWEdKbXR0TjBmU0JVeml4bVRhUG9HRFltSzlLY0FJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1Mzc1NDA3CWZpbGU6UG9ja2V0QUlfMS4wLjM0X3g2NC1zZXR1cC5uc2lzLnppcApPRUdzMnNiUHh6VXVTNGFnMWViYkQyclhSQnEzUnM3VG1sOFdQU3o4M0RpcTlmN2svNFBBVGJlWkNtVEFNay9sMi9tZXNTUUcyVkR0MVFyVmkrUVBEZz09Cg==",
+        "signatureUrl": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.34_x64-setup.nsis.zip.sig?v=1.0.34"
       }
     },
     "vscode": {

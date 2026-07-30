@@ -1,0 +1,23 @@
+{
+    "schemaVersion":  1,
+    "packId":  "advanced",
+    "version":  "1.0.34",
+    "target":  "x86_64-pc-windows-msvc",
+    "archive":  {
+                    "url":  "https://github.com/trev222/pocketai-mono/releases/download/windows-runtime-packs-v1.0.34/pocketai-advanced-windows-x64-1.0.34.zip",
+                    "size":  32332073,
+                    "sha256":  "64a0c7d781acf74546d81b9f63765ad76956191f682e7958d79e169442856808"
+                },
+    "files":  [
+                  {
+                      "path":  "bin/llama-bench.exe",
+                      "size":  52787712,
+                      "sha256":  "6a9bc38960a2b9222c6b390b6a756ed33d74aaa0f3d1a624dd75b8b5ee891c55"
+                  },
+                  {
+                      "path":  "bin/rpc-server.exe",
+                      "size":  49952768,
+                      "sha256":  "ad6cff087000a75890625be130c638c646fbda6d015bfe5ba3d6846d2d6eba9a"
+                  }
+              ]
+}
