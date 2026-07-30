@@ -4,7 +4,7 @@
     "version":  "1.0.34",
     "target":  "x86_64-pc-windows-msvc",
     "archive":  {
-                    "url":  "https://github.com/trev222/pocketai-mono/releases/download/windows-runtime-packs-v1.0.34/pocketai-agent-windows-x64-1.0.34.zip",
+                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.34/pocketai-agent-windows-x64-1.0.34.zip",
                     "size":  37121105,
                     "sha256":  "bbecb91f426908b67b2c5edc569bf034c3a15e558ba7a3aae7e36258eaaa6dc6"
                 },
