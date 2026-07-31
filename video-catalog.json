@@ -1016,11 +1016,11 @@
   },
   {
     "id": "pocketai-wan2.2-t2v-a14b-mlx-q4",
-    "name": "Wan2.2 T2V A14B",
+    "name": "Wan2.2 T2V A14B Q4",
     "category": "video",
     "provider": "PocketAI / Wan-AI",
-    "summary": "PocketAI's Apple-Silicon-native MLX packaging of Wan2.2 T2V A14B. The Q4 dual-expert snapshot is the recommended default; the repository also includes Q8 and BF16. Listed for discovery until PocketAI's native Wan MLX runner ships.",
-    "sizeBytes": 28644241134,
+    "summary": "PocketAI's recommended Q4 MLX release of Wan2.2 T2V A14B for Apple Silicon. The precision-specific snapshot includes dual high/low-noise experts, shared T5/VAE support models, and the corrected offline runtime. Listed for discovery until PocketAI's native Wan MLX runner ships.",
+    "sizeBytes": 28655731804,
     "ramRequirementBytes": 24000000000,
     "vramRequirementBytes": 24000000000,
     "license": "Apache 2.0",
@@ -1028,8 +1028,10 @@
     "weight": "heavy",
     "format": "snapshot",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/9382d8b401da2d13a06586a5e73d595a78f9dd5e",
-    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/9382d8b401da2d13a06586a5e73d595a78f9dd5e",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/65891d2ae895a0caf4a658d198c4ab67ca94a896",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/65891d2ae895a0caf4a658d198c4ab67ca94a896",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B",
+    "hfRevision": "65891d2ae895a0caf4a658d198c4ab67ca94a896",
     "installStatus": "discovery-only",
     "sha256": "",
     "supportedPlatforms": [
@@ -1066,9 +1068,125 @@
     "defaultHighNoiseCfgScale": 4,
     "defaultQuantLevel": "Q4",
     "hfCreatedAt": "2026-07-26T11:45:05.000Z",
-    "hfReleasedAt": "2026-07-26T11:45:05.000Z",
-    "hfLastModified": "2026-07-26T11:48:03.000Z",
+    "hfReleasedAt": "2026-07-31T07:37:22.000Z",
+    "hfLastModified": "2026-07-31T07:37:22.000Z",
     "cdnAddedAt": "2026-07-27T09:08:32+09:00"
+  },
+  {
+    "id": "pocketai-wan2.2-t2v-a14b-mlx-q8",
+    "name": "Wan2.2 T2V A14B Q8",
+    "category": "video",
+    "provider": "PocketAI / Wan-AI",
+    "summary": "PocketAI's higher-detail Q8 MLX release of Wan2.2 T2V A14B for large-memory Apple Silicon Macs. The precision-specific snapshot includes dual high/low-noise experts, shared T5/VAE support models, and the corrected offline runtime. Listed for discovery until PocketAI's native Wan MLX runner ships.",
+    "sizeBytes": 42706654144,
+    "ramRequirementBytes": 48000000000,
+    "vramRequirementBytes": 48000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/cb1b09fc671efe196c8f148acfdc8cc0d5043f72",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/cb1b09fc671efe196c8f148acfdc8cc0d5043f72",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B",
+    "hfRevision": "cb1b09fc671efe196c8f148acfdc8cc0d5043f72",
+    "installStatus": "discovery-only",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "wan2.2",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 10,
+    "defaultCfgScale": 3,
+    "supportedResolutions": [
+      {
+        "width": 256,
+        "height": 256
+      },
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 768,
+        "height": 512
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 81,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "defaultHighNoiseCfgScale": 4,
+    "defaultQuantLevel": "Q8",
+    "hfCreatedAt": "2026-07-26T11:45:05.000Z",
+    "hfReleasedAt": "2026-07-31T07:35:32.000Z",
+    "hfLastModified": "2026-07-31T07:35:32.000Z",
+    "cdnAddedAt": "2026-07-31T16:38:07+09:00"
+  },
+  {
+    "id": "pocketai-wan2.2-t2v-a14b-mlx-bf16",
+    "name": "Wan2.2 T2V A14B BF16",
+    "category": "video",
+    "provider": "PocketAI / Wan-AI",
+    "summary": "PocketAI's unquantized BF16 MLX release of Wan2.2 T2V A14B for high-memory Apple Silicon Macs. The precision-specific snapshot includes dual high/low-noise experts, shared T5/VAE support models, and the corrected offline runtime. Listed as an experimental maximum-precision option until PocketAI's native Wan MLX runner ships.",
+    "sizeBytes": 69051960340,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 64000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/c1ff7ef13cadead6793adfbfb089ee59077ab8e7",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B/tree/c1ff7ef13cadead6793adfbfb089ee59077ab8e7",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-Wan2.2-A14B",
+    "hfRevision": "c1ff7ef13cadead6793adfbfb089ee59077ab8e7",
+    "installStatus": "discovery-only",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "wan2.2",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 10,
+    "defaultCfgScale": 3,
+    "supportedResolutions": [
+      {
+        "width": 256,
+        "height": 256
+      },
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 768,
+        "height": 512
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 81,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": true,
+    "defaultHighNoiseCfgScale": 4,
+    "defaultQuantLevel": "BF16",
+    "hfCreatedAt": "2026-07-26T11:45:05.000Z",
+    "hfReleasedAt": "2026-07-31T07:36:38.000Z",
+    "hfLastModified": "2026-07-31T07:36:38.000Z",
+    "cdnAddedAt": "2026-07-31T16:38:07+09:00"
   },
   {
     "id": "pocketai-hunyuanvideo-1.5-mlx-q4",
