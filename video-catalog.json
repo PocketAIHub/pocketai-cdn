@@ -824,11 +824,11 @@
   },
   {
     "id": "pocketai-ltx-2.3-distilled-mlx-q4",
-    "name": "PocketAI Video MLX — LTX-2.3 Distilled",
+    "name": "LTX-2.3 Distilled",
     "category": "video",
     "provider": "PocketAI / Lightricks",
     "summary": "PocketAI's native 4-bit MLX release of the distilled LTX-2.3 audio-video pipeline for Apple Silicon. Uses the fast 8+3-step two-stage path with synchronized audio; 16 GB works in low-memory mode and 24 GB is recommended.",
-    "sizeBytes": 20480206295,
+    "sizeBytes": 20480206597,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 16000000000,
     "license": "LTX-2 Community License",
@@ -837,8 +837,10 @@
     "weight": "large",
     "format": "snapshot",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/57c900f27e8d826b260a86248a36ac88b7ef204e",
-    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/57c900f27e8d826b260a86248a36ac88b7ef204e",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/88aa7d035aab2dd17ac0172effee435bef6b6745",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/88aa7d035aab2dd17ac0172effee435bef6b6745",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-LTX-2.3",
+    "hfRevision": "88aa7d035aab2dd17ac0172effee435bef6b6745",
     "sha256": "",
     "supportedPlatforms": [
       "macos"
@@ -881,12 +883,140 @@
     "defaultQuantLevel": "4-bit",
     "hfCreatedAt": "2026-07-26T01:21:53.000Z",
     "hfReleasedAt": "2026-07-26T01:21:53.000Z",
-    "hfLastModified": "2026-07-26T01:25:23.000Z",
+    "hfLastModified": "2026-07-31T06:37:55.000Z",
     "cdnAddedAt": "2026-07-26T10:33:10+09:00"
   },
   {
+    "id": "pocketai-ltx-2.3-distilled-mlx-q8",
+    "name": "LTX-2.3 Distilled 8-bit",
+    "category": "video",
+    "provider": "PocketAI / Lightricks",
+    "summary": "PocketAI's native 8-bit MLX release of the distilled LTX-2.3 audio-video pipeline for Apple Silicon. Offers higher transformer precision than 4-bit while retaining the fast 8+3-step two-stage path with synchronized audio; 24 GB works in low-memory mode and 32 GB is recommended.",
+    "sizeBytes": 29755393931,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "LTX-2 Community License",
+    "licenseId": "ltx-2-community",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/393c4f4b5eee0969862d9e2c4e5c82496abbe460",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/393c4f4b5eee0969862d9e2c4e5c82496abbe460",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-LTX-2.3",
+    "hfRevision": "393c4f4b5eee0969862d9e2c4e5c82496abbe460",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "ltxv-2.3",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 256,
+        "height": 256
+      },
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 704,
+        "height": 480
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 25,
+    "maxFrames": 97,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "llmUrl": "https://huggingface.co/mlx-community/gemma-3-12b-it-4bit/tree/86cc6a8dedbc456dd0e4af01a9d09f396f77e558",
+    "llmSha256": "",
+    "gated": true,
+    "defaultQuantLevel": "8-bit",
+    "hfCreatedAt": "2026-07-26T01:21:53.000Z",
+    "hfReleasedAt": "2026-07-31T06:34:30.000Z",
+    "hfLastModified": "2026-07-31T06:34:30.000Z",
+    "cdnAddedAt": "2026-07-31T15:39:26+09:00"
+  },
+  {
+    "id": "pocketai-ltx-2.3-distilled-mlx-bf16",
+    "name": "LTX-2.3 Distilled BF16",
+    "category": "video",
+    "provider": "PocketAI / Lightricks",
+    "summary": "PocketAI's native unquantized BF16 MLX release of the distilled LTX-2.3 audio-video pipeline for high-memory Apple Silicon. Preserves the converted transformer's full BF16 precision and uses the fast 8+3-step two-stage path with synchronized audio; 48 GB works in low-memory mode and 64 GB is recommended.",
+    "sizeBytes": 47145909868,
+    "ramRequirementBytes": 48000000000,
+    "vramRequirementBytes": 48000000000,
+    "license": "LTX-2 Community License",
+    "licenseId": "ltx-2-community",
+    "tier": "free",
+    "weight": "massive",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/d3948b4cb86d877ead60d218b333449e9b37ab6f",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/d3948b4cb86d877ead60d218b333449e9b37ab6f",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-LTX-2.3",
+    "hfRevision": "d3948b4cb86d877ead60d218b333449e9b37ab6f",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "ltxv-2.3",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1.0,
+    "supportedResolutions": [
+      {
+        "width": 256,
+        "height": 256
+      },
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 704,
+        "height": 480
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 25,
+    "maxFrames": 97,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "llmUrl": "https://huggingface.co/mlx-community/gemma-3-12b-it-4bit/tree/86cc6a8dedbc456dd0e4af01a9d09f396f77e558",
+    "llmSha256": "",
+    "gated": true,
+    "defaultQuantLevel": "BF16",
+    "hfCreatedAt": "2026-07-26T01:21:53.000Z",
+    "hfReleasedAt": "2026-07-31T06:36:27.000Z",
+    "hfLastModified": "2026-07-31T06:36:27.000Z",
+    "cdnAddedAt": "2026-07-31T15:39:26+09:00"
+  },
+  {
     "id": "pocketai-wan2.2-t2v-a14b-mlx-q4",
-    "name": "PocketAI Video MLX — Wan2.2 T2V A14B",
+    "name": "Wan2.2 T2V A14B",
     "category": "video",
     "provider": "PocketAI / Wan-AI",
     "summary": "PocketAI's Apple-Silicon-native MLX packaging of Wan2.2 T2V A14B. The Q4 dual-expert snapshot is the recommended default; the repository also includes Q8 and BF16. Listed for discovery until PocketAI's native Wan MLX runner ships.",
@@ -942,7 +1072,7 @@
   },
   {
     "id": "pocketai-hunyuanvideo-1.5-mlx-q4",
-    "name": "PocketAI Video MLX — HunyuanVideo 1.5 Q4",
+    "name": "HunyuanVideo 1.5 Q4",
     "category": "video",
     "provider": "PocketAI / Tencent Hunyuan",
     "summary": "PocketAI's lower-memory Q4 revision of the consolidated HunyuanVideo 1.5 MLX repository for Apple Silicon. The transformer uses Q4 group-64 with sensitive BF16 paths, the Qwen text tower uses Q4, and the VAE remains BF16. Territory excludes the EU, UK, and South Korea. Listed for discovery until PocketAI's native Hunyuan MLX runner ships.",
@@ -1001,7 +1131,7 @@
   },
   {
     "id": "pocketai-hunyuanvideo-1.5-mlx-bf16",
-    "name": "PocketAI Video MLX — HunyuanVideo 1.5 BF16",
+    "name": "HunyuanVideo 1.5 BF16",
     "category": "video",
     "provider": "PocketAI / Tencent Hunyuan",
     "summary": "PocketAI's full-fidelity BF16 revision of the consolidated HunyuanVideo 1.5 MLX repository for high-memory Apple Silicon Macs. The transformer, Qwen text tower, and VAE are BF16. Territory excludes the EU, UK, and South Korea. Listed for discovery until PocketAI's native Hunyuan MLX runner ships.",

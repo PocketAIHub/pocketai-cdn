@@ -245,7 +245,7 @@
   "video": [
     {
       "id": "pocketai-hunyuanvideo-1.5-mlx",
-      "name": "PocketAI Video MLX — HunyuanVideo 1.5",
+      "name": "HunyuanVideo 1.5",
       "category": "video",
       "provider": "PocketAI / Tencent Hunyuan",
       "summary": "PocketAI's recommended 8-bit MLX release of Tencent HunyuanVideo 1.5 Distilled 480p for Apple Silicon. Q4, Q8, and BF16 are consolidated into one gated repository. Listed for discovery until PocketAI's native Hunyuan runner ships. Access approval is required, and the upstream license excludes the EU, UK, and South Korea.",
