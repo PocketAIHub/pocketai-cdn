@@ -9328,5 +9328,43 @@
     "hfReleasedAt": "2026-07-22T22:24:56.000Z",
     "hfLastModified": "2026-07-26T07:16:19.000Z",
     "cdnAddedAt": "2026-07-27T14:00:59+09:00"
+  },
+  {
+    "id": "mellum2-12b-a2.5b-instruct",
+    "name": "Mellum2 12B-A2.5B Instruct",
+    "category": "language",
+    "provider": "JetBrains",
+    "summary": "JetBrains 12B-total, 2.5B-active MoE instruct model for fast local chat, coding, tool use, and reasoning. This official Q4_K_M build is sized for 16GB-class phones and desktops.",
+    "sizeBytes": 8071293600,
+    "ramRequirementBytes": 13000000000,
+    "vramRequirementBytes": 9000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "medium",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct-GGUF-Q4_K_M/resolve/1236b4166ed6ab1d57e4be9bcc19f4899c190cbf/Mellum2-12B-A2.5B-Instruct-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/JetBrains/Mellum2-12B-A2.5B-Instruct-GGUF-Q4_K_M/tree/1236b4166ed6ab1d57e4be9bcc19f4899c190cbf",
+    "sha256": "b04281c27de5d968d577f310d982273b1b13bdbd8117b3ecffffeebfe222f0a7",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "defaultQuantLevel": "Q4_K_M",
+    "hfCreatedAt": "2026-06-04T10:39:39.000Z",
+    "hfReleasedAt": "2026-06-04T10:39:39.000Z",
+    "hfLastModified": "2026-06-04T14:53:12.000Z",
+    "cdnAddedAt": "2026-08-03T08:27:12+09:00",
+    "releaseDate": "2026-06-01"
   }
 ]

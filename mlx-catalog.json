@@ -1233,6 +1233,38 @@
     "cdnAddedAt": "2026-07-14T08:48:15+09:00"
   },
   {
+    "id": "deepseek-v4-flash-0731-config-i",
+    "name": "DeepSeek V4 Flash 0731 Config-I",
+    "category": "language",
+    "provider": "DeepSeek / thetom-ai",
+    "summary": "DeepSeek V4 Flash 0731 mixed-precision Config-I MLX build at 3.05 effective bits per weight. Its 101 GiB footprint is designed for 128GB Apple Silicon Macs, with expert MLPs compressed most aggressively and attention, routing, embeddings, and boundary layers protected at higher precision. MLX-specific quality evaluation is still pending upstream.",
+    "sizeBytes": 108268418754,
+    "ramRequirementBytes": 128000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "massive",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "thetom-ai/DeepSeek-V4-Flash-ConfigI-MLX",
+    "hfRevision": "7cb93ca4559623d2b36f8eb23eda63c2dfc90a19",
+    "sourcePageUrl": "https://huggingface.co/thetom-ai/DeepSeek-V4-Flash-ConfigI-MLX/tree/7cb93ca4559623d2b36f8eb23eda63c2dfc90a19",
+    "installStatus": "discovery-only",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 1048576,
+    "defaultQuantLevel": "config-i-3.05bpw",
+    "runtime": "mlx-swift",
+    "hfCreatedAt": "2026-07-31T15:55:04.000Z",
+    "hfReleasedAt": "2026-07-31T15:55:04.000Z",
+    "hfLastModified": "2026-08-01T23:19:19.000Z",
+    "cdnAddedAt": "2026-08-02T11:52:15+09:00"
+  },
+  {
     "id": "gpt-oss-20b-mxfp4-q8",
     "name": "GPT-OSS 20B MXFP4 Q8",
     "category": "language",
@@ -1718,9 +1750,80 @@
     ],
     "contextLength": 262144,
     "defaultQuantLevel": "4bit",
+    "runtime": "mtplx",
     "hfCreatedAt": "2026-05-25T13:43:03.000Z",
     "hfReleasedAt": "2026-05-25T13:43:03.000Z",
     "hfLastModified": "2026-06-16T09:28:44.000Z",
     "cdnAddedAt": "2026-07-28T06:30:53+09:00"
+  },
+  {
+    "id": "qwopus3.6-27b-v2-mtplx-4bit-speed",
+    "name": "Qwopus 3.6 27B v2 MTPLX 4-bit Speed",
+    "category": "language",
+    "provider": "nom666",
+    "summary": "Speed-focused 4-bit Qwopus 3.6 27B v2 build with a BF16 MTP head for native MTPLX speculative decoding on Apple Silicon.",
+    "sizeBytes": 16002433245,
+    "ramRequirementBytes": 24000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "nom666/Qwopus3.6-27B-v2-MTPLX-4bit-Speed",
+    "hfRevision": "5dde1cdd5f9f4d8194bfd88b3b2d4bd71fab44e4",
+    "sourcePageUrl": "https://huggingface.co/nom666/Qwopus3.6-27B-v2-MTPLX-4bit-Speed/tree/5dde1cdd5f9f4d8194bfd88b3b2d4bd71fab44e4",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "4bit",
+    "runtime": "mtplx",
+    "mtplxDepth": 3,
+    "mtplxProfile": "sustained",
+    "hfCreatedAt": "2026-06-12T05:19:06.000Z",
+    "hfReleasedAt": "2026-06-12T05:19:06.000Z",
+    "hfLastModified": "2026-06-12T05:26:36.000Z",
+    "cdnAddedAt": "2026-08-02T00:00:00+09:00"
+  },
+  {
+    "id": "qwopus3.6-27b-v2-mtplx-8bit-quality",
+    "name": "Qwopus 3.6 27B v2 MTPLX 8-bit Quality",
+    "category": "language",
+    "provider": "nom666",
+    "summary": "Quality-focused 8-bit Qwopus 3.6 27B v2 build with a BF16 MTP head for native MTPLX speculative decoding on Apple Silicon.",
+    "sizeBytes": 29449110247,
+    "ramRequirementBytes": 48000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "nom666/Qwopus3.6-27B-v2-MTPLX-8bit-Quality",
+    "hfRevision": "9fddb7fee4daff4b78f6e3297118c049666b766b",
+    "sourcePageUrl": "https://huggingface.co/nom666/Qwopus3.6-27B-v2-MTPLX-8bit-Quality/tree/9fddb7fee4daff4b78f6e3297118c049666b766b",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 262144,
+    "defaultQuantLevel": "8bit",
+    "runtime": "mtplx",
+    "mtplxDepth": 3,
+    "mtplxProfile": "sustained",
+    "hfCreatedAt": "2026-06-12T04:43:05.000Z",
+    "hfReleasedAt": "2026-06-12T04:43:05.000Z",
+    "hfLastModified": "2026-06-12T05:05:02.000Z",
+    "cdnAddedAt": "2026-08-02T00:00:00+09:00"
   }
 ]
