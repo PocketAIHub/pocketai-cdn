@@ -40,7 +40,7 @@ Returns Apple Silicon image generation models that load through MLX-native runti
 GET https://cdn.pocketaihub.com/video-catalog.json
 ```
 
-Returns the video generation model catalog (Wan 2.1/2.2 family). Each entry includes mode (t2v, i2v, flf2v), supported resolutions, frame counts, FPS, and auxiliary model URLs (T5, VAE, CLIP Vision).
+Returns the video generation model catalog (including Wan, LTX, Kandinsky, HunyuanVideo, and MiniMax H3 families). Each entry includes mode (t2v, i2v, flf2v), supported resolutions, frame counts, FPS, and auxiliary model URLs (text encoders, video/audio VAEs, and CLIP Vision).
 
 ### Voice Models
 
