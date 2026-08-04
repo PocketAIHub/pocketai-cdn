@@ -351,6 +351,7 @@
   },
   {
     "id": "deepseek-v4-flash-2bit-dq",
+    "recommendationGroup": "deepseek-v4-flash",
     "name": "DeepSeek V4 Flash 2bit DQ",
     "category": "language",
     "provider": "DeepSeek / mlx-community",
@@ -375,6 +376,7 @@
   },
   {
     "id": "deepseek-v4-flash",
+    "recommendationGroup": "deepseek-v4-flash",
     "name": "DeepSeek V4 Flash 4bit",
     "category": "language",
     "provider": "DeepSeek / mlx-community",
@@ -399,6 +401,8 @@
   },
   {
     "id": "deepseek-v4-flash-6bit",
+    "recommendationGroup": "deepseek-v4-flash",
+    "showInRecommended": false,
     "name": "DeepSeek V4 Flash 6bit",
     "category": "language",
     "provider": "DeepSeek / mlx-community",
@@ -423,6 +427,8 @@
   },
   {
     "id": "deepseek-v4-flash-8bit",
+    "recommendationGroup": "deepseek-v4-flash",
+    "showInRecommended": false,
     "name": "DeepSeek V4 Flash 8bit",
     "category": "language",
     "provider": "DeepSeek / mlx-community",
@@ -597,6 +603,7 @@
   },
   {
     "id": "gemma-4-12b-it-4bit",
+    "recommendationGroup": "gemma-4-12b-it",
     "name": "Gemma 4 12B IT 4bit",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -618,6 +625,8 @@
   },
   {
     "id": "gemma-4-12b-it-6bit",
+    "recommendationGroup": "gemma-4-12b-it",
+    "showInRecommended": false,
     "name": "Gemma 4 12B IT 6bit",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -639,6 +648,8 @@
   },
   {
     "id": "gemma-4-12b-it",
+    "recommendationGroup": "gemma-4-12b-it",
+    "showInRecommended": false,
     "name": "Gemma 4 12B IT",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -660,6 +671,7 @@
   },
   {
     "id": "gemma-4-12b-it-optiq-4bit",
+    "recommendationGroup": "gemma-4-12b-it",
     "name": "Gemma 4 12B IT OptiQ 4bit",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -681,6 +693,7 @@
   },
   {
     "id": "gemma-4-12b-it-assistant-4bit",
+    "showInRecommended": false,
     "name": "Gemma 4 12B IT Assistant 4bit",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -702,6 +715,7 @@
   },
   {
     "id": "gemma-4-12b-it-assistant-6bit",
+    "showInRecommended": false,
     "name": "Gemma 4 12B IT Assistant 6bit",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -723,6 +737,7 @@
   },
   {
     "id": "gemma-4-12b-it-assistant-8bit",
+    "showInRecommended": false,
     "name": "Gemma 4 12B IT Assistant 8bit",
     "category": "language",
     "provider": "Google / mlx-community",
@@ -860,6 +875,7 @@
   },
   {
     "id": "gemma-4-12b-coder-fable5-composer2.5-nvfp4",
+    "recommendationGroup": "gemma-4-12b-coder-fable5-composer2.5-v1",
     "name": "Gemma 4 12B Coder Fable5 Composer2.5 NVFP4",
     "category": "language",
     "provider": "srv-sngh",
@@ -908,6 +924,7 @@
   },
   {
     "id": "gemma-4-12b-coder-fable5-composer2.5-4bit",
+    "recommendationGroup": "gemma-4-12b-coder-fable5-composer2.5-v1",
     "name": "Gemma 4 12B Coder Fable5 Composer2.5 4bit",
     "category": "language",
     "provider": "yuxinlu1 / mlx-community",
@@ -937,6 +954,8 @@
   },
   {
     "id": "gemma-4-12b-coder-fable5-composer2.5-8bit",
+    "recommendationGroup": "gemma-4-12b-coder-fable5-composer2.5-v1",
+    "showInRecommended": false,
     "name": "Gemma 4 12B Coder Fable5 Composer2.5 8bit",
     "category": "language",
     "provider": "yuxinlu1 / mlx-community",
@@ -994,6 +1013,7 @@
   },
   {
     "id": "ornith-1.0-9b-optiq-4bit",
+    "recommendationGroup": "ornith-1.0-9b",
     "name": "Ornith 1.0 9B OptiQ 4bit",
     "category": "language",
     "provider": "DeepReinforce AI / mlx-community",
@@ -1025,6 +1045,8 @@
   },
   {
     "id": "ornith-1.0-9b-8bit",
+    "recommendationGroup": "ornith-1.0-9b",
+    "showInRecommended": false,
     "name": "Ornith 1.0 9B 8bit",
     "category": "language",
     "provider": "DeepReinforce AI / mlx-community",
@@ -1056,6 +1078,7 @@
   },
   {
     "id": "ornith-1.0-35b-optiq-4bit",
+    "recommendationGroup": "ornith-1.0-35b",
     "name": "Ornith 1.0 35B OptiQ 4bit",
     "category": "language",
     "provider": "DeepReinforce AI / mlx-community",
@@ -1087,6 +1110,8 @@
   },
   {
     "id": "ornith-1.0-35b-8bit",
+    "recommendationGroup": "ornith-1.0-35b",
+    "showInRecommended": false,
     "name": "Ornith 1.0 35B 8bit",
     "category": "language",
     "provider": "DeepReinforce AI / mlx-community",
@@ -1118,6 +1143,8 @@
   },
   {
     "id": "ornith-1.0-35b-5bit-xl",
+    "recommendationGroup": "ornith-1.0-35b",
+    "showInRecommended": false,
     "name": "Ornith 1.0 35B 5bit XL",
     "category": "language",
     "provider": "DeepReinforce AI / leonsarmiento",
@@ -1148,6 +1175,7 @@
   },
   {
     "id": "ornith-1.0-35b-oq4e",
+    "recommendationGroup": "ornith-1.0-35b",
     "name": "Ornith 1.0 35B oQ4e",
     "category": "language",
     "provider": "DeepReinforce AI / Jundot",
@@ -1248,7 +1276,6 @@
     "hfModelId": "thetom-ai/DeepSeek-V4-Flash-ConfigI-MLX",
     "hfRevision": "7cb93ca4559623d2b36f8eb23eda63c2dfc90a19",
     "sourcePageUrl": "https://huggingface.co/thetom-ai/DeepSeek-V4-Flash-ConfigI-MLX/tree/7cb93ca4559623d2b36f8eb23eda63c2dfc90a19",
-    "installStatus": "discovery-only",
     "supportedPlatforms": [
       "macos"
     ],
@@ -1351,6 +1378,8 @@
   },
   {
     "id": "laguna-xs-2.1-3bit",
+    "recommendationGroup": "laguna-xs-2.1",
+    "showInRecommended": false,
     "name": "Laguna XS 2.1 MLX 3-bit",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1382,6 +1411,7 @@
   },
   {
     "id": "laguna-xs-2.1-4bit",
+    "recommendationGroup": "laguna-xs-2.1",
     "name": "Laguna XS 2.1 MLX 4-bit",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1413,6 +1443,8 @@
   },
   {
     "id": "laguna-xs-2.1-6bit",
+    "recommendationGroup": "laguna-xs-2.1",
+    "showInRecommended": false,
     "name": "Laguna XS 2.1 MLX 6-bit",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1444,6 +1476,8 @@
   },
   {
     "id": "laguna-xs-2.1-8bit",
+    "recommendationGroup": "laguna-xs-2.1",
+    "showInRecommended": false,
     "name": "Laguna XS 2.1 MLX 8-bit",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1475,6 +1509,7 @@
   },
   {
     "id": "laguna-s-2.1-oq2e-fast",
+    "recommendationGroup": "laguna-s-2.1",
     "name": "Laguna S 2.1 MLX oQ2e Fast",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1506,6 +1541,7 @@
   },
   {
     "id": "laguna-s-2.1-oq4e-fast",
+    "recommendationGroup": "laguna-s-2.1",
     "name": "Laguna S 2.1 MLX oQ4e Fast",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1537,6 +1573,8 @@
   },
   {
     "id": "laguna-s-2.1-oq6e",
+    "recommendationGroup": "laguna-s-2.1",
+    "showInRecommended": false,
     "name": "Laguna S 2.1 MLX oQ6e",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1568,6 +1606,8 @@
   },
   {
     "id": "laguna-s-2.1-oq8e",
+    "recommendationGroup": "laguna-s-2.1",
+    "showInRecommended": false,
     "name": "Laguna S 2.1 MLX oQ8e",
     "category": "language",
     "provider": "Poolside / dfp-official",
@@ -1599,6 +1639,8 @@
   },
   {
     "id": "laguna-m.1-q3",
+    "recommendationGroup": "laguna-m.1",
+    "showInRecommended": false,
     "name": "Laguna M.1 MLX Q3",
     "category": "language",
     "provider": "Poolside / ox-ox",
@@ -1630,6 +1672,7 @@
   },
   {
     "id": "laguna-m.1-4bit",
+    "recommendationGroup": "laguna-m.1",
     "name": "Laguna M.1 MLX 4-bit",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1661,6 +1704,8 @@
   },
   {
     "id": "laguna-m.1-6bit",
+    "recommendationGroup": "laguna-m.1",
+    "showInRecommended": false,
     "name": "Laguna M.1 MLX 6-bit",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1692,6 +1737,8 @@
   },
   {
     "id": "laguna-m.1-8bit",
+    "recommendationGroup": "laguna-m.1",
+    "showInRecommended": false,
     "name": "Laguna M.1 MLX 8-bit",
     "category": "language",
     "provider": "Poolside / mlx-community",
@@ -1758,6 +1805,7 @@
   },
   {
     "id": "qwopus3.6-27b-v2-mtplx-4bit-speed",
+    "recommendationGroup": "qwopus3.6-27b-v2",
     "name": "Qwopus 3.6 27B v2 MTPLX 4-bit Speed",
     "category": "language",
     "provider": "nom666",
@@ -1793,6 +1841,8 @@
   },
   {
     "id": "qwopus3.6-27b-v2-mtplx-8bit-quality",
+    "recommendationGroup": "qwopus3.6-27b-v2",
+    "showInRecommended": false,
     "name": "Qwopus 3.6 27B v2 MTPLX 8-bit Quality",
     "category": "language",
     "provider": "nom666",

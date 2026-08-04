@@ -105,6 +105,7 @@
   },
   {
     "id": "mlx-hidream-o1-image-dev-bf16",
+    "showInRecommended": false,
     "name": "HiDream O1 Image Dev MLX BF16",
     "category": "image",
     "provider": "HiDream.ai / MLX Community",
@@ -239,6 +240,7 @@
   },
   {
     "id": "mlx-hidream-o1-image-dev-q8",
+    "showInRecommended": false,
     "name": "HiDream O1 Image Dev MLX Q8",
     "category": "image",
     "provider": "HiDream.ai / MLX Community",

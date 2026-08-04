@@ -1,11 +1,11 @@
 {
-  "language": 47,
-  "image": 20,
-  "video": 20,
+  "language": 48,
+  "image": 21,
+  "video": 21,
   "voice": 4,
   "audio": 2,
   "gated": 22,
   "mesh": 11,
-  "mlx": 16,
+  "mlx": 18,
   "mlxImage": 2
 }

@@ -888,6 +888,7 @@
   },
   {
     "id": "pocketai-ltx-2.3-distilled-mlx-q8",
+    "showInRecommended": false,
     "name": "LTX-2.3 Distilled 8-bit",
     "category": "video",
     "provider": "PocketAI / Lightricks",
@@ -952,6 +953,7 @@
   },
   {
     "id": "pocketai-ltx-2.3-distilled-mlx-bf16",
+    "showInRecommended": false,
     "name": "LTX-2.3 Distilled BF16",
     "category": "video",
     "provider": "PocketAI / Lightricks",
@@ -1074,6 +1076,7 @@
   },
   {
     "id": "pocketai-wan2.2-t2v-a14b-mlx-q8",
+    "showInRecommended": false,
     "name": "Wan2.2 T2V A14B Q8",
     "category": "video",
     "provider": "PocketAI / Wan-AI",
@@ -1132,6 +1135,7 @@
   },
   {
     "id": "pocketai-wan2.2-t2v-a14b-mlx-bf16",
+    "showInRecommended": false,
     "name": "Wan2.2 T2V A14B BF16",
     "category": "video",
     "provider": "PocketAI / Wan-AI",
@@ -1249,6 +1253,7 @@
   },
   {
     "id": "pocketai-hunyuanvideo-1.5-mlx-bf16",
+    "showInRecommended": false,
     "name": "HunyuanVideo 1.5 BF16",
     "category": "video",
     "provider": "PocketAI / Tencent Hunyuan",

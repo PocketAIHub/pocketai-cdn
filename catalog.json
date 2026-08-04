@@ -2517,6 +2517,10 @@
     "contextLength": 262144,
     "vramRequirementBytes": 25000000000,
     "defaultQuantLevel": "Q4_K_XL",
+    "recommendedQuantLevels": [
+      "Q4_K_XL",
+      "UD-IQ2_M"
+    ],
     "quantVariants": [
       {
         "quantLevel": "UD-IQ2_XXS",
@@ -4937,6 +4941,10 @@
     "contextLength": 262144,
     "vramRequirementBytes": 25500000000,
     "defaultQuantLevel": "UD-Q4_K_XL",
+    "recommendedQuantLevels": [
+      "UD-Q4_K_XL",
+      "UD-IQ2_M"
+    ],
     "quantVariants": [
       {
         "quantLevel": "UD-IQ2_XXS",
@@ -5191,6 +5199,9 @@
     "contextLength": 65536,
     "vramRequirementBytes": 96000000000,
     "defaultQuantLevel": "IQ2XXS-imatrix",
+    "recommendedQuantLevels": [
+      "IQ2XXS-imatrix"
+    ],
     "quantVariants": [
       {
         "quantLevel": "IQ2XXS",
@@ -5528,6 +5539,10 @@
     "contextLength": 262144,
     "vramRequirementBytes": 21000000000,
     "defaultQuantLevel": "UD-Q4_K_XL",
+    "recommendedQuantLevels": [
+      "UD-Q4_K_XL",
+      "UD-IQ2_M"
+    ],
     "quantVariants": [
       {
         "quantLevel": "UD-IQ2_M",
@@ -8093,6 +8108,10 @@
     "contextLength": 262144,
     "vramRequirementBytes": 24500000000,
     "defaultQuantLevel": "UD-Q4_K_M",
+    "recommendedQuantLevels": [
+      "UD-Q4_K_M",
+      "UD-Q2_K_XL"
+    ],
     "quantVariants": [
       {
         "quantLevel": "UD-Q2_K_XL",
@@ -8443,6 +8462,9 @@
     "mmprojSha256": "662c925e1df293cfba16ffd6bd53dac31d3c73160ba65dff7270d7a70f351e91",
     "contextLength": 131072,
     "defaultQuantLevel": "UD-Q2_K_XL",
+    "recommendedQuantLevels": [
+      "UD-Q2_K_XL"
+    ],
     "quantVariants": [
       {
         "quantLevel": "UD-IQ1_M",
@@ -8776,6 +8798,10 @@
     "canReadFiles": true,
     "contextLength": 262144,
     "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M",
+      "UD-Q2_K_XL"
+    ],
     "quantVariants": [
       {
         "quantLevel": "UD-Q2_K_XL",
@@ -9297,6 +9323,9 @@
     "canReadFiles": true,
     "contextLength": 262144,
     "defaultQuantLevel": "Q2_K",
+    "recommendedQuantLevels": [
+      "Q2_K"
+    ],
     "quantVariants": [
       {
         "quantLevel": "IQ1_M",
