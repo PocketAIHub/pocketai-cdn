@@ -1,9 +1,9 @@
 {
     "schemaVersion":  1,
     "runtimeId":  "pocketai-llama-cuda-windows-x64",
-    "version":  "1.0.30",
+    "version":  "1.0.34",
     "target":  "x86_64-pc-windows-msvc",
-    "baseUrl":  "https://cdn.pocketaihub.com/downloads/windows-cuda-runtime/1.0.30/",
+    "baseUrl":  "https://cdn.pocketaihub.com/downloads/windows-cuda-runtime/1.0.34/",
     "files":  [
                   {
                       "path":  "bin/llama-server-cuda-x86_64-pc-windows-msvc.exe",
@@ -17,6 +17,14 @@
                       "path":  "bin/llama-bench-cuda-x86_64-pc-windows-msvc.exe",
                       "size":  60478976,
                       "sha256":  "51712236f58d1c95d3faecfd41e848981df0b8b8ab9627dc8e7f24c402c76dff",
+                      "chunks":  [
+
+                                 ]
+                  },
+                  {
+                      "path":  "bin/sd-server-cuda-x86_64-pc-windows-msvc.exe",
+                      "size":  74852864,
+                      "sha256":  "007c519d2cb92df26a23608a0a46abac20ef454e66cea702d5145e88e9a0f1f5",
                       "chunks":  [
 
                                  ]

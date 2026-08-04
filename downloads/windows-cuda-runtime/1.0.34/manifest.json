@@ -1,0 +1,86 @@
+{
+    "schemaVersion":  1,
+    "runtimeId":  "pocketai-llama-cuda-windows-x64",
+    "version":  "1.0.34",
+    "target":  "x86_64-pc-windows-msvc",
+    "baseUrl":  "https://cdn.pocketaihub.com/downloads/windows-cuda-runtime/1.0.34/",
+    "files":  [
+                  {
+                      "path":  "bin/llama-server-cuda-x86_64-pc-windows-msvc.exe",
+                      "size":  67266560,
+                      "sha256":  "b48cf443e0ec5e78e8a0df9694947b039e77aa8a8dc0d42299cd5b7f1b63c7a3",
+                      "chunks":  [
+
+                                 ]
+                  },
+                  {
+                      "path":  "bin/llama-bench-cuda-x86_64-pc-windows-msvc.exe",
+                      "size":  60478976,
+                      "sha256":  "51712236f58d1c95d3faecfd41e848981df0b8b8ab9627dc8e7f24c402c76dff",
+                      "chunks":  [
+
+                                 ]
+                  },
+                  {
+                      "path":  "bin/sd-server-cuda-x86_64-pc-windows-msvc.exe",
+                      "size":  74852864,
+                      "sha256":  "007c519d2cb92df26a23608a0a46abac20ef454e66cea702d5145e88e9a0f1f5",
+                      "chunks":  [
+
+                                 ]
+                  },
+                  {
+                      "path":  "bin/cublas64_13.dll",
+                      "size":  51870320,
+                      "sha256":  "f1d500d0cd892f5b8c6b6cdbffd82d0c55d5f5427215668e7ceb55aeeccc1b63",
+                      "chunks":  [
+
+                                 ]
+                  },
+                  {
+                      "path":  "bin/cublasLt64_13.dll",
+                      "size":  460301424,
+                      "sha256":  "b592cd016d7673e9cb97716a22b27c4010ee635377a3ba28f37070a9bdb76a68",
+                      "chunks":  [
+                                     {
+                                         "path":  "chunks/cublasLt64_13.dll.part001",
+                                         "size":  90000000,
+                                         "sha256":  "49f4435104eff050fb815543432310f2a7cb01e5fe01a0273ee274fb3d4bf0fd"
+                                     },
+                                     {
+                                         "path":  "chunks/cublasLt64_13.dll.part002",
+                                         "size":  90000000,
+                                         "sha256":  "b4715fea6b1e0eb6dcb1f6c33666a7bf0c84e409efcfd59796e649aab1ba1dde"
+                                     },
+                                     {
+                                         "path":  "chunks/cublasLt64_13.dll.part003",
+                                         "size":  90000000,
+                                         "sha256":  "b13dc692a5e51f665e45e19ac94cf1d787f2ce1f63dcba036694f2fb8823068f"
+                                     },
+                                     {
+                                         "path":  "chunks/cublasLt64_13.dll.part004",
+                                         "size":  90000000,
+                                         "sha256":  "5abf1153160a0ba1b8e7e8af25fc1198c2b2891955b9f6738f7fbf9a14e67cf8"
+                                     },
+                                     {
+                                         "path":  "chunks/cublasLt64_13.dll.part005",
+                                         "size":  90000000,
+                                         "sha256":  "4da7adae26bb0390477d1686e6cbbe1b9eed4af6655c8df8bd5789d37b793ba5"
+                                     },
+                                     {
+                                         "path":  "chunks/cublasLt64_13.dll.part006",
+                                         "size":  10301424,
+                                         "sha256":  "4f0b138f2ca06cb2489031b7072a79796329801c173af6b92a0a5855ea953afe"
+                                     }
+                                 ]
+                  },
+                  {
+                      "path":  "bin/cudart64_13.dll",
+                      "size":  551024,
+                      "sha256":  "b00ca6f53699120da815bf3e06e2e4285fae2f201235b883dcbb50eec51e2a2a",
+                      "chunks":  [
+
+                                 ]
+                  }
+              ]
+}
