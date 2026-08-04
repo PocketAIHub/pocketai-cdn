@@ -1480,7 +1480,7 @@
     "name": "MiniMax H3 FL2VA",
     "category": "video",
     "provider": "MiniMaxAI / Comfy-Org",
-    "summary": "MiniMax H3 FL2VA for text-to-video with native synchronized 32 kHz stereo audio and optional first and last frames. PocketAI uses Comfy-Org's pruned INT8 transformer and NVFP4/AWQ Qwen3-VL-32B encoder (42.47 GB across all required files). On Windows, the ComfyUI runtime can offload weights between a 24 GB NVIDIA GPU and system RAM. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States; products must display \"MiniMax H3\", and annual product or service revenue above USD $20M requires separate authorization.",
+    "summary": "MiniMax H3 FL2VA for text-to-video with native synchronized 32 kHz stereo audio and optional first and last frames. PocketAI uses Comfy-Org's pruned INT8 transformer and NVFP4/AWQ Qwen3-VL-32B encoder (42.47 GB across all required files). Windows uses NVIDIA CUDA with system-RAM offload; high-memory Apple Silicon support is experimental and keeps the quantized text encoder on CPU while sampling on Metal. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States; products must display \"MiniMax H3\", and annual product or service revenue above USD $20M requires separate authorization.",
     "sizeBytes": 20970379616,
     "ramRequirementBytes": 64000000000,
     "vramRequirementBytes": 12000000000,
@@ -1494,9 +1494,13 @@
     "installStatus": "available",
     "sha256": "e889202c41dafb67b10d67b97f0d8541508036a6090af23425a5c2615d03c47a",
     "supportedPlatforms": [
-      "windows"
+      "windows",
+      "macos"
     ],
-    "requiresGpuVendor": "nvidia",
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "nvidia-or-apple-silicon",
     "architecture": "minimax-h3",
     "backend": "comfyui",
     "licenseId": "minimax-h3-community",
