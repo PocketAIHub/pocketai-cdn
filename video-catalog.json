@@ -850,7 +850,7 @@
     "backend": "mlx",
     "mode": "t2v",
     "defaultSteps": 8,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 256,
@@ -915,7 +915,7 @@
     "backend": "mlx",
     "mode": "t2v",
     "defaultSteps": 8,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 256,
@@ -980,7 +980,7 @@
     "backend": "mlx",
     "mode": "t2v",
     "defaultSteps": 8,
-    "defaultCfgScale": 1.0,
+    "defaultCfgScale": 1,
     "supportedResolutions": [
       {
         "width": 256,
@@ -1482,10 +1482,10 @@
   },
   {
     "id": "minimax-h3-fl2va-pruned-int8",
-    "name": "MiniMax H3 FL2VA",
+    "name": "MiniMax H3 FL2VA ConvRot INT8",
     "category": "video",
     "provider": "MiniMaxAI / Comfy-Org",
-    "summary": "MiniMax H3 FL2VA for text-to-video with native synchronized 32 kHz stereo audio and optional first and last frames. PocketAI uses Comfy-Org's pruned INT8 transformer and NVFP4/AWQ Qwen3-VL-32B encoder (42.47 GB across all required files). Windows uses NVIDIA CUDA with system-RAM offload; high-memory Apple Silicon support is experimental and keeps the quantized text encoder on CPU while sampling on Metal. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States; products must display \"MiniMax H3\", and annual product or service revenue above USD $20M requires separate authorization.",
+    "summary": "MiniMax H3 FL2VA for text-to-video with native synchronized 32 kHz stereo audio and optional first and last frames. PocketAI uses Comfy-Org's pruned INT8 transformer and NVFP4/AWQ Qwen3-VL-32B encoder (42.47 GB across all required files). Windows uses NVIDIA CUDA with system-RAM offload. Apple Silicon uses PocketAI's experimental native MLX text-to-video backend, with 64 GB unified memory required and 96 GB or more recommended; first/last-frame conditioning is currently available through the CUDA backend only. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States; products must display \"MiniMax H3\", and annual product or service revenue above USD $20M requires separate authorization.",
     "sizeBytes": 20970379616,
     "ramRequirementBytes": 64000000000,
     "vramRequirementBytes": 12000000000,
@@ -1591,6 +1591,448 @@
     "hfReleasedAt": "2026-08-03T03:05:20.000Z",
     "hfLastModified": "2026-08-03T03:05:20.000Z",
     "cdnAddedAt": "2026-08-03T12:38:45+09:00",
+    "releaseDate": "2026-08-03"
+  },
+  {
+    "id": "minimax-h3-fl2va-mlx-q4",
+    "showInRecommended": false,
+    "name": "MiniMax H3 MLX Q4",
+    "category": "video",
+    "provider": "MiniMaxAI / PipeNetwork",
+    "summary": "Mac-native MiniMax H3 FL2VA with a standard MLX Q4 transformer, 8-bit AdaLN projections cached and released at startup, and PocketAI's shared NVFP4/AWQ Qwen3-VL-32B text encoder. This is the smallest H3 MLX option; Q6 is recommended when memory allows. Text-to-video includes synchronized 32 kHz stereo audio. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States.",
+    "sizeBytes": 25282733669,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 32000000000,
+    "license": "MiniMax H3 Community License Agreement",
+    "tier": "free",
+    "weight": "large",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/pipenetwork/MiniMax-H3-MLX-4bit/tree/ca27876d9ea42bb087bdcd3a1336d3b7f8fb2b05",
+    "sourcePageUrl": "https://huggingface.co/pipenetwork/MiniMax-H3-MLX-4bit/tree/ca27876d9ea42bb087bdcd3a1336d3b7f8fb2b05",
+    "installStatus": "available",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "minimax-h3",
+    "backend": "mlx",
+    "licenseId": "minimax-h3-community",
+    "geofencedCountries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "GB",
+      "KR",
+      "US"
+    ],
+    "mode": "t2v",
+    "defaultSteps": 20,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 608,
+        "height": 352
+      },
+      {
+        "width": 864,
+        "height": 480
+      },
+      {
+        "width": 960,
+        "height": 544
+      },
+      {
+        "width": 1344,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 608,
+      "height": 352
+    },
+    "defaultFrames": 124,
+    "maxFrames": 362,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "textEncoderUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "textEncoderSha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/vae/minimax_h3_video_vae_fp16.safetensors",
+    "vaeSha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
+    "audioVaeUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/vae/minimax_h3_audio_vae_fp32.safetensors",
+    "audioVaeSha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48",
+    "defaultQuantLevel": "Q4",
+    "recommendationGroup": "minimax-h3-mlx",
+    "hfModelId": "pipenetwork/MiniMax-H3-MLX-4bit",
+    "hfRevision": "ca27876d9ea42bb087bdcd3a1336d3b7f8fb2b05",
+    "hfCreatedAt": "2026-08-03T16:40:59.000Z",
+    "hfReleasedAt": "2026-08-03T16:40:59.000Z",
+    "hfLastModified": "2026-08-03T16:43:24.000Z",
+    "cdnAddedAt": "2026-08-05T00:00:00+09:00",
+    "releaseDate": "2026-08-03"
+  },
+  {
+    "id": "minimax-h3-fl2va-mlx-q6",
+    "name": "MiniMax H3 MLX Q6",
+    "category": "video",
+    "provider": "MiniMaxAI / PipeNetwork",
+    "summary": "Mac-native MiniMax H3 FL2VA with a standard MLX Q6 transformer, 8-bit AdaLN projections cached and released at startup, and PocketAI's shared NVFP4/AWQ Qwen3-VL-32B text encoder. Q6 is the recommended balance of visual fidelity and memory use. Text-to-video includes synchronized 32 kHz stereo audio. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States.",
+    "sizeBytes": 30292305801,
+    "ramRequirementBytes": 48000000000,
+    "vramRequirementBytes": 48000000000,
+    "license": "MiniMax H3 Community License Agreement",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/pipenetwork/MiniMax-H3-MLX-6bit/tree/97e1c07949b05b078f89e8ffa75aaaacb953e03b",
+    "sourcePageUrl": "https://huggingface.co/pipenetwork/MiniMax-H3-MLX-6bit/tree/97e1c07949b05b078f89e8ffa75aaaacb953e03b",
+    "installStatus": "available",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "minimax-h3",
+    "backend": "mlx",
+    "licenseId": "minimax-h3-community",
+    "geofencedCountries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "GB",
+      "KR",
+      "US"
+    ],
+    "mode": "t2v",
+    "defaultSteps": 20,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 608,
+        "height": 352
+      },
+      {
+        "width": 864,
+        "height": 480
+      },
+      {
+        "width": 960,
+        "height": 544
+      },
+      {
+        "width": 1344,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 608,
+      "height": 352
+    },
+    "defaultFrames": 124,
+    "maxFrames": 362,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "textEncoderUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "textEncoderSha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/vae/minimax_h3_video_vae_fp16.safetensors",
+    "vaeSha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
+    "audioVaeUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/vae/minimax_h3_audio_vae_fp32.safetensors",
+    "audioVaeSha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48",
+    "defaultQuantLevel": "Q6",
+    "recommendedQuantLevels": [
+      "Q6"
+    ],
+    "recommendationGroup": "minimax-h3-mlx",
+    "hfModelId": "pipenetwork/MiniMax-H3-MLX-6bit",
+    "hfRevision": "97e1c07949b05b078f89e8ffa75aaaacb953e03b",
+    "hfCreatedAt": "2026-08-03T16:38:11.000Z",
+    "hfReleasedAt": "2026-08-03T16:38:11.000Z",
+    "hfLastModified": "2026-08-03T16:40:57.000Z",
+    "cdnAddedAt": "2026-08-05T00:00:00+09:00",
+    "releaseDate": "2026-08-03"
+  },
+  {
+    "id": "minimax-h3-fl2va-mlx-q8",
+    "showInRecommended": false,
+    "name": "MiniMax H3 MLX Q8",
+    "category": "video",
+    "provider": "MiniMaxAI / PipeNetwork",
+    "summary": "Mac-native MiniMax H3 FL2VA with a standard MLX Q8 transformer, 8-bit AdaLN projections cached and released at startup, and PocketAI's shared NVFP4/AWQ Qwen3-VL-32B text encoder. Q8 preserves more transformer detail at a higher memory and disk cost. Text-to-video includes synchronized 32 kHz stereo audio. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States.",
+    "sizeBytes": 35301877653,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 64000000000,
+    "license": "MiniMax H3 Community License Agreement",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/pipenetwork/MiniMax-H3-MLX-8bit/tree/3ac52081470b0488921c3ec3ba84a39097bf2361",
+    "sourcePageUrl": "https://huggingface.co/pipenetwork/MiniMax-H3-MLX-8bit/tree/3ac52081470b0488921c3ec3ba84a39097bf2361",
+    "installStatus": "available",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "minimax-h3",
+    "backend": "mlx",
+    "licenseId": "minimax-h3-community",
+    "geofencedCountries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "GB",
+      "KR",
+      "US"
+    ],
+    "mode": "t2v",
+    "defaultSteps": 20,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 608,
+        "height": 352
+      },
+      {
+        "width": 864,
+        "height": 480
+      },
+      {
+        "width": 960,
+        "height": 544
+      },
+      {
+        "width": 1344,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 608,
+      "height": 352
+    },
+    "defaultFrames": 124,
+    "maxFrames": 362,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "textEncoderUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "textEncoderSha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/vae/minimax_h3_video_vae_fp16.safetensors",
+    "vaeSha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
+    "audioVaeUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/vae/minimax_h3_audio_vae_fp32.safetensors",
+    "audioVaeSha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48",
+    "defaultQuantLevel": "Q8",
+    "recommendationGroup": "minimax-h3-mlx",
+    "hfModelId": "pipenetwork/MiniMax-H3-MLX-8bit",
+    "hfRevision": "3ac52081470b0488921c3ec3ba84a39097bf2361",
+    "hfCreatedAt": "2026-08-03T16:34:56.000Z",
+    "hfReleasedAt": "2026-08-03T16:34:56.000Z",
+    "hfLastModified": "2026-08-03T16:38:09.000Z",
+    "cdnAddedAt": "2026-08-05T00:00:00+09:00",
+    "releaseDate": "2026-08-03"
+  },
+  {
+    "id": "minimax-h3-fl2va-mlx-bf16",
+    "showInRecommended": false,
+    "name": "MiniMax H3 MLX BF16",
+    "category": "video",
+    "provider": "MiniMaxAI / PipeNetwork",
+    "summary": "Mac-native MiniMax H3 FL2VA with the transformer in BF16 and PocketAI's shared NVFP4/AWQ Qwen3-VL-32B text encoder. AdaLN projections are cached and released at startup, but this remains the largest and highest-fidelity MLX option and is intended for high-memory Macs. Text-to-video includes synchronized 32 kHz stereo audio. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States.",
+    "sizeBytes": 66280485839,
+    "ramRequirementBytes": 96000000000,
+    "vramRequirementBytes": 96000000000,
+    "license": "MiniMax H3 Community License Agreement",
+    "tier": "free",
+    "weight": "massive",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/pipenetwork/MiniMax-H3-MLX-bf16/tree/1486555759eed9e3037edf29f9e055a0713bab2f",
+    "sourcePageUrl": "https://huggingface.co/pipenetwork/MiniMax-H3-MLX-bf16/tree/1486555759eed9e3037edf29f9e055a0713bab2f",
+    "installStatus": "available",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "minimax-h3",
+    "backend": "mlx",
+    "licenseId": "minimax-h3-community",
+    "geofencedCountries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "GB",
+      "KR",
+      "US"
+    ],
+    "mode": "t2v",
+    "defaultSteps": 20,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 608,
+        "height": 352
+      },
+      {
+        "width": 864,
+        "height": 480
+      },
+      {
+        "width": 960,
+        "height": 544
+      },
+      {
+        "width": 1344,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 608,
+      "height": 352
+    },
+    "defaultFrames": 124,
+    "maxFrames": 362,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "textEncoderUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+    "textEncoderSha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
+    "vaeUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/vae/minimax_h3_video_vae_fp16.safetensors",
+    "vaeSha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
+    "audioVaeUrl": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/cfc0a7e86b7bfd99199db90a536ab187af61a8b9/vae/minimax_h3_audio_vae_fp32.safetensors",
+    "audioVaeSha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48",
+    "defaultQuantLevel": "BF16",
+    "recommendationGroup": "minimax-h3-mlx",
+    "hfModelId": "pipenetwork/MiniMax-H3-MLX-bf16",
+    "hfRevision": "1486555759eed9e3037edf29f9e055a0713bab2f",
+    "hfCreatedAt": "2026-08-03T17:32:12.000Z",
+    "hfReleasedAt": "2026-08-03T17:32:12.000Z",
+    "hfLastModified": "2026-08-03T17:38:10.000Z",
+    "cdnAddedAt": "2026-08-05T00:00:00+09:00",
     "releaseDate": "2026-08-03"
   },
   {
