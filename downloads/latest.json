@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-07-30T06:59:11Z",
+  "updatedAt": "2026-08-07T10:23:01Z",
   "downloads": {
     "android": {
-      "version": "1.2.20",
-      "versionCode": 46,
+      "version": "1.2.21",
+      "versionCode": 47,
       "recommended": "arm64-v8a",
       "files": {
         "arm64-v8a": {
-          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.20_arm64-v8a.apk?v=1.2.20-signed-20260730T065711Z",
-          "size": 56645678,
-          "sha256": "72a30c3550377c7ebdf77575726cf6fb5027d8e931bbd247be451983a1a54511"
+          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.21_arm64-v8a.apk?v=1.2.21-signed-20260807T102301Z",
+          "size": 56446606,
+          "sha256": "c451d4839000e4c6ec4bb1e09a5a0f30b4273ba67d095f35fe57f2c4b66712c2"
         }
       }
     },
