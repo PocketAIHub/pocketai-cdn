@@ -1875,5 +1875,106 @@
     "hfReleasedAt": "2026-06-12T04:43:05.000Z",
     "hfLastModified": "2026-06-12T05:05:02.000Z",
     "cdnAddedAt": "2026-08-02T00:00:00+09:00"
+  },
+  {
+    "id": "lfm2.5-2.6b-4bit",
+    "recommendationGroup": "lfm2.5-2.6b",
+    "name": "LFM2.5 2.6B MLX 4-bit",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Recommended official 4-bit MLX build of Liquid AI's dense 2.69B reasoning and tool-use model for Apple Silicon, with a 128K context window.",
+    "sizeBytes": 1601123579,
+    "ramRequirementBytes": 3200000000,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "LiquidAI/LFM2.5-2.6B-MLX-4bit",
+    "hfRevision": "bb8e02bf31d8b9ddd9682c9d1a0f993a6acacee6",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-MLX-4bit/tree/bb8e02bf31d8b9ddd9682c9d1a0f993a6acacee6",
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 131072,
+    "defaultQuantLevel": "4bit",
+    "hfCreatedAt": "2026-08-06T06:42:33.000Z",
+    "hfReleasedAt": "2026-08-06T06:42:33.000Z",
+    "hfLastModified": "2026-08-06T06:43:00.000Z",
+    "cdnAddedAt": "2026-08-07T10:42:35+09:00",
+    "releaseDate": "2026-08-05"
+  },
+  {
+    "id": "lfm2.5-2.6b-6bit",
+    "recommendationGroup": "lfm2.5-2.6b",
+    "showInRecommended": false,
+    "name": "LFM2.5 2.6B MLX 6-bit",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Official 6-bit MLX build of Liquid AI's dense 2.69B reasoning and tool-use model, balancing quality and memory use on Apple Silicon.",
+    "sizeBytes": 2209821981,
+    "ramRequirementBytes": 4200000000,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "LiquidAI/LFM2.5-2.6B-MLX-6bit",
+    "hfRevision": "060f3412fb6a965543defba7e415dc277e0018fa",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-MLX-6bit/tree/060f3412fb6a965543defba7e415dc277e0018fa",
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 131072,
+    "defaultQuantLevel": "6bit",
+    "hfCreatedAt": "2026-08-06T06:41:23.000Z",
+    "hfReleasedAt": "2026-08-06T06:41:23.000Z",
+    "hfLastModified": "2026-08-06T06:41:59.000Z",
+    "cdnAddedAt": "2026-08-07T10:42:35+09:00",
+    "releaseDate": "2026-08-05"
+  },
+  {
+    "id": "lfm2.5-2.6b-8bit",
+    "recommendationGroup": "lfm2.5-2.6b",
+    "showInRecommended": false,
+    "name": "LFM2.5 2.6B MLX 8-bit",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Maximum-quality official 8-bit MLX build of Liquid AI's dense 2.69B reasoning and tool-use model for Apple Silicon.",
+    "sizeBytes": 2884056493,
+    "ramRequirementBytes": 5200000000,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "LiquidAI/LFM2.5-2.6B-MLX-8bit",
+    "hfRevision": "f97e5acde74a810c82ffc29aab9d10fa0f3d7a0a",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-MLX-8bit/tree/f97e5acde74a810c82ffc29aab9d10fa0f3d7a0a",
+    "supportedPlatforms": [
+      "ios",
+      "macos"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 131072,
+    "defaultQuantLevel": "8bit",
+    "hfCreatedAt": "2026-08-06T06:40:35.000Z",
+    "hfReleasedAt": "2026-08-06T06:40:35.000Z",
+    "hfLastModified": "2026-08-06T06:41:22.000Z",
+    "cdnAddedAt": "2026-08-07T10:42:35+09:00",
+    "releaseDate": "2026-08-05"
   }
 ]
