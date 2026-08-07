@@ -9395,5 +9395,60 @@
     "hfLastModified": "2026-06-04T14:53:12.000Z",
     "cdnAddedAt": "2026-08-03T08:27:12+09:00",
     "releaseDate": "2026-06-01"
+  },
+  {
+    "id": "lfm2.5-2.6b",
+    "name": "LFM2.5 2.6B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Dense 2.69B reasoning model post-trained for tool use, data extraction, RAG, and multi-step agentic work. The official Q4_K_M build is the recommended local default, with a 128K context window.",
+    "sizeBytes": 1674454848,
+    "ramRequirementBytes": 4000000000,
+    "vramRequirementBytes": 2500000000,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/b421ad1d549afeda6a0fb2ad3a697cb5a7879adc/LFM2.5-2.6B-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/tree/b421ad1d549afeda6a0fb2ad3a697cb5a7879adc",
+    "sha256": "79fdf00351b46cf26f020aead28d01889886be87c55fa0eb907e6f9b00bfee14",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 131072,
+    "defaultQuantLevel": "Q4_K_M",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2221614912,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/b421ad1d549afeda6a0fb2ad3a697cb5a7879adc/LFM2.5-2.6B-Q6_K.gguf",
+        "sha256": "a2c034e1d0ede551a33f9feeacdc2df92a6d4aae2e63e8f959f12fd532c9b9a8"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2874779456,
+        "ramRequirementBytes": 6500000000,
+        "vramRequirementBytes": 3500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/b421ad1d549afeda6a0fb2ad3a697cb5a7879adc/LFM2.5-2.6B-Q8_0.gguf",
+        "sha256": "36587fdf27bdfc69caf2637273679a0870ec155162161bde6fd16e8c70bdb757"
+      }
+    ],
+    "hfCreatedAt": "2026-08-01T22:42:15.000Z",
+    "hfReleasedAt": "2026-08-01T22:42:15.000Z",
+    "hfLastModified": "2026-08-06T17:10:07.000Z",
+    "cdnAddedAt": "2026-08-07T10:42:35+09:00",
+    "releaseDate": "2026-08-05"
   }
 ]
