@@ -1,12 +1,12 @@
 {
     "schemaVersion":  1,
     "packId":  "image",
-    "version":  "1.0.34",
+    "version":  "1.0.35",
     "target":  "x86_64-pc-windows-msvc",
     "archive":  {
-                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.34/pocketai-image-windows-x64-1.0.34.zip",
+                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.35/pocketai-image-windows-x64-1.0.35.zip",
                     "size":  25666860,
-                    "sha256":  "a14513f9ec5dedbdfbe22b9c10092db4a57a5c70f5828613ba2ca319901e0c1d"
+                    "sha256":  "bbc079be769d26520e10357348fce65d574649e722f18e9a32611ab6e1136b17"
                 },
     "files":  [
                   {
