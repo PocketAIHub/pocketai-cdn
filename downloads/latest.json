@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-11T03:31:51Z",
+  "updatedAt": "2026-08-12T00:51:13Z",
   "downloads": {
     "android": {
       "version": "1.2.22",
@@ -8,9 +8,24 @@
       "recommended": "arm64-v8a",
       "files": {
         "arm64-v8a": {
-          "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.2.22_arm64-v8a.apk?v=1.2.22-signed-20260811T033151Z",
+          "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/android-direct-v1.2.22/PocketAI_1.2.22_arm64-v8a.apk",
           "size": 56783358,
           "sha256": "e3f5ef54629f8eabe4b6653e25e49a345f55100d2e83b837cb439554b284ebee"
+        },
+        "armeabi-v7a": {
+          "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/android-direct-v1.2.22/PocketAI_1.2.22_armeabi-v7a.apk",
+          "size": 47554009,
+          "sha256": "42995e36d79aa6da22312025615dd7c434905ed1cd8264cf559e03ab590ed445"
+        },
+        "x86_64": {
+          "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/android-direct-v1.2.22/PocketAI_1.2.22_x86_64.apk",
+          "size": 58251779,
+          "sha256": "0f15556c8166661760cc74d2c0fd5b3dcfe13a10660c10ec83c0aaab3fda4377"
+        },
+        "universal": {
+          "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/android-direct-v1.2.22/PocketAI_1.2.22_universal.apk",
+          "size": 148086942,
+          "sha256": "61b15031c630c7cc2e4e9c8012cbdbbd96540853a2d4288a84c6f87a42147a5d"
         }
       }
     },
