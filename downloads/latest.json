@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T02:26:05Z",
+  "updatedAt": "2026-08-12T06:58:19Z",
   "downloads": {
     "android": {
       "version": "1.2.22",
@@ -55,6 +55,20 @@
         "sha256": "e8941b4c56173c69637ae6f84341dd12191fb31e60d7cc884aab2783dca0f659",
         "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QVlXcyt1RnkyV0pxeTBFQlJ5dDVLNVFkdU03T1VLc294dGJ2SDhpcTE4SFQxdnNZTHlUSmFUZ3o1bFJUVVlnRFIrQXoxVHQ4TE5uMngxbUxlQm9SOHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzQ5MjU4CWZpbGU6UG9ja2V0QUlfMS4wLjM1X3g2NC1zZXR1cC5uc2lzLnppcAp1WkpZQXRNU3F2c0xIQXV5UlRRQmVXcU1UL2ZPeVBkbm01VkxQUUdMYkRTbTZWWWNTYnpCUk1Bc0hVME1ESjFWOEZ4VXR1T0xsOVY2S0dxMVlnbzJCQT09Cg==",
         "signatureUrl": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-direct-v1.0.35/PocketAI_1.0.35_x64-setup.nsis.zip.sig"
+      }
+    },
+    "linux": {
+      "version": "1.0.36",
+      "platform": "linux-x86_64",
+      "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/linux-direct-v1.0.36/PocketAI_1.0.36_amd64.AppImage",
+      "size": 496294392,
+      "sha256": "acd10179c86e8fd0502c86f3d4de71ef2ff8a7fdfdd81d821cdbea96c8c0680a",
+      "updater": {
+        "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/linux-direct-v1.0.36/PocketAI_1.0.36_amd64.AppImage",
+        "size": 496294392,
+        "sha256": "acd10179c86e8fd0502c86f3d4de71ef2ff8a7fdfdd81d821cdbea96c8c0680a",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QVVOdWtJcXNyRUg3MDNXVGY0MjVKbTlyNFMrM1ZkRWZGQjIvT0dleVdtK21TWWxlZi9aUzNmRVNjM1J2MHlkTCtCU3c0Zy94cFRzWmNWL0Nxc0dQNGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NTE2NjMzCWZpbGU6UG9ja2V0QUlfMS4wLjM2X2FtZDY0LkFwcEltYWdlCkU5SDVzS2FBalNRVkxmT3Y1RFVIczFwcTA4bC8xU0F0a2dncEdjSHp3ZExlY3dUeEVHaURPL1dSRldLenV4RlEvbmxja1RoTi9uSFR1UDMyNThydUJnPT0K",
+        "signatureUrl": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/linux-direct-v1.0.36/PocketAI_1.0.36_amd64.AppImage.sig"
       }
     },
     "vscode": {
