@@ -823,6 +823,316 @@
     ]
   },
   {
+    "id": "ltx-2.5-22b-distilled-comfy-int8",
+    "name": "LTX-2.5 Distilled ConvRot INT8",
+    "category": "video",
+    "provider": "Lightricks",
+    "summary": "Official LTX-2.5 distilled split-safetensors bundle for fast 8-step text/image-to-video with synchronized audio. PocketAI uses the ConvRot INT8 transformer and projected Gemma 4 encoder with the lighter convolutional video VAE (38.69 GB across all required files). Windows targets NVIDIA GPUs with system-RAM offload; Apple Silicon support is experimental and requires high unified memory.",
+    "sizeBytes": 21504034224,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "LTX-2 Community License Agreement",
+    "licenseId": "ltx-2-community",
+    "tier": "free",
+    "weight": "large",
+    "format": "safetensors",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Lightricks/LTX-2.5/resolve/ce298b1259d61ce6c87e05154b9ad339b16f32a0/diffusion_models/ltx-2.5-22b-distilled-transformer-comfy-int8-convrot.safetensors",
+    "sourcePageUrl": "https://huggingface.co/Lightricks/LTX-2.5/tree/ce298b1259d61ce6c87e05154b9ad339b16f32a0",
+    "installStatus": "available",
+    "hfModelId": "Lightricks/LTX-2.5",
+    "hfRevision": "ce298b1259d61ce6c87e05154b9ad339b16f32a0",
+    "hfCreatedAt": "2026-07-23T07:55:24.000Z",
+    "hfReleasedAt": "2026-08-12T14:20:43.000Z",
+    "hfLastModified": "2026-08-12T14:20:43.000Z",
+    "cdnAddedAt": "2026-08-13T08:22:23+09:00",
+    "sha256": "c4279eeff115cbeaca494bd2183e7d768c38fe85a184dc6afbb7159157c44334",
+    "supportedPlatforms": [
+      "windows",
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "nvidia-or-apple-silicon",
+    "architecture": "ltxv-2.5",
+    "backend": "comfyui",
+    "gated": true,
+    "mode": "t2v",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 320,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 704,
+        "height": 480
+      },
+      {
+        "width": 480,
+        "height": 704
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 25,
+    "maxFrames": 121,
+    "defaultFps": 25,
+    "supportsNegativePrompt": false,
+    "textEncoderUrl": "https://huggingface.co/Lightricks/LTX-2.5/resolve/ce298b1259d61ce6c87e05154b9ad339b16f32a0/text_encoders/gemma4-12b-with-proj-ltx-2.5-comfy-int8-convrot.safetensors",
+    "textEncoderSha256": "09a89e084de1a149c3de60cfe9dfd3e5161967eb09eea39e806fcdeffdd568de",
+    "vaeUrl": "https://huggingface.co/Lightricks/LTX-2.5/resolve/ce298b1259d61ce6c87e05154b9ad339b16f32a0/vae/ltx-2.5-video-vae-conv-bf16.safetensors",
+    "vaeSha256": "685b06ee3d9b2039647698fc4ea33175112462fc374e2777312c907897dfce8d",
+    "audioVaeUrl": "https://huggingface.co/Lightricks/LTX-2.5/resolve/ce298b1259d61ce6c87e05154b9ad339b16f32a0/vae/ltx-2.5-audio-vae-bf16.safetensors",
+    "audioVaeSha256": "c52733d37f6a7fb7949c3dc0fb468c6cb2169e4d836983a73babb9f0d54837a5",
+    "defaultQuantLevel": "INT8 ConvRot"
+  },
+  {
+    "id": "pocketai-ltx-2.5-distilled-mlx-q8",
+    "name": "LTX-2.5 Distilled MLX Q8",
+    "category": "video",
+    "provider": "PocketAI / Lightricks",
+    "summary": "PocketAI's native Q8 MLX release of the distilled LTX-2.5 audio-video pipeline for Apple Silicon. Uses the official 8+3-step two-stage path with synchronized audio and targets Macs with at least 32 GB of unified memory.",
+    "sizeBytes": 29752598088,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 32000000000,
+    "license": "LTX-2 Community License Agreement",
+    "licenseId": "ltx-2-community",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/a449d465ab1bafb1da1dc85419d5c2f93de717d6?allow=ACCEPTABLE-USE-POLICY.pdf&allow=LICENSE-LTX-2.5.md&allow=MODIFICATIONS.md&allow=README.md&allow=audio_config.json&allow=audio_vae.safetensors&allow=config.json&allow=connector.safetensors&allow=embedded_config.json&allow=pocketai-model-manifest.json&allow=spatial_upscaler_x2_v1_0.safetensors&allow=spatial_upscaler_x2_v1_0_config.json&allow=transformer.safetensors&allow=vae_decoder.safetensors&allow=vae_encoder.safetensors&allow=video_vae_config.json&allow=vocoder.safetensors",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/a449d465ab1bafb1da1dc85419d5c2f93de717d6",
+    "installStatus": "available",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-LTX-2.5",
+    "hfRevision": "a449d465ab1bafb1da1dc85419d5c2f93de717d6",
+    "cdnAddedAt": "2026-08-14T09:00:44+09:00",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "ltxv-2.5",
+    "backend": "mlx",
+    "gated": true,
+    "mode": "t2v",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 320,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 704,
+        "height": 480
+      },
+      {
+        "width": 480,
+        "height": 704
+      },
+      {
+        "width": 768,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 25,
+    "maxFrames": 121,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "llmUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/a449d465ab1bafb1da1dc85419d5c2f93de717d6/gemma4-text-encoder",
+    "llmSha256": "",
+    "defaultQuantLevel": "8-bit"
+  },
+  {
+    "id": "pocketai-ltx-2.5-distilled-mlx-q4",
+    "showInRecommended": false,
+    "name": "LTX-2.5 Distilled MLX Q4",
+    "category": "video",
+    "provider": "PocketAI / Lightricks",
+    "summary": "PocketAI's compact native Q4 MLX release of the distilled LTX-2.5 audio-video pipeline for Apple Silicon. It remains coherent with greater composition drift than Q8 and targets Macs with at least 24 GB of unified memory.",
+    "sizeBytes": 20477411659,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "LTX-2 Community License Agreement",
+    "licenseId": "ltx-2-community",
+    "tier": "free",
+    "weight": "large",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/98bc18e5ba36adcc4d83d7604eb1613276815382?allow=ACCEPTABLE-USE-POLICY.pdf&allow=LICENSE-LTX-2.5.md&allow=MODIFICATIONS.md&allow=README.md&allow=audio_config.json&allow=audio_vae.safetensors&allow=config.json&allow=connector.safetensors&allow=embedded_config.json&allow=pocketai-model-manifest.json&allow=spatial_upscaler_x2_v1_0.safetensors&allow=spatial_upscaler_x2_v1_0_config.json&allow=transformer.safetensors&allow=vae_decoder.safetensors&allow=vae_encoder.safetensors&allow=video_vae_config.json&allow=vocoder.safetensors",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/98bc18e5ba36adcc4d83d7604eb1613276815382",
+    "installStatus": "available",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-LTX-2.5",
+    "hfRevision": "98bc18e5ba36adcc4d83d7604eb1613276815382",
+    "cdnAddedAt": "2026-08-14T09:00:44+09:00",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "ltxv-2.5",
+    "backend": "mlx",
+    "gated": true,
+    "mode": "t2v",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 320,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 704,
+        "height": 480
+      },
+      {
+        "width": 480,
+        "height": 704
+      },
+      {
+        "width": 768,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 25,
+    "maxFrames": 121,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "llmUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/98bc18e5ba36adcc4d83d7604eb1613276815382/gemma4-text-encoder",
+    "llmSha256": "",
+    "defaultQuantLevel": "4-bit"
+  },
+  {
+    "id": "pocketai-ltx-2.5-distilled-mlx-bf16",
+    "showInRecommended": false,
+    "name": "LTX-2.5 Distilled MLX BF16",
+    "category": "video",
+    "provider": "PocketAI / Lightricks",
+    "summary": "PocketAI's native unquantized BF16 MLX reference for the distilled LTX-2.5 audio-video pipeline on high-memory Apple Silicon. It targets at least 64 GB of unified memory, with 96 GB recommended.",
+    "sizeBytes": 47143115060,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 64000000000,
+    "license": "LTX-2 Community License Agreement",
+    "licenseId": "ltx-2-community",
+    "tier": "free",
+    "weight": "massive",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/17a00a2fabcbef1ba71c2e43e98d07e227119456?allow=ACCEPTABLE-USE-POLICY.pdf&allow=LICENSE-LTX-2.5.md&allow=MODIFICATIONS.md&allow=README.md&allow=audio_config.json&allow=audio_vae.safetensors&allow=config.json&allow=connector.safetensors&allow=embedded_config.json&allow=pocketai-model-manifest.json&allow=spatial_upscaler_x2_v1_0.safetensors&allow=spatial_upscaler_x2_v1_0_config.json&allow=transformer.safetensors&allow=vae_decoder.safetensors&allow=vae_encoder.safetensors&allow=video_vae_config.json&allow=vocoder.safetensors",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/17a00a2fabcbef1ba71c2e43e98d07e227119456",
+    "installStatus": "available",
+    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-LTX-2.5",
+    "hfRevision": "17a00a2fabcbef1ba71c2e43e98d07e227119456",
+    "cdnAddedAt": "2026-08-14T09:00:44+09:00",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "ltxv-2.5",
+    "backend": "mlx",
+    "gated": true,
+    "mode": "t2v",
+    "defaultSteps": 8,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 320,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 704,
+        "height": 480
+      },
+      {
+        "width": 480,
+        "height": 704
+      },
+      {
+        "width": 768,
+        "height": 512
+      },
+      {
+        "width": 512,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 25,
+    "maxFrames": 121,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "llmUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.5/tree/17a00a2fabcbef1ba71c2e43e98d07e227119456/gemma4-text-encoder",
+    "llmSha256": "",
+    "defaultQuantLevel": "BF16"
+  },
+  {
     "id": "pocketai-ltx-2.3-distilled-mlx-q4",
     "name": "LTX-2.3 Distilled",
     "category": "video",
