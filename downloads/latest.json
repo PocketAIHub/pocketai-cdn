@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-12T06:58:19Z",
+  "updatedAt": "2026-08-14T01:14:44Z",
   "downloads": {
     "android": {
       "version": "1.2.22",
@@ -30,17 +30,17 @@
       }
     },
     "macos": {
-      "version": "1.0.31",
+      "version": "1.0.36",
       "platform": "darwin-aarch64",
-      "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.31_aarch64.dmg?v=1.0.31-signed-20260714T094220Z",
-      "size": 99400468,
-      "sha256": "73ebf34ca6b590377c6505e82528371ccdd36f1e313dc05b1adc19577ed3628a",
+      "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/macos-direct-v1.0.36/PocketAI_1.0.36_aarch64.dmg",
+      "size": 249619670,
+      "sha256": "cb694a5f4520160ef1a095e847ec6ca23381d336124193b2fc67f80dfbfdfdf8",
       "updater": {
-        "url": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.31_aarch64.app.tar.gz?v=1.0.31-signed-20260714T094220Z",
-        "size": 102731126,
-        "sha256": "2fd5d7ed7dfb2949ff46a68e0c25a895ce32899b97c91967a573e79bb4be0ffc",
-        "signature": "ZFc1MGNuVnpkR1ZrSUdOdmJXMWxiblE2SUhOcFoyNWhkSFZ5WlNCbWNtOXRJSFJoZFhKcElITmxZM0psZENCclpYa0tVbFZVVEZoWlMzSk5WM00yUVZveWFXUnpjVlk1ZWxCdFJESllkVEZEWnpZNFZqTmxWMHgwYUhoUVFVZFhabFpETmxBMlVqZG1OVGhRZG5KRVowVTROMHRYZFVGbWJIZFROa3RPWkhWMldqWm9UMXA2VEVsNk9EUmxNazFCY0U1Q0wxRjNQUXAwY25WemRHVmtJR052YlcxbGJuUTZJSFJwYldWemRHRnRjRG94TnpnME1ESXlNRGd6Q1dacGJHVTZVRzlqYTJWMFFVa3VZWEJ3TG5SaGNpNW5lZ28wTlZwaFRVcDVlV1ZrWnpVdldqUkJkMloyZDBOTmJGTjBVV2hFTXpscU1sWkhjamRKYURSeloyNWtTR2xTV1dObmFVcEpkRU5OUW5Kc1dHTlZUWEZDUm1kNGEwTkxlRnBYTjFkR01HTk9heklyUjFsRFVUMDlDZz09",
-        "signatureUrl": "https://cdn.pocketaihub.com/downloads/PocketAI_1.0.31_aarch64.app.tar.gz.sig?v=1.0.31-signed-20260714T094220Z"
+        "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/macos-direct-v1.0.36/PocketAI.app.tar.gz",
+        "size": 250940142,
+        "sha256": "dd8c6f55735a77acfe792f4adeae91b2477529f0cd7f1e03dc5a7185459cb85c",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QWIwdmdIUDd5eGFWb282RE9mTUF1bVZ1QlBFNTNaRFJBbTRJVGdoVlFWOU9McURkWHZ2N2FhQVRJUGdFdU1jS29ZajgyQkZvOVFsV2lkMUd3dnZLcUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjY5NjE3CWZpbGU6UG9ja2V0QUkuYXBwLnRhci5negpENmNLbU5SYkFkYWV4Qkt4dXZDRHJoS2hEWTJEVmNwMWZRQ1JkL1ljT1Bjb3lCL21oK2djSnQ1dDR0Y0Q1NWZmYTFYemcxVk9vZVRoYlVZUW90Wk1EUT09Cg==",
+        "signatureUrl": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/macos-direct-v1.0.36/PocketAI.app.tar.gz.sig"
       }
     },
     "windows": {
