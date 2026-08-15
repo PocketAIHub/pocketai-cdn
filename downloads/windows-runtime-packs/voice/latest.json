@@ -1,12 +1,12 @@
 {
     "schemaVersion":  1,
     "packId":  "voice",
-    "version":  "1.0.34",
+    "version":  "1.0.35",
     "target":  "x86_64-pc-windows-msvc",
     "archive":  {
-                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.34/pocketai-voice-windows-x64-1.0.34.zip",
+                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.35/pocketai-voice-windows-x64-1.0.35.zip",
                     "size":  18181066,
-                    "sha256":  "79cf629d16e43846fb2304eae55380717b025cd4ff64cb67332a7716bb484f35"
+                    "sha256":  "d10d5178910b80a80d6d70f23dee6221e01aa963a89dc55ca24bd17540c366f1"
                 },
     "files":  [
                   {

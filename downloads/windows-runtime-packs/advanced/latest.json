@@ -1,12 +1,12 @@
 {
     "schemaVersion":  1,
     "packId":  "advanced",
-    "version":  "1.0.34",
+    "version":  "1.0.35",
     "target":  "x86_64-pc-windows-msvc",
     "archive":  {
-                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.34/pocketai-advanced-windows-x64-1.0.34.zip",
-                    "size":  32332073,
-                    "sha256":  "64a0c7d781acf74546d81b9f63765ad76956191f682e7958d79e169442856808"
+                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.35/pocketai-advanced-windows-x64-1.0.35.zip",
+                    "size":  35926636,
+                    "sha256":  "de6a11d609a40f034b9f5e89de61709a839b1adf171f0a1c93b451a8a49d7eca"
                 },
     "files":  [
                   {
@@ -16,8 +16,8 @@
                   },
                   {
                       "path":  "bin/rpc-server.exe",
-                      "size":  49952768,
-                      "sha256":  "ad6cff087000a75890625be130c638c646fbda6d015bfe5ba3d6846d2d6eba9a"
+                      "size":  63281152,
+                      "sha256":  "48d395f0ce2538b318e1d35ef63b8bc5d715828256c2802b0d72e3cbf1863596"
                   }
               ]
 }

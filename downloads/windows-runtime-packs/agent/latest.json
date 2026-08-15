@@ -1,12 +1,12 @@
 {
     "schemaVersion":  1,
     "packId":  "agent",
-    "version":  "1.0.34",
+    "version":  "1.0.35",
     "target":  "x86_64-pc-windows-msvc",
     "archive":  {
-                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.34/pocketai-agent-windows-x64-1.0.34.zip",
-                    "size":  37121105,
-                    "sha256":  "bbecb91f426908b67b2c5edc569bf034c3a15e558ba7a3aae7e36258eaaa6dc6"
+                    "url":  "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-runtime-packs-v1.0.35/pocketai-agent-windows-x64-1.0.35.zip",
+                    "size":  37130598,
+                    "sha256":  "9c9ab8efc8cde56106dcb3110f5db42f31fea52f5ed43f52fdc98789031bf934"
                 },
     "files":  [
                   {
@@ -546,13 +546,13 @@
                   },
                   {
                       "path":  "node-agent-bridges/scripts/bridge-job-store.mjs",
-                      "size":  6313,
-                      "sha256":  "6c956cfadb212d62d7d2625d89f989a8176a91ea8db8794126ebac10a14c0aaf"
+                      "size":  8460,
+                      "sha256":  "67f5887798a48a9cbd70f3d13b674016ca4717edad2a46b3811ea27fb729c161"
                   },
                   {
                       "path":  "node-agent-bridges/scripts/bridge-tool-shim.mjs",
-                      "size":  4325,
-                      "sha256":  "4394247bb435163aa659561cef885f67a9dd6f4d28e8d9005dae45e61844f3b8"
+                      "size":  4625,
+                      "sha256":  "ae12f4262918b2a4df16d3248261e68fa689f98997198d6845e9b5e41a232ba5"
                   },
                   {
                       "path":  "node-agent-bridges/scripts/claude-openai-bridge.mjs",
@@ -586,13 +586,13 @@
                   },
                   {
                       "path":  "node-agent-bridges/scripts/omp-openai-bridge.mjs",
-                      "size":  784,
-                      "sha256":  "b3709355ff569dfce8ca96c61ae0f344b241f754c82fa7402dc286797733f003"
+                      "size":  1263,
+                      "sha256":  "32a0f6b137ebc7519294f9ae76d1d9ac9d5cb69f9bc430327123bf8cb6b16ef2"
                   },
                   {
                       "path":  "node-agent-bridges/scripts/omp-rpc-openai-bridge.mjs",
-                      "size":  51459,
-                      "sha256":  "fdebdf92e6b1b3ae429b01580e5bb78e5256549ca23084b6cfbb897a62034dad"
+                      "size":  53520,
+                      "sha256":  "e4c5c93d0fbf53e55c84316e18d52cfe6700d3b7d0e6179f205cc1e5141f7a0d"
                   },
                   {
                       "path":  "node-agent-bridges/scripts/opencode-api-openai-bridge.mjs",
@@ -620,9 +620,19 @@
                       "sha256":  "03d350a61f7123fe8808f61eaa91c838bd7d8f8194edc6eb2f806963f805c00e"
                   },
                   {
+                      "path":  "node-agent-bridges/scripts/pocketai-hermes-mcp.mjs",
+                      "size":  521,
+                      "sha256":  "414b9ead690070f7c0008fb18ec68dc2c59566e3e63409fe8dde8540d9b45df0"
+                  },
+                  {
+                      "path":  "node-agent-bridges/scripts/pocketai-mcp.mjs",
+                      "size":  30786,
+                      "sha256":  "5b3fd3f415aa27c54f97f860b6bf63b879f7bae4b414de31b1c8502097443c15"
+                  },
+                  {
                       "path":  "node-agent-bridges/scripts/pocketai-mcp-tool.mjs",
-                      "size":  17867,
-                      "sha256":  "b3d810f3632016c00a226133f0b131d24156880049f16f7f0be42f2f34a78501"
+                      "size":  20531,
+                      "sha256":  "ae24ee52351c83001b0adad0bd7b2214d42334dadaa1894623f6e36dfad2eaa9"
                   },
                   {
                       "path":  "node-agent-bridges/scripts/pocketai-secure-workspace-guest.py",
