@@ -319,5 +319,129 @@
     ],
     "tier": "free",
     "weight": "large"
+  },
+  {
+    "id": "minimax-music3",
+    "name": "MiniMax-Music3",
+    "category": "audio",
+    "kind": "music",
+    "provider": "MiniMaxAI",
+    "summary": "Local CUDA generation of full songs with separate musical direction and lyrics, using the official ComfyUI backend and an INT8 repack. Supports stereo songs up to five minutes; 12 GB NVIDIA VRAM and 48 GB system RAM are recommended.",
+    "backend": "minimax-music3-comfyui",
+    "hfRepoId": "Comfy-Org/MiniMax-Music-3",
+    "revision": "6444666eb6edfb2c7fcab5f8b81da8b84b4b17b6",
+    "runtimeRevision": "efd4e951a00e85bd92e79f1d685427912b0dad5e",
+    "sourcePageUrl": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+    "runtimeSourceUrl": "https://github.com/Comfy-Org/ComfyUI/commit/efd4e951a00e85bd92e79f1d685427912b0dad5e",
+    "artifacts": [
+      {
+        "path": "diffusion_models/minimax_music3_dit_int8_convrot.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-Music-3/resolve/6444666eb6edfb2c7fcab5f8b81da8b84b4b17b6/diffusion_models/minimax_music3_dit_int8_convrot.safetensors",
+        "sizeBytes": 2502161682,
+        "sha256": "d6b959633e69899f99f3a92d6741c0fe79f26958a30811e50e372ef978b24d5f"
+      },
+      {
+        "path": "text_encoders/minimax_music3_text_encoder_pruned_int8_convrot.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-Music-3/resolve/6444666eb6edfb2c7fcab5f8b81da8b84b4b17b6/text_encoders/minimax_music3_text_encoder_pruned_int8_convrot.safetensors",
+        "sizeBytes": 9196611886,
+        "sha256": "010b7416d2336a08c711bc22ee65849c9623069ddb7d89bec011a75699e52014"
+      },
+      {
+        "path": "vae/minimax_music3_dav.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-Music-3/resolve/6444666eb6edfb2c7fcab5f8b81da8b84b4b17b6/vae/minimax_music3_dav.safetensors",
+        "sizeBytes": 216696128,
+        "sha256": "2a32155b769be01445fcc2a8663b910fc9e1751e18dc1c3ec528064512d9ef0c"
+      }
+    ],
+    "sizeBytes": 11915469696,
+    "runtimeSizeBytes": 8000000000,
+    "ramRequirementBytes": 48000000000,
+    "vramRequirementBytes": 12000000000,
+    "supportedPlatforms": [
+      "windows"
+    ],
+    "installStatus": "available",
+    "license": "MiniMax-Music3 Community License Agreement",
+    "licenseUrl": "https://huggingface.co/MiniMaxAI/MiniMax-Music3/blob/bd348f9c49ea3c1b39f33ace3436f8fad435f24e/LICENSE",
+    "licenseIds": [
+      "minimax-music3-community"
+    ],
+    "gated": false,
+    "requiresHfToken": false,
+    "sampleRate": 44100,
+    "channels": 2,
+    "minDurationSeconds": 10,
+    "maxDurationSeconds": 300,
+    "defaultDurationSeconds": 60,
+    "defaultSteps": 30,
+    "capabilities": [
+      "text-to-audio",
+      "lyrics",
+      "vocals"
+    ],
+    "tier": "free",
+    "weight": "massive"
+  },
+  {
+    "id": "minimax-music3-mlx",
+    "name": "MiniMax-Music3 MLX",
+    "category": "audio",
+    "kind": "music",
+    "provider": "MiniMaxAI",
+    "summary": "Experimental native Apple Silicon MLX generation of full songs with separate musical direction and lyrics. Reuses the pinned MiniMax-Music3 INT8 artifact set without CUDA or ComfyUI; 32 GB unified memory is the minimum target and 48 GB is recommended.",
+    "backend": "minimax-music3-mlx",
+    "hfRepoId": "Comfy-Org/MiniMax-Music-3",
+    "revision": "6444666eb6edfb2c7fcab5f8b81da8b84b4b17b6",
+    "runtimeRevision": "pocketai-minimax-music3-mlx-v1",
+    "sourcePageUrl": "https://huggingface.co/MiniMaxAI/MiniMax-Music3",
+    "runtimeSourceUrl": "https://github.com/Comfy-Org/ComfyUI/commit/efd4e951a00e85bd92e79f1d685427912b0dad5e",
+    "artifacts": [
+      {
+        "path": "diffusion_models/minimax_music3_dit_int8_convrot.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-Music-3/resolve/6444666eb6edfb2c7fcab5f8b81da8b84b4b17b6/diffusion_models/minimax_music3_dit_int8_convrot.safetensors",
+        "sizeBytes": 2502161682,
+        "sha256": "d6b959633e69899f99f3a92d6741c0fe79f26958a30811e50e372ef978b24d5f"
+      },
+      {
+        "path": "text_encoders/minimax_music3_text_encoder_pruned_int8_convrot.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-Music-3/resolve/6444666eb6edfb2c7fcab5f8b81da8b84b4b17b6/text_encoders/minimax_music3_text_encoder_pruned_int8_convrot.safetensors",
+        "sizeBytes": 9196611886,
+        "sha256": "010b7416d2336a08c711bc22ee65849c9623069ddb7d89bec011a75699e52014"
+      },
+      {
+        "path": "vae/minimax_music3_dav.safetensors",
+        "url": "https://huggingface.co/Comfy-Org/MiniMax-Music-3/resolve/6444666eb6edfb2c7fcab5f8b81da8b84b4b17b6/vae/minimax_music3_dav.safetensors",
+        "sizeBytes": 216696128,
+        "sha256": "2a32155b769be01445fcc2a8663b910fc9e1751e18dc1c3ec528064512d9ef0c"
+      }
+    ],
+    "sizeBytes": 11915469696,
+    "runtimeSizeBytes": 1000000000,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 0,
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "installStatus": "experimental",
+    "license": "MiniMax-Music3 Community License Agreement",
+    "licenseUrl": "https://huggingface.co/MiniMaxAI/MiniMax-Music3/blob/bd348f9c49ea3c1b39f33ace3436f8fad435f24e/LICENSE",
+    "licenseIds": [
+      "minimax-music3-community"
+    ],
+    "gated": false,
+    "requiresHfToken": false,
+    "sampleRate": 44100,
+    "channels": 2,
+    "minDurationSeconds": 10,
+    "maxDurationSeconds": 300,
+    "defaultDurationSeconds": 30,
+    "defaultSteps": 30,
+    "capabilities": [
+      "text-to-audio",
+      "lyrics",
+      "vocals"
+    ],
+    "tier": "free",
+    "weight": "massive"
   }
 ]
