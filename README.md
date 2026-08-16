@@ -2,6 +2,13 @@
 
 Static CDN serving model catalogs for PocketAI apps. Hosted via GitHub Pages at `cdn.pocketaihub.com`.
 
+## CDN vs GitHub Releases
+
+The CDN remains the live source of model catalogs and catalog version metadata.
+GitHub Releases hosts large PocketAI app and runtime binaries, while model weights
+continue to download from their pinned upstream repositories (primarily Hugging
+Face). Moving binary releases to GitHub did not replace the catalog CDN.
+
 ## Base URL
 
 ```

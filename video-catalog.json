@@ -1138,7 +1138,7 @@
     "category": "video",
     "provider": "PocketAI / Lightricks",
     "summary": "PocketAI's native 4-bit MLX release of the distilled LTX-2.3 audio-video pipeline for Apple Silicon. Uses the fast 8+3-step two-stage path with synchronized audio; 16 GB works in low-memory mode and 24 GB is recommended.",
-    "sizeBytes": 20480206597,
+    "sizeBytes": 20479331014,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 16000000000,
     "license": "LTX-2 Community License",
@@ -1147,10 +1147,10 @@
     "weight": "large",
     "format": "snapshot",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/88aa7d035aab2dd17ac0172effee435bef6b6745",
-    "sourcePageUrl": "https://huggingface.co/PocketAiHub/PocketAI-Video-MLX-LTX-2.3/tree/88aa7d035aab2dd17ac0172effee435bef6b6745",
-    "hfModelId": "PocketAiHub/PocketAI-Video-MLX-LTX-2.3",
-    "hfRevision": "88aa7d035aab2dd17ac0172effee435bef6b6745",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/LTX-2.3-Distilled-MLX/tree/059688fa5a7dcb4c261053b47ce86896df297ea0",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/LTX-2.3-Distilled-MLX/tree/059688fa5a7dcb4c261053b47ce86896df297ea0",
+    "hfModelId": "PocketAiHub/LTX-2.3-Distilled-MLX",
+    "hfRevision": "059688fa5a7dcb4c261053b47ce86896df297ea0",
     "sha256": "",
     "supportedPlatforms": [
       "macos"
@@ -1193,7 +1193,7 @@
     "defaultQuantLevel": "4-bit",
     "hfCreatedAt": "2026-07-26T01:21:53.000Z",
     "hfReleasedAt": "2026-07-26T01:21:53.000Z",
-    "hfLastModified": "2026-07-31T06:37:55.000Z",
+    "hfLastModified": "2026-08-15T00:44:54.000Z",
     "cdnAddedAt": "2026-07-26T10:33:10+09:00"
   },
   {
@@ -1560,6 +1560,66 @@
     "hfReleasedAt": "2026-07-27T00:54:35.000Z",
     "hfLastModified": "2026-07-27T09:09:31.000Z",
     "cdnAddedAt": "2026-07-27T11:18:55+09:00"
+  },
+  {
+    "id": "pocketai-hunyuanvideo-1.5-distilled-mlx-q8",
+    "showInRecommended": false,
+    "name": "HunyuanVideo 1.5 Distilled Q8",
+    "category": "video",
+    "provider": "PocketAI / Tencent Hunyuan",
+    "summary": "PocketAI's consolidated Q8 MLX release of HunyuanVideo 1.5 Distilled for Apple Silicon. Includes the Q8 transformer, Qwen text tower, and BF16 VAE. Territory excludes the EU, UK, and South Korea. Listed for discovery until PocketAI's native Hunyuan MLX runner ships.",
+    "sizeBytes": 21081751448,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 32000000000,
+    "license": "Tencent Hunyuan Community License Agreement",
+    "licenseId": "tencent-hunyuan-community",
+    "tier": "free",
+    "weight": "large",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/HunyuanVideo-1.5-Distilled-MLX/tree/da2c8f91270ef7f5d30da5a47bfd544ca27526a0",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/HunyuanVideo-1.5-Distilled-MLX/tree/da2c8f91270ef7f5d30da5a47bfd544ca27526a0",
+    "installStatus": "discovery-only",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "hunyuanvideo-1.5",
+    "backend": "mlx",
+    "mode": "t2v",
+    "defaultSteps": 50,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 320
+      },
+      {
+        "width": 640,
+        "height": 384
+      },
+      {
+        "width": 832,
+        "height": 480
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 320
+    },
+    "defaultFrames": 81,
+    "maxFrames": 81,
+    "defaultFps": 16,
+    "supportsNegativePrompt": false,
+    "gated": true,
+    "defaultQuantLevel": "Q8",
+    "hfModelId": "PocketAiHub/HunyuanVideo-1.5-Distilled-MLX",
+    "hfRevision": "da2c8f91270ef7f5d30da5a47bfd544ca27526a0",
+    "hfCreatedAt": "2026-07-25T23:45:17.000Z",
+    "hfReleasedAt": "2026-07-25T23:45:17.000Z",
+    "hfLastModified": "2026-08-15T00:45:21.000Z",
+    "cdnAddedAt": "2026-08-16T00:00:00+09:00"
   },
   {
     "id": "pocketai-hunyuanvideo-1.5-mlx-bf16",
