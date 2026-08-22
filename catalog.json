@@ -9450,5 +9450,69 @@
     "hfLastModified": "2026-08-06T17:10:07.000Z",
     "cdnAddedAt": "2026-08-07T10:42:35+09:00",
     "releaseDate": "2026-08-05"
+  },
+  {
+    "id": "ornith-1.5-35b-a3b-abliterated",
+    "name": "Ornith 1.5 35B-A3B Abliterated",
+    "category": "language",
+    "provider": "PocketAI / Ornith AI",
+    "summary": "PocketAI's unofficial abliterated Ornith 1.5 MoE release with reduced refusal behavior, vision support, and 262K context. Q4_K_M is the tested and recommended local default; Q8_0 and full BF16 are available for higher-fidelity, high-memory setups.",
+    "sizeBytes": 21166757664,
+    "ramRequirementBytes": 39500000000,
+    "vramRequirementBytes": 24500000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF/resolve/6b3174d42b21f80ce67e28ee1d80dd9dbc64d4c3/Ornith-1.5-35B-A3B-Abliterated-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF/tree/6b3174d42b21f80ce67e28ee1d80dd9dbc64d4c3",
+    "sha256": "a07f299e83a398b5078c1cb8ab4ec96333c8ea9d10d0cb479cb073056fedd3d0",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF/resolve/6b3174d42b21f80ce67e28ee1d80dd9dbc64d4c3/mmproj-Ornith-1.5-35B-A3B-Abliterated-F16.gguf",
+    "mmprojSha256": "f7cfbb1e0f99fddf06ec9944129e0cbe12f10be71f5514e0741f3b9afee1193b",
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 36903139104,
+        "ramRequirementBytes": 66500000000,
+        "vramRequirementBytes": 41500000000,
+        "downloadUrl": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF/resolve/6b3174d42b21f80ce67e28ee1d80dd9dbc64d4c3/Ornith-1.5-35B-A3B-Abliterated-Q8_0.gguf",
+        "sha256": "ae2677248756dc4f5168615cc445f23b579478e22f5b23065c4034e8c4cf16fc",
+        "weight": "heavy"
+      },
+      {
+        "quantLevel": "BF16",
+        "sizeBytes": 69376637024,
+        "ramRequirementBytes": 125000000000,
+        "vramRequirementBytes": 78000000000,
+        "downloadUrl": "https://huggingface.co/PocketAiHub/Ornith-1.5-35B-A3B-Abliterated-GGUF/resolve/6b3174d42b21f80ce67e28ee1d80dd9dbc64d4c3/Ornith-1.5-35B-A3B-Abliterated-BF16.gguf",
+        "sha256": "1a3539477bf1eb833355e358762f34445b3ad67eaf35e2d39295fa60f5cef625",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-08-21T09:48:01.000Z",
+    "hfReleasedAt": "2026-08-21T09:48:01.000Z",
+    "hfLastModified": "2026-08-21T10:51:54.000Z",
+    "cdnAddedAt": "2026-08-21T20:34:48+09:00",
+    "releaseDate": "2026-08-21"
   }
 ]
