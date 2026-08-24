@@ -9514,5 +9514,68 @@
     "hfLastModified": "2026-08-21T10:51:54.000Z",
     "cdnAddedAt": "2026-08-21T20:34:48+09:00",
     "releaseDate": "2026-08-21"
+  },
+  {
+    "id": "carnice-v3-27b",
+    "name": "Carnice V3 27B",
+    "category": "language",
+    "provider": "kai-os",
+    "summary": "Qwen3.8 27B fine-tune for Hermes-style agent and tool workflows with vision. The publisher reports mixed results in a small behavioral diagnostic and recommends independent evaluation before unattended or high-stakes use.",
+    "sizeBytes": 16810715136,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 20000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/kai-os/Carnice-V3-GGUF/resolve/c8ee44629e435e90450b7cda266588485db59301/Carnice-V3-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/kai-os/Carnice-V3-GGUF/tree/c8ee44629e435e90450b7cda266588485db59301",
+    "sha256": "74891d1613f1ba415190288cb4d14b777df0f96fc6b290e45d0c02b9dd9e0a29",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/kai-os/Carnice-V3-GGUF/resolve/c8ee44629e435e90450b7cda266588485db59301/mmproj-Carnice-V3-BF16.gguf",
+    "mmprojSha256": "730e5c89a51bc4f300cbe67de1a6ea99d0bd7b34532c0528b19978b44470afa2",
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M",
+      "Q6_K"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22431000576,
+        "ramRequirementBytes": 31000000000,
+        "vramRequirementBytes": 26000000000,
+        "downloadUrl": "https://huggingface.co/kai-os/Carnice-V3-GGUF/resolve/c8ee44629e435e90450b7cda266588485db59301/Carnice-V3-Q6_K.gguf",
+        "sha256": "56b17bc5d62923cbdc35c80e5367e1d75994e8753380f2fdda0b4c9bc172f640"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 29047085056,
+        "ramRequirementBytes": 39000000000,
+        "vramRequirementBytes": 33000000000,
+        "downloadUrl": "https://huggingface.co/kai-os/Carnice-V3-GGUF/resolve/c8ee44629e435e90450b7cda266588485db59301/Carnice-V3-Q8_0.gguf",
+        "sha256": "da81f77f58ba0c5df11cf2e3f9586dfdd4440308cf968ae2452f912c41cd6480",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-08-24T01:45:46.000Z",
+    "hfReleasedAt": "2026-08-24T01:45:46.000Z",
+    "hfLastModified": "2026-08-24T02:12:54.000Z",
+    "cdnAddedAt": "2026-08-24T12:37:00+09:00",
+    "releaseDate": "2026-08-24"
   }
 ]
