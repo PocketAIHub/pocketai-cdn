@@ -9577,5 +9577,169 @@
     "hfLastModified": "2026-08-24T02:12:54.000Z",
     "cdnAddedAt": "2026-08-24T12:37:00+09:00",
     "releaseDate": "2026-08-24"
+  },
+  {
+    "id": "qwen3.8-flash-next-125b-a6b",
+    "name": "Qwen3.8 Flash Next 125B-A6B",
+    "category": "language",
+    "provider": "Qwen / Community quants",
+    "summary": "Qwen's open-weight preview of the Qwen4 architecture: a multimodal 125B MoE with 6B active parameters, plus 51B of offload-friendly n-gram embeddings and a 4B MTP head. Strong at coding, long-horizon agents, office work, reasoning, and vision, with a native 262K context window. Local installation is pending PocketAI runtime and vision-projector admission.",
+    "sizeBytes": 111334654784,
+    "ramRequirementBytes": 140000000000,
+    "vramRequirementBytes": 125000000000,
+    "license": "Qwen Community License 1.0",
+    "tier": "free",
+    "weight": "massive",
+    "format": "gguf",
+    "source": "hugging-face",
+    "installStatus": "discovery-only",
+    "showInRecommended": false,
+    "downloadUrl": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00001-of-00004.gguf",
+    "sourcePageUrl": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/tree/8bdc666649440e9bdc97e16f3f75782c98478ff5",
+    "sha256": "4448186216b3af4cc558bbce2c3213f01608f8f8b2e5267a9767971dd3ec8082",
+    "downloadParts": [
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00001-of-00004.gguf",
+        "sha256": "4448186216b3af4cc558bbce2c3213f01608f8f8b2e5267a9767971dd3ec8082",
+        "sizeBytes": 10946624
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00002-of-00004.gguf",
+        "sha256": "3f342f1c1580473f1ee94ddd5b28206e8c07a70fa1a366f59d1d6c922919a6c9",
+        "sizeBytes": 49859583136
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00003-of-00004.gguf",
+        "sha256": "56758f40269cad5cd9b0d3d6fbae0f40f6d5be6de49e4ab392dbe83157d9cbd3",
+        "sizeBytes": 49376141504
+      },
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q4_K_XL/Qwen3.8-Flash-Next-UD-Q4_K_XL-00004-of-00004.gguf",
+        "sha256": "753bda48b98ba4f1636134a90a967de1b2d3908a236c026e464777342e53510a",
+        "sizeBytes": 12087983520
+      }
+    ],
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "contextLength": 262144,
+    "defaultQuantLevel": "UD-Q4_K_XL",
+    "recommendedQuantLevels": [
+      "UD-Q4_K_XL"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "UD-IQ1_M",
+        "sizeBytes": 74538755776,
+        "ramRequirementBytes": 96000000000,
+        "vramRequirementBytes": 84000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-IQ1_M/Qwen3.8-Flash-Next-UD-IQ1_M-00001-of-00003.gguf",
+        "sha256": "6584f289c808a486ac33aef20906774bcf6616785535c03b842072951e5112d2",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-IQ1_M/Qwen3.8-Flash-Next-UD-IQ1_M-00001-of-00003.gguf",
+            "sha256": "6584f289c808a486ac33aef20906774bcf6616785535c03b842072951e5112d2",
+            "sizeBytes": 10946624
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-IQ1_M/Qwen3.8-Flash-Next-UD-IQ1_M-00002-of-00003.gguf",
+            "sha256": "a7cbafba2cbc1ccde484ed05e1bbeaef4d67e0924ef51cc8b8de18e62edb5586",
+            "sizeBytes": 49988981792
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-IQ1_M/Qwen3.8-Flash-Next-UD-IQ1_M-00003-of-00003.gguf",
+            "sha256": "ae757ff9347651adacc7746f137d8c29b51f25cf6bb27cd49086ef45bd8cc203",
+            "sizeBytes": 24538827360
+          }
+        ],
+        "weight": "heavy"
+      },
+      {
+        "quantLevel": "UD-Q2_K_XL",
+        "sizeBytes": 78869128864,
+        "ramRequirementBytes": 102000000000,
+        "vramRequirementBytes": 89000000000,
+        "downloadUrl": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q2_K_XL/Qwen3.8-Flash-Next-UD-Q2_K_XL-00001-of-00003.gguf",
+        "sha256": "a4f3b21e77353999829f2f767e9ac21ce9c71d29a74f2cc9eda48c9bf23c8b86",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q2_K_XL/Qwen3.8-Flash-Next-UD-Q2_K_XL-00001-of-00003.gguf",
+            "sha256": "a4f3b21e77353999829f2f767e9ac21ce9c71d29a74f2cc9eda48c9bf23c8b86",
+            "sizeBytes": 10946624
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q2_K_XL/Qwen3.8-Flash-Next-UD-Q2_K_XL-00002-of-00003.gguf",
+            "sha256": "2e3bf1ee7d2a04e261e9f342a2d968f696cce5941d082b0e434deb9b1edc12c6",
+            "sizeBytes": 49979779296
+          },
+          {
+            "url": "https://huggingface.co/unsloth/Qwen3.8-Flash-Next-GGUF/resolve/8bdc666649440e9bdc97e16f3f75782c98478ff5/UD-Q2_K_XL/Qwen3.8-Flash-Next-UD-Q2_K_XL-00003-of-00003.gguf",
+            "sha256": "ec8c106759fdf4f463039c34c0707718d7d8908d53d892bd4f002e71620803f9",
+            "sizeBytes": 28878402944
+          }
+        ],
+        "weight": "heavy"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 192201208384,
+        "ramRequirementBytes": 235000000000,
+        "vramRequirementBytes": 216000000000,
+        "downloadUrl": "https://huggingface.co/Baekpica/Qwen3.8-Flash-Next-GGUF/resolve/7a79227133be225beda44c0e2b6efd6c1b009456/Q8_0/Qwen3.8-Flash-Next-Q8_0-00001-of-00007.gguf",
+        "sha256": "39e1364aca270ce882ec98509d9619d6c4c39feca1df3edcea93b3b780792fae",
+        "downloadParts": [
+          {
+            "url": "https://huggingface.co/Baekpica/Qwen3.8-Flash-Next-GGUF/resolve/7a79227133be225beda44c0e2b6efd6c1b009456/Q8_0/Qwen3.8-Flash-Next-Q8_0-00001-of-00007.gguf",
+            "sha256": "39e1364aca270ce882ec98509d9619d6c4c39feca1df3edcea93b3b780792fae",
+            "sizeBytes": 32022994240
+          },
+          {
+            "url": "https://huggingface.co/Baekpica/Qwen3.8-Flash-Next-GGUF/resolve/7a79227133be225beda44c0e2b6efd6c1b009456/Q8_0/Qwen3.8-Flash-Next-Q8_0-00002-of-00007.gguf",
+            "sha256": "22e3ce68d5c3305d39aa7755b1a41ff1292e41b530ca4486613d4a099d6015c1",
+            "sizeBytes": 32117767008
+          },
+          {
+            "url": "https://huggingface.co/Baekpica/Qwen3.8-Flash-Next-GGUF/resolve/7a79227133be225beda44c0e2b6efd6c1b009456/Q8_0/Qwen3.8-Flash-Next-Q8_0-00003-of-00007.gguf",
+            "sha256": "b36131a5a4b70d203905fb1a1ad0038706c9dd6802130595767f698a54ce8544",
+            "sizeBytes": 31428732512
+          },
+          {
+            "url": "https://huggingface.co/Baekpica/Qwen3.8-Flash-Next-GGUF/resolve/7a79227133be225beda44c0e2b6efd6c1b009456/Q8_0/Qwen3.8-Flash-Next-Q8_0-00004-of-00007.gguf",
+            "sha256": "3d6a3d589c51fe3f4867169f0734163edbbcff42c7e1a44389920c82599d5d0b",
+            "sizeBytes": 32207379584
+          },
+          {
+            "url": "https://huggingface.co/Baekpica/Qwen3.8-Flash-Next-GGUF/resolve/7a79227133be225beda44c0e2b6efd6c1b009456/Q8_0/Qwen3.8-Flash-Next-Q8_0-00005-of-00007.gguf",
+            "sha256": "98d12fddaea1f1219471e30a938e86107281392aba924d5b37044394d991dd72",
+            "sizeBytes": 31516690880
+          },
+          {
+            "url": "https://huggingface.co/Baekpica/Qwen3.8-Flash-Next-GGUF/resolve/7a79227133be225beda44c0e2b6efd6c1b009456/Q8_0/Qwen3.8-Flash-Next-Q8_0-00006-of-00007.gguf",
+            "sha256": "4ede7ff2eeb30bac875b2202b1918e63cc9013a89f8335f2af6f7c44e83c3570",
+            "sizeBytes": 31937932032
+          },
+          {
+            "url": "https://huggingface.co/Baekpica/Qwen3.8-Flash-Next-GGUF/resolve/7a79227133be225beda44c0e2b6efd6c1b009456/Q8_0/Qwen3.8-Flash-Next-Q8_0-00007-of-00007.gguf",
+            "sha256": "04d8819855666cb37775e0f5b70f4be9eabb05de4fc1ed9b16dcfc71eceefb2f",
+            "sizeBytes": 969712128
+          }
+        ],
+        "weight": "massive"
+      }
+    ],
+    "hfCreatedAt": "2026-08-26T12:29:32.000Z",
+    "hfReleasedAt": "2026-08-26T12:29:32.000Z",
+    "hfLastModified": "2026-08-26T15:54:43.000Z",
+    "cdnAddedAt": "2026-08-27T09:57:37+09:00",
+    "releaseDate": "2026-08-26"
   }
 ]
