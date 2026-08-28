@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-25T00:03:49Z",
+  "updatedAt": "2026-08-25T06:02:57Z",
   "downloads": {
     "android": {
       "version": "1.2.24",
@@ -44,17 +44,17 @@
       }
     },
     "windows": {
-      "version": "1.0.35",
+      "version": "1.0.39",
       "platform": "windows-x86_64",
-      "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-direct-v1.0.35/PocketAI_1.0.35_x64-setup.exe",
-      "size": 139335820,
-      "sha256": "55f87510ce2146264721a5ef6f02f2064a512f630582b288e7a425656d391bc4",
+      "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-direct-v1.0.39/PocketAI_1.0.39_x64-setup.exe",
+      "size": 207272536,
+      "sha256": "2d7985a7d9cd7aca9d4d09e5c2b12b2bea13a8a7c4a481241902694071f37042",
       "updater": {
-        "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-direct-v1.0.35/PocketAI_1.0.35_x64-setup.nsis.zip",
-        "size": 139335976,
-        "sha256": "e8941b4c56173c69637ae6f84341dd12191fb31e60d7cc884aab2783dca0f659",
-        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QVlXcyt1RnkyV0pxeTBFQlJ5dDVLNVFkdU03T1VLc294dGJ2SDhpcTE4SFQxdnNZTHlUSmFUZ3o1bFJUVVlnRFIrQXoxVHQ4TE5uMngxbUxlQm9SOHcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzQ5MjU4CWZpbGU6UG9ja2V0QUlfMS4wLjM1X3g2NC1zZXR1cC5uc2lzLnppcAp1WkpZQXRNU3F2c0xIQXV5UlRRQmVXcU1UL2ZPeVBkbm01VkxQUUdMYkRTbTZWWWNTYnpCUk1Bc0hVME1ESjFWOEZ4VXR1T0xsOVY2S0dxMVlnbzJCQT09Cg==",
-        "signatureUrl": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-direct-v1.0.35/PocketAI_1.0.35_x64-setup.nsis.zip.sig"
+        "url": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-direct-v1.0.39/PocketAI_1.0.39_x64-setup.nsis.zip",
+        "size": 207272692,
+        "sha256": "84d2fc86e9e394668f1e175f7cef9ad4d0dbfac5f90d83196b41fed3036c7e06",
+        "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUTFhZS3JNV3M2QWY3S1g1eHlzZ2dLTmsxbEJldzVpZUlZT3R6TjYyQ3NYOTdsZ3hzeDFVVFdDdm5BRlVsZFpOTWVodTJNekxvV1c5QVBuU0M1SzJZMDRkd09vZzV6ZHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg3NjI2NzY5CWZpbGU6UG9ja2V0QUlfMS4wLjM5X3g2NC1zZXR1cC5uc2lzLnppcApSMGs0eXY2OWJGeWJ3WnFTMFlqV09XUDNTbFM0WmY4VDhuMTNZZVFxb1JUWWMzZnl2L2pNZG92Z1N5UmhpdWtDMFpUMTUwMXRENHV0QjA4VHp5WTlBQT09Cg==",
+        "signatureUrl": "https://github.com/PocketAIHub/pocketai-cdn/releases/download/windows-direct-v1.0.39/PocketAI_1.0.39_x64-setup.nsis.zip.sig"
       }
     },
     "linux": {
