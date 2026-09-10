@@ -1969,6 +1969,69 @@
     "cdnAddedAt": "2026-07-18T19:06:00+09:00"
   },
   {
+    "id": "mlx-image-flux2-klein-4b-8bit",
+    "name": "FLUX.2 Klein 4B MLX 8-bit",
+    "category": "image",
+    "provider": "Black Forest Labs / MLX Community",
+    "summary": "Pre-quantized 8-bit MLX snapshot of the distilled FLUX.2 Klein 4B model for fast Apple Silicon generation. Includes the transformer, Qwen3 text encoder, tokenizer, and VAE in one pinned snapshot.",
+    "sizeBytes": 8569552566,
+    "ramRequirementBytes": 18000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/mlx-community/flux2-klein-4b-8bit/tree/9beac1a3ad296d9e5e3f8845674e6577fa8654ec",
+    "sourcePageUrl": "https://huggingface.co/mlx-community/flux2-klein-4b-8bit",
+    "sha256": "",
+    "hfModelId": "mlx-community/flux2-klein-4b-8bit",
+    "hfRevision": "9beac1a3ad296d9e5e3f8845674e6577fa8654ec",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "flux2-mlx",
+    "backend": "mflux",
+    "mlxPipeline": "flux2-klein",
+    "mlxModelConfig": "flux2-klein-4b",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 768,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "weight": "large",
+    "defaultQuantLevel": "8-bit",
+    "showInRecommended": true,
+    "hfCreatedAt": "2026-05-23T22:07:34.000Z",
+    "hfReleasedAt": "2026-05-23T22:07:34.000Z",
+    "hfLastModified": "2026-05-23T23:11:25.000Z",
+    "cdnAddedAt": "2026-09-06T08:20:00+09:00"
+  },
+  {
     "id": "flux2-klein-base-4b-mlx",
     "name": "FLUX.2 Klein Base 4B MLX",
     "category": "image",
@@ -2295,5 +2358,141 @@
     "hfReleasedAt": "2025-12-10T03:35:41.000Z",
     "hfLastModified": "2025-12-10T16:47:58.000Z",
     "cdnAddedAt": "2026-07-22T00:00:00+09:00"
+  },
+  {
+    "id": "ideogram-4-fp8",
+    "showInRecommended": false,
+    "name": "Ideogram 4 FP8",
+    "category": "image",
+    "provider": "Ideogram",
+    "summary": "Official gated Ideogram 4 FP8 snapshot for Apple Silicon. PocketAI can detect and run weights placed in its models folder, but never provides or downloads them. Accept Ideogram's non-commercial license on Hugging Face, then install the snapshot externally.",
+    "sizeBytes": 27538595206,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 32000000000,
+    "license": "Ideogram 4 Non-Commercial Model Agreement",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+    "installStatus": "external-only",
+    "sourcePageUrl": "https://huggingface.co/ideogram-ai/ideogram-4-fp8",
+    "licenseUrl": "https://ideogram.ai/legal/non-commercial-model-agreement/",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "ideogram4",
+    "defaultSteps": 20,
+    "defaultCfgScale": 0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "width": 2048,
+        "height": 2048
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "apple-silicon",
+    "backend": "mflux",
+    "mlxPipeline": "ideogram4",
+    "mlxModelConfig": "ideogram4-fp8",
+    "gated": true,
+    "defaultQuantLevel": "FP8",
+    "releaseDate": "2026-06-03T00:00:00.000Z",
+    "hfCreatedAt": "2026-05-30T23:40:55.000Z",
+    "hfReleasedAt": "2026-06-03T00:00:00.000Z",
+    "hfLastModified": "2026-06-03T18:34:44.000Z",
+    "cdnAddedAt": "2026-09-04T00:00:00+09:00"
+  },
+  {
+    "id": "ideogram-4-nf4",
+    "showInRecommended": false,
+    "name": "Ideogram 4 NF4",
+    "category": "image",
+    "provider": "Ideogram",
+    "summary": "Official gated Ideogram 4 NF4 snapshot for NVIDIA CUDA systems. PocketAI lists this model for discovery but does not provide or download its weights. Accept Ideogram's non-commercial license on Hugging Face to access it; local runtime and import support are not yet available.",
+    "sizeBytes": 16106756400,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 24000000000,
+    "license": "Ideogram 4 Non-Commercial Model Agreement",
+    "tier": "free",
+    "weight": "large",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/ideogram-ai/ideogram-4-nf4",
+    "installStatus": "external-only",
+    "sourcePageUrl": "https://huggingface.co/ideogram-ai/ideogram-4-nf4",
+    "licenseUrl": "https://ideogram.ai/legal/non-commercial-model-agreement/",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows",
+      "linux"
+    ],
+    "architecture": "ideogram4",
+    "defaultSteps": 20,
+    "defaultCfgScale": 0,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
+      {
+        "width": 1024,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 1024
+      },
+      {
+        "width": 2048,
+        "height": 2048
+      }
+    ],
+    "defaultResolution": {
+      "width": 1024,
+      "height": 1024
+    },
+    "supportsNegativePrompt": false,
+    "requiresGpuVendor": "nvidia",
+    "gated": true,
+    "defaultQuantLevel": "NF4",
+    "releaseDate": "2026-06-03T00:00:00.000Z",
+    "hfCreatedAt": "2026-05-30T02:06:53.000Z",
+    "hfReleasedAt": "2026-06-03T00:00:00.000Z",
+    "hfLastModified": "2026-06-04T18:59:26.000Z",
+    "cdnAddedAt": "2026-09-04T00:00:00+09:00"
   }
 ]

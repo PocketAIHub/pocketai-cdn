@@ -287,6 +287,34 @@
     "format": "snapshot"
   },
   {
+    "id": "pixal3d-metal",
+    "name": "Pixal3D Metal (Experimental)",
+    "category": "mesh",
+    "provider": "Tencent ARC Lab / community port",
+    "summary": "Experimental Apple Silicon port of Pixal3D for single-image generation of detailed, textured PBR GLBs. Uses the official Tencent weights with native MPS/Metal replacements and requires a high-memory Mac.",
+    "sizeBytes": 24044888779,
+    "ramRequirementBytes": 96000000000,
+    "vramRequirementBytes": 96000000000,
+    "license": "MIT",
+    "tier": "free",
+    "weight": "massive",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/TencentARC/Pixal3D/tree/b0cb2e1b794cab9aa0ac38a95d794a4d9337437f?allow=pipeline.json&allow=ckpts/*.json&allow=ckpts/ss_dec_conv3d_16l8_fp16.safetensors&allow=ckpts/ss_flow_img_dit_1_3B_64_bf16.safetensors&allow=ckpts/shape_dec_next_dc_f16c32_fp16.safetensors&allow=ckpts/slat_flow_img2shape_dit_1_3B_512_bf16.safetensors&allow=ckpts/slat_flow_img2shape_dit_1_3B_1024_bf16.safetensors&allow=ckpts/tex_dec_next_dc_f16c32_fp16.safetensors&allow=ckpts/slat_flow_imgshape2tex_dit_1_3B_1024_bf16.safetensors",
+    "sha256": "",
+    "releaseDate": "2026-05-11",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "pixal3d",
+    "inputModalities": [
+      "image"
+    ],
+    "maxInputImages": 1,
+    "gated": false,
+    "requiresGpuVendor": "apple-silicon",
+    "format": "snapshot"
+  },
+  {
     "id": "hyworld2",
     "name": "HY-World 2.0",
     "category": "mesh",

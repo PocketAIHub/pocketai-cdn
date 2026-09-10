@@ -1964,6 +1964,309 @@
     "releaseDate": "2026-08-03"
   },
   {
+    "id": "minimax-h3-fl2va-h3-metal",
+    "name": "MiniMax H3 h3-metal Native",
+    "category": "video",
+    "provider": "MiniMaxAI / antirez",
+    "summary": "Native Apple Silicon MiniMax H3 FL2VA through antirez/h3.c, with synchronized 32 kHz stereo audio, first/last-frame support, M5 Metal 4 TensorOps acceleration, and reusable DiT, text-conditioning, and video-VAE caches between renders. This installs the official BF16 FL2VA runtime subset (144.04 GB); h3-metal uses memory-optimized native paths while generating. Fast mode selects the validated 45-layer, reuse-2 preset and enables the optional M5 row-scaled INT8 FC2 path. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States.",
+    "sizeBytes": 144039538409,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 64000000000,
+    "license": "MiniMax H3 Community License Agreement",
+    "tier": "free",
+    "weight": "massive",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3/tree/42ed227ee7df40d41602854ae760620d6eb651fe?allow=FL2VA/text_encoder/**&allow=FL2VA/tokenizer/**&allow=FL2VA/transformer/**&allow=FL2VA/video_vae/source/**&allow=FL2VA/audio_vae/**",
+    "sourcePageUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3/tree/42ed227ee7df40d41602854ae760620d6eb651fe",
+    "installStatus": "available",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "minimax-h3",
+    "backend": "h3-metal",
+    "licenseId": "minimax-h3-community",
+    "geofencedCountries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "GB",
+      "KR",
+      "US"
+    ],
+    "mode": "t2v",
+    "defaultSteps": 20,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 608,
+        "height": 352
+      },
+      {
+        "width": 864,
+        "height": 480
+      },
+      {
+        "width": 960,
+        "height": 544
+      },
+      {
+        "width": 1344,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 768
+      },
+      {
+        "width": 768,
+        "height": 1344
+      }
+    ],
+    "defaultResolution": {
+      "width": 512,
+      "height": 512
+    },
+    "defaultFrames": 124,
+    "maxFrames": 362,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "defaultQuantLevel": "Native BF16/INT8",
+    "recommendationGroup": "minimax-h3-h3-metal",
+    "hfModelId": "MiniMaxAI/MiniMax-H3",
+    "hfRevision": "42ed227ee7df40d41602854ae760620d6eb651fe",
+    "hfLastModified": "2026-08-13T01:46:29.000Z",
+    "cdnAddedAt": "2026-09-06T13:45:00+09:00",
+    "releaseDate": "2026-08-11"
+  },
+  {
+    "id": "viggle-animate-minimax-h3",
+    "showInRecommended": false,
+    "name": "Viggle Animate",
+    "category": "video",
+    "provider": "Viggle / MiniMaxAI",
+    "summary": "Character replacement for an existing shot: a driving video supplies motion, camera, lighting, timing, and background, while one frame from that same clip—repainted with the replacement character—supplies the new performer. This is a prompt-free four-step MiniMax H3 Ref2VA workflow, not a character LoRA generator. PocketAI installs the released BF16 transformer, DMD LoRA, fixed embedding, and only the required H3 VAE/scheduler subset (about 79.94 GB total), then runs the upstream CUDA group-offload path. Windows requires an NVIDIA GPU; about 12 GB VRAM is resident with offload and 96 GB system RAM is recommended. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States.",
+    "sizeBytes": 68916280820,
+    "ramRequirementBytes": 96000000000,
+    "vramRequirementBytes": 12000000000,
+    "license": "MiniMax H3 Community License Agreement",
+    "tier": "free",
+    "weight": "massive",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Viggle/Viggle-Animate/tree/76282703c9e4c52797cdfbd368f699fe5a2a7a36?allow=transformer/**&allow=lora/**&allow=assets/fixed_embed_fwd_anyframe.pt&allow=assets/fixed_prompt.txt&allow=LICENSE&allow=LICENSE-CODE&allow=NOTICE&allow=MODIFICATIONS.md",
+    "sourcePageUrl": "https://huggingface.co/Viggle/Viggle-Animate/tree/76282703c9e4c52797cdfbd368f699fe5a2a7a36",
+    "installStatus": "available",
+    "sha256": "",
+    "supportedPlatforms": [
+      "windows"
+    ],
+    "experimentalPlatforms": [
+      "windows"
+    ],
+    "requiresGpuVendor": "nvidia",
+    "architecture": "minimax-h3",
+    "backend": "diffusers",
+    "licenseId": "minimax-h3-community",
+    "geofencedCountries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "GB",
+      "KR",
+      "US"
+    ],
+    "mode": "animate",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 768,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 124,
+    "maxFrames": 362,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "baseModelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3/tree/42ed227ee7df40d41602854ae760620d6eb651fe?allow=model_index.json&allow=modular_model_index.json&allow=vae/**&allow=audio_vae/**&allow=scheduler/**&allow=audio_scheduler/**&allow=LICENSE",
+    "defaultQuantLevel": "BF16 + DMD LoRA",
+    "recommendationGroup": "viggle-animate",
+    "hfModelId": "Viggle/Viggle-Animate",
+    "hfRevision": "76282703c9e4c52797cdfbd368f699fe5a2a7a36",
+    "hfCreatedAt": "2026-08-31T20:14:28.000Z",
+    "hfReleasedAt": "2026-09-04T16:43:32.000Z",
+    "hfLastModified": "2026-09-04T16:43:32.000Z",
+    "cdnAddedAt": "2026-09-08T12:00:00+09:00",
+    "releaseDate": "2026-09-04"
+  },
+  {
+    "id": "viggle-animate-minimax-h3-metal",
+    "showInRecommended": false,
+    "name": "Viggle Animate (Apple Silicon)",
+    "category": "video",
+    "provider": "Viggle / MiniMaxAI / PocketAI",
+    "summary": "Experimental native Apple Silicon character replacement through PocketAI's h3-metal Ref2VA engine. A driving video supplies motion, camera, lighting, timing, and background; one repainted frame supplies the replacement performer. The first load converts and fuses Viggle's Diffusers checkpoint and rank-128 DMD LoRA into the native tensor layout, then uses the released fixed embedding and three-pass, flow-shift-3 sampler. Download is about 79.94 GB and the resumable native cache needs another roughly 66.3 GB, so allow about 146 GB of disk. A 64 GB Apple Silicon Mac is the practical floor; 96–128 GB is recommended. The MiniMax H3 Community License excludes the EU, UK, South Korea, and United States.",
+    "sizeBytes": 68916280820,
+    "ramRequirementBytes": 64000000000,
+    "vramRequirementBytes": 48000000000,
+    "license": "MiniMax H3 Community License Agreement",
+    "tier": "free",
+    "weight": "massive",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/Viggle/Viggle-Animate/tree/76282703c9e4c52797cdfbd368f699fe5a2a7a36?allow=transformer/**&allow=lora/**&allow=assets/fixed_embed_fwd_anyframe.pt&allow=assets/fixed_prompt.txt&allow=LICENSE&allow=LICENSE-CODE&allow=NOTICE&allow=MODIFICATIONS.md",
+    "sourcePageUrl": "https://huggingface.co/Viggle/Viggle-Animate/tree/76282703c9e4c52797cdfbd368f699fe5a2a7a36",
+    "installStatus": "available",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "experimentalPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "architecture": "minimax-h3-viggle",
+    "backend": "h3-metal",
+    "licenseId": "minimax-h3-community",
+    "geofencedCountries": [
+      "AT",
+      "BE",
+      "BG",
+      "HR",
+      "CY",
+      "CZ",
+      "DK",
+      "EE",
+      "FI",
+      "FR",
+      "DE",
+      "GR",
+      "HU",
+      "IE",
+      "IT",
+      "LV",
+      "LT",
+      "LU",
+      "MT",
+      "NL",
+      "PL",
+      "PT",
+      "RO",
+      "SK",
+      "SI",
+      "ES",
+      "SE",
+      "GB",
+      "KR",
+      "US"
+    ],
+    "mode": "animate",
+    "defaultSteps": 4,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 832,
+        "height": 480
+      },
+      {
+        "width": 480,
+        "height": 832
+      },
+      {
+        "width": 768,
+        "height": 768
+      }
+    ],
+    "defaultResolution": {
+      "width": 832,
+      "height": 480
+    },
+    "defaultFrames": 124,
+    "maxFrames": 362,
+    "defaultFps": 24,
+    "supportsNegativePrompt": false,
+    "baseModelUrl": "https://huggingface.co/MiniMaxAI/MiniMax-H3/tree/42ed227ee7df40d41602854ae760620d6eb651fe?allow=Ref2VA/video_vae/source/**&allow=Ref2VA/audio_vae/**&allow=LICENSE",
+    "defaultQuantLevel": "Native BF16 + fused DMD LoRA",
+    "recommendationGroup": "viggle-animate",
+    "hfModelId": "Viggle/Viggle-Animate",
+    "hfRevision": "76282703c9e4c52797cdfbd368f699fe5a2a7a36",
+    "hfCreatedAt": "2026-08-31T20:14:28.000Z",
+    "hfReleasedAt": "2026-09-04T16:43:32.000Z",
+    "hfLastModified": "2026-09-04T16:43:32.000Z",
+    "cdnAddedAt": "2026-09-08T20:30:00+09:00",
+    "releaseDate": "2026-09-04"
+  },
+  {
     "id": "minimax-h3-fl2va-mlx-q4",
     "showInRecommended": false,
     "name": "MiniMax H3 MLX Q4",
