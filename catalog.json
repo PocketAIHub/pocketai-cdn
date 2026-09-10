@@ -9741,5 +9741,101 @@
     "hfLastModified": "2026-08-26T15:54:43.000Z",
     "cdnAddedAt": "2026-08-27T09:57:37+09:00",
     "releaseDate": "2026-08-26"
+  },
+  {
+    "id": "qwen3.8-27b-obliterated",
+    "name": "Qwen3.8 27B OBLITERATED",
+    "category": "language",
+    "provider": "OBLITERATUS / Qwen",
+    "summary": "OBLITERATUS's V3 abliterated Qwen3.8 27B removes hard refusals and safety-lecture deflections while retaining vision, thinking mode, agentic behavior, and 262K context. Its safety guardrails have been deliberately removed; use responsibly for local research and evaluation.",
+    "sizeBytes": 16810705952,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 20000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/resolve/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8/Qwen3.8-27B-OBLITERATED-Q4_K_M.gguf",
+    "sourcePageUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/tree/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8",
+    "sha256": "1f74330b211a8253c96f1bf586cba6eb56d37117c97ed9e6eec18c198a4e7fe5",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "capabilities": [
+      "vision",
+      "code",
+      "reasoning",
+      "tool-calling"
+    ],
+    "canReadFiles": true,
+    "mmprojUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/resolve/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8/mmproj-model-bf16.gguf",
+    "mmprojSha256": "e484e3b7e907ed0e0644c0de56c3f5929c7ad5c9c6cc84d35a9d8dc08d461545",
+    "contextLength": 262144,
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M",
+      "Q6_K"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q2_K",
+        "sizeBytes": 10864583712,
+        "ramRequirementBytes": 17000000000,
+        "vramRequirementBytes": 14000000000,
+        "downloadUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/resolve/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8/Qwen3.8-27B-OBLITERATED-Q2_K.gguf",
+        "sha256": "55f4575438582ed20920730ccf89bec8db5aa03184d99fa2072a74a867996e03"
+      },
+      {
+        "quantLevel": "Q3_K_M",
+        "sizeBytes": 13500728352,
+        "ramRequirementBytes": 20000000000,
+        "vramRequirementBytes": 17000000000,
+        "downloadUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/resolve/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8/Qwen3.8-27B-OBLITERATED-Q3_K_M.gguf",
+        "sha256": "2d088b821df3660904dd0006afd126ed9828a5d4fbd4beac43f6bde9a1b33f23"
+      },
+      {
+        "quantLevel": "IQ4_XS",
+        "sizeBytes": 15420441632,
+        "ramRequirementBytes": 22000000000,
+        "vramRequirementBytes": 18000000000,
+        "downloadUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/resolve/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8/Qwen3.8-27B-OBLITERATED-IQ4_XS.gguf",
+        "sha256": "f269deda48b0b703488bed23d7b3152f8003d7bfc14e6a327bd8757a5baac331"
+      },
+      {
+        "quantLevel": "Q5_K_M",
+        "sizeBytes": 19535692832,
+        "ramRequirementBytes": 27000000000,
+        "vramRequirementBytes": 23000000000,
+        "downloadUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/resolve/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8/Qwen3.8-27B-OBLITERATED-Q5_K_M.gguf",
+        "sha256": "87a69c85238854607fb58876347471f37db939d121ffc9c3dd18706186fd65f9"
+      },
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 22430991392,
+        "ramRequirementBytes": 31000000000,
+        "vramRequirementBytes": 26000000000,
+        "downloadUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/resolve/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8/Qwen3.8-27B-OBLITERATED-Q6_K.gguf",
+        "sha256": "3535d4a15b75840fb391138ce04e6c73fde709320c6f5fe788cdbd586ee08e3a"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 29047075872,
+        "ramRequirementBytes": 39000000000,
+        "vramRequirementBytes": 33000000000,
+        "downloadUrl": "https://huggingface.co/OBLITERATUS/Qwen3.8-27B-OBLITERATED/resolve/a58c3b53b3ce71551eafde2ed5ec8df48e0f4ff8/Qwen3.8-27B-OBLITERATED-Q8_0.gguf",
+        "sha256": "afa839b2fa5bc890e5735031dda2c6239d3b6bba3b6ffa29477cbc14a2e1f221",
+        "weight": "heavy"
+      }
+    ],
+    "hfCreatedAt": "2026-08-19T14:53:08.000Z",
+    "hfReleasedAt": "2026-08-19T14:53:08.000Z",
+    "hfLastModified": "2026-08-24T17:47:52.000Z",
+    "cdnAddedAt": "2026-09-01T15:34:00+09:00",
+    "releaseDate": "2026-08-19"
   }
 ]
