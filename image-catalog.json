@@ -1478,6 +1478,276 @@
     "defaultQuantLevel": "Q8_0"
   },
   {
+    "id": "qwen-image-2.1-q4_gguf",
+    "showInRecommended": false,
+    "name": "Qwen-Image 2.1 GGUF Q4",
+    "category": "image",
+    "provider": "Alibaba / Qwen / Community",
+    "summary": "Catalog-only mixed-precision Q4 GGUF of Qwen-Image 2.1 for ComfyUI-GGUF. The diffusion transformer is separate from the Qwen3-VL text encoder and VAE, and PocketAI does not install this bundle yet.",
+    "sizeBytes": 5960000000,
+    "ramRequirementBytes": 24000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Qwen Research License Agreement",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/main/Qwen-Image-2.1-Q4.gguf",
+    "installStatus": "external-only",
+    "sourcePageUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/main/Qwen-Image-2.1-Q4.gguf",
+    "licenseUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
+    "sha256": "51998ad7c068ce7d68e233237537900ffe874ab4d5c72e20758f5f18ceb15b8a",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "architecture": "qwen-image",
+    "defaultSteps": 40,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "width": 2400,
+        "height": 1792
+      },
+      {
+        "width": 1792,
+        "height": 2400
+      },
+      {
+        "width": 2528,
+        "height": 1696
+      },
+      {
+        "width": 1696,
+        "height": 2528
+      },
+      {
+        "width": 2752,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 2752
+      }
+    ],
+    "defaultResolution": {
+      "width": 2048,
+      "height": 2048
+    },
+    "supportsNegativePrompt": true,
+    "defaultQuantLevel": "Q4_K_M-HQv3",
+    "recommendationGroup": "qwen-image-2.1",
+    "requiresComfyUiConversion": true,
+    "cdnAddedAt": "2026-09-21T00:00:00+09:00"
+  },
+  {
+    "id": "qwen-image-2.1-q8_gguf",
+    "showInRecommended": false,
+    "name": "Qwen-Image 2.1 GGUF Q8",
+    "category": "image",
+    "provider": "Alibaba / Qwen / Community",
+    "summary": "Catalog-only mixed-precision Q8 GGUF of Qwen-Image 2.1 for ComfyUI-GGUF. The diffusion transformer is separate from the Qwen3-VL text encoder and VAE, and PocketAI does not install this bundle yet.",
+    "sizeBytes": 7690000000,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 20000000000,
+    "license": "Qwen Research License Agreement",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "gguf",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/main/Qwen-Image-2.1-Q8.gguf",
+    "installStatus": "external-only",
+    "sourcePageUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/main/Qwen-Image-2.1-Q8.gguf",
+    "licenseUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
+    "sha256": "c3ef62b2b7b53bf92418cbd77fbc24b43a26c8305a1f001c4a9a9a99b1373c03",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "architecture": "qwen-image",
+    "defaultSteps": 40,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "width": 2400,
+        "height": 1792
+      },
+      {
+        "width": 1792,
+        "height": 2400
+      },
+      {
+        "width": 2528,
+        "height": 1696
+      },
+      {
+        "width": 1696,
+        "height": 2528
+      },
+      {
+        "width": 2752,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 2752
+      }
+    ],
+    "defaultResolution": {
+      "width": 2048,
+      "height": 2048
+    },
+    "supportsNegativePrompt": true,
+    "defaultQuantLevel": "Q8_0-HQv3",
+    "recommendationGroup": "qwen-image-2.1",
+    "requiresComfyUiConversion": true,
+    "cdnAddedAt": "2026-09-21T00:00:00+09:00"
+  },
+  {
+    "id": "qwen-image-2.1-mlx-4bit",
+    "showInRecommended": false,
+    "name": "Qwen-Image 2.1 MLX-Serve 4-bit",
+    "category": "image",
+    "provider": "Alibaba / Qwen / MLX Community",
+    "summary": "Experimental 4-bit MLX-Serve pack for Apple Silicon Macs. The 10.7 GB pack targets 16 GB Macs; after the external Hugging Face snapshot is present, PocketAI runs it through the pinned Qwen-Image 2.1 MLX-Serve backend on macOS 26.2 or later.",
+    "sizeBytes": 10700000000,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Qwen Research License Agreement",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-4bit/tree/main",
+    "installStatus": "external-only",
+    "backend": "mlx-serve",
+    "sourcePageUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-4bit/tree/main",
+    "licenseUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "qwen-image",
+    "defaultSteps": 40,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "width": 2400,
+        "height": 1792
+      },
+      {
+        "width": 1792,
+        "height": 2400
+      },
+      {
+        "width": 2528,
+        "height": 1696
+      },
+      {
+        "width": 1696,
+        "height": 2528
+      },
+      {
+        "width": 2752,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 2752
+      }
+    ],
+    "defaultResolution": {
+      "width": 2048,
+      "height": 2048
+    },
+    "supportsNegativePrompt": true,
+    "requiresGpuVendor": "apple-silicon",
+    "defaultQuantLevel": "4-bit",
+    "recommendationGroup": "qwen-image-2.1",
+    "cdnAddedAt": "2026-09-21T00:00:00+09:00"
+  },
+  {
+    "id": "qwen-image-2.1-mlx-8bit",
+    "showInRecommended": false,
+    "name": "Qwen-Image 2.1 MLX-Serve 8-bit",
+    "category": "image",
+    "provider": "Alibaba / Qwen / MLX Community",
+    "summary": "Experimental 8-bit MLX-Serve pack for Apple Silicon Macs. The 17.6 GB pack targets 32 GB Macs; after the external Hugging Face snapshot is present, PocketAI runs it through the pinned Qwen-Image 2.1 MLX-Serve backend on macOS 26.2 or later.",
+    "sizeBytes": 17600000000,
+    "ramRequirementBytes": 32000000000,
+    "vramRequirementBytes": 32000000000,
+    "license": "Qwen Research License Agreement",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-8bit/tree/main",
+    "installStatus": "external-only",
+    "backend": "mlx-serve",
+    "sourcePageUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-8bit/tree/main",
+    "licenseUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
+    "sha256": "",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "architecture": "qwen-image",
+    "defaultSteps": 40,
+    "defaultCfgScale": 1,
+    "supportedResolutions": [
+      {
+        "width": 2048,
+        "height": 2048
+      },
+      {
+        "width": 2400,
+        "height": 1792
+      },
+      {
+        "width": 1792,
+        "height": 2400
+      },
+      {
+        "width": 2528,
+        "height": 1696
+      },
+      {
+        "width": 1696,
+        "height": 2528
+      },
+      {
+        "width": 2752,
+        "height": 1536
+      },
+      {
+        "width": 1536,
+        "height": 2752
+      }
+    ],
+    "defaultResolution": {
+      "width": 2048,
+      "height": 2048
+    },
+    "supportsNegativePrompt": true,
+    "requiresGpuVendor": "apple-silicon",
+    "defaultQuantLevel": "8-bit",
+    "recommendationGroup": "qwen-image-2.1",
+    "cdnAddedAt": "2026-09-21T00:00:00+09:00"
+  },
+  {
     "id": "qwen-image-q4_k_m",
     "name": "Qwen-Image",
     "category": "image",
