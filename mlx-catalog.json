@@ -2454,5 +2454,71 @@
     "hfLastModified": "2026-08-21T05:06:04.000Z",
     "cdnAddedAt": "2026-08-21T20:45:00+09:00",
     "releaseDate": "2026-08-21"
+  },
+  {
+    "id": "nanbeige4.3-33b-6bit",
+    "recommendationGroup": "nanbeige4.3-33b",
+    "showInRecommended": true,
+    "name": "Nanbeige 4.3 33B MLX 6-bit",
+    "category": "language",
+    "provider": "Nanbeige / PocketAiHub",
+    "summary": "PocketAiHub 6-bit quantization of Nanbeige 4.3 33B for chat, coding and reasoning on Apple Silicon. Recommended for quality; locally validated at approximately 8K context.",
+    "sizeBytes": 26928955820,
+    "ramRequirementBytes": 40000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "heavy",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "PocketAiHub/Nanbeige4.3-33B-MLX-6bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 8192,
+    "defaultQuantLevel": "6bit",
+    "runtime": "mlx-swift",
+    "hfRevision": "1e9ed96dfc773c9d512b3035ef6eb50d91ad833c",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/Nanbeige4.3-33B-MLX-6bit/tree/1e9ed96dfc773c9d512b3035ef6eb50d91ad833c",
+    "hfCreatedAt": "2026-10-26T23:52:24+00:00",
+    "hfReleasedAt": "2026-10-27T00:14:22+00:00",
+    "hfLastModified": "2026-10-27T00:14:22+00:00",
+    "cdnAddedAt": "2026-10-27T09:58:34+09:00"
+  },
+  {
+    "id": "nanbeige4.3-33b-4bit",
+    "recommendationGroup": "nanbeige4.3-33b",
+    "showInRecommended": false,
+    "name": "Nanbeige 4.3 33B MLX Mixed 4/6/8-bit",
+    "category": "language",
+    "provider": "Nanbeige / PocketAiHub",
+    "summary": "PocketAiHub mixed 4/6/8-bit quantization of Nanbeige 4.3 33B. Protects the output head and key/value projections at 8 bits; locally validated at approximately 8K context.",
+    "sizeBytes": 22831483281,
+    "ramRequirementBytes": 34000000000,
+    "license": "Apache 2.0",
+    "tier": "free",
+    "weight": "large",
+    "format": "mlx",
+    "source": "hugging-face",
+    "hfModelId": "PocketAiHub/Nanbeige4.3-33B-MLX-4bit",
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "capabilities": [
+      "code",
+      "reasoning"
+    ],
+    "contextLength": 8192,
+    "defaultQuantLevel": "mixed-4bit",
+    "runtime": "mlx-swift",
+    "hfRevision": "ccfc8b4ce0e60f165d8dfebe106094a164d09392",
+    "sourcePageUrl": "https://huggingface.co/PocketAiHub/Nanbeige4.3-33B-MLX-4bit/tree/ccfc8b4ce0e60f165d8dfebe106094a164d09392",
+    "hfCreatedAt": "2026-10-26T23:55:22+00:00",
+    "hfReleasedAt": "2026-10-27T00:57:28+00:00",
+    "hfLastModified": "2026-10-27T00:57:28+00:00",
+    "cdnAddedAt": "2026-10-27T09:58:34+09:00"
   }
 ]
