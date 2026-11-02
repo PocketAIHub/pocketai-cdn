@@ -29,6 +29,71 @@
     "format": "ckpt"
   },
   {
+    "id": "idol",
+    "name": "IDOL",
+    "category": "mesh",
+    "provider": "Sperid Labs",
+    "sizeBytes": 3078981231,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 8000000000,
+    "license": "Apache-2.0 (encoders have separate terms)",
+    "tier": "free",
+    "weight": "light",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/speridlabs/idol/resolve/2731c2291fc65a797c5cb627a5e5526fc1490902/?allow=config.json&allow=denoiser.safetensors&allow=decoder.safetensors&allow=decoder_gs.safetensors&allow=birefnet.safetensors",
+    "sha256": "",
+    "architecture": "idol",
+    "inputModalities": [
+      "image"
+    ],
+    "maxInputImages": 1,
+    "outputKind": "gaussian-splat",
+    "requiresHfToken": true,
+    "hfAccessUrls": [
+      "https://huggingface.co/facebook/dinov3-vith16plus-pretrain-lvd1689m",
+      "https://huggingface.co/black-forest-labs/FLUX.2-dev"
+    ],
+    "supportedPlatforms": [
+      "windows",
+      "linux"
+    ],
+    "requiresGpuVendor": "nvidia",
+    "summary": "Single-image to 3D Gaussian splats on NVIDIA GPUs. Produces a native .ply with 262,144 Gaussians. Requires Hugging Face access to DINOv3 and FLUX.2; encoder weights download on first load. Output is a splat, not a polygon mesh."
+  },
+  {
+    "id": "idol-mlx",
+    "name": "IDOL (MLX)",
+    "category": "mesh",
+    "provider": "Sperid Labs",
+    "sizeBytes": 3078981231,
+    "ramRequirementBytes": 16000000000,
+    "vramRequirementBytes": 16000000000,
+    "license": "Apache-2.0 (encoders have separate terms)",
+    "tier": "free",
+    "weight": "light",
+    "format": "snapshot",
+    "source": "hugging-face",
+    "downloadUrl": "https://huggingface.co/speridlabs/idol/resolve/2731c2291fc65a797c5cb627a5e5526fc1490902/?allow=config.json&allow=denoiser.safetensors&allow=decoder.safetensors&allow=decoder_gs.safetensors&allow=birefnet.safetensors",
+    "sha256": "",
+    "architecture": "idol",
+    "inputModalities": [
+      "image"
+    ],
+    "maxInputImages": 1,
+    "outputKind": "gaussian-splat",
+    "requiresHfToken": true,
+    "hfAccessUrls": [
+      "https://huggingface.co/facebook/dinov3-vith16plus-pretrain-lvd1689m",
+      "https://huggingface.co/black-forest-labs/FLUX.2-dev"
+    ],
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "requiresGpuVendor": "apple-silicon",
+    "summary": "Single-image to 3D Gaussian splats on Apple Silicon. Uses MLX for sampling and Metal for encoders and decoders. Produces a native .ply with 262,144 Gaussians. Requires Hugging Face access to DINOv3 and FLUX.2; encoder weights download on first load. Experimental Apple port."
+  },
+  {
     "id": "hunyuan3d-21-shape-mps",
     "name": "Hunyuan3D 2.1 Shape (Apple Silicon)",
     "category": "mesh",

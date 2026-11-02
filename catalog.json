@@ -5688,15 +5688,15 @@
     "name": "LFM2.5 350M",
     "category": "language",
     "provider": "Liquid AI",
-    "summary": "Compact multilingual instruction model for on-device chat, data extraction, structured output, and tool use. Its 128K context and tiny Q4 footprint make it suitable for phones and desktops.",
+    "summary": "Compact multilingual instruction model for on-device chat, data extraction, structured output, and tool use. Its 32K context and tiny Q4 footprint make it suitable for phones and desktops.",
     "sizeBytes": 229312224,
     "ramRequirementBytes": 1000000000,
-    "license": "LFM 1.0",
+    "license": "LFM Open License v1.0",
     "tier": "free",
     "weight": "tiny",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/resolve/bb7ee58b243e4cede04187e323e760b04f8a0091/LFM2.5-350M-Q4_K_M.gguf",
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/resolve/657e078c94084481950a2d555a941481f715536b/LFM2.5-350M-Q4_K_M.gguf",
     "sha256": "7e6f72643caafc9a68256686638c4d7916f2cec76d1df478d4c3ddcd95a6aed4",
     "supportedPlatforms": [
       "android",
@@ -5706,13 +5706,32 @@
       "linux"
     ],
     "capabilities": [],
-    "contextLength": 128000,
+    "contextLength": 32768,
     "vramRequirementBytes": 500000000,
     "defaultQuantLevel": "Q4_K_M",
     "hfCreatedAt": "2026-03-25T02:45:48.000Z",
     "hfReleasedAt": "2026-03-25T02:45:48.000Z",
-    "hfLastModified": "2026-04-08T13:36:34.000Z",
-    "cdnAddedAt": "2026-07-23T09:46:46+09:00"
+    "hfLastModified": "2026-09-22T20:41:28.000Z",
+    "cdnAddedAt": "2026-07-23T09:46:46+09:00",
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 293381856,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/resolve/657e078c94084481950a2d555a941481f715536b/LFM2.5-350M-Q6_K.gguf",
+        "sha256": "3ed48149a87dd9a0b04688780828854fc0c607d8c241af2b1100045e0d6b45c7"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 379217632,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/resolve/657e078c94084481950a2d555a941481f715536b/LFM2.5-350M-Q8_0.gguf",
+        "sha256": "be036a757295e550098b85e13f6af2735d0fa73b41e1156a40c7d8e8e32a5766"
+      }
+    ],
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-350M-GGUF/tree/657e078c94084481950a2d555a941481f715536b"
   },
   {
     "id": "lfm2.5-8b-a1b",
@@ -5722,13 +5741,13 @@
     "summary": "Liquid AI MoE chat model with about 1B active parameters per token and 128K context. Fast local assistant for coding, tool use, and general chat.",
     "sizeBytes": 5155564768,
     "ramRequirementBytes": 9000000000,
-    "license": "LFM 1.0",
+    "license": "LFM Open License v1.0",
     "tier": "free",
     "weight": "medium",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q4_K_M.gguf",
-    "sha256": "",
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/49c14831707011e64d70b2ebd8462ba08d608434/LFM2.5-8B-A1B-Q4_K_M.gguf",
+    "sha256": "4923ec14f06b968b74d663e5949867d2d9c3bf13a20b8be1a9f9af39989b2bb0",
     "supportedPlatforms": [
       "android",
       "ios",
@@ -5741,10 +5760,10 @@
     "visionCompanion": {
       "id": "lfm2.5-vl-450m",
       "format": "gguf",
-      "modelUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/LFM2.5-VL-450M-Q8_0.gguf",
+      "modelUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/1abed04b6fe71314d8c446a1371c03d7c332266d/LFM2.5-VL-450M-Q8_0.gguf",
       "modelSha256": "263aca93039e22140d55e046831c700c796affa8143d7638581c488a30c712bc",
       "modelSizeBytes": 379219104,
-      "projectorUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/main/mmproj-LFM2.5-VL-450m-Q8_0.gguf",
+      "projectorUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/1abed04b6fe71314d8c446a1371c03d7c332266d/mmproj-LFM2.5-VL-450m-Q8_0.gguf",
       "projectorSha256": "ebfc428baa37efad8bae93864f914b2634a09009f91ad59f974fe1a1565d8561",
       "projectorSizeBytes": 102815168,
       "ramRequirementBytes": 1100000000,
@@ -5762,38 +5781,39 @@
         "sizeBytes": 4844678368,
         "ramRequirementBytes": 8500000000,
         "vramRequirementBytes": 5500000000,
-        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q4_0.gguf",
-        "sha256": ""
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/49c14831707011e64d70b2ebd8462ba08d608434/LFM2.5-8B-A1B-Q4_0.gguf",
+        "sha256": "48ed1465d761311b2fd57b7fb46cf969a20b3a8281945b04e10f52bd1609e715"
       },
       {
         "quantLevel": "Q5_K_M",
         "sizeBytes": 6030339296,
         "ramRequirementBytes": 10500000000,
         "vramRequirementBytes": 7000000000,
-        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q5_K_M.gguf",
-        "sha256": ""
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/49c14831707011e64d70b2ebd8462ba08d608434/LFM2.5-8B-A1B-Q5_K_M.gguf",
+        "sha256": "eb8bd10148ea21e195502d6d6a205983ba40815302068ce72eb160684df92b3e"
       },
       {
         "quantLevel": "Q6_K",
         "sizeBytes": 6959787232,
         "ramRequirementBytes": 12000000000,
         "vramRequirementBytes": 8000000000,
-        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q6_K.gguf",
-        "sha256": ""
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/49c14831707011e64d70b2ebd8462ba08d608434/LFM2.5-8B-A1B-Q6_K.gguf",
+        "sha256": "7ccf57a2d410d8822d1560a1ca10c8318f3e15d6a8f6d42d1903d58e80ea20a6"
       },
       {
         "quantLevel": "Q8_0",
         "sizeBytes": 9010195680,
         "ramRequirementBytes": 15500000000,
         "vramRequirementBytes": 10500000000,
-        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/main/LFM2.5-8B-A1B-Q8_0.gguf",
-        "sha256": ""
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/resolve/49c14831707011e64d70b2ebd8462ba08d608434/LFM2.5-8B-A1B-Q8_0.gguf",
+        "sha256": "33ab3b8ce6a964fb8ebac89360c9b3cf72c4fa418d5e4c0a94d46883124d5c02"
       }
     ],
     "hfCreatedAt": "2026-05-24T22:16:45.000Z",
     "hfReleasedAt": "2026-05-24T22:16:45.000Z",
-    "hfLastModified": "2026-05-29T16:25:34.000Z",
-    "cdnAddedAt": "2026-06-07T20:28:24+09:00"
+    "hfLastModified": "2026-08-24T19:41:51.000Z",
+    "cdnAddedAt": "2026-06-07T20:28:24+09:00",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF/tree/49c14831707011e64d70b2ebd8462ba08d608434"
   },
   {
     "id": "gemma-4-12b-it",
@@ -9837,5 +9857,1682 @@
     "hfLastModified": "2026-08-24T17:47:52.000Z",
     "cdnAddedAt": "2026-09-01T15:34:00+09:00",
     "releaseDate": "2026-08-19"
+  },
+  {
+    "id": "lfm2-350m",
+    "name": "LFM2 350M",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original compact LFM2 instruction model for local text generation.",
+    "sizeBytes": 229309376,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-350M-GGUF/tree/8fdc9d526b7ed346b19257551b05816c7912ecc2",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-350m",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-07-12T12:02:17.000Z",
+    "hfLastModified": "2026-06-29T13:15:48.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-GGUF/resolve/8fdc9d526b7ed346b19257551b05816c7912ecc2/LFM2-350M-Q4_K_M.gguf",
+    "sha256": "a4d000c7064bd3b2e42c6845836286a899a4e79cf1791da1a6797b58d575957d",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 293379008,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-GGUF/resolve/8fdc9d526b7ed346b19257551b05816c7912ecc2/LFM2-350M-Q6_K.gguf",
+        "sha256": "877271ee22b484911ed89e7f598a457525076f53e6f2a05cab57a0cd4f29688a"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 379214784,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-GGUF/resolve/8fdc9d526b7ed346b19257551b05816c7912ecc2/LFM2-350M-Q8_0.gguf",
+        "sha256": "b7bfeab6495a1ae3ae78811c1297df9f301b35261ff9580d42fb30dc4dc9034b"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-700m",
+    "name": "LFM2 700M",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original 700M LFM2 instruction model for lightweight local chat.",
+    "sizeBytes": 468624320,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-700M-GGUF/tree/fd39e80d7a5ac61494ffff577e61bbbfddbd0d02",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-700m",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-07-12T12:02:37.000Z",
+    "hfLastModified": "2026-08-24T19:42:32.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-700M-GGUF/resolve/fd39e80d7a5ac61494ffff577e61bbbfddbd0d02/LFM2-700M-Q4_K_M.gguf",
+    "sha256": "684e8406dc13321452b3f6aeca432776e2a6a7e1ad6c23f7887b8fe3efbe2efa",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 611767232,
+        "ramRequirementBytes": 2000000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-700M-GGUF/resolve/fd39e80d7a5ac61494ffff577e61bbbfddbd0d02/LFM2-700M-Q6_K.gguf",
+        "sha256": "11bdf172b409c39e71a84748df07f2c9298699484777a5464a6cc048dc82bd7b"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 791565248,
+        "ramRequirementBytes": 2000000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-700M-GGUF/resolve/fd39e80d7a5ac61494ffff577e61bbbfddbd0d02/LFM2-700M-Q8_0.gguf",
+        "sha256": "0967d902ed270d07cb374a1972bb5da4338d2a303b565cf4eb7948b958e751ab"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-1.2b",
+    "name": "LFM2 1.2B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original 1.2B LFM2 instruction model for local chat and structured text.",
+    "sizeBytes": 730893248,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-GGUF/tree/5399e76c648f4eb8c053feb1ab747277dea5bf8b",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-1.2b",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-07-12T12:01:44.000Z",
+    "hfLastModified": "2026-03-30T13:36:40.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-GGUF/resolve/5399e76c648f4eb8c053feb1ab747277dea5bf8b/LFM2-1.2B-Q4_K_M.gguf",
+    "sha256": "55175400e3f509a9616227afeffd58d87e80b9f628a5d3d54ada884d85221fed",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962841536,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-GGUF/resolve/5399e76c648f4eb8c053feb1ab747277dea5bf8b/LFM2-1.2B-Q6_K.gguf",
+        "sha256": "0bb4a247f13ffa2a8272b44a40f92d0a89a639f263cc7529e13ba48edb30e41e"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246251968,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-GGUF/resolve/5399e76c648f4eb8c053feb1ab747277dea5bf8b/LFM2-1.2B-Q8_0.gguf",
+        "sha256": "0d9ec100a0f33048168d1d5b9fb6403f4836adcbbe9c3f2ab7794c96ffee3c3b"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-2.6b",
+    "name": "LFM2 2.6B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original 2.6B LFM2 instruction model for local chat and document tasks.",
+    "sizeBytes": 1563668704,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/tree/a759abdc5955d4ca97763e5cb7ff3940589ba898",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-2.6b",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-09-23T15:50:28.000Z",
+    "hfLastModified": "2026-03-30T12:59:16.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 3000000000,
+    "vramRequirementBytes": 2500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/a759abdc5955d4ca97763e5cb7ff3940589ba898/LFM2-2.6B-Q4_K_M.gguf",
+    "sha256": "384bc877b6c37064982f96885bef69e4475919f5969218ed4e3b9399ae0340df",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2110828768,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/a759abdc5955d4ca97763e5cb7ff3940589ba898/LFM2-2.6B-Q6_K.gguf",
+        "sha256": "9de6f14a0dc6be851d0a1ca60acc76fc98ae59ba92921c6da90dea95159a8f85"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2733011168,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-GGUF/resolve/a759abdc5955d4ca97763e5cb7ff3940589ba898/LFM2-2.6B-Q8_0.gguf",
+        "sha256": "36bddde1745f1330872b7c2acfd011663ba30477b049bc01c77c81d0e3241685"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-8b-a1b",
+    "name": "LFM2 8B-A1B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original LFM2 mixture-of-experts model with about 1B active parameters.",
+    "sizeBytes": 5044779712,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "medium",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-8B-A1B-GGUF/tree/145e98524a2ed11d35a45e0080febcee063749b6",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-8b-a1b",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-10-06T16:09:29.000Z",
+    "hfLastModified": "2026-06-29T13:16:03.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 8000000000,
+    "vramRequirementBytes": 6500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-8B-A1B-GGUF/resolve/145e98524a2ed11d35a45e0080febcee063749b6/LFM2-8B-A1B-Q4_K_M.gguf",
+    "sha256": "d2185b22630fc68043dac7182f12e86e5ad14990229a90b6c9ad3f4421ddaf82",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 6849002176,
+        "ramRequirementBytes": 10500000000,
+        "vramRequirementBytes": 8500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-8B-A1B-GGUF/resolve/145e98524a2ed11d35a45e0080febcee063749b6/LFM2-8B-A1B-Q6_K.gguf",
+        "sha256": "325b2db93d6d9096cd2e9f39e0f8f8dfe096a872efc7c2cab14a4346a33bd270"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 8868428480,
+        "ramRequirementBytes": 13500000000,
+        "vramRequirementBytes": 11000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-8B-A1B-GGUF/resolve/145e98524a2ed11d35a45e0080febcee063749b6/LFM2-8B-A1B-Q8_0.gguf",
+        "sha256": "3c16f68b363abb19ce4a210e1c6814703f703a3449ca66e79132c89a506a6f20"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-24b-a2b",
+    "name": "LFM2 24B-A2B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original 24B LFM2 mixture-of-experts model with about 2B active parameters.",
+    "sizeBytes": 14415473952,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "large",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-24B-A2B-GGUF/tree/6247d03b87c27c05a258feb5acdfb4d5efbf0bd8",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-24b-a2b",
+    "showInRecommended": false,
+    "hfCreatedAt": "2026-02-17T12:53:20.000Z",
+    "hfLastModified": "2026-08-24T19:42:13.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 21000000000,
+    "vramRequirementBytes": 17500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-24B-A2B-GGUF/resolve/6247d03b87c27c05a258feb5acdfb4d5efbf0bd8/LFM2-24B-A2B-Q4_K_M.gguf",
+    "sha256": "eb4d2d4d4e61b795726c2f526c4434ca6bc725ad7a783691b58681f025cf58f2",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 19578621216,
+        "ramRequirementBytes": 28500000000,
+        "vramRequirementBytes": 23500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-24B-A2B-GGUF/resolve/6247d03b87c27c05a258feb5acdfb4d5efbf0bd8/LFM2-24B-A2B-Q6_K.gguf",
+        "sha256": "ffb1fbe7d4d5f2946a006c6c09d380e56bfbeb050d0b64c9287fcafc46ae0ef7"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 25351965984,
+        "ramRequirementBytes": 36500000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-24B-A2B-GGUF/resolve/6247d03b87c27c05a258feb5acdfb4d5efbf0bd8/LFM2-24B-A2B-Q8_0.gguf",
+        "sha256": "d73bdefc2180b34eb5fec15c9ffa8cec0c2f61d5bc501e2f5de2f3b2e7664293"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-2.6b-exp",
+    "name": "LFM2 2.6B-Exp",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Experimental reinforcement-learning checkpoint of LFM2 2.6B.",
+    "sizeBytes": 1639166304,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp-GGUF/tree/7d9bef941a2642e1d00967564fd55e1dcecf0d6a",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-2.6b-exp",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-12-25T15:28:59.000Z",
+    "hfLastModified": "2026-03-30T13:06:30.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 3500000000,
+    "vramRequirementBytes": 2500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp-GGUF/resolve/7d9bef941a2642e1d00967564fd55e1dcecf0d6a/LFM2-2.6B-Exp-Q4_K_M.gguf",
+    "sha256": "95b9322dc81f577be1d966f508bc2fa3ec2cda56a556347d3cdf71cfefaba591",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2220929376,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 3500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp-GGUF/resolve/7d9bef941a2642e1d00967564fd55e1dcecf0d6a/LFM2-2.6B-Exp-Q6_K.gguf",
+        "sha256": "f114f3e9dcad6d0fa45bd03e1917e98b1b71831f85572eb6c9bd8c0e235765cd"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2875617632,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Exp-GGUF/resolve/7d9bef941a2642e1d00967564fd55e1dcecf0d6a/LFM2-2.6B-Exp-Q8_0.gguf",
+        "sha256": "c614bc3c329aca225cd1c2daadbb735b622b5d22e954f95d0d62d1e50ba7b1d6"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-350m-extract",
+    "name": "LFM2 350M-Extract",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Specialist model for extracting structured fields from text documents.",
+    "sizeBytes": 229310080,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-350M-Extract-GGUF/tree/b8f758b9ff37b0cad9bedfc5223cb71e31aebe9c",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-350m-extract",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-09-05T15:50:52.000Z",
+    "hfLastModified": "2026-08-05T21:15:06.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-Extract-GGUF/resolve/b8f758b9ff37b0cad9bedfc5223cb71e31aebe9c/LFM2-350M-Extract-Q4_K_M.gguf",
+    "sha256": "687a31c3e7864647aa181e1feb156e4e5da33978c174d7dbf0d289f6014a5621",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 293379712,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-Extract-GGUF/resolve/b8f758b9ff37b0cad9bedfc5223cb71e31aebe9c/LFM2-350M-Extract-Q6_K.gguf",
+        "sha256": "76a26fad72cbef92c5dcc3465f45a7a26e4112c789c628eb255796c96f1fbeff"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 379215488,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-Extract-GGUF/resolve/b8f758b9ff37b0cad9bedfc5223cb71e31aebe9c/LFM2-350M-Extract-Q8_0.gguf",
+        "sha256": "5ef1940b784d25378b6c140a2678b453ee517d727307d05df8a761562b79df78"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-1.2b-extract",
+    "name": "LFM2 1.2B-Extract",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Specialist model for extracting structured fields from text documents.",
+    "sizeBytes": 730894048,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-Extract-GGUF/tree/ef65f6005f6a4de8a8e7a60279242b1c96be229a",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-1.2b-extract",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-09-05T15:57:40.000Z",
+    "hfLastModified": "2026-08-05T21:15:06.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-Extract-GGUF/resolve/ef65f6005f6a4de8a8e7a60279242b1c96be229a/LFM2-1.2B-Extract-Q4_K_M.gguf",
+    "sha256": "09b60b507ee7d1698b2b4dfce184c75083d7790c7701910ed60afa2801024702",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962842336,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-Extract-GGUF/resolve/ef65f6005f6a4de8a8e7a60279242b1c96be229a/LFM2-1.2B-Extract-Q6_K.gguf",
+        "sha256": "43a44f412ab953ccd4c3c50f424ecdb39d0aa2751c0aa2c091f9182d685580af"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246252768,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-Extract-GGUF/resolve/ef65f6005f6a4de8a8e7a60279242b1c96be229a/LFM2-1.2B-Extract-Q8_0.gguf",
+        "sha256": "682f437231a87d92884ba393b0f10d337bf334ca51abdc02214b5fb6200ad3f3"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-1.2b-rag",
+    "name": "LFM2 1.2B-RAG",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Specialist model for answering questions using documents supplied in the prompt.",
+    "sizeBytes": 730894048,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-RAG-GGUF/tree/d8628e893f593f5649ef4f06f76fddaa5bacaa0d",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-1.2b-rag",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-09-05T16:31:55.000Z",
+    "hfLastModified": "2026-08-05T21:15:06.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-RAG-GGUF/resolve/d8628e893f593f5649ef4f06f76fddaa5bacaa0d/LFM2-1.2B-RAG-Q4_K_M.gguf",
+    "sha256": "5e4d123cd76dd38a1b55f86a5e1f5fa579e452ff89fa636709edbecd3513db0a",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962842336,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-RAG-GGUF/resolve/d8628e893f593f5649ef4f06f76fddaa5bacaa0d/LFM2-1.2B-RAG-Q6_K.gguf",
+        "sha256": "16874a6b75552eeed0894f2a0a3d770797f9147853a1beb741a507a2745bb0c8"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246252768,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-RAG-GGUF/resolve/d8628e893f593f5649ef4f06f76fddaa5bacaa0d/LFM2-1.2B-RAG-Q8_0.gguf",
+        "sha256": "7cb06438062300096c9a87c9fdc279302a741e0f86a3a5cd2b7364a148d55a85"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-1.2b-tool",
+    "name": "LFM2 1.2B-Tool",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Specialist model for concise tool calls from supplied function definitions.",
+    "sizeBytes": 730894048,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-Tool-GGUF/tree/e7ec4149433c75d4bb53a0742ee1ebde7fcbd183",
+    "capabilities": [
+      "tool-calling"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-1.2b-tool",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-09-05T16:22:34.000Z",
+    "hfLastModified": "2026-08-05T21:15:24.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-Tool-GGUF/resolve/e7ec4149433c75d4bb53a0742ee1ebde7fcbd183/LFM2-1.2B-Tool-Q4_K_M.gguf",
+    "sha256": "3a942f51f9f3088c0b502b61ee49480a3d8c54de369f9c53ee5668419caf67a7",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962842336,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-Tool-GGUF/resolve/e7ec4149433c75d4bb53a0742ee1ebde7fcbd183/LFM2-1.2B-Tool-Q6_K.gguf",
+        "sha256": "ee96d40c6319f662e9c2255e1bfbc6918703b89ffd7619feb8b0b6c46ea316af"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246252768,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-1.2B-Tool-GGUF/resolve/e7ec4149433c75d4bb53a0742ee1ebde7fcbd183/LFM2-1.2B-Tool-Q8_0.gguf",
+        "sha256": "bf035d5876eb8ef0b1a87cf0cf30d9717e4cc628d483c5b49b342603d5f2ee67"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-350m-math",
+    "name": "LFM2 350M-Math",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Tiny reasoning model specialized for mathematical problems.",
+    "sizeBytes": 229310176,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-350M-Math-GGUF/tree/d6cf6532a36e191072862ebf753fe4cc19edc861",
+    "capabilities": [
+      "reasoning"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-350m-math",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-09-05T16:15:25.000Z",
+    "hfLastModified": "2026-08-05T21:15:24.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-Math-GGUF/resolve/d6cf6532a36e191072862ebf753fe4cc19edc861/LFM2-350M-Math-Q4_K_M.gguf",
+    "sha256": "3af1a1e75d43a8c9bfc3455de23be356d08e6948e841c96e4f07715f16c4120e",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 293379808,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-Math-GGUF/resolve/d6cf6532a36e191072862ebf753fe4cc19edc861/LFM2-350M-Math-Q6_K.gguf",
+        "sha256": "c4211fd151354d2347e47e0809d9f3d9e799008c8ef7a3738714bdca404b330e"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 379215584,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-Math-GGUF/resolve/d6cf6532a36e191072862ebf753fe4cc19edc861/LFM2-350M-Math-Q8_0.gguf",
+        "sha256": "8c52e874449f629d3b6fa30395eddf6de3518e4bb557c3d86b56000ad7e90d98"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-350m-enjp-mt",
+    "name": "LFM2 350M-ENJP-MT",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "English/Japanese translation model. Set the system prompt to \"Translate to Japanese.\" or \"Translate to English.\" to select the direction.",
+    "sizeBytes": 229310240,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/tree/889c88c3d3681b4f342ae210a1d2a1369aba0e10",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-350m-enjp-mt",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-09-03T01:29:36.000Z",
+    "hfLastModified": "2026-08-06T01:14:47.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/889c88c3d3681b4f342ae210a1d2a1369aba0e10/LFM2-350M-ENJP-MT-Q4_K_M.gguf",
+    "sha256": "574ef7980dd20d69b494bce82565db5f25124d404be02052bbca62277d33077b",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 293379872,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/889c88c3d3681b4f342ae210a1d2a1369aba0e10/LFM2-350M-ENJP-MT-Q6_K.gguf",
+        "sha256": "309a7dea7e7a543d5fe4d5144e8abcb2ab6b0464655b64eb6339034f7f93280b"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 379215648,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-ENJP-MT-GGUF/resolve/889c88c3d3681b4f342ae210a1d2a1369aba0e10/LFM2-350M-ENJP-MT-Q8_0.gguf",
+        "sha256": "261dbe17e21116329b7d131865f4300e3ddfef584999c8bd90ec7e3d199cba7a"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-350m-pii-extract-jp",
+    "name": "LFM2 350M-PII-Extract-JP",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Extracts personal information from Japanese text as JSON. Requires an extraction system prompt, such as \"Extract <human_name>\" for names.",
+    "sizeBytes": 229311072,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-350M-PII-Extract-JP-GGUF/tree/ecf710c7594f12aaacf9b62a431021cbbc48481c",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-350m-pii-extract-jp",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-09-30T07:19:05.000Z",
+    "hfLastModified": "2026-08-06T01:14:47.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-PII-Extract-JP-GGUF/resolve/ecf710c7594f12aaacf9b62a431021cbbc48481c/LFM2-350M-PII-Extract-JP-Q4_K_M.gguf",
+    "sha256": "6ae7bb97a543ee57629f322da2b5f499d10825245b1d29aaec09076d6b8f4bcb",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 293380704,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-PII-Extract-JP-GGUF/resolve/ecf710c7594f12aaacf9b62a431021cbbc48481c/LFM2-350M-PII-Extract-JP-Q6_K.gguf",
+        "sha256": "ab4eb9a5a7e05353485e1e2ee9243ce835d2d4b3517aadbfd56feeed8bc9ede7"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 379216480,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-350M-PII-Extract-JP-GGUF/resolve/ecf710c7594f12aaacf9b62a431021cbbc48481c/LFM2-350M-PII-Extract-JP-Q8_0.gguf",
+        "sha256": "901e33f4d7aa151e2016748f3a2012d98daf20d94cbba794c5b5f9fd8edd5bb5"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-2.6b-transcript",
+    "name": "LFM2 2.6B-Transcript",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Summarizes meeting transcripts supplied as text for private, local document workflows.",
+    "sizeBytes": 1563669248,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Transcript-GGUF/tree/586791c82a1699507624755ffe4fcdef0ff8ed95",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-2.6b-transcript",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-12-30T18:02:51.000Z",
+    "hfLastModified": "2026-08-05T21:15:06.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 3000000000,
+    "vramRequirementBytes": 2500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Transcript-GGUF/resolve/586791c82a1699507624755ffe4fcdef0ff8ed95/LFM2-2.6B-Transcript-Q4_K_M.gguf",
+    "sha256": "74832bbf09a5321bfd119e13c6c1fd6361517d3f085545cf00b79c7dc8cceac6",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2110829312,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Transcript-GGUF/resolve/586791c82a1699507624755ffe4fcdef0ff8ed95/LFM2-2.6B-Transcript-Q6_K.gguf",
+        "sha256": "8022ed44321e6f025f08f53d24b4873d1147b2597f94d0246b5a6dce469eaad2"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2733011712,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-2.6B-Transcript-GGUF/resolve/586791c82a1699507624755ffe4fcdef0ff8ed95/LFM2-2.6B-Transcript-Q8_0.gguf",
+        "sha256": "25aa76ed4056c2d6e099240ea57d81dcf6dba3e94cf31c7d9fdc5b1cac8d90bd"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-1.2b-longevity",
+    "name": "LFM2 1.2B-Longevity",
+    "category": "language",
+    "provider": "Liquid AI / mradermacher",
+    "summary": "Specialized text model for aging and longevity research, quantized by mradermacher from Liquid AI weights.",
+    "sizeBytes": 730896384,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/mradermacher/LFM2-1.2B-Longevity-GGUF/tree/b966631ba29ee3d463864afee0866d240fafce0d",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-1.2b-longevity",
+    "showInRecommended": false,
+    "hfCreatedAt": "2026-08-06T19:06:54.000Z",
+    "hfLastModified": "2026-08-30T22:43:10.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/mradermacher/LFM2-1.2B-Longevity-GGUF/resolve/b966631ba29ee3d463864afee0866d240fafce0d/LFM2-1.2B-Longevity.Q4_K_M.gguf",
+    "sha256": "a9a8df8d4d14f1edbf48593dcf4f01cbfe96daed71302dd070e5bef03db93f2c",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962844672,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/LFM2-1.2B-Longevity-GGUF/resolve/b966631ba29ee3d463864afee0866d240fafce0d/LFM2-1.2B-Longevity.Q6_K.gguf",
+        "sha256": "a4b814d73281fde949d6b32698b136916d84c215268c74fc0909917348e6f287"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246255104,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/LFM2-1.2B-Longevity-GGUF/resolve/b966631ba29ee3d463864afee0866d240fafce0d/LFM2-1.2B-Longevity.Q8_0.gguf",
+        "sha256": "45bf3412783a657a21ee92f0947973a333747a8cf33c9012e84834194a988831"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-2.6b-longevity",
+    "name": "LFM2 2.6B-Longevity",
+    "category": "language",
+    "provider": "Liquid AI / mradermacher",
+    "summary": "Specialized text model for aging and longevity research, quantized by mradermacher from Liquid AI weights.",
+    "sizeBytes": 1563670752,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/mradermacher/LFM2-2.6B-Longevity-GGUF/tree/def3a827db1ce590eef1963c9f65343383944a04",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-2.6b-longevity",
+    "showInRecommended": false,
+    "hfCreatedAt": "2026-08-06T20:03:33.000Z",
+    "hfLastModified": "2026-08-30T23:48:51.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 3000000000,
+    "vramRequirementBytes": 2500000000,
+    "downloadUrl": "https://huggingface.co/mradermacher/LFM2-2.6B-Longevity-GGUF/resolve/def3a827db1ce590eef1963c9f65343383944a04/LFM2-2.6B-Longevity.Q4_K_M.gguf",
+    "sha256": "ccf5938030c750e1dad44145f841ae3ded7bf93663b584e551b9fe5040fbcb84",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2110830816,
+        "ramRequirementBytes": 4000000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/LFM2-2.6B-Longevity-GGUF/resolve/def3a827db1ce590eef1963c9f65343383944a04/LFM2-2.6B-Longevity.Q6_K.gguf",
+        "sha256": "94ee0f46ee1019e303335d2260df194dc85a00504bcf5808859b8064867c043d"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2733013216,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/mradermacher/LFM2-2.6B-Longevity-GGUF/resolve/def3a827db1ce590eef1963c9f65343383944a04/LFM2-2.6B-Longevity.Q8_0.gguf",
+        "sha256": "9626aa20fe1e7ae92a8bce82426974fc7447569eca027c39d935fef47df486f0"
+      }
+    ]
+  },
+  {
+    "id": "lfm2-vl-450m",
+    "name": "LFM2 VL-450M",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original compact LFM2 vision-language model for images and text.",
+    "sizeBytes": 379215264,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-VL-450M-GGUF/tree/7cf9679aa137039135e342aa77014f7b5f2bef73",
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-vl-450m",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-08-17T09:11:52.000Z",
+    "hfLastModified": "2026-06-29T08:52:38.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-VL-450M-GGUF/resolve/7cf9679aa137039135e342aa77014f7b5f2bef73/LFM2-VL-450M-Q8_0.gguf",
+    "sha256": "e97704a0cf0a1d00ca604b4c672c82f4234318dba9d43a7f7a4c0d2df6747844",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q8_0",
+    "recommendedQuantLevels": [
+      "Q8_0"
+    ],
+    "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2-VL-450M-GGUF/resolve/7cf9679aa137039135e342aa77014f7b5f2bef73/mmproj-LFM2-VL-450M-Q8_0.gguf",
+    "mmprojSha256": "a6a813fae4ba3f90852a990fdd4786a017dba0e80e599a366853ba539ee2b5ef"
+  },
+  {
+    "id": "lfm2-vl-1.6b",
+    "name": "LFM2 VL-1.6B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original LFM2 vision-language model for image understanding and text.",
+    "sizeBytes": 1246252448,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-VL-1.6B-GGUF/tree/6121de267003bb4d4f325fe10abdc735aee06747",
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-vl-1.6b",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-08-17T08:50:50.000Z",
+    "hfLastModified": "2026-06-29T08:53:11.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 3500000000,
+    "vramRequirementBytes": 3000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-VL-1.6B-GGUF/resolve/6121de267003bb4d4f325fe10abdc735aee06747/LFM2-VL-1.6B-Q8_0.gguf",
+    "sha256": "4c3b66c0a6bf25d5ef876edf118a96deebc15de04d58f4e280cdcfda708b7932",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q8_0",
+    "recommendedQuantLevels": [
+      "Q8_0"
+    ],
+    "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2-VL-1.6B-GGUF/resolve/6121de267003bb4d4f325fe10abdc735aee06747/mmproj-LFM2-VL-1.6B-Q8_0.gguf",
+    "mmprojSha256": "65ec437db88d65fff93f472d00c145e09880769ac67fedff5cd1c0f8d8301d87"
+  },
+  {
+    "id": "lfm2-vl-3b",
+    "name": "LFM2 VL-3B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Original 3B LFM2 vision-language model for image understanding and text.",
+    "sizeBytes": 1563668256,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2-VL-3B-GGUF/tree/da5c839b488cbdf55739f30459527ec703d11212",
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2-vl-3b",
+    "showInRecommended": false,
+    "hfCreatedAt": "2025-10-22T11:28:00.000Z",
+    "hfLastModified": "2026-07-10T22:36:00.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 4000000000,
+    "vramRequirementBytes": 3000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-VL-3B-GGUF/resolve/da5c839b488cbdf55739f30459527ec703d11212/LFM2-VL-3B-Q4_K_M.gguf",
+    "sha256": "07b435d85daec5dec0e2be6644f36201d1a0dff8904d83e41175ba2d3b6f3ffe",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2110828320,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-VL-3B-GGUF/resolve/da5c839b488cbdf55739f30459527ec703d11212/LFM2-VL-3B-Q6_K.gguf",
+        "sha256": "ced19c50345dbdcfb628744fd385241e179f2bd63e944b7ebdca36bb190e3b1a"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2733010560,
+        "ramRequirementBytes": 5500000000,
+        "vramRequirementBytes": 4500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2-VL-3B-GGUF/resolve/da5c839b488cbdf55739f30459527ec703d11212/LFM2-VL-3B-Q8_0.gguf",
+        "sha256": "2b1c0ecb28b802cc1c8a8afd42a4746ac9e563e33fe2c87c5948864bda23fe39"
+      }
+    ],
+    "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2-VL-3B-GGUF/resolve/da5c839b488cbdf55739f30459527ec703d11212/mmproj-LFM2-VL-3B-Q8_0.gguf",
+    "mmprojSha256": "135dd0ee2a0ceb597fac0d8640dae6c86f28c7ca2cd5b88eb309c32fe8f8dde9"
+  },
+  {
+    "id": "lfm2.5-230m",
+    "name": "LFM2.5 230M",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Tiny instruction model for local text generation with a 32K context window.",
+    "sizeBytes": 153406304,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-230M-GGUF/tree/03502067c64ce32ac4fe87b0cec0310a1a13d3e9",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-230m",
+    "showInRecommended": true,
+    "hfCreatedAt": "2026-06-11T15:01:26.000Z",
+    "hfLastModified": "2026-09-22T20:41:15.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1000000000,
+    "vramRequirementBytes": 1000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-230M-GGUF/resolve/03502067c64ce32ac4fe87b0cec0310a1a13d3e9/LFM2.5-230M-Q4_K_M.gguf",
+    "sha256": "7bbd90384d3deffe4c646ec9643b212802d32d4ce417c90a1ec9282100650062",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 190983008,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-230M-GGUF/resolve/03502067c64ce32ac4fe87b0cec0310a1a13d3e9/LFM2.5-230M-Q6_K.gguf",
+        "sha256": "17a451304bfdfa7098902d5e8e0122440bbfc585f722bd1475435cbc5bab0219"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 246598496,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-230M-GGUF/resolve/03502067c64ce32ac4fe87b0cec0310a1a13d3e9/LFM2.5-230M-Q8_0.gguf",
+        "sha256": "855be85429300602eda72958547614703541b7d6dd965a8f8f6052b85a7aa935"
+      }
+    ]
+  },
+  {
+    "id": "lfm2.5-1.2b",
+    "name": "LFM2.5 1.2B-Instruct",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Compact instruction model for local chat, structured text, and tool use.",
+    "sizeBytes": 730895168,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF/tree/8ed288026e23958ad9dfa92d53ed773a8eee7125",
+    "capabilities": [
+      "tool-calling"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-1.2b",
+    "showInRecommended": true,
+    "hfCreatedAt": "2026-01-04T00:09:26.000Z",
+    "hfLastModified": "2026-09-22T20:41:54.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF/resolve/8ed288026e23958ad9dfa92d53ed773a8eee7125/LFM2.5-1.2B-Instruct-Q4_K_M.gguf",
+    "sha256": "b1b3de114215d9507409a662a501a631095a479a419584e8a2ded6304b19b4f5",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962843456,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF/resolve/8ed288026e23958ad9dfa92d53ed773a8eee7125/LFM2.5-1.2B-Instruct-Q6_K.gguf",
+        "sha256": "c5e895c191a066f6b26a8f09f10e94cdb799e579216f87df61a7e27beacd9a2b"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246253888,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Instruct-GGUF/resolve/8ed288026e23958ad9dfa92d53ed773a8eee7125/LFM2.5-1.2B-Instruct-Q8_0.gguf",
+        "sha256": "f6b981dcb86917fa463f78a362320bd5e2dc45445df147287eedb85e5a30d26a"
+      }
+    ]
+  },
+  {
+    "id": "lfm2.5-1.2b-thinking",
+    "name": "LFM2.5 1.2B-Thinking",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Compact reasoning model that produces thinking traces before its answer.",
+    "sizeBytes": 730899072,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking-GGUF/tree/b71945805f7d4d87dabd73e26098d44bcad6c35f",
+    "capabilities": [
+      "reasoning"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-1.2b-thinking",
+    "showInRecommended": true,
+    "hfCreatedAt": "2026-01-16T19:04:55.000Z",
+    "hfLastModified": "2026-10-29T11:45:55.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking-GGUF/resolve/b71945805f7d4d87dabd73e26098d44bcad6c35f/LFM2.5-1.2B-Thinking-Q4_K_M.gguf",
+    "sha256": "4a1e1824f71091f368137b6966094461019f6af3a5aadd96033bee59fc9eaeea",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962847360,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking-GGUF/resolve/b71945805f7d4d87dabd73e26098d44bcad6c35f/LFM2.5-1.2B-Thinking-Q6_K.gguf",
+        "sha256": "413c7963b844fc73db634ecdb909821d5fbac0f2a5c11952957ae83a25cd35eb"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246257792,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-Thinking-GGUF/resolve/b71945805f7d4d87dabd73e26098d44bcad6c35f/LFM2.5-1.2B-Thinking-Q8_0.gguf",
+        "sha256": "e346f3d63c9e44258019a044b7993d74a0952bc31873c8954f3b86a5caa97e46"
+      }
+    ]
+  },
+  {
+    "id": "lfm2.5-1.2b-jp",
+    "name": "LFM2.5 1.2B-JP",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Japanese-focused chat model for knowledge and instruction following.",
+    "sizeBytes": 730895296,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-GGUF/tree/170ae1cecf0e74b0b25bd704047160fba9f613c6",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-1.2b-jp",
+    "showInRecommended": false,
+    "hfCreatedAt": "2026-01-05T00:00:53.000Z",
+    "hfLastModified": "2026-03-30T13:09:30.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-GGUF/resolve/170ae1cecf0e74b0b25bd704047160fba9f613c6/LFM2.5-1.2B-JP-Q4_K_M.gguf",
+    "sha256": "608beed14e975a4edd8932c42ac3e64cf1c97da4ee2c5f2c7b6bfbcdb1a90680",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962843584,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-GGUF/resolve/170ae1cecf0e74b0b25bd704047160fba9f613c6/LFM2.5-1.2B-JP-Q6_K.gguf",
+        "sha256": "c4d871b37c432328f017e799cc172dbb6a44cb85b86b735b41db03b47a9e424a"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246254016,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-GGUF/resolve/170ae1cecf0e74b0b25bd704047160fba9f613c6/LFM2.5-1.2B-JP-Q8_0.gguf",
+        "sha256": "60585553df37d8fa396368aef63ffeb236b2fe7c6b430652307a006e0f451e2c"
+      }
+    ]
+  },
+  {
+    "id": "lfm2.5-1.2b-jp-202606",
+    "name": "LFM2.5 1.2B-JP-202606",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "June 2026 Japanese chat checkpoint with improved knowledge, instruction following, and tool use.",
+    "sizeBytes": 730894624,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF/tree/448ba3f7d408c2f5c32cec8038612f7c1ed9f054",
+    "capabilities": [],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-1.2b-jp-202606",
+    "showInRecommended": false,
+    "hfCreatedAt": "2026-05-26T05:55:29.000Z",
+    "hfLastModified": "2026-09-11T14:29:25.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 2000000000,
+    "vramRequirementBytes": 1500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF/resolve/448ba3f7d408c2f5c32cec8038612f7c1ed9f054/LFM2.5-1.2B-JP-202606-Q4_K_M.gguf",
+    "sha256": "23d4d4060cb06463563f6e8644bbbc7d1cb0bfe4cf21d5edf3ccc6f515fd44bb",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962842912,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF/resolve/448ba3f7d408c2f5c32cec8038612f7c1ed9f054/LFM2.5-1.2B-JP-202606-Q6_K.gguf",
+        "sha256": "dcbaae32c29534affdfc9d445d9f9107dd9c2b450589499dc798bc17b1c3b92b"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246253344,
+        "ramRequirementBytes": 2500000000,
+        "vramRequirementBytes": 2000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-1.2B-JP-202606-GGUF/resolve/448ba3f7d408c2f5c32cec8038612f7c1ed9f054/LFM2.5-1.2B-JP-202606-Q8_0.gguf",
+        "sha256": "d61784727aeac0da2f413dbb481273f465c7adf01b0bd72c8fd2ca1040c62c5e"
+      }
+    ]
+  },
+  {
+    "id": "lfm2.5-24b-a2b",
+    "name": "LFM2.5 24B-A2B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Reasoning and tool-use model with 24B total parameters, about 2B active parameters, and a 131K context window.",
+    "sizeBytes": 14526258464,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "large",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF/tree/0912d33141f77e10705345a6732bfd83f0252fdc",
+    "capabilities": [
+      "reasoning",
+      "tool-calling"
+    ],
+    "contextLength": 131072,
+    "recommendationGroup": "lfm2.5-24b-a2b",
+    "showInRecommended": true,
+    "hfCreatedAt": "2026-10-09T18:03:23.000Z",
+    "hfLastModified": "2026-10-13T21:33:53.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 21500000000,
+    "vramRequirementBytes": 17500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF/resolve/0912d33141f77e10705345a6732bfd83f0252fdc/LFM2.5-24B-A2B-Q4_K_M.gguf",
+    "sha256": "d3334405b96228eb9908cdebb5c6194908f2da64282bda852afc3a3910c64e7d",
+    "supportedPlatforms": [
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 19689405728,
+        "ramRequirementBytes": 28500000000,
+        "vramRequirementBytes": 23500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF/resolve/0912d33141f77e10705345a6732bfd83f0252fdc/LFM2.5-24B-A2B-Q6_K.gguf",
+        "sha256": "4c5f34cb94d4a29f0360d04eaa274bb1361ceae163f40f6361cb75d1bee139c2"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 25493732640,
+        "ramRequirementBytes": 36500000000,
+        "vramRequirementBytes": 30000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF/resolve/0912d33141f77e10705345a6732bfd83f0252fdc/LFM2.5-24B-A2B-Q8_0.gguf",
+        "sha256": "f09bf094a8a138c5b645598ca1abb6696a0fde26662d7af649b0713fdef330b6"
+      }
+    ]
+  },
+  {
+    "id": "lfm2.5-vl-450m",
+    "name": "LFM2.5 VL-450M",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Compact vision-language model for image understanding, OCR, and text.",
+    "sizeBytes": 229313568,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/tree/1abed04b6fe71314d8c446a1371c03d7c332266d",
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-vl-450m",
+    "showInRecommended": true,
+    "hfCreatedAt": "2026-04-04T12:58:32.000Z",
+    "hfLastModified": "2026-08-24T19:46:23.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/1abed04b6fe71314d8c446a1371c03d7c332266d/LFM2.5-VL-450M-Q4_K_M.gguf",
+    "sha256": "1093f1331319199bbcacdbd7ecc9aa6e5678db6b55073948d0f508be90c8ab68",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 293383200,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/1abed04b6fe71314d8c446a1371c03d7c332266d/LFM2.5-VL-450M-Q6_K.gguf",
+        "sha256": "7bcb0424a8f66e0b31f3d9fd87910f52f8be9025bc8e0246aa819bb9d0ee127d"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 379219104,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/1abed04b6fe71314d8c446a1371c03d7c332266d/LFM2.5-VL-450M-Q8_0.gguf",
+        "sha256": "263aca93039e22140d55e046831c700c796affa8143d7638581c488a30c712bc"
+      }
+    ],
+    "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-GGUF/resolve/1abed04b6fe71314d8c446a1371c03d7c332266d/mmproj-LFM2.5-VL-450m-Q8_0.gguf",
+    "mmprojSha256": "ebfc428baa37efad8bae93864f914b2634a09009f91ad59f974fe1a1565d8561"
+  },
+  {
+    "id": "lfm2.5-vl-1.6b",
+    "name": "LFM2.5 VL-1.6B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Vision-language model for image understanding, OCR, and text.",
+    "sizeBytes": 730896256,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/tree/36fc16bc95133424921bcc3da009e83b2f23ffb5",
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-vl-1.6b",
+    "showInRecommended": true,
+    "hfCreatedAt": "2026-01-04T19:35:04.000Z",
+    "hfLastModified": "2026-08-24T19:46:30.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 3000000000,
+    "vramRequirementBytes": 2500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/36fc16bc95133424921bcc3da009e83b2f23ffb5/LFM2.5-VL-1.6B-Q4_K_M.gguf",
+    "sha256": "aefc3c97c9eb30d9c0dd6af4c38250f5f5106b57c8cf92de7914c7d0a9c94da2",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962844544,
+        "ramRequirementBytes": 3000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/36fc16bc95133424921bcc3da009e83b2f23ffb5/LFM2.5-VL-1.6B-Q6_K.gguf",
+        "sha256": "5436b6e50a2d0c8c3b1f3b4c5f37fd8d75512e56590a55f5a989ad40170a8c37"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246254880,
+        "ramRequirementBytes": 3500000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/36fc16bc95133424921bcc3da009e83b2f23ffb5/LFM2.5-VL-1.6B-Q8_0.gguf",
+        "sha256": "a34bd1506a298d7ff07902e69baeac48c7c20bb85162e61218b743dc10be7c67"
+      }
+    ],
+    "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-GGUF/resolve/36fc16bc95133424921bcc3da009e83b2f23ffb5/mmproj-LFM2.5-VL-1.6b-Q8_0.gguf",
+    "mmprojSha256": "2ce89e610c56f3198ece2b86cf61743a08b9307279c89125eb2412ebb908689d"
+  },
+  {
+    "id": "lfm2.5-vl-3b",
+    "name": "LFM2.5 VL-3B",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Vision-language model combining the LFM2.5 2.6B text backbone with a SigLIP2 image encoder.",
+    "sizeBytes": 1674455072,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "light",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF/tree/6f730e9a2c454e8af9adc29db58e638e01e5957f",
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-vl-3b",
+    "showInRecommended": true,
+    "hfCreatedAt": "2026-08-11T22:54:11.000Z",
+    "hfLastModified": "2026-08-31T22:26:13.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 4000000000,
+    "vramRequirementBytes": 3500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF/resolve/6f730e9a2c454e8af9adc29db58e638e01e5957f/LFM2.5-VL-3B-Q4_K_M.gguf",
+    "sha256": "2436cf4bbac9a16e5dfc7799a140e583c2bc15958f4b24a391f8a8b10ecb8884",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 2221615136,
+        "ramRequirementBytes": 5000000000,
+        "vramRequirementBytes": 4000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF/resolve/6f730e9a2c454e8af9adc29db58e638e01e5957f/LFM2.5-VL-3B-Q6_K.gguf",
+        "sha256": "fa116ae97ad8fed0f919402a59d32f17c060ce6e66cf36e902dbee76e1219a59"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 2874779680,
+        "ramRequirementBytes": 6000000000,
+        "vramRequirementBytes": 4500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF/resolve/6f730e9a2c454e8af9adc29db58e638e01e5957f/LFM2.5-VL-3B-Q8_0.gguf",
+        "sha256": "69b49ceddf61c65cce4a8938a0791c364a8d38cd2d87db2ca7ea359232a8b17e"
+      }
+    ],
+    "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-3B-GGUF/resolve/6f730e9a2c454e8af9adc29db58e638e01e5957f/mmproj-LFM2.5-VL-3B-Q8_0.gguf",
+    "mmprojSha256": "ecbbe7097f696dba67172738d79c9f01132cdb6c0b457606315e268df3d67e64"
+  },
+  {
+    "id": "lfm2.5-vl-450m-extract",
+    "name": "LFM2.5 VL-450M-Extract",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Extracts user-defined fields from images as JSON. Specify the fields as a YAML list in the system prompt.",
+    "sizeBytes": 229313536,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-Extract-GGUF/tree/be9e242e7c37db9ddbf9f88d7df939159fdfa186",
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-vl-450m-extract",
+    "showInRecommended": false,
+    "hfCreatedAt": "2026-05-28T07:12:28.000Z",
+    "hfLastModified": "2026-06-04T16:29:26.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 1500000000,
+    "vramRequirementBytes": 1000000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-Extract-GGUF/resolve/be9e242e7c37db9ddbf9f88d7df939159fdfa186/LFM2.5-VL-450M-Extract-Q4_K_M.gguf",
+    "sha256": "12d083dbd0fcff8ed250d4e69c543dcda048363dac0bcb2d6f64b62be690bd70",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 293383168,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-Extract-GGUF/resolve/be9e242e7c37db9ddbf9f88d7df939159fdfa186/LFM2.5-VL-450M-Extract-Q6_K.gguf",
+        "sha256": "af5993de4cb8b7d3dd2acc6adc66cdb85f673f741f177c8677341736584bd906"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 379218944,
+        "ramRequirementBytes": 1500000000,
+        "vramRequirementBytes": 1500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-Extract-GGUF/resolve/be9e242e7c37db9ddbf9f88d7df939159fdfa186/LFM2.5-VL-450M-Extract-Q8_0.gguf",
+        "sha256": "79cb7458ead054c5fe97f38fb34ebae6ad0e3331e598f0e606fd59c2d0b5759c"
+      }
+    ],
+    "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-450M-Extract-GGUF/resolve/be9e242e7c37db9ddbf9f88d7df939159fdfa186/mmproj-LFM2.5-VL-450M-Extract-Q8_0.gguf",
+    "mmprojSha256": "5c2610db45990058ce6eacacd5125c28a98d73561b99ea39ff8c22c1fdd5bd45"
+  },
+  {
+    "id": "lfm2.5-vl-1.6b-extract",
+    "name": "LFM2.5 VL-1.6B-Extract",
+    "category": "language",
+    "provider": "Liquid AI",
+    "summary": "Extracts user-defined fields from images as JSON. Specify the fields as a YAML list in the system prompt.",
+    "sizeBytes": 730896192,
+    "license": "LFM Open License v1.0",
+    "tier": "free",
+    "weight": "tiny",
+    "source": "hugging-face",
+    "sourcePageUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-Extract-GGUF/tree/6e60b55c1312f52b94b4d8d78f83fb097a1074c1",
+    "capabilities": [
+      "vision"
+    ],
+    "contextLength": 32768,
+    "recommendationGroup": "lfm2.5-vl-1.6b-extract",
+    "showInRecommended": false,
+    "hfCreatedAt": "2026-05-28T07:10:42.000Z",
+    "hfLastModified": "2026-06-04T16:29:27.000Z",
+    "cdnAddedAt": "2026-10-31T00:00:00+09:00",
+    "format": "gguf",
+    "ramRequirementBytes": 3000000000,
+    "vramRequirementBytes": 2500000000,
+    "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-Extract-GGUF/resolve/6e60b55c1312f52b94b4d8d78f83fb097a1074c1/LFM2.5-VL-1.6B-Extract-Q4_K_M.gguf",
+    "sha256": "92e9a7e54a618cee4c9fbec74659c66b3f1aed3f6776f42dfba1fb211a19bd4d",
+    "supportedPlatforms": [
+      "android",
+      "ios",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "defaultQuantLevel": "Q4_K_M",
+    "recommendedQuantLevels": [
+      "Q4_K_M"
+    ],
+    "quantVariants": [
+      {
+        "quantLevel": "Q6_K",
+        "sizeBytes": 962844480,
+        "ramRequirementBytes": 3000000000,
+        "vramRequirementBytes": 2500000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-Extract-GGUF/resolve/6e60b55c1312f52b94b4d8d78f83fb097a1074c1/LFM2.5-VL-1.6B-Extract-Q6_K.gguf",
+        "sha256": "026e5d37ba855bd5fd91afc9140a3a3e5f27d4c862c6842d83593c46a9730f2d"
+      },
+      {
+        "quantLevel": "Q8_0",
+        "sizeBytes": 1246254912,
+        "ramRequirementBytes": 3500000000,
+        "vramRequirementBytes": 3000000000,
+        "downloadUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-Extract-GGUF/resolve/6e60b55c1312f52b94b4d8d78f83fb097a1074c1/LFM2.5-VL-1.6B-Extract-Q8_0.gguf",
+        "sha256": "8cb9757f06777b50769c83411635c74f7bbd371fbc1969a2a38dcdaef5ff455a"
+      }
+    ],
+    "mmprojUrl": "https://huggingface.co/LiquidAI/LFM2.5-VL-1.6B-Extract-GGUF/resolve/6e60b55c1312f52b94b4d8d78f83fb097a1074c1/mmproj-LFM2.5-VL-1.6B-Extract-Q8_0.gguf",
+    "mmprojSha256": "759f5c4133ffaa534cbfb19340a1448b61606969a6d63441fea1a7bd9f4ede31"
   }
 ]
