@@ -933,6 +933,577 @@
       "hfReleasedAt": "2026-07-26T23:21:26.000Z",
       "hfLastModified": "2026-07-27T09:03:27.000Z",
       "cdnAddedAt": "2026-07-27T09:08:32+09:00"
+    },
+    {
+      "id": "qwen3.5-2b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.5 2B Abliterated",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Qwen3.5 2B abliterated variant for more direct replies than the base 2B while staying phone-friendly.",
+      "sizeBytes": 1270808032,
+      "ramRequirementBytes": 3800000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "light",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/2bcf35c1ebf62c837c12c1aa90b578ff4717e831/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "be3ccca13a9d1bc8b67165ea80bd103cd6151a37ad131183cc7ca388f78d9517",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+      "contextLength": 32768,
+      "vramRequirementBytes": 1500000000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 1556390368,
+          "ramRequirementBytes": 4500000000,
+          "vramRequirementBytes": 2000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Q6_K.gguf",
+          "sha256": "ce45f35db3cc4b9b81867b9f2359dbfe18ddee37e560a308efb0b9f3eace41f4"
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 2012012000,
+          "ramRequirementBytes": 6000000000,
+          "vramRequirementBytes": 2500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-2B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+          "sha256": "3d6ba5655ffb7be0108607b8764ba33920ad23335f08d683806bfa979d838793"
+        }
+      ],
+      "hfCreatedAt": "2026-03-05T22:13:04.000Z",
+      "hfReleasedAt": "2026-03-05T22:13:04.000Z",
+      "hfLastModified": "2026-04-05T19:00:51.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    },
+    {
+      "id": "qwen3.5-4b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.5 4B Abliterated",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Qwen3.5 4B abliterated variant for more direct replies than the base 4B while staying light enough for newer phones, tablets, and desktops.",
+      "sizeBytes": 2707513696,
+      "ramRequirementBytes": 6800000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "light",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/6255b8a5137738d47ca7e17b293c094aa3afc094/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "79e28ecacf84e75b6056cf4059636d435aa9eb67795780f7b7dbc7d32a962741",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768,
+      "vramRequirementBytes": 3000000000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 3464055136,
+          "ramRequirementBytes": 8500000000,
+          "vramRequirementBytes": 4000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q6_K.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 4482402656,
+          "ramRequirementBytes": 11500000000,
+          "vramRequirementBytes": 5000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-4B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+          "sha256": ""
+        }
+      ],
+      "hfCreatedAt": "2026-03-03T12:16:35.000Z",
+      "hfReleasedAt": "2026-03-03T12:16:35.000Z",
+      "hfLastModified": "2026-04-05T19:01:02.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    },
+    {
+      "id": "gemma-4-e4b-tuned",
+      "name": "Gemma 4 E4B Abliterated",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Gemma 4 E4B abliterated variant for more direct replies. Natively multimodal (text, image, video, audio) with 128K context.",
+      "sizeBytes": 5335285728,
+      "ramRequirementBytes": 8500000000,
+      "license": "Gemma",
+      "tier": "free",
+      "weight": "medium",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/45b6a334b4bcd1d7f37179df58b3b1d66a184e5d/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+      "contextLength": 131072,
+      "vramRequirementBytes": 6000000000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q3_K_M",
+          "sizeBytes": 4850391008,
+          "ramRequirementBytes": 7500000000,
+          "vramRequirementBytes": 5500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q3_K_M.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q5_K_M",
+          "sizeBytes": 5762908128,
+          "ramRequirementBytes": 9000000000,
+          "vramRequirementBytes": 6500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 8133226464,
+          "ramRequirementBytes": 13000000000,
+          "vramRequirementBytes": 9000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive/resolve/main/Gemma-4-E4B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
+          "sha256": ""
+        }
+      ],
+      "hfCreatedAt": "2026-04-02T22:29:19.000Z",
+      "hfReleasedAt": "2026-04-02T22:29:19.000Z",
+      "hfLastModified": "2026-04-06T03:50:35.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    },
+    {
+      "id": "qwen3.5-9b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.5 9B Abliterated",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Qwen3.5 9B abliterated variant for friendlier, more direct replies in everyday chats. Heavy for phones and best suited to newer devices.",
+      "sizeBytes": 5627044224,
+      "ramRequirementBytes": 11000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "medium",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/732a06ba17b0dabfb2b3b77eb3173eefcff0c72e/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "2ca636d9e81d3d23ca9b60c234fe185d30ec082eeba69ce770fdb0c76559a4f5",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768,
+      "vramRequirementBytes": 6500000000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 7359259008,
+          "ramRequirementBytes": 14500000000,
+          "vramRequirementBytes": 8000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q6_K.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 9527501184,
+          "ramRequirementBytes": 18500000000,
+          "vramRequirementBytes": 10500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-9B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+          "sha256": ""
+        }
+      ],
+      "hfCreatedAt": "2026-03-04T00:24:31.000Z",
+      "hfReleasedAt": "2026-03-04T00:24:31.000Z",
+      "hfLastModified": "2026-06-05T17:55:41.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    },
+    {
+      "id": "qwen3.5-27b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.5 27B Abliterated",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "High-memory Qwen3.5 27B abliterated variant for more direct responses than the base 27B. Best suited to devices with substantial memory headroom.",
+      "sizeBytes": 16540271712,
+      "ramRequirementBytes": 34000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/6601ca30d45fa62dfa2b74f1460d4feebd83a3b0/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "ffec017c7ecba924fbaa8a6576df8c74d949eacb2c264113842ddb4176bbcae1",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/unsloth/Qwen3.5-27B-GGUF/resolve/main/mmproj-F16.gguf",
+      "contextLength": 32768,
+      "vramRequirementBytes": 18500000000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q3_K_M",
+          "sizeBytes": 13289645152,
+          "ramRequirementBytes": 27500000000,
+          "vramRequirementBytes": 15000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q3_K_M.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q5_K_M",
+          "sizeBytes": 19399607392,
+          "ramRequirementBytes": 40000000000,
+          "vramRequirementBytes": 21500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q5_K_M.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 22082528352,
+          "ramRequirementBytes": 45500000000,
+          "vramRequirementBytes": 24500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q6_K.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 28595762272,
+          "ramRequirementBytes": 59000000000,
+          "vramRequirementBytes": 32000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.5-27B-Uncensored-HauhauCS-Aggressive-Q8_0.gguf",
+          "sha256": ""
+        }
+      ],
+      "hfCreatedAt": "2026-03-05T22:13:03.000Z",
+      "hfReleasedAt": "2026-03-05T22:13:03.000Z",
+      "hfLastModified": "2026-04-05T19:00:48.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    },
+    {
+      "id": "gemma-4-26b-a4b-tuned",
+      "name": "Gemma 4 26B-A4B Abliterated",
+      "category": "language",
+      "provider": "nohurry / coder3101",
+      "summary": "Gemma 4 26B-A4B abliterated variant for more direct replies. MoE architecture with only 4B active params. Vision support via dedicated mmproj.",
+      "sizeBytes": 16868236256,
+      "ramRequirementBytes": 34000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/9500faac1662832e14183e07879270659860271d/gemma-4-26b-a4b-it-heretic.q4_k_m.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26B-A4B-it-heretic-mmproj.f16.gguf",
+      "contextLength": 131072,
+      "vramRequirementBytes": 19000000000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q3_K_M",
+          "sizeBytes": 13894540256,
+          "ramRequirementBytes": 28000000000,
+          "vramRequirementBytes": 15500000000,
+          "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q3_k_m.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q5_K_M",
+          "sizeBytes": 21150358496,
+          "ramRequirementBytes": 42500000000,
+          "vramRequirementBytes": 23500000000,
+          "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q5_k_m.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q6_K",
+          "sizeBytes": 23172471776,
+          "ramRequirementBytes": 46500000000,
+          "vramRequirementBytes": 26000000000,
+          "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q6_k.gguf",
+          "sha256": ""
+        },
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 26859854560,
+          "ramRequirementBytes": 54000000000,
+          "vramRequirementBytes": 30000000000,
+          "downloadUrl": "https://huggingface.co/nohurry/gemma-4-26B-A4B-it-heretic-GUFF/resolve/main/gemma-4-26b-a4b-it-heretic.q8_0.gguf",
+          "sha256": ""
+        }
+      ],
+      "hfCreatedAt": "2026-04-02T23:21:40.000Z",
+      "hfReleasedAt": "2026-04-02T23:21:40.000Z",
+      "hfLastModified": "2026-04-04T09:31:15.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    },
+    {
+      "id": "gemma-4-31b-tuned",
+      "name": "Gemma 4 31B Abliterated",
+      "category": "language",
+      "provider": "paperscarecrow",
+      "summary": "Gemma 4 31B abliterated variant for more direct responses. Full dense 31B architecture for maximum quality. Best on high-memory devices.",
+      "sizeBytes": 18687057536,
+      "ramRequirementBytes": 36000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/paperscarecrow/Gemma-4-31B-it-abliterated/resolve/2491ee58472b82a2372d288f982943b9d5e6a82c/gemma-4-31b-abliterated-Q4_K_M.gguf",
+      "sha256": "",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "canReadFiles": true,
+      "contextLength": 131072,
+      "vramRequirementBytes": 21000000000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q8_0",
+          "sizeBytes": 32635670144,
+          "ramRequirementBytes": 63000000000,
+          "vramRequirementBytes": 36500000000,
+          "downloadUrl": "https://huggingface.co/paperscarecrow/Gemma-4-31B-it-abliterated/resolve/main/gemma-4-31b-abliterated-Q8_0.gguf",
+          "sha256": ""
+        }
+      ],
+      "hfCreatedAt": "2026-04-02T22:37:39.000Z",
+      "hfReleasedAt": "2026-04-02T22:37:39.000Z",
+      "hfLastModified": "2026-04-04T16:04:58.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    },
+    {
+      "id": "qwen3.6-27b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.6 27B Abliterated",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Qwen3.6 27B dense abliterated variant for more direct responses than the base 27B. Vision-capable with 262K native context. Best on high-memory devices with roughly 24GB+ available memory.",
+      "sizeBytes": 17536279776,
+      "ramRequirementBytes": 24000000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/f2db94d03eccf3b133aeea3dea62388acf98e864/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+      "sha256": "e44827d0ea3d5dd914f8c686ef530befaff6e9f0142f33956b4aa9e824f98a12",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+      "contextLength": 262144,
+      "vramRequirementBytes": 20000000000,
+      "defaultQuantLevel": "Q4_K_P",
+      "quantVariants": [
+        {
+          "quantLevel": "IQ3_M",
+          "sizeBytes": 12580873696,
+          "ramRequirementBytes": 17500000000,
+          "vramRequirementBytes": 14500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-IQ3_M.gguf",
+          "sha256": "91164182148008f25b5451c3590e737cdc8d9ca887fb90e42824be9875f5fb67"
+        },
+        {
+          "quantLevel": "IQ4_XS",
+          "sizeBytes": 15082505696,
+          "ramRequirementBytes": 20500000000,
+          "vramRequirementBytes": 17500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-IQ4_XS.gguf",
+          "sha256": "8d9c7934b0f0481ed2ea9569a5724f9448162f6468303e0a6fa0e0192ad63ed0"
+        },
+        {
+          "quantLevel": "Q5_K_P",
+          "sizeBytes": 20812953056,
+          "ramRequirementBytes": 28000000000,
+          "vramRequirementBytes": 24000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q5_K_P.gguf",
+          "sha256": "9b123d76df5b5af1328c65d963d1450c4279e9bd01d98d7091aa64c4f2cb38d5"
+        },
+        {
+          "quantLevel": "Q6_K_P",
+          "sizeBytes": 23154960096,
+          "ramRequirementBytes": 31000000000,
+          "vramRequirementBytes": 26500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q6_K_P.gguf",
+          "sha256": "f17b88ee70d2fb6f93c220ac306be0c8de631f20b3ffc82854162bb5e1b14192"
+        },
+        {
+          "quantLevel": "Q8_K_P",
+          "sizeBytes": 31963749856,
+          "ramRequirementBytes": 43000000000,
+          "vramRequirementBytes": 36500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
+          "sha256": "77672ff20cf3c6b99fe875df1e7f53fec4ded86e767fbfaef40b5def61b112ca"
+        }
+      ],
+      "hfCreatedAt": "2026-04-22T17:47:49.000Z",
+      "hfReleasedAt": "2026-04-22T17:47:49.000Z",
+      "hfLastModified": "2026-04-24T00:21:01.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00"
+    },
+    {
+      "id": "qwen3.6-35b-a3b-tuned-hauhaucs-aggressive",
+      "name": "Qwen3.6 35B-A3B Abliterated",
+      "category": "language",
+      "provider": "HauhauCS",
+      "summary": "Qwen3.6 35B-A3B abliterated variant for friendlier, more direct replies in everyday chats. Same 262K context as the base. Best on high-memory devices.",
+      "sizeBytes": 21166758016,
+      "ramRequirementBytes": 39500000000,
+      "license": "Apache 2.0",
+      "tier": "free",
+      "weight": "large",
+      "format": "gguf",
+      "source": "hugging-face",
+      "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_M.gguf",
+      "sha256": "bbef58c37ce88820be9d98b6437f1cf4bac890c947bd55fc7b68e22098574231",
+      "supportedPlatforms": [
+        "android",
+        "ios",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "capabilities": [
+        "vision"
+      ],
+      "canReadFiles": true,
+      "mmprojUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/mmproj-Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-f16.gguf",
+      "contextLength": 262144,
+      "vramRequirementBytes": 24500000000,
+      "defaultQuantLevel": "Q4_K_M",
+      "quantVariants": [
+        {
+          "quantLevel": "Q2_K_P",
+          "sizeBytes": 14981265536,
+          "ramRequirementBytes": 21000000000,
+          "vramRequirementBytes": 17500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/f12a584fecbeb5f20001130d8ecd66c9327ae685/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q2_K_P.gguf",
+          "sha256": "5a97f38db0ffb455bbcba7a7c7b8e82d1e42740ddd30893ac1ad57a2df5e94a4",
+          "weight": "large"
+        },
+        {
+          "quantLevel": "IQ3_M",
+          "sizeBytes": 15440519296,
+          "ramRequirementBytes": 27000000000,
+          "vramRequirementBytes": 17000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ3_M.gguf",
+          "sha256": "4dd9a27c68bd778ede351a553680a1a6e4ec62e5d383b549892860ea337be0c0"
+        },
+        {
+          "quantLevel": "IQ4_XS",
+          "sizeBytes": 18728777856,
+          "ramRequirementBytes": 32500000000,
+          "vramRequirementBytes": 21000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-IQ4_XS.gguf",
+          "sha256": "c26708a77a26d6c0416502832a200de4135e91af8279b5e93c67fe4e4e081aae"
+        },
+        {
+          "quantLevel": "Q4_K_P",
+          "sizeBytes": 23424536704,
+          "ramRequirementBytes": 40500000000,
+          "vramRequirementBytes": 26500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q4_K_P.gguf",
+          "sha256": "8d344a4336d8ea7da0cbfc12792d1471e568be7abe8930c52260698bfd01d731"
+        },
+        {
+          "quantLevel": "Q5_K_P",
+          "sizeBytes": 28027394176,
+          "ramRequirementBytes": 48500000000,
+          "vramRequirementBytes": 31500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q5_K_P.gguf",
+          "sha256": "2a3b72ab458f99028b65cce7ef6a9d6e4c79aa4318296d1b01bac9923d6a3b12"
+        },
+        {
+          "quantLevel": "Q6_K_P",
+          "sizeBytes": 30649317504,
+          "ramRequirementBytes": 53000000000,
+          "vramRequirementBytes": 34500000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q6_K_P.gguf",
+          "sha256": "90281d33e0790d6da2f125aa3f4352f429d8cc2ce2b32caafd78896397756fc3"
+        },
+        {
+          "quantLevel": "Q8_K_P",
+          "sizeBytes": 43605014656,
+          "ramRequirementBytes": 75000000000,
+          "vramRequirementBytes": 48000000000,
+          "downloadUrl": "https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive/resolve/main/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive-Q8_K_P.gguf",
+          "sha256": "d5efc2a1fc3f595893128550cf8b7e792774be6c0409c4d2e4729d2b5bb51173"
+        }
+      ],
+      "hfCreatedAt": "2026-04-17T00:15:26.000Z",
+      "hfReleasedAt": "2026-04-17T00:15:26.000Z",
+      "hfLastModified": "2026-04-17T02:59:21.000Z",
+      "cdnAddedAt": "2026-05-08T18:02:12+09:00",
+      "mmprojSha256": "c8e702344a81f8c226a914aa980ed6e1f604bce9374f1fed8e65c896908af414"
     }
   ]
 }
