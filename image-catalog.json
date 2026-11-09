@@ -1484,7 +1484,7 @@
     "category": "image",
     "provider": "Alibaba / Qwen / Community",
     "summary": "Catalog-only mixed-precision Q4 GGUF of Qwen-Image 2.1 for ComfyUI-GGUF. The diffusion transformer is separate from the Qwen3-VL text encoder and VAE, and PocketAI does not install this bundle yet.",
-    "sizeBytes": 5960000000,
+    "sizeBytes": 5959127264,
     "ramRequirementBytes": 24000000000,
     "vramRequirementBytes": 16000000000,
     "license": "Qwen Research License Agreement",
@@ -1492,9 +1492,9 @@
     "weight": "heavy",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/main/Qwen-Image-2.1-Q4.gguf",
+    "downloadUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/8d393b750593a72ee040fe7d40611f479ccee679/Qwen-Image-2.1-Q4.gguf",
     "installStatus": "external-only",
-    "sourcePageUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/main/Qwen-Image-2.1-Q4.gguf",
+    "sourcePageUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/8d393b750593a72ee040fe7d40611f479ccee679/Qwen-Image-2.1-Q4.gguf",
     "licenseUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
     "sha256": "51998ad7c068ce7d68e233237537900ffe874ab4d5c72e20758f5f18ceb15b8a",
     "supportedPlatforms": [
@@ -1552,7 +1552,7 @@
     "category": "image",
     "provider": "Alibaba / Qwen / Community",
     "summary": "Catalog-only mixed-precision Q8 GGUF of Qwen-Image 2.1 for ComfyUI-GGUF. The diffusion transformer is separate from the Qwen3-VL text encoder and VAE, and PocketAI does not install this bundle yet.",
-    "sizeBytes": 7690000000,
+    "sizeBytes": 7687180512,
     "ramRequirementBytes": 32000000000,
     "vramRequirementBytes": 20000000000,
     "license": "Qwen Research License Agreement",
@@ -1560,9 +1560,9 @@
     "weight": "heavy",
     "format": "gguf",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/main/Qwen-Image-2.1-Q8.gguf",
+    "downloadUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/8d393b750593a72ee040fe7d40611f479ccee679/Qwen-Image-2.1-Q8.gguf",
     "installStatus": "external-only",
-    "sourcePageUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/main/Qwen-Image-2.1-Q8.gguf",
+    "sourcePageUrl": "https://huggingface.co/realrebelai/Qwen-Image-2.1_GGUFs/blob/8d393b750593a72ee040fe7d40611f479ccee679/Qwen-Image-2.1-Q8.gguf",
     "licenseUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
     "sha256": "c3ef62b2b7b53bf92418cbd77fbc24b43a26c8305a1f001c4a9a9a99b1373c03",
     "supportedPlatforms": [
@@ -1619,8 +1619,8 @@
     "name": "Qwen-Image 2.1 MLX-Serve 4-bit",
     "category": "image",
     "provider": "Alibaba / Qwen / MLX Community",
-    "summary": "Experimental 4-bit MLX-Serve pack for Apple Silicon Macs. The 10.7 GB pack targets 16 GB Macs; after the external Hugging Face snapshot is present, PocketAI runs it through the pinned Qwen-Image 2.1 MLX-Serve backend on macOS 26.2 or later.",
-    "sizeBytes": 10700000000,
+    "summary": "Experimental 4-bit MLX-Serve pack for Apple Silicon Macs. The 11.2 GB pack targets 16 GB Macs; after the external Hugging Face snapshot is present, PocketAI runs it through the pinned Qwen-Image 2.1 MLX-Serve backend on macOS 26.2 or later.",
+    "sizeBytes": 11209108237,
     "ramRequirementBytes": 16000000000,
     "vramRequirementBytes": 16000000000,
     "license": "Qwen Research License Agreement",
@@ -1628,10 +1628,10 @@
     "weight": "heavy",
     "format": "snapshot",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-4bit/tree/main",
+    "downloadUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-4bit/tree/1cdbb51e8f9269ea9f81d76b7190547f9eb3c512",
     "installStatus": "external-only",
     "backend": "mlx-serve",
-    "sourcePageUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-4bit/tree/main",
+    "sourcePageUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-4bit/tree/1cdbb51e8f9269ea9f81d76b7190547f9eb3c512",
     "licenseUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
     "sha256": "",
     "supportedPlatforms": [
@@ -1641,6 +1641,14 @@
     "defaultSteps": 40,
     "defaultCfgScale": 1,
     "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
       {
         "width": 2048,
         "height": 2048
@@ -1678,7 +1686,9 @@
     "requiresGpuVendor": "apple-silicon",
     "defaultQuantLevel": "4-bit",
     "recommendationGroup": "qwen-image-2.1",
-    "cdnAddedAt": "2026-09-21T00:00:00+09:00"
+    "cdnAddedAt": "2026-09-21T00:00:00+09:00",
+    "hfModelId": "ddalcu/Qwen-Image-2.1-MLX-Serve-4bit",
+    "hfRevision": "1cdbb51e8f9269ea9f81d76b7190547f9eb3c512"
   },
   {
     "id": "qwen-image-2.1-mlx-8bit",
@@ -1686,8 +1696,8 @@
     "name": "Qwen-Image 2.1 MLX-Serve 8-bit",
     "category": "image",
     "provider": "Alibaba / Qwen / MLX Community",
-    "summary": "Experimental 8-bit MLX-Serve pack for Apple Silicon Macs. The 17.6 GB pack targets 32 GB Macs; after the external Hugging Face snapshot is present, PocketAI runs it through the pinned Qwen-Image 2.1 MLX-Serve backend on macOS 26.2 or later.",
-    "sizeBytes": 17600000000,
+    "summary": "Experimental 8-bit MLX-Serve pack for Apple Silicon Macs. The 18.4 GB pack targets 32 GB Macs; after the external Hugging Face snapshot is present, PocketAI runs it through the pinned Qwen-Image 2.1 MLX-Serve backend on macOS 26.2 or later.",
+    "sizeBytes": 18390470064,
     "ramRequirementBytes": 32000000000,
     "vramRequirementBytes": 32000000000,
     "license": "Qwen Research License Agreement",
@@ -1695,10 +1705,10 @@
     "weight": "heavy",
     "format": "snapshot",
     "source": "hugging-face",
-    "downloadUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-8bit/tree/main",
+    "downloadUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-8bit/tree/dc21b8d3441eef8f50ee5915dd5ea74679bcf338",
     "installStatus": "external-only",
     "backend": "mlx-serve",
-    "sourcePageUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-8bit/tree/main",
+    "sourcePageUrl": "https://huggingface.co/ddalcu/Qwen-Image-2.1-MLX-Serve-8bit/tree/dc21b8d3441eef8f50ee5915dd5ea74679bcf338",
     "licenseUrl": "https://huggingface.co/Qwen/Qwen-Image-2.1/blob/main/LICENSE",
     "sha256": "",
     "supportedPlatforms": [
@@ -1708,6 +1718,14 @@
     "defaultSteps": 40,
     "defaultCfgScale": 1,
     "supportedResolutions": [
+      {
+        "width": 512,
+        "height": 512
+      },
+      {
+        "width": 1024,
+        "height": 1024
+      },
       {
         "width": 2048,
         "height": 2048
@@ -1745,7 +1763,9 @@
     "requiresGpuVendor": "apple-silicon",
     "defaultQuantLevel": "8-bit",
     "recommendationGroup": "qwen-image-2.1",
-    "cdnAddedAt": "2026-09-21T00:00:00+09:00"
+    "cdnAddedAt": "2026-09-21T00:00:00+09:00",
+    "hfModelId": "ddalcu/Qwen-Image-2.1-MLX-Serve-8bit",
+    "hfRevision": "dc21b8d3441eef8f50ee5915dd5ea74679bcf338"
   },
   {
     "id": "qwen-image-q4_k_m",
