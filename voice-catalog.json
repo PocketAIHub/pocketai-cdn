@@ -365,5 +365,547 @@
       { "path": "tokenizer_config.json", "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/5d83992436eae1d760afd27aff78a71d676296fc/tokenizer_config.json", "sizeBytes": 7344, "sha256": "dc3c31c3bdaedd5016382bb3cbe07323026775ad51f5a4fb564505992ae4a670" },
       { "path": "vocab.json", "url": "https://huggingface.co/Qwen/Qwen3-TTS-12Hz-0.6B-Base/resolve/5d83992436eae1d760afd27aff78a71d676296fc/vocab.json", "sizeBytes": 2776833, "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910" }
     ]
+  },
+  {
+    "id": "ming-3-tts-0_5b",
+    "name": "Ming 3.0 TTS 0.5B",
+    "type": "tts",
+    "provider": "Ant Group",
+    "summary": "Expressive speech with natural-language direction and reference-voice cloning.",
+    "tier": "free",
+    "sizeBytes": 3002758525,
+    "ramRequirementBytes": 6000000000,
+    "recommendedRamBytes": 8000000000,
+    "format": "safetensors",
+    "runtime": "mlx-audio",
+    "architecture": "bailingmm",
+    "variant": "bailingmm",
+    "revision": "283b3c342c6fb69a7a87832c97f9799567efe05d",
+    "license": "MIT",
+    "licenseUrl": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+    "capabilities": [
+      "voice-cloning",
+      "style-instructions",
+      "paralinguistic-tags"
+    ],
+    "qualityTier": "enhanced",
+    "sampleRate": 44100,
+    "dependencies": [
+      "voice-runtime-mac-v1"
+    ],
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "artifacts": [
+      {
+        "path": "LICENSE",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/LICENSE",
+        "sizeBytes": 1067,
+        "sha256": "2872f1918dfc04fdeb7f5d66d8d1b773594c9375e7c8f7bda39780bb97ad4fba"
+      },
+      {
+        "path": "added_tokens.json",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/added_tokens.json",
+        "sizeBytes": 1785,
+        "sha256": "34394b1e16d7da2db16618bd43a0f970902ade0075480bcd812fe62d559ec319"
+      },
+      {
+        "path": "campplus.safetensors",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/campplus.safetensors",
+        "sizeBytes": 27699096,
+        "sha256": "a479586bd8f8f96cdb414eaa2fa07c6cd54d6d1636562e2d75a0211cb3b0a6fd"
+      },
+      {
+        "path": "config.json",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/config.json",
+        "sizeBytes": 5882,
+        "sha256": "6205fe41f5f7591e2f0d666b20464a79a983097f67e91341bfad159edca1d33e"
+      },
+      {
+        "path": "configuration.json",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/configuration.json",
+        "sizeBytes": 51,
+        "sha256": "6720b8448f6ad5b4631689a60857bdeb238053a37f6cc6a5936eb50c2a3b9296"
+      },
+      {
+        "path": "merges.txt",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/merges.txt",
+        "sizeBytes": 1671853,
+        "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+      },
+      {
+        "path": "model.safetensors",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/model.safetensors",
+        "sizeBytes": 2959055287,
+        "sha256": "16a7086c992a6eab7d855df90c9c2edbb0f4f3a702b3cd697f6011e198d0c8b4"
+      },
+      {
+        "path": "model.safetensors.index.json",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/model.safetensors.index.json",
+        "sizeBytes": 96296,
+        "sha256": "b229302f1ce86b91adcf5491bfdaee1ff0559a518b0cf3766d8d6f241eb64bf8"
+      },
+      {
+        "path": "special_tokens_map.json",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/special_tokens_map.json",
+        "sizeBytes": 2726,
+        "sha256": "2c2ec51b9da5db654ac20de8310350d0c9c1a65918ae0181b80dacd2919b4fc3"
+      },
+      {
+        "path": "tokenizer.json",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/tokenizer.json",
+        "sizeBytes": 11431389,
+        "sha256": "87d54ca3b44ea2f822ba39a0a45cb1b61644bd6606d9d3536dea75367bffb06d"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/tokenizer_config.json",
+        "sizeBytes": 16260,
+        "sha256": "12d6162c815edef24f8606e65b60d43fe0d92b0a4e150a0db8fa01c523aaf36a"
+      },
+      {
+        "path": "vocab.json",
+        "url": "https://huggingface.co/mlx-community/Ming-3.0-tts-0.5B-bf16/resolve/283b3c342c6fb69a7a87832c97f9799567efe05d/vocab.json",
+        "sizeBytes": 2776833,
+        "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+      }
+    ],
+    "languages": [
+      "English",
+      "Chinese",
+      "German",
+      "Spanish",
+      "French",
+      "Korean",
+      "Japanese"
+    ]
+  },
+  {
+    "id": "phonon-31m-en",
+    "name": "Phonon 31M English",
+    "type": "tts",
+    "provider": "Gradium",
+    "summary": "Compact English speech synthesis with a bundled offline voice.",
+    "tier": "free",
+    "sizeBytes": 65062446,
+    "ramRequirementBytes": 1000000000,
+    "recommendedRamBytes": 2000000000,
+    "format": "gguf",
+    "runtime": "phonon",
+    "architecture": "31m-en",
+    "variant": "31m-en",
+    "revision": "8f7a37c94a4c58b04c8287300c53f11d2e208eae",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://huggingface.co/gradium/phonon-31m-en/blob/main/LICENSE",
+    "capabilities": [
+      "preset-voices"
+    ],
+    "qualityTier": "lightweight",
+    "sampleRate": 24000,
+    "dependencies": [
+      "voice-runtime-mac-v1"
+    ],
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "artifacts": [
+      {
+        "path": "LICENSE",
+        "url": "https://huggingface.co/gradium/phonon-31m-en/resolve/8f7a37c94a4c58b04c8287300c53f11d2e208eae/LICENSE",
+        "sizeBytes": 11357,
+        "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+      },
+      {
+        "path": "config.json",
+        "url": "https://huggingface.co/gradium/phonon-31m-en/resolve/8f7a37c94a4c58b04c8287300c53f11d2e208eae/config.json",
+        "sizeBytes": 4634,
+        "sha256": "b5d0f88353638370d94035b7d73d7d6577c0554d78f8d7ecfd40490aae39ae85"
+      },
+      {
+        "path": "default-voice.safetensors",
+        "url": "https://huggingface.co/gradium/phonon-31m-en/resolve/8f7a37c94a4c58b04c8287300c53f11d2e208eae/default-voice.safetensors",
+        "sizeBytes": 256136,
+        "sha256": "dc537478eaadc1a5257fcda2e3501ab81e14c111a5d95a5838f350db2afd0f1a"
+      },
+      {
+        "path": "model.q8.gguf",
+        "url": "https://huggingface.co/gradium/phonon-31m-en/resolve/8f7a37c94a4c58b04c8287300c53f11d2e208eae/model.q8.gguf",
+        "sizeBytes": 64512352,
+        "sha256": "a7d9aad2cd6dc66473f24a08bc6d2939030ef4d751ef82349361fbef3272dbae"
+      },
+      {
+        "path": "tokenizer.json",
+        "url": "https://huggingface.co/gradium/phonon-31m-en/resolve/8f7a37c94a4c58b04c8287300c53f11d2e208eae/tokenizer.json",
+        "sizeBytes": 277967,
+        "sha256": "691a00068fa7b989f2f3e5ae5daa2d1a5bb319f2d5360deafcfb19a8bb6e7936"
+      }
+    ],
+    "languages": [
+      "English"
+    ]
+  },
+  {
+    "id": "zonos3-mini-mlx",
+    "name": "ZONOS3-Mini",
+    "type": "tts",
+    "provider": "Zyphra",
+    "summary": "Multilingual speech with 27 preset voices and reference-voice cloning.",
+    "tier": "free",
+    "sizeBytes": 1408902603,
+    "ramRequirementBytes": 3000000000,
+    "recommendedRamBytes": 6000000000,
+    "format": "safetensors",
+    "runtime": "mlx-audio",
+    "architecture": "zonos3",
+    "variant": "zonos3",
+    "revision": "c3b1320037be83fdbe57586bd6678573de1789f4",
+    "license": "Apache-2.0",
+    "licenseUrl": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+    "capabilities": [
+      "preset-voices",
+      "voice-cloning"
+    ],
+    "qualityTier": "enhanced",
+    "sampleRate": 44100,
+    "dependencies": [
+      "voice-runtime-mac-v1"
+    ],
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "artifacts": [
+      {
+        "path": "codec/config.json",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/codec/config.json",
+        "sizeBytes": 33751,
+        "sha256": "db61914017434dbeedd2e6d5dc7e5c7920f47de95ef545848bdbec09b7d144fa"
+      },
+      {
+        "path": "codec/model.safetensors",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/codec/model.safetensors",
+        "sizeBytes": 452335255,
+        "sha256": "1848f4160413d75f7e01bf2919bf23671f97fc0d2fb397c575a0a1ce18a2e9b6"
+      },
+      {
+        "path": "config.json",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/config.json",
+        "sizeBytes": 30333,
+        "sha256": "d8df208560722933c0cabf0c41ef6a9dd8e230217d7fc65498a51ecf92a1632f"
+      },
+      {
+        "path": "model.safetensors",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/model.safetensors",
+        "sizeBytes": 909979244,
+        "sha256": "43c056e279153165c91ba691f030d2034bcbb23a760039e6f121fe409245ec66"
+      },
+      {
+        "path": "speaker_encoder/config.json",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/speaker_encoder/config.json",
+        "sizeBytes": 123071,
+        "sha256": "311ea38698a2fa2438ce685a2097f1921007a083dbcdf56d33bdc438758d0533"
+      },
+      {
+        "path": "speaker_encoder/frontend.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/speaker_encoder/frontend.npz",
+        "sizeBytes": 388670,
+        "sha256": "523924d33714caf18dbcb5b5a2c2cf9f46afcdfc2889675a726363bde7715a5b"
+      },
+      {
+        "path": "speaker_encoder/model.safetensors",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/speaker_encoder/model.safetensors",
+        "sizeBytes": 45423622,
+        "sha256": "81e16f0ff71e7305bb43437cc83a2eb8508638901ad30d3da0d7be89ac410deb"
+      },
+      {
+        "path": "tokenizer.json",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/tokenizer.json",
+        "sizeBytes": 559287,
+        "sha256": "90322f910600027dee7fe63d400d1d9dc1035c167d560aadf0871e3661d08bf3"
+      },
+      {
+        "path": "voices.json",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices.json",
+        "sizeBytes": 1290,
+        "sha256": "ae62e3034f50e45f7e28cd74c485bf16bc4fcb87aff7d2ce219b36fecdee50f4"
+      },
+      {
+        "path": "voices/Ananya_hi_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Ananya_hi_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "96f93e89e3da2066ace97bbb0d6634e1b627a01ffb163571ba0846c433828e9f"
+      },
+      {
+        "path": "voices/Arjun_hi_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Arjun_hi_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "02cfa4797a69865d094e0aa54f286e1f8f8b946d967dd5dd066a9b2558b5fbe8"
+      },
+      {
+        "path": "voices/Chaitanya_te_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Chaitanya_te_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "4cece7d76ee433577f7d6a7bfbc4d78a8fc97372625251a7c34335a3434ed2b6"
+      },
+      {
+        "path": "voices/Cillian_en-Irish_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Cillian_en-Irish_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "85b02d5eb3c49cc990b779cfaf08a895746e4f41adf9eae3bc8cd6f8dd825d75"
+      },
+      {
+        "path": "voices/Gaspard_fr_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Gaspard_fr_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "d9ded858cf7f30693ceba01cf2ef0a9bde77585f7b635d009375adcffb35520f"
+      },
+      {
+        "path": "voices/Ginevra_it_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Ginevra_it_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "7d483d2d3d4bf7b82c6f97a6e74c6ac33560d371e7d695145d16ea82fbe29f39"
+      },
+      {
+        "path": "voices/Haoran_zh-energetic_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Haoran_zh-energetic_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "48e015f07f50cdd4aa2894f6e1182344042cded0210ce658d407af1c5e7f4a9a"
+      },
+      {
+        "path": "voices/Imogen_en-British_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Imogen_en-British_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "2f6b7c25d319d29cb3ad994a0190b9a897bbedb019ad7f3201bfd6ee2b740f6e"
+      },
+      {
+        "path": "voices/Jett_en-energetic_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Jett_en-energetic_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "cd96714be84028f18a38a1192a2811d1be3e1e23c2cba77e4f57f88afbb54e03"
+      },
+      {
+        "path": "voices/Leonor_pt_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Leonor_pt_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "15a8c46ee0ba03a589372f6fe190c874068e8b38b443f4c6d222fa17739e473a"
+      },
+      {
+        "path": "voices/Liesel_de_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Liesel_de_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "4020ae38158657da5dd5b27675a860332f21fb4db734b5575b7f42d8f88800bc"
+      },
+      {
+        "path": "voices/Lorenzo_it_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Lorenzo_it_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "90428c67659a08277d4d0e6da7af8cb89ba8d237b6cd899f437fef824827c65e"
+      },
+      {
+        "path": "voices/Meilin_zh-energetic_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Meilin_zh-energetic_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "51730de15670ea851f159870f944c3d5df8e339fdce74ce43c9536ec8c7ac0d6"
+      },
+      {
+        "path": "voices/Minjun_ko_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Minjun_ko_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "61c31b658bafdec9cc3f4b11b1b918a318e4db9f554bc3a25dfa7f88abaf6bbd"
+      },
+      {
+        "path": "voices/Morgana_en-witch_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Morgana_en-witch_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "3185e130d990731e51a62007285b8f053d8a4ebc66ca5086c8c5804a3f9f70a1"
+      },
+      {
+        "path": "voices/Rodrigo_es_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Rodrigo_es_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "823fb3b619aca47104bb1dc040f40fc51b944709818390992ae5f3253b3a6408"
+      },
+      {
+        "path": "voices/Rupert_en-British_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Rupert_en-British_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "90a00601fee898b7d2c45446849236fd95e92cdcc14694f73b8839e29bd31912"
+      },
+      {
+        "path": "voices/Sakura_en-anime_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Sakura_en-anime_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "c42840b3a35ebcade9d13e67d645140da1bfe1888df60f2abf7eeeb545314f14"
+      },
+      {
+        "path": "voices/Savannah_en-American_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Savannah_en-American_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "812e02f1f318c0ad4d14280ee06ee4ef80fb0bde6599138762a85821a2db235f"
+      },
+      {
+        "path": "voices/Seoyeon_ko_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Seoyeon_ko_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "086febcfacba8351726bdad660aca12aa82a6eeee5877c7ca4f2c901f588c3f2"
+      },
+      {
+        "path": "voices/Sravya_te_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Sravya_te_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "06a157102429ebedb6e956d89e68bcd36895372fd7c6e7bec00a826293239216"
+      },
+      {
+        "path": "voices/Thaddeus_en-announcervoice_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Thaddeus_en-announcervoice_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "b2b3bc28ed961c100dc35871ee2d4538934412ff9c39692e90023e5067f5404b"
+      },
+      {
+        "path": "voices/Thiago_pt_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Thiago_pt_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "abd32f1483c304cfdde7af6ca358d750426cf4fc86e96c1af3b10c0bd20ed784"
+      },
+      {
+        "path": "voices/Willow_en-asrm_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Willow_en-asrm_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "6882c57360d3ff6dbc322ed6ea4ddf11369a04dca9592147a5b6a70f09620c38"
+      },
+      {
+        "path": "voices/Wolfgang_de_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Wolfgang_de_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "b5c7d23aca415d4d6c8d689b75bc6a728ed5bac167d36a4b1a9a87a81ecf5fca"
+      },
+      {
+        "path": "voices/Wyatt_en-American_M_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Wyatt_en-American_M_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "67352643017465052ca15d30e6b808b68472f7697ab2dabf274b3875f9477984"
+      },
+      {
+        "path": "voices/Ximena_es_F_1.embedding.npz",
+        "url": "https://huggingface.co/mlx-community/ZONOS3-Mini/resolve/c3b1320037be83fdbe57586bd6678573de1789f4/voices/Ximena_es_F_1.embedding.npz",
+        "sizeBytes": 1040,
+        "sha256": "26d14dc343a682dbb1757a918c40f632128f53b1484506f16c3d45b58e8cdfa0"
+      }
+    ]
+  },
+  {
+    "id": "fish-audio-drama-3-4bit",
+    "name": "Fish Audio Drama 3 (4-bit)",
+    "type": "tts",
+    "provider": "Fish Audio",
+    "summary": "Expressive, multi-speaker speech using a quantized Apple Silicon checkpoint.",
+    "tier": "free",
+    "sizeBytes": 23781114058,
+    "ramRequirementBytes": 32000000000,
+    "recommendedRamBytes": 48000000000,
+    "format": "safetensors",
+    "runtime": "mlx-audio",
+    "architecture": "fish_drama3",
+    "variant": "fish_drama3",
+    "revision": "2b0c8028998533972e77359cce56b8bf1c5d6d4a",
+    "license": "Fish Audio Community License 1.0",
+    "licenseUrl": "https://huggingface.co/fishaudio/drama-3/blob/main/LICENSE",
+    "capabilities": [
+      "voice-cloning",
+      "paralinguistic-tags"
+    ],
+    "qualityTier": "flagship",
+    "sampleRate": 44100,
+    "dependencies": [
+      "voice-runtime-mac-v1"
+    ],
+    "supportedPlatforms": [
+      "macos"
+    ],
+    "artifacts": [
+      {
+        "path": "LICENSE",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/LICENSE",
+        "sizeBytes": 19685,
+        "sha256": "733a32442087acbda12ecafe8e71eb8ee5890c89b50ce7ac4ea3777faa3c823e"
+      },
+      {
+        "path": "NOTICE",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/NOTICE",
+        "sizeBytes": 983,
+        "sha256": "b076fbafebd5a20d4c812109aa34f36dbd4c1db1deb645c3d3935482d13ace11"
+      },
+      {
+        "path": "chat_template.jinja",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/chat_template.jinja",
+        "sizeBytes": 7756,
+        "sha256": "a4aee8afcf2e0711942cf848899be66016f8d14a889ff9ede07bca099c28f715"
+      },
+      {
+        "path": "codec.safetensors",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/codec.safetensors",
+        "sizeBytes": 1572080341,
+        "sha256": "6ff9d6f07920b2155e3a48ada21956004b96df9114d255ed9f0788484ba73040"
+      },
+      {
+        "path": "config.json",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/config.json",
+        "sizeBytes": 53444,
+        "sha256": "a829790347e2786a6c37096a986a34d25d8aef8dc51147604f5a64045b7bee19"
+      },
+      {
+        "path": "model-00001.safetensors",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/model-00001.safetensors",
+        "sizeBytes": 4324625361,
+        "sha256": "b536cbc7a6da2d499e119d929063d60f8d11cf98bd5a823e9f9655b3aeee73cf"
+      },
+      {
+        "path": "model-00002.safetensors",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/model-00002.safetensors",
+        "sizeBytes": 4390422858,
+        "sha256": "0447f2ddba6053bc148d49fed29272232b0d10defab789c9de1bfceecdd97709"
+      },
+      {
+        "path": "model-00003.safetensors",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/model-00003.safetensors",
+        "sizeBytes": 4304379873,
+        "sha256": "48d4c171fd6bfe29cbd064a9ca78b953c51da1002a6599b7e3eedc70d7af9955"
+      },
+      {
+        "path": "model-00004.safetensors",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/model-00004.safetensors",
+        "sizeBytes": 4426404468,
+        "sha256": "2abf029c2002f66b52448259d7b7060afb64114044e098a87b752c5ae28252b0"
+      },
+      {
+        "path": "model-00005.safetensors",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/model-00005.safetensors",
+        "sizeBytes": 4302695649,
+        "sha256": "37afe300c944dadcdfae3570b13d9b0ff2cf89d79bd3e093886ef1c932ef14f9"
+      },
+      {
+        "path": "model-00006.safetensors",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/model-00006.safetensors",
+        "sizeBytes": 439426211,
+        "sha256": "e82053be4e90178f9789ab83310512248af16ce58bf35bbc41129282ce94ed0e"
+      },
+      {
+        "path": "special_tokens_map.json",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/special_tokens_map.json",
+        "sizeBytes": 102779,
+        "sha256": "08aed9e321dc05275ac68cf883bfa96006b3fc09ff5cccadf262b6bce0873adb"
+      },
+      {
+        "path": "tokenizer.json",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/tokenizer.json",
+        "sizeBytes": 20791070,
+        "sha256": "0e9b9db76b2f0389b04b6ef057a2ac3b89100b7e96f2dd7034d19580a09654d6"
+      },
+      {
+        "path": "tokenizer_config.json",
+        "url": "https://huggingface.co/mlx-community/fish-audio-drama-3-4bit/resolve/2b0c8028998533972e77359cce56b8bf1c5d6d4a/tokenizer_config.json",
+        "sizeBytes": 103580,
+        "sha256": "00e800279d8436c324b924e97872c7eacd2b19406aa0fe71eeb557b4cd53aa3e"
+      }
+    ]
   }
 ]
